@@ -2,4 +2,6 @@
 title: "About"
 ---
 
-This is material for the course "P19 Empirisch-psychologisches Praktikum" at the Ludwig-Maximilians-Universität München. The course is given in the winter term 2023/24 by [Prof. Dr. Felix Schönbrodt](http://www.nicebread.de).
+Das ist das Kursmaterial für das "Forschungsorientierte Praktikum I – Grundlagen der Forschung" im BSc Psychologie der Ludwig-Maximilians-Universität München. Der Kurs wurde im Sommersemester 2024 von [Prof. Dr. Felix Schönbrodt](http://www.nicebread.de) gegeben.
+
+Alles Material ist - soweit nicht anders gekennzeichnet - unter CC-BY4.0 Lizenz.
