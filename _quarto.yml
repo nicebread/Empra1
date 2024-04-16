@@ -1,0 +1,37 @@
+project:
+  type: website
+  output-dir: doc
+
+website:
+  title: "FOMO-Psy: Formal Modeling of Psychological Theories"
+  navbar:
+    search: true
+    left:
+      - href: index.qmd
+        text: Home
+      - text: "Sessions"
+        file: sessions/sessions_overview.qmd  
+      - text: "Lectures"
+        file: lectures/lecture_overview.qmd
+      - text: "Skills"
+        file: skills/skills_overview.qmd  
+      - href: tools.qmd
+        text: Thinking Tools
+      - file: orga_material/orga_material.qmd
+        text: Organizational Material
+      - about.qmd
+    right:
+      - icon: github
+        href: https://github.com/
+        aria-label: GitHub
+
+format:
+  html:
+    theme: flatly
+    css: styles.css
+    toc: true
+
+editor: source
+
+execute:
+  freeze: auto

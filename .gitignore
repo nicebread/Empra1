@@ -1,0 +1,13 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+/.quarto/
+/doc/
+
+/.luarc.json
+
+*.code-workspace
+
+TODO.md
