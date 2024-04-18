@@ -3,13 +3,42 @@ title: "Forschungsorientierte Praktikum I – Grundlagen der Forschung"
 subtitle: "BSc Psychologie, LMU"
 ---
 
-Each session will be a **mix of three elements**:
-
-1. Theoretical input (see [Lectures](lectures/lecture_overview.qmd))
-2. [Skills](skills/skills_overview.qmd): Learn new skills (e.g., git, Netlogo).
-3. [Workshop](skills/skills_overview.qmd): Apply your new skills while you work collaboratively on your models.
 
 # Sessions Overview
 
-TBD
+| #   | Date       | Topic                                                                   | Homework                                                                                  |
+| --- | ---------- | ----------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| 1   | 2024-04-19 | [S1 - Formalitäten, Open Science, p-hack](sessions/S1-Introduction.qmd) | Intimitätsmotiv Einführung lesen; create OSF account; p-hacking üben                                      |
+| 2   | 2024-04-26 | [S2 - Einführung Intimitätsmotiv; Kausalität] - with Nensy              | Read [Ch. 1 of Experimentology](https://experimentology.io/1-experiments) |
+| 3   | 2024-05-03 | [S3 - Literaturrecherche]                                               | Studiendesign überlegen; Literaturrecherche                                               |
+| 4   | 2024-05-10 | **Brückentag - ggf. online** [S4 - Studie planen] - with Nensy          | Fragebögen überarbeiten; [HA - Read Preregistration Challenge]                            |
+| 5   | 2024-05-17 |                                                                         |                                                                                           |
+| 6   | 2024-05-24 |                                                                         |                                                                                           |
+| 7   | 2024-05-31 | **Brückentag - ggf. online / Nensy Vertretung**                         |                                                                                           |
+| 8   | 2024-06-07 |                                                                         |                                                                                           |
+| 9   | 2024-06-14 |                                                                         |                                                                                           |
+| 10  | 2024-06-21 |                                                                         |                                                                                           |
+| 11  | 2024-06-28 |                                                                         |                                                                                           |
+| 12  | 2024-07-05 |                                                                         |                                                                                           |
+| 13  | 2024-07-12 |                                                                         |                                                                                           |
+| 14  | 2024-07-19 |                                                                         |                                                                                           |
 
+<!-- 
+
+| #   | Date       | Topic                                                                                       | Homework                                                                                  |
+| --- | ---------- | ------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| 1   | 2024-04-19 | [S1 - Formalitäten, Open Science, p-hack](sessions/S1-Introduction.qmd)                     | Intimitätsmotiv Einführung lesen; create OSF account                                      |
+| 2   | 2024-04-26 | [S2 - Einführung Intimitätsmotiv; Kausalität] - with Nensy                                  | Read [Ch. 1 of Experimentology](https://experimentology.io/1-experiments); p-hacking üben |
+| 3   | 2024-05-03 | [S3 - Literaturrecherche]                                                                   | Studiendesign überlegen; Literaturrecherche                                               |
+| 4   | 2024-05-10 | **Brückentag - ggf. online** [S4 - Studie planen] - with Nensy                              | Fragebögen überarbeiten; [HA - Read Preregistration Challenge]                            |
+| 5   | 2024-05-17 | [S5 -Studie finalisieren; Prereg]                                                           | Studienmaterial erstellen, VP-Akquise planen; Prereg weiter ausfüllen                     |
+| 6   | 2024-05-24 | [S6 - Studie finalisieren]                                                                  | App testen; Open data lesen; Studienstart ganz fertig machen; Zeiten in Tellmi testen     |
+| 7   | 2024-05-31 | **Brückentag - ggf. online / Nensy Vertretung** [S7 - Studie final finalisieren, Open Data] | VP-Akquise; Quarto / Rmarkdown self-paced tutorial                                        |
+| 8   | 2024-06-07 |                                                                                             | VP-Akquise; Quarto / Rmarkdown self-paced tutorial                                        |
+| 9   | 2024-06-14 | [S8 - good coding practices; Quarto 1]                                                      | Vpnakquise; das erste Papaja-Dokument erstellen                                           |
+| 10  | 2024-06-21 | [S9 - papaja, open data]                                                                    | Codebuch erstellen                                                                        |
+| 11  | 2024-06-28 | [S10 - Poweranalyse; finales Datenanalysemodell]                                            | Anonymisierungsumfrage ausfüllen; Paper zu privacy-fails lesen                            |
+| 12  | 2024-07-05 | [S11 - Prereg fertig machen, Anonymisierung]                                                |                                                                                           |
+| 13  | 2024-07-12 |                                                                                             |                                                                                           |
+| 14  | 2024-07-19 | [S12 - Finale Datenanalyse, Hausarbeit]                                                     |                                                                                           |
+ -->

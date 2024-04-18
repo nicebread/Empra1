@@ -3,26 +3,18 @@ project:
   output-dir: doc
 
 website:
-  title: "FOMO-Psy: Formal Modeling of Psychological Theories"
+  title: "Forschungsorientiertes Praktikum I – Grundlagen der Forschung"
   navbar:
     search: true
     left:
-      - href: index.qmd
-        text: Home
-      - text: "Sessions"
+      - text: Sessions
         file: sessions/sessions_overview.qmd  
-      - text: "Lectures"
-        file: lectures/lecture_overview.qmd
-      - text: "Skills"
-        file: skills/skills_overview.qmd  
-      - href: tools.qmd
-        text: Thinking Tools
-      - file: orga_material/orga_material.qmd
-        text: Organizational Material
+      - text: Topics
+        file: topics/topics_overview.qmd
       - about.qmd
     right:
       - icon: github
-        href: https://github.com/
+        href: https://github.com/nicebread/Empra1
         aria-label: GitHub
 
 format:

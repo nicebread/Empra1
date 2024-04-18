@@ -1,0 +1,141 @@
+---
+title: "Forschungsorientierte Praktikum I – Grundlagen der Forschung"
+subtitle: "Formalia"
+author:
+  - name: Felix Schönbrodt
+    orcid: 0000-0002-8282-3910
+    email: felix.schoenbrodt@psy.lmu.de
+    affiliations: Ludwig-Maximilians-Universität München
+date: 2024-04-19
+footer: "Forschungsorientierte Praktikum I – Empirisches Praktikum, Ludwig-Maximilians-Universität München"
+format: 
+  FOMO-revealjs: 
+    output-ext: slide.html
+    transition: slide    
+  html: default
+revealjs-plugins:
+  - attribution 
+---
+
+## Ziele
+### Wissenschaftliches Arbeiten und Denken in der Psychologie kennenlernen 
+
+- Eine empirische Fragestellung entwickeln
+- Eine Studie planen und durchführen
+- Die Daten auswerten
+- Einen wissenschaftlichen Bericht verfassen
+
+## Ziele
+### Kerncurriculum "Gute wissenschaftliche Praxis" 
+
+- **Stichprobenplanung**, in der Regel eine a-priori Poweranalyse
+- **Präregistrierung** der Hypothesen, Operationalisierungen, Stichprobenplanung und der statistischen Analysemethode
+- **Open Data** (mit Codebuch): Offene Daten werden von immer mehr Zeitschriften verlangt und werden generell zum Standard für vertrauenswürdiges Forschen
+- **Reproduzierbare Analyseskripte**
+
+## Ziele
+### (1) Eine empirische Fragestellung entwickeln
+
+- Der Weg zu einer interessanten, empirisch prüfbaren Fragestellung
+- Forschungsthema: Durch das Empra vorgegeben
+- Literaturrecherche: Was gibt es schon? Wo sind die Forschungslücken?
+- Entwicklung von prüfbaren Hypothesen
+
+## Ziele
+### (2) Eine Studie planen und durchführen
+
+::: {.smaller}
+- Studiendesign entwickeln:
+  - Methode vorgegeben: Experience Sampling
+  - Operationalisierung von Konstrukten
+  - Stichprobe planen (Population, Stichprobengröße -> Poweranalyse)
+  - Experimentelles Design: Wie kann man kausale Effekte messen? Evtl. Kontrolle von Störvariablen
+- Praktische Versuchsplanung
+  - Akquise Vpn
+  - Material entwickeln
+  - Experimentalsoftware programmieren
+- Präregistrierung: Hypothesen, Design, Operationalisierung, Analysen
+- Durchführung: Rekrutierung, Erhebung, Betreuung
+:::
+
+## Ziele
+### (3) Die Daten auswerten
+
+- Wir arbeiten mit R
+- Datenkodierung und –aufbereitung
+  - Analysen durch Codebuch und offene Daten nachvollziehbar und reproduzierbar machen
+  - Anonymität berücksichtigen
+- Statistische Auswertung
+  - Deskriptivstatistik
+  - Zu den Hypothesen passende Analysen rechnen
+  - Analysen durch reproduzierbare Skripte nachvollziehbar machen
+
+
+## Ziele
+### (4) Einen wissenschaftlichen Bericht verfassen
+
+- Kommunikation der Forschung in die Fachöffentlichkeit
+- Den Prozess nachvollziehbar machen: Rmarkdown/Quarto als reproduzierbare Art, einen Bericht zu schreiben
+- Aufbau eines wissenschaftlichen Artikels:
+  - Einleitung
+  - Methode
+  - Ergebnisse
+  - Diskussion
+- Bericht = Hausarbeit als Prüfungsleistung
+
+
+## Formalia des Empras
+
+::: {.smaller}
+- Unterricht in Kleingruppen (UK) mit 9 ECTS-Punkten
+- ≙ 3 Vorlesungen mit Klausur bzw. 3 Seminare mit Referat & schriftlicher Ausarbeitung
+- ≙ 12h Zeitinvestition pro Woche (Präsenz + Vor- und Nachbereitung)
+- (in Empra 1: Anwesenheitspflicht laut PStO 2020; max. 2 unentschuldigte Fehlstunden)
+  - Siehe hierzu § 9 Absatz (3) Sätze 4 bis einschließlich 6 Informationen zur „regelmäßigen Teilnahme“ in der Prüfungs- und Studienordnung 2020: "Eine regelmäßige Teilnahme im Sinne der Anlage 2 ist dann nicht mehr gegeben, wenn Studierende aus selbst zu vertretenden Gründen an mehr als zwei der stattfindenden Veranstaltungstermine einer Lehrveranstaltung nicht teilnehmen."
+- Lektüre der für den jeweiligen Termin angegeben Literatur bzw. gründliche Erledigung der zugeteilten Aufgaben
+- Aktive Mitarbeit beim Entwickeln der formalen Modelle und der Programmierung
+- Anforderungen für Hausarbeit (siehe nächste Folie)
+:::
+
+
+## Hausarbeit
+### Formalia
+
+::: {.smaller}
+- Schriftgröße 12pt, Zeilenabstand 1.5x
+- 15.000 Zeichen +/- 20% (Zählung inkl. Leerzeichen; ohne Deckblatt, Referenzen und Anhänge)
+- Wenn Sie in papaja/Rmarkdown schreiben, dann ist das exportierte PDF von der Formatierung her gut so wie es ist (Sie brauchen nicht das Deckblatt, Zeilenabstand etc. anpassen).
+- Deckblatt: Titel, Datum, Name, Matrikel-Nr., Name der Veranstaltung
+- Bei papaja/Rmarkdown schreiben Sie Datum, Matrikel-Nr. und Name der Veranstaltung in die Author Notes.
+- Kein Inhaltsverzeichnis
+- Mindestens 5 Publikationen zitieren
+- Zitate & Literaturverzeichnis nach [APA-Richtlinien](http://owl.english.purdue.edu/owl/resource/664/01/) (6. oder 7. Version)
+- Die Links zu Präregistrierung, Repositorium mit Open Data, Open Code, etc. kommen an den Anfang des Methodenteils
+:::
+
+
+## Hausarbeit
+### Abgabe 
+
+- Als PDF-Datei per Email an den Dozenten – Empfang wird bestätigt
+- Abgabetermin: Wird noch bekannt gegeben, vermutlich Mitte März 2024
+- 2 Versionen einreichen:
+  - Vollständige Version (Dateiname: IhrNachname_Empra_Jahr.pdf) – z.B.: „Schmid_Empra_2020.pdf“
+  - Anonymisierte Version, bei welcher der Name auf dem Deckblatt gelöscht ist (Dateiname: Matrikelnummer_Empra_Jahr.pdf)
+    - Diese Version wird benotet.
+    - Dateiname z.B.:„98234034_Empra_2020.pdf“
+    - Sie können in papaja einfach eine [anonyme Version](https://frederikaust.com/papaja_man/r-markdown-components.html) erzeugen, indem Sie im YAML  `mask: yes` angeben
+
+
+## Bewertungsschema Hausarbeit
+
+![](img/Bewertungsschema.png)
+
+::: footer
+Siehe [https://www.fak11.lmu.de/dep_psychologie/studium/lehrelounge/benotung-schriftl-arbeiten/index.html](https://www.fak11.lmu.de/dep_psychologie/studium/lehrelounge/benotung-schriftl-arbeiten/index.html)
+:::
+
+
+<!-- Footer insert below -->
+```{r child="../../common/lastslide.qmd"}
+```

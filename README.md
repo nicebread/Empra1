@@ -2,6 +2,8 @@
 
 This is the source code. See the rendered website at [https://nicebread.github.io/Empra1/](https://nicebread.github.io/Empra1/).
 
+*Note: The material will (initially) be a crude mixture of German and English. Your mileage may vary.*
+
 
 ## Compilation / dependencies
 
@@ -12,7 +14,7 @@ You need:
 - [Attribution Extension](https://github.com/quarto-ext/attribution)
 - The [FOMO theme](https://github.com/nicebread/quarto-FS), which is based on the [Quarto clean theme](https://github.com/grantmcdermott/quarto-revealjs-clean/tree/main)
 
-Run the following commands in the project's root directory:
+Run the following commands in the project's root directory to install some add-ons and the theme:
 
 ```
 quarto add quarto-ext/attribution
@@ -32,7 +34,3 @@ quarto install extension nicebread/quarto-FS
 quarto render
 quarto publish gh-pages
 ```
-
-## Resources
-
-- https://github.com/coatless-quarto/r-shinylive-demo

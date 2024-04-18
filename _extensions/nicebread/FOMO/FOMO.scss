@@ -143,6 +143,21 @@ $selection-bg: #26351c !default;
 
 .reveal ul ul {
   list-style: none;
+  font-size: 85%;
+
+  li:before {
+    content: "–";
+    color: mix($accent, white, 60%);
+    display: inline-block;
+    width: 0.5em;
+    margin-left: -1em;
+    margin-right: 0.5em;
+  }
+}
+
+.reveal ul ul ul {
+  list-style: none;
+  font-size: 75%;
 
   li:before {
     content: $right-arrow;
