@@ -214,27 +214,20 @@
     "href": "sessions/S1-Introduction.html",
     "title": "Session 01 - Introduction",
     "section": "",
-    "text": "Topic\nDuration\nNotes\n\n\n\n\nBegrüßung\n5\nAnkündigung: Zeitslot: 10:00-13:00, aber bis 14:00 freihalten\n\n\nEmpra Formalia\n25\nFolien. Kerncurriculum: Präregistrierung, Open data + Codebook, Poweranalyse, Reproduzierbare Skripte\n\n\nVorstellungsrunde\n20\n\n\n\nEinführung Open Science\n60\nFolien\n\n\nPause\n15\n\n\n\np-hack your way to scientific glory\n80\nFolien\n\n\nHausaufgabe: p-hacking üben\n5"
+    "text": "Topic\nDuration\nNotes\n\n\n\n\nBegrüßung\n5\nAnkündigung: Zeitslot: 10:00-13:00, aber bis 14:00 freihalten\n\n\nEmpra Formalia\n25\nFolien. Kerncurriculum: Präregistrierung, Open data + Codebook, Poweranalyse, Reproduzierbare Skripte\n\n\nVorstellungsrunde\n20\n\n\n\np-hack your way to scientific glory\n60\nFolien\n\n\nPause\n15\n\n\n\nEinführung Open Science\n60\nFolien\n\n\nHausaufgabe: p-hacking üben\n5"
   },
   {
-    "objectID": "sessions/S1-Introduction.html#goal",
-    "href": "sessions/S1-Introduction.html#goal",
+    "objectID": "sessions/S1-Introduction.html#homework-1-individual",
+    "href": "sessions/S1-Introduction.html#homework-1-individual",
     "title": "Session 01 - Introduction",
-    "section": "2.1 Goal:",
-    "text": "2.1 Goal:\n\nPut together groups where also unacquainted people meet -&gt; increase network size.\nAllow a certain freedom of choice, not completely random."
+    "section": "3.1 Homework 1 (individual)",
+    "text": "3.1 Homework 1 (individual)\nPractice p-hacking: https://www.shinyapps.org/apps/p-hacker/\nTask: Hack at least 5 studies towards significance with \\(\\alpha = .05\\) (keep the true effect at 0). Whenever you achieved a significant result, click on “Save” in the results table to store your result in the study stack on the right side. Once you achieved 5 significant studies, copy and paste the study stack into a text document. Keep a short log of the steps that were necessary to achieve significance (e.g., “increase sample size 2 times by 10 participants, controlled for SES”).\nNext, try the same for \\(\\alpha = .005\\) (if it takes too long, there’s no need to achieve 5 significant studies).\nDeliverable: Copy both sets of significant studies (one for \\(\\alpha = .05\\), one for \\(\\alpha = .005\\)) and your log into the textfield in the Moodle task."
   },
   {
-    "objectID": "sessions/S1-Introduction.html#semi-randomised-allocation",
-    "href": "sessions/S1-Introduction.html#semi-randomised-allocation",
+    "objectID": "sessions/S1-Introduction.html#homework-2-individual",
+    "href": "sessions/S1-Introduction.html#homework-2-individual",
     "title": "Session 01 - Introduction",
-    "section": "2.2 Semi-randomised allocation:",
-    "text": "2.2 Semi-randomised allocation:\n\nCollect all name tags\nBuild 4 working islands (push tables together).\nPut 4 random name tags on the 4 tables.\nThen select the next 4 names, who choose an island to join. But only 1 person is allowed to join each island at each round."
-  },
-  {
-    "objectID": "sessions/S1-Introduction.html#round-of-introductions-within-the-group-10-min",
-    "href": "sessions/S1-Introduction.html#round-of-introductions-within-the-group-10-min",
-    "title": "Session 01 - Introduction",
-    "section": "2.3 Round of introductions within the group (10 min)",
-    "text": "2.3 Round of introductions within the group (10 min)\n\nTask: Create of a funny name for your group.\nGive a more detailed introduction to the other group members:\n\nFrom which city do you come?\nCareer goals / type of psychologist you want to become"
+    "section": "3.2 Homework 2 (individual)",
+    "text": "3.2 Homework 2 (individual)\n\nCreate an ORCID ID. You can use “LMU” as affiliation.\nCreate an OSF account (use your real name; link your ORCID ID)."
   }
 ]
