@@ -9,8 +9,8 @@ website:
     left:
       - text: Sessions
         file: sessions/sessions_overview.qmd  
-      - text: Topics
-        file: topics/topics_overview.qmd
+      - text: Slides
+        file: slides/slides_overview.qmd
       - about.qmd
     right:
       - icon: github

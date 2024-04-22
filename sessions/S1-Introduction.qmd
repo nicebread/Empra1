@@ -6,42 +6,46 @@ description: Open Science
 
 # Overview
 
-| Topic                                                   | Duration | Notes                                                                                                        |
-| :------------------------------------------------------ | :------: | ------------------------------------------------------------------------------------------------------------ |
-| Begrüßung                                               |    5     | Ankündigung: Zeitslot: 10:00-13:00, aber bis 14:00 freihalten                                                |
-| Empra Formalia                                          |    25    | [Folien](topics/Empra-Orga/Empra-Orga.qmd). Kerncurriculum: Präregistrierung, Open data + Codebook, Poweranalyse, Reproduzierbare Skripte |
-| Vorstellungsrunde                                       |    20    |                                                                                                              |
-| Einführung Open Science                                 |    80    | [Folien](TODO)                                                                                               |
-| Pause                                                   |    15    |                                                                                                              |
-| p-hack your way to scientific glory                     |    80    | [Folien](TODO)                                                                                               |
-| Hausaufgabe: [[HA - Measurement Reactivity Einführung]] |    5     |                                                                                                              |
+| Topic                               | Duration | Notes                                                                                                                                        |
+| :---------------------------------- | :------: | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| Begrüßung                           |    5     | Ankündigung: Zeitslot: 10:00-13:00, aber bis 14:00 freihalten                                                                                |
+| Empra Formalia                      |    25    | [Folien](../slides/Empra-Orga/Empra-Orga.qmd). Kerncurriculum: Präregistrierung, Open data + Codebook, Poweranalyse, Reproduzierbare Skripte |
+| Vorstellungsrunde                   |    15    |                                                                                                                                              |
+| p-hack your way to scientific glory |    60    | [Folien](../slides/pdfs/Schoenbrodt_2024-p-hack_like_a_pro.pdf)                                                                                                                               |
+| Pause                               |    15    |                                                                                                                                              |
+| Einführung Open Science             |    60    | [Folien](../slides/pdfs/Schoenbrodt-2022-04_Open_Science_Primer.pdf)                                                                                                                               |
+| Hausaufgabe: p-hacking üben         |    5     |                                                                                                                                              |
 
 : {.striped}
 
 
-# Group formation
+# Personal Introduction
 
-## Goal:
-
-- Put together groups where also unacquainted people meet -> increase network size.
-- Allow a certain freedom of choice, not completely random.
-
-## Semi-randomised allocation:
-
-- Collect all name tags
-- Build 4 working islands (push tables together).
-- Put 4 random name tags on the 4 tables.
-- Then select the next 4 names, who choose an island to join. But only 1 person is allowed to join each island at each round.
-
-## Round of introductions within the group (10 min)
-
-- Task: Create of a funny name for your group.
-- Give a more detailed introduction to the other group members:
-  - Career goals / type of psychologist you want to become
+- Your name
+- Where do you originally come from, and where do you live now?
+- Why did you choose psychology?
 
 
-# Homework 1 (individually)
+# Homework
 
-# Homework 2:
+- "individual" means: Everybody does the task on their own and uploads an individual report/result.
+- "group" means: The working group submits a joint document.
 
-Create an OSF account (use your real name).
+## Homework 1 (individual)
+
+**Practice *p*-hacking**: [https://www.shinyapps.org/apps/p-hacker/](https://www.shinyapps.org/apps/p-hacker/)
+
+**Task:**
+Hack at least 5 studies towards significance with $\alpha = .05$ (keep the true effect at 0).
+Whenever you achieved a significant result, click on "Save" in the results table to store your result in the study stack on the right side. Once you achieved 5 significant studies, copy and paste the study stack into a text document. Keep a short log of the steps that were necessary to achieve significance (e.g., "increase sample size 2 times by 10 participants, controlled for SES").
+
+Next, try the same for $\alpha = .005$ (if it takes too long, there's no need to achieve 5 significant studies).
+
+**Deliverable**:
+Copy both sets of significant studies (one for $\alpha = .05$, one for $\alpha = .005$) and your log into the textfield in the Moodle task.
+
+
+## Homework 2 (individual)
+
+- Create an [ORCID ID](https://orcid.org). You can use "LMU" as affiliation.
+- Create an [OSF](https://osf.io) account (use your real name; link your ORCID ID).

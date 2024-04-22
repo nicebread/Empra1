@@ -4,6 +4,9 @@ This is the source code. See the rendered website at [https://nicebread.github.i
 
 *Note: The material will (initially) be a crude mixture of German and English. Your mileage may vary.*
 
+## Formatting options for Quarto slides with the theme
+
+- 
 
 ## Compilation / dependencies
 

@@ -6,34 +6,14 @@ description: Introducing motives, the intimacy motive, and ESM methodology (with
 
 # Overview
 
-| Topic                                                   | Duration | Notes |
-| :------------------------------------------------------ | :------: | ----- |
-| Wrap-up Homework                                        |    5     |       |
-| ESM Intro                                               |    50    |       |
-| Hausaufgabe: [[HA - Measurement Reactivity Einführung]] |    5     |       |
+| Topic                                  | Duration | Notes |
+| :------------------------------------- | :------: | ----- |
+| Wrap-up Homework                       |    5     |       |
+| Introduction to motives, intimacy, etc |    50    |       |
+| Hausaufgabe:                           |    5     |       |
 
 : {.striped}
 
-
-# Group formation
-
-## Goal:
-
-- Put together groups where also unacquainted people meet -> increase network size.
-- Allow a certain freedom of choice, not completely random.
-
-## Semi-randomised allocation:
-
-- Collect all name tags
-- Build 4 working islands (push tables together).
-- Put 4 random name tags on the 4 tables.
-- Then select the next 4 names, who choose an island to join. But only 1 person is allowed to join each island at each round.
-
-## Round of introductions within the group (10 min)
-
-- Task: Create of a funny name for your group.
-- Give a more detailed introduction to the other group members:
-  - Career goals / type of psychologist they want to become
 
 
 # Homework 1 (individually)
