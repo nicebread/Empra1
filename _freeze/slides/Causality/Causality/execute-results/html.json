@@ -1,0 +1,19 @@
+{
+  "hash": "ba060b78a35d8a1a5a7b02e1a91fd133",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Causality\"\nsubtitle: \"\"\nauthor:\n  - name: Felix Schönbrodt\n    orcid: 0000-0002-8282-3910\n    email: felix.schoenbrodt@psy.lmu.de\n    affiliations: Ludwig-Maximilians-Universität München\ndate: 2024-04-19\nfooter: \"Forschungsorientierte Praktikum I – Empirisches Praktikum, Ludwig-Maximilians-Universität München\"\nformat: \n  FOMO-revealjs: \n    output-ext: slide.html\n    transition: slide    \n  html: default\nrevealjs-plugins:\n  - attribution \n---\n\n\n<!-- Dauer: 25 min. -->\n\n## Ziele\n### Wissenschaftliches Arbeiten und Denken in der Psychologie kennenlernen \n\n- Eine empirische Fragestellung entwickeln\n- Eine Studie planen und durchführen\n- Die Daten auswerten\n- Einen wissenschaftlichen Bericht verfassen\n\n## A mermaid plot\n\n```{mermaid}\n\nflowchart TD\n\nS(Sunshine)\nR(Running)\nW(Well-Being)\n\nS --> R\nS --> W\n```\n\n\n\n\n<!-- Footer insert below -->\n\n\n# End\n\n## Contact\n\n<script src=\"https://kit.fontawesome.com/9fb269b0d2.js\" crossorigin=\"anonymous\"></script>\n\n<ul class=\"fa-ul\" style=\"color:black; list-style:none;\">\n\n<li><i class=\"fa-brands fa-li fa-mastodon\"></i> <a href=\"https://scicomm.xyz/@nicebread\" target=\"_blank\" style=\"color:black; border-bottom:none;\">@nicebread@scicomm.xyz</a></li>\n\n<li><i class=\"fa-li fa fa-envelope-o\"></i> <a style=\"unicode-bidi:bidi-override; direction: rtl; color:black\" href=\"javascript:window.location.href = 'mailto:' + ['felix.schoenbrodt','psy.lmu.de'].join('@')\">ed.uml.ysp@tdorbneohcs.xilef</a></li>\n\n<li><i class=\"fa-li fa-solid fa-globe\"></i> <a href=\"https://www.nicebread.de\" target=\"_blank\" style=\"color:black; border-bottom:none;\">https://www.nicebread.de</a></li>\n\n\n<li><i class=\"fa-li fa fa-github\" aria-hidden=\"true\"></i> <a href=\"https://github.com/nicebread\" target=\"_blank\" style=\"color:black; border-bottom:none;\">https://github.com/nicebread</a></li>\n</ul>\n\n<small style=\"text-align:left;\">\n\n\n[![CC-BY-SA 4.0][cc-by-sa-image]][cc-by-sa]\n\n[cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/\n[cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png\n[cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY%20SA4.0-lightgrey.svg\n\n</small>\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-after-body": [
+        "\n<script>\n  // htmlwidgets need to know to resize themselves when slides are shown/hidden.\n  // Fire the \"slideenter\" event (handled by htmlwidgets.js) when the current\n  // slide changes (different for each slide format).\n  (function () {\n    // dispatch for htmlwidgets\n    function fireSlideEnter() {\n      const event = window.document.createEvent(\"Event\");\n      event.initEvent(\"slideenter\", true, true);\n      window.document.dispatchEvent(event);\n    }\n\n    function fireSlideChanged(previousSlide, currentSlide) {\n      fireSlideEnter();\n\n      // dispatch for shiny\n      if (window.jQuery) {\n        if (previousSlide) {\n          window.jQuery(previousSlide).trigger(\"hidden\");\n        }\n        if (currentSlide) {\n          window.jQuery(currentSlide).trigger(\"shown\");\n        }\n      }\n    }\n\n    // hookup for slidy\n    if (window.w3c_slidy) {\n      window.w3c_slidy.add_observer(function (slide_num) {\n        // slide_num starts at position 1\n        fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);\n      });\n    }\n\n  })();\n</script>\n\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

@@ -1,0 +1,46 @@
+---
+title: "Causality"
+subtitle: ""
+author:
+  - name: Felix Schönbrodt
+    orcid: 0000-0002-8282-3910
+    email: felix.schoenbrodt@psy.lmu.de
+    affiliations: Ludwig-Maximilians-Universität München
+date: 2024-04-19
+footer: "Forschungsorientierte Praktikum I – Empirisches Praktikum, Ludwig-Maximilians-Universität München"
+format: 
+  FOMO-revealjs: 
+    output-ext: slide.html
+    transition: slide    
+  html: default
+revealjs-plugins:
+  - attribution 
+---
+
+<!-- Dauer: 25 min. -->
+
+## Ziele
+### Wissenschaftliches Arbeiten und Denken in der Psychologie kennenlernen 
+
+- Eine empirische Fragestellung entwickeln
+- Eine Studie planen und durchführen
+- Die Daten auswerten
+- Einen wissenschaftlichen Bericht verfassen
+
+## A mermaid plot
+```{mermaid}
+flowchart TD
+
+S(Sunshine)
+R(Running)
+W(Well-Being)
+
+S --> R
+S --> W
+```
+
+
+
+<!-- Footer insert below -->
+```{r child="../../common/lastslide.qmd"}
+```
