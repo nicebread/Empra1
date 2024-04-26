@@ -1,39 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://nicebread.github.io/Empra1/sessions/S2-Intimacy.html</loc>
+    <lastmod>2024-04-26T12:53:55.974Z</lastmod>
+  </url>
+  <url>
     <loc>https://nicebread.github.io/Empra1/sessions/sessions_overview.html</loc>
     <lastmod>2024-04-16T09:20:39.704Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nicebread.github.io/Empra1/sessions/S2-Intimacy_ESM.html</loc>
-    <lastmod>2024-04-19T05:43:19.270Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nicebread.github.io/Empra1/about.html</loc>
-    <lastmod>2024-04-16T09:06:10.109Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nicebread.github.io/Empra1/slides/Empra-Orga/Empra-Orga.slide.html</loc>
-    <lastmod>2024-04-19T13:17:51.514Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nicebread.github.io/Empra1/slides/Empra-Orga/Empra-Orga.html</loc>
-    <lastmod>2024-04-19T08:45:32.179Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nicebread.github.io/Empra1/index.html</loc>
-    <lastmod>2024-04-16T11:04:06.375Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nicebread.github.io/Empra1/slides/slides_overview.html</loc>
-    <lastmod>2024-04-19T05:08:33.086Z</lastmod>
   </url>
   <url>
     <loc>https://nicebread.github.io/Empra1/common/lastslide.html</loc>
     <lastmod>2024-04-16T11:37:18.450Z</lastmod>
   </url>
   <url>
+    <loc>https://nicebread.github.io/Empra1/slides/slides_overview.html</loc>
+    <lastmod>2024-04-19T05:08:33.086Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nicebread.github.io/Empra1/slides/Causality/Causality.slide.html</loc>
+    <lastmod>2024-04-26T12:54:49.528Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nicebread.github.io/Empra1/slides/Causality/Causality.html</loc>
+    <lastmod>2024-04-25T07:46:36.798Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nicebread.github.io/Empra1/index.html</loc>
+    <lastmod>2024-04-26T12:54:10.543Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nicebread.github.io/Empra1/slides/Empra-Orga/Empra-Orga.html</loc>
+    <lastmod>2024-04-19T13:19:30.651Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nicebread.github.io/Empra1/slides/Empra-Orga/Empra-Orga.slide.html</loc>
+    <lastmod>2024-04-26T12:54:50.656Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nicebread.github.io/Empra1/about.html</loc>
+    <lastmod>2024-04-16T09:06:10.109Z</lastmod>
+  </url>
+  <url>
     <loc>https://nicebread.github.io/Empra1/sessions/S1-Introduction.html</loc>
-    <lastmod>2024-04-19T13:17:08.418Z</lastmod>
+    <lastmod>2024-04-19T13:23:50.388Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nicebread.github.io/Empra1/sessions/S3-Causality-LitSearch.html</loc>
+    <lastmod>2024-04-26T12:52:59.685Z</lastmod>
   </url>
 </urlset>

@@ -1,101 +1,94 @@
 [
   {
+    "objectID": "sessions/S2-Intimacy.html",
+    "href": "sessions/S2-Intimacy.html",
+    "title": "Session 02 - Intimacy motive",
+    "section": "",
+    "text": "Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nIntroduction to motives, intimacy, etc\n150\nSlides\n\n\nHausaufgabe: Develop interventions\n10\n\n\n\n\n\n\nHomework 1 (in groups)\nYou have been assigned group IDs from A to F. Create a group name that consists of an adjective and an animal name both starting with your ID. (Only a leading “der, die, das” is allowed, such as “Die zickigen Zebras”).\n\n\nHomework 2 (in groups)\n\nTask: Create possible interventions (at least 3 to 5) that manipulate participants’ motivation. Your group assignment defines whether you aim to increase or to lower the motivation. This is a brainstroming phase: You can be creative and think divergently. It can be crazy; the reality check will be done later.\n\nAlso think about a control condition for each intervention. We will cover details about “how to create a good control condition” next week. Preliminarily, you can think abot it as a “Placebo”: Everything is kept constant (compared to the experimental condition), except the causal ingredient.\nThe only constraints are: - The intervention should be deliverable via smartphones - The instruction/intervention should not take longer than 10 min.\n\nDeliverable: One person of each group uploads the text with the interventions into the textfield in the Moodle task."
+  },
+  {
     "objectID": "sessions/sessions_overview.html",
     "href": "sessions/sessions_overview.html",
     "title": "Overview of sessions",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\nSession 01 - Introduction\n\n\nOpen Science\n\n\n\n\nSession 02 - Intimacy motive & ESM\n\n\nIntroducing motives, the intimacy motive, and ESM methodology (with Nensy Le)\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\nSession 01 - Introduction\n\n\nOpen Science\n\n\n\n\nSession 02 - Intimacy motive\n\n\nIntroducing motives, the intimacy motive, and the DynaMoS model (by Nensy Le)\n\n\n\n\nSession 03 - Causality & literature search\n\n\nBasics about causality; doing literature search in practice.\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "sessions/S2-Intimacy_ESM.html",
-    "href": "sessions/S2-Intimacy_ESM.html",
-    "title": "Session 02 - Intimacy motive & ESM",
+    "objectID": "common/lastslide.html",
+    "href": "common/lastslide.html",
+    "title": "End",
     "section": "",
-    "text": "Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nWrap-up Homework\n5\n\n\n\nIntroduction to motives, intimacy, etc\n50\n\n\n\nHausaufgabe:\n5\n\n\n\n\n\n\nHomework 1 (individually)\n\n\nHomework 2:\nCreate an OSF account (use your real name)."
+    "text": "@nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "common/lastslide.html#contact",
+    "href": "common/lastslide.html#contact",
+    "title": "End",
     "section": "",
-    "text": "Das ist das Kursmaterial für das “Forschungsorientierte Praktikum I – Grundlagen der Forschung” im BSc Psychologie der Ludwig-Maximilians-Universität München. Der Kurs wurde im Sommersemester 2024 von Prof. Dr. Felix Schönbrodt gegeben.\nAlles Material ist - soweit nicht anders gekennzeichnet - unter CC-BY4.0 Lizenz."
+    "text": "@nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0"
   },
   {
-    "objectID": "slides/Empra-Orga/Empra-Orga.slide.html#ziele",
-    "href": "slides/Empra-Orga/Empra-Orga.slide.html#ziele",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "objectID": "slides/slides_overview.html",
+    "href": "slides/slides_overview.html",
+    "title": "Slides Overview",
+    "section": "",
+    "text": "These are all slides used for the “lecture” part of the course:\n\n\n\n\n\n\n\n\n\n\n\nDate\nTopic\nSlides (as a single website)\nSlides (presentation mode)\n\n\n\n\n2024-04-19\nForschungsorientierte Praktikum I – Grundlagen der Forschung\nlink\nlink"
+  },
+  {
+    "objectID": "slides/Causality/Causality.slide.html#ziele",
+    "href": "slides/Causality/Causality.slide.html#ziele",
+    "title": "Causality",
     "section": "Ziele",
     "text": "Ziele\nWissenschaftliches Arbeiten und Denken in der Psychologie kennenlernen\n\nEine empirische Fragestellung entwickeln\nEine Studie planen und durchführen\nDie Daten auswerten\nEinen wissenschaftlichen Bericht verfassen"
   },
   {
-    "objectID": "slides/Empra-Orga/Empra-Orga.slide.html#ziele-1",
-    "href": "slides/Empra-Orga/Empra-Orga.slide.html#ziele-1",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
-    "section": "Ziele",
-    "text": "Ziele\nKerncurriculum “Gute wissenschaftliche Praxis”\n\nStichprobenplanung, in der Regel eine a-priori Poweranalyse\nPräregistrierung der Hypothesen, Operationalisierungen, Stichprobenplanung und der statistischen Analysemethode\nOpen Data (mit Codebuch): Offene Daten werden von immer mehr Zeitschriften verlangt und werden generell zum Standard für vertrauenswürdiges Forschen\nReproduzierbare Analyseskripte"
+    "objectID": "slides/Causality/Causality.slide.html#a-mermaid-plot",
+    "href": "slides/Causality/Causality.slide.html#a-mermaid-plot",
+    "title": "Causality",
+    "section": "A mermaid plot",
+    "text": "A mermaid plot\n\n\n\n\n\nflowchart TD\n\nS(Sunshine)\nR(Running)\nW(Well-Being)\n\nS --&gt; R\nS --&gt; W"
   },
   {
-    "objectID": "slides/Empra-Orga/Empra-Orga.slide.html#ziele-2",
-    "href": "slides/Empra-Orga/Empra-Orga.slide.html#ziele-2",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
-    "section": "Ziele",
-    "text": "Ziele\n(1) Eine empirische Fragestellung entwickeln\n\nDer Weg zu einer interessanten, empirisch prüfbaren Fragestellung\nForschungsthema: Durch das Empra vorgegeben\nLiteraturrecherche: Was gibt es schon? Wo sind die Forschungslücken?\nEntwicklung von prüfbaren Hypothesen"
-  },
-  {
-    "objectID": "slides/Empra-Orga/Empra-Orga.slide.html#ziele-3",
-    "href": "slides/Empra-Orga/Empra-Orga.slide.html#ziele-3",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
-    "section": "Ziele",
-    "text": "Ziele\n(2) Eine Studie planen und durchführen\n\n\nStudiendesign entwickeln:\n\nMethode vorgegeben: Experience Sampling\nOperationalisierung von Konstrukten\nStichprobe planen (Population, Stichprobengröße -&gt; Poweranalyse)\nExperimentelles Design: Wie kann man kausale Effekte messen? Evtl. Kontrolle von Störvariablen\n\nPraktische Versuchsplanung\n\nAkquise Vpn\nMaterial entwickeln\nExperimentalsoftware programmieren\n\nPräregistrierung: Hypothesen, Design, Operationalisierung, Analysen\nDurchführung: Rekrutierung, Erhebung, Betreuung"
-  },
-  {
-    "objectID": "slides/Empra-Orga/Empra-Orga.slide.html#ziele-4",
-    "href": "slides/Empra-Orga/Empra-Orga.slide.html#ziele-4",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
-    "section": "Ziele",
-    "text": "Ziele\n(3) Die Daten auswerten\n\nWir arbeiten mit R\nDatenkodierung und –aufbereitung\n\nAnalysen durch Codebuch und offene Daten nachvollziehbar und reproduzierbar machen\nAnonymität berücksichtigen\n\nStatistische Auswertung\n\nDeskriptivstatistik\nZu den Hypothesen passende Analysen rechnen\nAnalysen durch reproduzierbare Skripte nachvollziehbar machen"
-  },
-  {
-    "objectID": "slides/Empra-Orga/Empra-Orga.slide.html#ziele-5",
-    "href": "slides/Empra-Orga/Empra-Orga.slide.html#ziele-5",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
-    "section": "Ziele",
-    "text": "Ziele\n(4) Einen wissenschaftlichen Bericht verfassen\n\nKommunikation der Forschung in die Fachöffentlichkeit\nDen Prozess nachvollziehbar machen: Rmarkdown/Quarto als reproduzierbare Art, einen Bericht zu schreiben\nAufbau eines wissenschaftlichen Artikels:\n\nEinleitung\nMethode\nErgebnisse\nDiskussion\n\nBericht = Hausarbeit als Prüfungsleistung"
-  },
-  {
-    "objectID": "slides/Empra-Orga/Empra-Orga.slide.html#formalia-des-empras",
-    "href": "slides/Empra-Orga/Empra-Orga.slide.html#formalia-des-empras",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
-    "section": "Formalia des Empras",
-    "text": "Formalia des Empras\n\n\nUnterricht in Kleingruppen (UK) mit 9 ECTS-Punkten\n≙ 3 Vorlesungen mit Klausur bzw. 3 Seminare mit Referat & schriftlicher Ausarbeitung\n≙ 12h Zeitinvestition pro Woche (Präsenz + Vor- und Nachbereitung)\n(in Empra 1: Anwesenheitspflicht laut PStO 2020; max. 2 unentschuldigte Fehlstunden)\n\nSiehe hierzu § 9 Absatz (3) Sätze 4 bis einschließlich 6 Informationen zur „regelmäßigen Teilnahme“ in der Prüfungs- und Studienordnung 2020: “Eine regelmäßige Teilnahme im Sinne der Anlage 2 ist dann nicht mehr gegeben, wenn Studierende aus selbst zu vertretenden Gründen an mehr als zwei der stattfindenden Veranstaltungstermine einer Lehrveranstaltung nicht teilnehmen.”\n\nLektüre der für den jeweiligen Termin angegeben Literatur bzw. gründliche Erledigung der zugeteilten Aufgaben\nAktive Mitarbeit beim Entwickeln der formalen Modelle und der Programmierung\nAnforderungen für Hausarbeit (siehe nächste Folie)"
-  },
-  {
-    "objectID": "slides/Empra-Orga/Empra-Orga.slide.html#hausarbeit",
-    "href": "slides/Empra-Orga/Empra-Orga.slide.html#hausarbeit",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
-    "section": "Hausarbeit",
-    "text": "Hausarbeit\nFormalia\n\n\nSchriftgröße 12pt, Zeilenabstand 1.5x\n15.000 Zeichen +/- 20% (Zählung inkl. Leerzeichen; ohne Deckblatt, Referenzen und Anhänge)\nWenn Sie in papaja/Rmarkdown schreiben, dann ist das exportierte PDF von der Formatierung her gut so wie es ist (Sie brauchen nicht das Deckblatt, Zeilenabstand etc. anpassen).\nDeckblatt: Titel, Datum, Name, Matrikel-Nr., Name der Veranstaltung\nBei papaja/Rmarkdown schreiben Sie Datum, Matrikel-Nr. und Name der Veranstaltung in die Author Notes.\nKein Inhaltsverzeichnis\nMindestens 5 Publikationen zitieren\nZitate & Literaturverzeichnis nach APA-Richtlinien (6. oder 7. Version)\nDie Links zu Präregistrierung, Repositorium mit Open Data, Open Code, etc. kommen an den Anfang des Methodenteils"
-  },
-  {
-    "objectID": "slides/Empra-Orga/Empra-Orga.slide.html#hausarbeit-1",
-    "href": "slides/Empra-Orga/Empra-Orga.slide.html#hausarbeit-1",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
-    "section": "Hausarbeit",
-    "text": "Hausarbeit\nAbgabe\n\nAls PDF-Datei per Email an den Dozenten – Empfang wird bestätigt\nAbgabetermin: Wird noch bekannt gegeben, vermutlich Mitte März 2024\n2 Versionen einreichen:\n\nVollständige Version (Dateiname: IhrNachname_Empra_Jahr.pdf) – z.B.: „Schmid_Empra_2020.pdf“\nAnonymisierte Version, bei welcher der Name auf dem Deckblatt gelöscht ist (Dateiname: Matrikelnummer_Empra_Jahr.pdf)\n\nDiese Version wird benotet.\nDateiname z.B.:„98234034_Empra_2020.pdf“\nSie können in papaja einfach eine anonyme Version erzeugen, indem Sie im YAML mask: yes angeben"
-  },
-  {
-    "objectID": "slides/Empra-Orga/Empra-Orga.slide.html#bewertungsschema-hausarbeit",
-    "href": "slides/Empra-Orga/Empra-Orga.slide.html#bewertungsschema-hausarbeit",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
-    "section": "Bewertungsschema Hausarbeit",
-    "text": "Bewertungsschema Hausarbeit\n\n\nSiehe https://www.fak11.lmu.de/dep_psychologie/studium/lehrelounge/benotung-schriftl-arbeiten/index.html"
-  },
-  {
-    "objectID": "slides/Empra-Orga/Empra-Orga.slide.html#contact",
-    "href": "slides/Empra-Orga/Empra-Orga.slide.html#contact",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "objectID": "slides/Causality/Causality.slide.html#contact",
+    "href": "slides/Causality/Causality.slide.html#contact",
+    "title": "Causality",
     "section": "Contact",
     "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0\n\n\n\n\n\n\nForschungsorientierte Praktikum I – Empirisches Praktikum, Ludwig-Maximilians-Universität München"
+  },
+  {
+    "objectID": "slides/Causality/Causality.html",
+    "href": "slides/Causality/Causality.html",
+    "title": "Causality",
+    "section": "",
+    "text": "Eine empirische Fragestellung entwickeln\nEine Studie planen und durchführen\nDie Daten auswerten\nEinen wissenschaftlichen Bericht verfassen"
+  },
+  {
+    "objectID": "slides/Causality/Causality.html#ziele",
+    "href": "slides/Causality/Causality.html#ziele",
+    "title": "Causality",
+    "section": "",
+    "text": "Eine empirische Fragestellung entwickeln\nEine Studie planen und durchführen\nDie Daten auswerten\nEinen wissenschaftlichen Bericht verfassen"
+  },
+  {
+    "objectID": "slides/Causality/Causality.html#a-mermaid-plot",
+    "href": "slides/Causality/Causality.html#a-mermaid-plot",
+    "title": "Causality",
+    "section": "A mermaid plot",
+    "text": "A mermaid plot\n\n\n\n\n\nflowchart TD\n\nS(Sunshine)\nR(Running)\nW(Well-Being)\n\nS --&gt; R\nS --&gt; W"
+  },
+  {
+    "objectID": "slides/Causality/Causality.html#contact",
+    "href": "slides/Causality/Causality.html#contact",
+    "title": "Causality",
+    "section": "Contact",
+    "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "section": "",
+    "text": "Sessions Overview\n\n\n\n#\nDate\nTopic\nNotes\nHomework\n\n\n\n\n1\n2024-04-19\nS1 - Formalitäten, Open Science, p-hack\n\ncreate OSF account; practice p-hacking\n\n\n2\n2024-04-26\nS2 - Einführung Intimitätsmotiv - with Nensy\n\nDevelop interventions\n\n\n3\n2024-05-03\n[S3 - Kausalität; Literaturrecherche]\n\nRead Ch. 1 of Experimentology; Literaturrecherche in Gruppe machen\n\n\n4\n2024-05-10\nBrückentag - ggf. online [S4 - Studie planen] - with Nensy\nFragebögen überarbeiten; Ziel: Hypothesen aufstellen\nHA: Vp-Akquise in Gruppen planen (Material, Kanäle, etc.)\n\n\n5\n2024-05-17\nPoweranalyse\n\nRead Preregistration Challenge\n\n\n6\n2024-05-24\nPrereg intro\n\n\n\n\n7\n2024-05-31\nBrückentag - ggf. online / Nensy Vertretung: Studie finalisieren\n\nStudie testen\n\n\n8\n2024-06-07\nLetzter Feinschliff Studie; Prereg gemeinsam finalisieren\n\nOpen data lesen; Studienstart ganz fertig machen\n\n\n9\n2024-06-14\nOpen Data & Anonymisierung\nStudienstart!\nCodebuch erstellen\n\n\n10\n2024-06-21\ngood coding practices; Quarto 1\n\nVP-Akquise; Quarto / Rmarkdown self-paced tutorial\n\n\n11\n2024-06-28\npapaja\n\n\n\n\n12\n2024-07-05\nDatenanalyse 1\nStudienende\n\n\n\n13\n2024-07-12\n\n\n\n\n\n14\n2024-07-19\nHow-to Hausarbeit"
   },
   {
     "objectID": "slides/Empra-Orga/Empra-Orga.html",
@@ -165,7 +158,7 @@
     "href": "slides/Empra-Orga/Empra-Orga.html#hausarbeit-1",
     "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
     "section": "Hausarbeit",
-    "text": "Hausarbeit\n\nAbgabe\n\nAls PDF-Datei per Email an den Dozenten – Empfang wird bestätigt\nAbgabetermin: Wird noch bekannt gegeben, vermutlich Mitte März 2024\n2 Versionen einreichen:\n\nVollständige Version (Dateiname: IhrNachname_Empra_Jahr.pdf) – z.B.: „Schmid_Empra_2020.pdf“\nAnonymisierte Version, bei welcher der Name auf dem Deckblatt gelöscht ist (Dateiname: Matrikelnummer_Empra_Jahr.pdf)\n\nDiese Version wird benotet.\nDateiname z.B.:„98234034_Empra_2020.pdf“\nSie können in papaja einfach eine anonyme Version erzeugen, indem Sie im YAML mask: yes angeben"
+    "text": "Hausarbeit\n\nAbgabe\n\nAls PDF-Datei per Email an den Dozenten – Empfang wird bestätigt\nAbgabetermin: Wird noch bekannt gegeben; typischerweise 3 Wochen vor Beginn des nächsten Semesters (also Mitte März im WS bzw. Mitte September im SS)\n2 Versionen einreichen:\n\nVollständige Version (Dateiname: IhrNachname_Empra_Jahr.pdf) – z.B.: „Schmid_Empra_2020.pdf“\nAnonymisierte Version, bei welcher der Name auf dem Deckblatt gelöscht ist (Dateiname: Matrikelnummer_Empra_Jahr.pdf)\n\nDiese Version wird benotet.\nDateiname z.B.:„98234034_Empra_2020.pdf“\nSie können in papaja einfach eine anonyme Version erzeugen, indem Sie im YAML mask: yes angeben"
   },
   {
     "objectID": "slides/Empra-Orga/Empra-Orga.html#bewertungsschema-hausarbeit",
@@ -182,39 +175,95 @@
     "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
+    "objectID": "slides/Empra-Orga/Empra-Orga.slide.html#ziele",
+    "href": "slides/Empra-Orga/Empra-Orga.slide.html#ziele",
     "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
-    "section": "",
-    "text": "Sessions Overview\n\n\n\n#\nDate\nTopic\nHomework\n\n\n\n\n1\n2024-04-19\nS1 - Formalitäten, Open Science, p-hack\nIntimitätsmotiv Einführung lesen; create OSF account; p-hacking üben\n\n\n2\n2024-04-26\n[S2 - Einführung Intimitätsmotiv; Kausalität] - with Nensy\nRead Ch. 1 of Experimentology\n\n\n3\n2024-05-03\n[S3 - Literaturrecherche]\nStudiendesign überlegen; Literaturrecherche\n\n\n4\n2024-05-10\nBrückentag - ggf. online [S4 - Studie planen] - with Nensy\nFragebögen überarbeiten; [HA - Read Preregistration Challenge]\n\n\n5\n2024-05-17\n\n\n\n\n6\n2024-05-24\n\n\n\n\n7\n2024-05-31\nBrückentag - ggf. online / Nensy Vertretung\n\n\n\n8\n2024-06-07\n\n\n\n\n9\n2024-06-14\n\n\n\n\n10\n2024-06-21\n\n\n\n\n11\n2024-06-28\n\n\n\n\n12\n2024-07-05\n\n\n\n\n13\n2024-07-12\n\n\n\n\n14\n2024-07-19"
+    "section": "Ziele",
+    "text": "Ziele\nWissenschaftliches Arbeiten und Denken in der Psychologie kennenlernen\n\nEine empirische Fragestellung entwickeln\nEine Studie planen und durchführen\nDie Daten auswerten\nEinen wissenschaftlichen Bericht verfassen"
   },
   {
-    "objectID": "slides/slides_overview.html",
-    "href": "slides/slides_overview.html",
-    "title": "Slides Overview",
-    "section": "",
-    "text": "These are all slides used for the “lecture” part of the course:\n\n\n\n\n\n\n\n\n\n\n\nDate\nTopic\nSlides (as a single website)\nSlides (presentation mode)\n\n\n\n\n2024-04-19\nForschungsorientierte Praktikum I – Grundlagen der Forschung\nlink\nlink"
+    "objectID": "slides/Empra-Orga/Empra-Orga.slide.html#ziele-1",
+    "href": "slides/Empra-Orga/Empra-Orga.slide.html#ziele-1",
+    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "section": "Ziele",
+    "text": "Ziele\nKerncurriculum “Gute wissenschaftliche Praxis”\n\nStichprobenplanung, in der Regel eine a-priori Poweranalyse\nPräregistrierung der Hypothesen, Operationalisierungen, Stichprobenplanung und der statistischen Analysemethode\nOpen Data (mit Codebuch): Offene Daten werden von immer mehr Zeitschriften verlangt und werden generell zum Standard für vertrauenswürdiges Forschen\nReproduzierbare Analyseskripte"
   },
   {
-    "objectID": "common/lastslide.html",
-    "href": "common/lastslide.html",
-    "title": "End",
-    "section": "",
-    "text": "@nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0"
+    "objectID": "slides/Empra-Orga/Empra-Orga.slide.html#ziele-2",
+    "href": "slides/Empra-Orga/Empra-Orga.slide.html#ziele-2",
+    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "section": "Ziele",
+    "text": "Ziele\n(1) Eine empirische Fragestellung entwickeln\n\nDer Weg zu einer interessanten, empirisch prüfbaren Fragestellung\nForschungsthema: Durch das Empra vorgegeben\nLiteraturrecherche: Was gibt es schon? Wo sind die Forschungslücken?\nEntwicklung von prüfbaren Hypothesen"
   },
   {
-    "objectID": "common/lastslide.html#contact",
-    "href": "common/lastslide.html#contact",
-    "title": "End",
+    "objectID": "slides/Empra-Orga/Empra-Orga.slide.html#ziele-3",
+    "href": "slides/Empra-Orga/Empra-Orga.slide.html#ziele-3",
+    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "section": "Ziele",
+    "text": "Ziele\n(2) Eine Studie planen und durchführen\n\n\nStudiendesign entwickeln:\n\nMethode vorgegeben: Experience Sampling\nOperationalisierung von Konstrukten\nStichprobe planen (Population, Stichprobengröße -&gt; Poweranalyse)\nExperimentelles Design: Wie kann man kausale Effekte messen? Evtl. Kontrolle von Störvariablen\n\nPraktische Versuchsplanung\n\nAkquise Vpn\nMaterial entwickeln\nExperimentalsoftware programmieren\n\nPräregistrierung: Hypothesen, Design, Operationalisierung, Analysen\nDurchführung: Rekrutierung, Erhebung, Betreuung"
+  },
+  {
+    "objectID": "slides/Empra-Orga/Empra-Orga.slide.html#ziele-4",
+    "href": "slides/Empra-Orga/Empra-Orga.slide.html#ziele-4",
+    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "section": "Ziele",
+    "text": "Ziele\n(3) Die Daten auswerten\n\nWir arbeiten mit R\nDatenkodierung und –aufbereitung\n\nAnalysen durch Codebuch und offene Daten nachvollziehbar und reproduzierbar machen\nAnonymität berücksichtigen\n\nStatistische Auswertung\n\nDeskriptivstatistik\nZu den Hypothesen passende Analysen rechnen\nAnalysen durch reproduzierbare Skripte nachvollziehbar machen"
+  },
+  {
+    "objectID": "slides/Empra-Orga/Empra-Orga.slide.html#ziele-5",
+    "href": "slides/Empra-Orga/Empra-Orga.slide.html#ziele-5",
+    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "section": "Ziele",
+    "text": "Ziele\n(4) Einen wissenschaftlichen Bericht verfassen\n\nKommunikation der Forschung in die Fachöffentlichkeit\nDen Prozess nachvollziehbar machen: Rmarkdown/Quarto als reproduzierbare Art, einen Bericht zu schreiben\nAufbau eines wissenschaftlichen Artikels:\n\nEinleitung\nMethode\nErgebnisse\nDiskussion\n\nBericht = Hausarbeit als Prüfungsleistung"
+  },
+  {
+    "objectID": "slides/Empra-Orga/Empra-Orga.slide.html#formalia-des-empras",
+    "href": "slides/Empra-Orga/Empra-Orga.slide.html#formalia-des-empras",
+    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "section": "Formalia des Empras",
+    "text": "Formalia des Empras\n\n\nUnterricht in Kleingruppen (UK) mit 9 ECTS-Punkten\n≙ 3 Vorlesungen mit Klausur bzw. 3 Seminare mit Referat & schriftlicher Ausarbeitung\n≙ 12h Zeitinvestition pro Woche (Präsenz + Vor- und Nachbereitung)\n(in Empra 1: Anwesenheitspflicht laut PStO 2020; max. 2 unentschuldigte Fehlstunden)\n\nSiehe hierzu § 9 Absatz (3) Sätze 4 bis einschließlich 6 Informationen zur „regelmäßigen Teilnahme“ in der Prüfungs- und Studienordnung 2020: “Eine regelmäßige Teilnahme im Sinne der Anlage 2 ist dann nicht mehr gegeben, wenn Studierende aus selbst zu vertretenden Gründen an mehr als zwei der stattfindenden Veranstaltungstermine einer Lehrveranstaltung nicht teilnehmen.”\n\nLektüre der für den jeweiligen Termin angegeben Literatur bzw. gründliche Erledigung der zugeteilten Aufgaben\nAktive Mitarbeit beim Entwickeln der formalen Modelle und der Programmierung\nAnforderungen für Hausarbeit (siehe nächste Folie)"
+  },
+  {
+    "objectID": "slides/Empra-Orga/Empra-Orga.slide.html#hausarbeit",
+    "href": "slides/Empra-Orga/Empra-Orga.slide.html#hausarbeit",
+    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "section": "Hausarbeit",
+    "text": "Hausarbeit\nFormalia\n\n\nSchriftgröße 12pt, Zeilenabstand 1.5x\n15.000 Zeichen +/- 20% (Zählung inkl. Leerzeichen; ohne Deckblatt, Referenzen und Anhänge)\nWenn Sie in papaja/Rmarkdown schreiben, dann ist das exportierte PDF von der Formatierung her gut so wie es ist (Sie brauchen nicht das Deckblatt, Zeilenabstand etc. anpassen).\nDeckblatt: Titel, Datum, Name, Matrikel-Nr., Name der Veranstaltung\nBei papaja/Rmarkdown schreiben Sie Datum, Matrikel-Nr. und Name der Veranstaltung in die Author Notes.\nKein Inhaltsverzeichnis\nMindestens 5 Publikationen zitieren\nZitate & Literaturverzeichnis nach APA-Richtlinien (6. oder 7. Version)\nDie Links zu Präregistrierung, Repositorium mit Open Data, Open Code, etc. kommen an den Anfang des Methodenteils"
+  },
+  {
+    "objectID": "slides/Empra-Orga/Empra-Orga.slide.html#hausarbeit-1",
+    "href": "slides/Empra-Orga/Empra-Orga.slide.html#hausarbeit-1",
+    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "section": "Hausarbeit",
+    "text": "Hausarbeit\nAbgabe\n\nAls PDF-Datei per Email an den Dozenten – Empfang wird bestätigt\nAbgabetermin: Wird noch bekannt gegeben; typischerweise 3 Wochen vor Beginn des nächsten Semesters (also Mitte März im WS bzw. Mitte September im SS)\n2 Versionen einreichen:\n\nVollständige Version (Dateiname: IhrNachname_Empra_Jahr.pdf) – z.B.: „Schmid_Empra_2020.pdf“\nAnonymisierte Version, bei welcher der Name auf dem Deckblatt gelöscht ist (Dateiname: Matrikelnummer_Empra_Jahr.pdf)\n\nDiese Version wird benotet.\nDateiname z.B.:„98234034_Empra_2020.pdf“\nSie können in papaja einfach eine anonyme Version erzeugen, indem Sie im YAML mask: yes angeben"
+  },
+  {
+    "objectID": "slides/Empra-Orga/Empra-Orga.slide.html#bewertungsschema-hausarbeit",
+    "href": "slides/Empra-Orga/Empra-Orga.slide.html#bewertungsschema-hausarbeit",
+    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "section": "Bewertungsschema Hausarbeit",
+    "text": "Bewertungsschema Hausarbeit\n\n\nSiehe https://www.fak11.lmu.de/dep_psychologie/studium/lehrelounge/benotung-schriftl-arbeiten/index.html"
+  },
+  {
+    "objectID": "slides/Empra-Orga/Empra-Orga.slide.html#contact",
+    "href": "slides/Empra-Orga/Empra-Orga.slide.html#contact",
+    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "section": "Contact",
+    "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0\n\n\n\n\n\n\nForschungsorientierte Praktikum I – Empirisches Praktikum, Ludwig-Maximilians-Universität München"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "@nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0"
+    "text": "Das ist das Kursmaterial für das “Forschungsorientierte Praktikum I – Grundlagen der Forschung” im BSc Psychologie der Ludwig-Maximilians-Universität München. Der Kurs wurde im Sommersemester 2024 von Prof. Dr. Felix Schönbrodt gegeben.\nAlles Material ist - soweit nicht anders gekennzeichnet - unter CC-BY4.0 Lizenz."
   },
   {
     "objectID": "sessions/S1-Introduction.html",
     "href": "sessions/S1-Introduction.html",
     "title": "Session 01 - Introduction",
     "section": "",
-    "text": "Topic\nDuration\nNotes\n\n\n\n\nBegrüßung\n5\nAnkündigung: Zeitslot: 10:00-13:00, aber bis 14:00 freihalten\n\n\nEmpra Formalia\n25\nFolien. Kerncurriculum: Präregistrierung, Open data + Codebook, Poweranalyse, Reproduzierbare Skripte\n\n\nVorstellungsrunde\n20\n\n\n\np-hack your way to scientific glory\n60\nFolien\n\n\nPause\n15\n\n\n\nEinführung Open Science\n60\nFolien\n\n\nHausaufgabe: p-hacking üben\n5"
+    "text": "Topic\nDuration\nNotes\n\n\n\n\nBegrüßung\n5\nAnkündigung: Zeitslot: 10:00-13:00, aber bis 14:00 freihalten\n\n\nEmpra Formalia\n25\nFolien. Kerncurriculum: Präregistrierung, Open data + Codebook, Poweranalyse, Reproduzierbare Skripte\n\n\nVorstellungsrunde\n15\n\n\n\np-hack your way to scientific glory\n60\nFolien\n\n\nPause\n15\n\n\n\nEinführung Open Science\n60\nFolien\n\n\nHausaufgabe: p-hacking üben\n5"
   },
   {
     "objectID": "sessions/S1-Introduction.html#homework-1-individual",
@@ -229,5 +278,12 @@
     "title": "Session 01 - Introduction",
     "section": "3.2 Homework 2 (individual)",
     "text": "3.2 Homework 2 (individual)\n\nCreate an ORCID ID. You can use “LMU” as affiliation.\nCreate an OSF account (use your real name; link your ORCID ID)."
+  },
+  {
+    "objectID": "sessions/S3-Causality-LitSearch.html",
+    "href": "sessions/S3-Causality-LitSearch.html",
+    "title": "Session 03 - Causality & literature search",
+    "section": "",
+    "text": "Overview\n\n\n\n\n\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nWrap-up Homework 1\n10\np-hacking\n\n\nWrap-up Homework 2\n20\nInterventions\n\n\nCausality\n80\n\n\n\nLiterature research in practice\n60\n\n\n\nHausaufgabe: Read Ch. 1 of Experimentology\n60\n\n\n\n\n\n\nHomework 1 (individually)\nPlease read Ch. 1 of the online book “Experimentology” and answer the following questions. You can answer in English or in German. Please write the answers directly into the answer field in Moodle. (You can of course write the answers beforehand in Word or something, and then copy the answers in here). You do not need to read any of the cited references additionally, just refer to the chapter.\n\nQ1: Summarize the logic of randomization.\nQ2: Imagine that you run a survey and find that people who spend more time playing violent video games tend to be more aggressive (i.e., that there is a positive correlation between violent video games and aggression). Following Figure 1.2, list three reasons why these variables may be correlated.\nQ3: Suppose you wanted to run an experiment testing whether playing violent video games causes increases in aggression. What would be your manipulation and what would be your measure? How would you deal with potential confounding by variables like age?\nQ4: Consider an experiment designed to test people’s food preferences. The experimenter randomly assigns 30 U.S. preschoolers to be served either asparagus or chicken tenders and then asks them how much they enjoyed their meal. Overall, children enjoyed the meat more; the experimenter writes a paper claiming that humans prefer meat over vegetables. List some constraints on the generalizability of this study. In light of these constraints, is this study (or some modification) worth doing at all?\n\n\n## Homework 2 (in groups)\n\nSearch for articles in the existing teams (k=4 teams)\nIdeally: Find articles with experimental designs that manipulate the intimacy motivation within an ESM design.\n\nNote: Such a study probably does not exist.\n\nIf these are not available, expand the search scope. For example:\n\nnon-experimental studies\nother DVs than intimacy motivation (e.g., the intimacy motive as a trait, or the experienced intimacy)\nnot ESM, but a daily diary or a lab study.\n\nTODO: Snowball search: Once you found Screen which papers cite Conner and Reid (2012) as well as the chapter by Barta “Measurement reactivity in diary - research”. If there are too many results for screening: Search again within these lists by keywords.\nSave about 8-15 articles that roughly fit. Please copy the bibliography of this coarse selection into the text field in the Moodle task.\nThen screen all articles very roughly: Read title + abstract\nPick the best articles (at least 2; up to 5), and then:\n\nEnter them to the Google sheet and categorize them\nEach team should enter at least 2 papers; only new papers (nothing that has already been entered into the Google sheet by another group)\nExtract the effect sizes (if you are able to do so - if not, make an informed guess)."
   }
 ]
