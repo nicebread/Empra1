@@ -1,0 +1,17 @@
+/*  */
+
+.hl {
+  background: url("pen-brushes.svg");
+  margin: -2px -6px;
+  padding:  2px  6px;
+  display: inline-block;
+}
+
+.alert {
+  color: #9a2515;
+}
+
+/* :root {
+  --mermaid-node-fg-color: #ff0000;
+  --mermaid-label-fg-color: #ff0000;
+} */

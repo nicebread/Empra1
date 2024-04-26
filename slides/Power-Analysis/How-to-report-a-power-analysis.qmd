@@ -28,6 +28,7 @@ size. But also: Why α=5% Why power = 80%?
 
 
 ### What information do you need to compute a power analysis?
+
 ::: {.smaller}
 - Type of power analysis:
   - A priori: compute N, given alpha, power, ES
