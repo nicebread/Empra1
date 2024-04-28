@@ -211,9 +211,9 @@ Assumed that our tested hypothesis are true in 30% of all cases (which is a not 
 Button, K. S., Ioannidis, J. P. A., Mokrysz, C., Nosek, B. A., Flint, J., Robinson, E. S. J., & Munafò, M. R. (2013). Power failure: why small sample size  undermines the reliability of neuroscience. Nat Rev Neurosci, 14(5), 365–376. doi:10.1038/nrn3475
 ::: 
 
-##
+## {visibility="hidden"}
 
-![](img/graph4.jpg)
+![](img/graph4.jpg) 
 
 ::: {.footer}
 Smaldino, P. E., & McElreath, R. (2016). The natural selection of bad science. arXiv:1605.09511 [physics, stat]. Retrieved from http://arxiv.org/abs/1605.09511
@@ -383,6 +383,185 @@ http://guessthecorrelation.com/
 ::: {.footer}
 http://guessthecorrelation.com/
 ::: 
+
+## Understanding effect sizes
+
+![](img/effectsize.png){fig-align="left"}
+
+More understandable metrics: „Common Language Effect Size“, CLES:
+
+- …the probability that a randomly sampled person from one group will have a higher observed measurement than a randomly sampled person from the other group (for between designs)
+- …or (for within-designs) the probability that an individual has a higher value on one measurement than the other.
+
+::: {.footer}
+McGraw, K. O., & Wong, S. P. (1992). A common language effect size statistic. Psychological Bulletin, 111(2), 361–365. https://doi.org/10.1037/0033-2909.111.2.361
+Lakens, D. (2013). Calculating and reporting effect sizes to facilitate cumulative science: A practical primer for t-tests and ANOVAs. Frontiers in Psychology, 4. https://doi.org/10.3389/fpsyg.2013.00863
+::: 
+
+## Understanding effect sizes
+
+Example: d = 0.4, n=55 in each group
+
+- Repeated-measures factor: 61% of the participants change into the expected direction
+- Between-groups factor: 61% chance of finding the expected ordering if you test a random participant from each sample
+
+# Typical effect sizes
+
+## Cohen‘s conventions
+![](img/cohen.png){fig-align="left"}
+
+Is this reasonable?
+
+## Typical reported effect sizes I
+
+e.g., Richard, Bond, & Stokes-Zoota (2003):
+
+- Meta-meta-analysis; > 25.000 studies, > 8.000.000
+participants
+- mean effect r = .21 (across literature SD = .15); median = .18
+
+![](img/reportedeffectsize.png){fig-align="center"}
+
+::: {.footer}
+Richard, F. D., Bond, C. F. J., & Stokes-Zoota, J. J. (2003). One Hundred Years of Social Psychology Quantitatively Described. Review of General Psychology, 7(4), 331–363. doi:10.1037/1089-2680.7.4.331
+:::
+
+## Typical reported effect sizes I
+e.g., Richard, Bond, & Stokes-Zoota (2003):
+![](img/table7.png){fig-align="center"}
+
+## Typical reported effect sizes II
+e.g., Bosco et al. (2015):
+
+- 147,328 correlations from Journal of Applied Psychology and Personnel Psychology
+- median effect: r = .16,  mean effect r = .22 (SD = .20)
+
+![](img/graph9.jpg){fig-align="center"}
+
+
+
+::: {.footer}
+Bosco, F. A., Aguinis, H., Singh, K., Field, J. G., & Pierce, C. A. (2015). Correlational effect size benchmarks. Journal of Applied Psychology, 100(2), 431–449. http://doi.org/10.1037/a0038047
+:::
+
+## Typical reported effect sizes III
+e.g., Hill et al. (2008):
+
+- How does the effect of an intervention compare to a typical year of growth in
+school?
+
+![](img/hedgesg.png){fig-align="center"}
+
+::: {.footer}
+Hill, C. J., Bloom, H. S., Black, A. R., & Lipsey, M. W. (2008). Empirical Benchmarks for Interpreting Effect Sizes in Research. Child Development Perspectives, 2, 172–177. doi:10.1111/j.1750-8606.2008.00061.x
+:::
+
+## Typical reported effect sizes IV
+e.g., Funder & Ozer (2019):
+
+![](img/graph10.jpg){fig-align="center"}
+
+::: {.footer}
+Funder, D. C., & Ozer, D. J. (2019). Evaluating Effect Size in Psychological Research: Sense and Nonsense. Advances in Methods and Practices in Psychological Science, 2, 156–168. doi:10.1177/2515245919847202
+:::
+
+## Typical reported effect sizes V
+e.g., Aguinis, Beaty, Boik, & Pierce (2005):
+- Effect size of interaction from dichotomous moderator and continuous predictor
+![](img/table8.png){fig-align="center"}
+
+::: {.footer}
+Aguinis, H., Beaty, J. C., Boik, R. J., & Pierce, C. A. (2005). Effect size and power in assessing moderating effects of categorical variables using multiple regression: a 30-year review. Journal of applied psychology, 90(1), 94.
+:::
+
+## Other benchmarks I
+Average placebo effect? <br> d = 0.24 [0.17; 0.31]!
+
+::: {.footer}
+Hróbjartsson, A., & Gøtzsche, P. C. (2004). Is the placebo powerless? Update of a systematic review with 52 new randomized trials comparing placebo with no treatment. Journal of internal medicine, 256(2), 91-100.
+:::
+
+## Other benchmarks II (ES: d)
+
+![](img/graph11.png){fig-align="center"}
+
+::: {.footer}
+Luhmann, M., Hofmann, W., Eid, M., & Lucas, R. E. (2012). Subjective well-being and adaptation to life events: a meta-analysis. Journal of Personality and
+Social Psychology, 102(3), 592–615. http://doi.org/10.1037/a0025948
+:::
+
+# The trustworthiness of effect sizes in the literature
+
+##
+
+![](img/sampletopower.png){fig-align="center"}
+
+::: {.footer}
+Bakker, M., van Dijk, A., & Wicherts, J. M. (2012). The Rules of the Game Called Psychological Science. Perspectives on Psychological Science, 7(6), 543–554.
+:::
+
+##
+
+![](img/graph12.png){fig-align="center"}
+
+::: {.footer}
+Fanelli, D. (2011). Negative results are disappearing from most disciplines and countries. Scientometrics, 90(3), 891–904. doi:10.1007/s11192-011-0494-7
+:::
+
+
+## Can we base our power analyses on published effect sizes?
+**No.**
+
+- See RP:P: 83% of all effect sizes are smaller than the original: <br> Mean original: r = .40 ➙ Mean replication: r = .20
+- See also Franco et al. (2015): <br> Reported ES 2x larger than unreported ES
+
+## Can we base our power analyses on published effect sizes?
+• See Schäfer & Schwarz (2019), ES: r:
+
+![](img/powerfromeffectsize.png){fig-align="center"}
+
+::: {.footer}
+Schäfer, T., & Schwarz, M. A. (2019). The meaningfulness of effect sizes in psychological research: Differences between sub-disciplines and the impact of potential biases. Frontiers in Psychology, 10, 813.
+:::
+
+## Can we base our power analyses on published effect sizes?
+
+- Suggestion 1: Divide reported effect by 2, compute power analysis.
+- Suggestion 2: Safeguard power (Perugini, 2014): Incorporate uncertainty in original study’s ES estimate. Aim lower end of 60%-CI.
+
+## Safeguard power 
+(Perugini et al., 2014)
+
+- Incorporate uncertainty in original study’s ES estimate
+- Aim for lower end of 60%-CI
+- Example: 
+  - Original study finds d = 0.5 (n = 30 in each group)
+  - 60% CI = [0.28; 0.72]
+  - Naive 80% power analysis: n = 64
+  - Safeguard 80% power analysis: n = 202
+- Rewards precise estimates in original study
+```{r, eval=FALSE,echo=TRUE}
+library(MBESS)
+ci.smd(smd=0.5, n.1=30, n.2=30, conf.level=0.60)
+```
+
+## Write-Up
+![](img/writeup1.png){fig-align="center"}
+
+::: {.footer}
+https://twitter.com/GuyProchilo/status/1292780240977223681
+:::
+
+## Write-Up
+![](img/writeup2.png){fig-align="center"}
+
+::: {.footer}
+Lakens (2021). Sample Size Justification. https://psyarxiv.com/9d3yf/
+:::
+
+::: {.footer}
+Perugini, M., Gallucci, M., & Costantini, G. (2014). Safeguard Power as a Protection Against Imprecise Power Estimates. Perspectives on Psychological Science, 9(3), 319–332. http://doi.org/10.1177/1745691614528519
+:::
 
 
 ::: footer
