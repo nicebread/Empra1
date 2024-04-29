@@ -1,0 +1,42 @@
+---
+title: Session 02 - Intimacy motive
+subtitle: by Nensy Le
+number-sections: false
+description: Introducing motives, the intimacy motive, and the DynaMoS model (by Nensy Le)
+---
+
+# Overview
+
+| Topic                                  | Duration | Notes                                                      |
+| :------------------------------------- | :------: | ---------------------------------------------------------- |
+| Introduction to motives, intimacy, etc |   150    | [Slides](../slides/pdfs/Le_2024_Motive_und_Motivation.pdf) |
+| Hausaufgabe: Develop interventions     |    10    |                                                            |
+
+: {.striped}
+
+
+
+# Homework 1 (in groups)
+
+You have been assigned group IDs from A to F.
+Create a group name that consists of an adjective and an animal name both starting with your ID. (Only a leading "der, die, das" is allowed, such as "Die zickigen Zebras").
+
+# Homework 2 (in groups)
+
+- [ ] **Task:**
+Create possible interventions (at least 3 to 5) that manipulate participants' motivation.
+Your group assignment defines whether you aim to *increase* or to *lower* the motivation.
+This is a brainstroming phase: You can be creative and think divergently. It can be crazy; the reality check will be done later.
+
+Use the mechanisms discussed today as a guide. The groups on film/series excerpts should present material as concretely as possible (at least in writing which film/series incl. time or already direct video excerpts). The audio group and the creative group should develop ideas and write them down so that the intervention is comprehensible and it is clear how a concrete implementation can take place. 
+
+Also think about a control condition for each intervention. We will cover details about "how to create a good control condition" next week. Preliminarily, you can think abot it as a "Placebo": Everything is kept constant (compared to the experimental condition), except the causal ingredient.
+
+The only constraints are:
+
+- The intervention should be deliverable via smartphones
+- The instruction/intervention should not take longer than 10 min.
+
+
+**Deliverable**:
+One person of each group uploads the text with the interventions into the textfield in the Moodle task. In the heading, please indicate your group name, and which intervention type you worked on.
