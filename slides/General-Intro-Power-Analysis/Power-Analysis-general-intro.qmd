@@ -9,7 +9,7 @@ author:
 date: 2024-04-19
 footer: "Forschungsorientierte Praktikum I – Empirisches Praktikum, Ludwig-Maximilians-Universität München"
 format: 
-  FOMO-revealjs: 
+  nicetheme-revealjs: 
     output-ext: slide.html
     transition: slide    
   html: default
@@ -265,7 +265,7 @@ Bakker, M., Hartgerink, C. H. J., Wicherts, J. M., & van der Maas, H. L. J. (201
 
 ::: {.smaller}
 - By computing the within-person difference scores, all between-person variance (which contributes to error variance), gets removed
-- Less error variance = less noise = (relatively) more signal = larger effect size
+- Less error variance =  less noise = (relatively) more signal = larger effect size
 ::: 
 
 ## Increase power with reliable measures

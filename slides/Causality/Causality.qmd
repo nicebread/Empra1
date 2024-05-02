@@ -9,7 +9,7 @@ author:
 date: 2024-04-27
 footer: "Forschungsorientierte Praktikum I – Empirisches Praktikum, Ludwig-Maximilians-Universität München"
 format: 
-  FOMO-revealjs: 
+  nicetheme-revealjs: 
     output-ext: slide.html
     transition: slide    
   html: default
@@ -67,12 +67,12 @@ external intervention (“doing”)
 
 ::: {.smaller}
   - Reasoning about interventions formalized by Pearl's (2000) „do-operator“ (cf. Spirtes, Glymour & Scheines, 1993; Dawid, 2002)
-    - Observational interface: IF B is observed, THEN ...
-    - Interventional interface: IF B is actively generated, THEN ...
+    - Observational inference: IF B is observed, THEN ...
+    - Interventional inference: IF B is actively generated, THEN ...
 :::
 
 <div style="text-align: center;">
-![](img/Observation-Intervention-Modells-Graph.jpg){ width=450px height=300px }
+![](img/Observation-Intervention-Modells-Graph.jpg){ height=300px }
 </div>
 
 ## How to rule out alternative causal models?
