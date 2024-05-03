@@ -1,18 +1,17 @@
 ---
-title: Session 03 - Causality & literature search
+title: Session 03 - More Motives & Causality
 number-sections: false
-description: Basics about causality; doing literature search in practice.
+description: More about motives and motivations; Basics about causality
 ---
 
 # Overview
 
-| Topic                                      | Duration | Notes         |
-| :----------------------------------------- | :------: | ------------- |
-| Wrap-up Homework 1                         |    10    | p-hacking     |
-| Wrap-up Homework 2                         |    20    | Interventions |
-| Causality                                  |    80    |               |
-| Literature research in practice            |    60    |               |
-| Hausaufgabe: Read Ch. 1 of Experimentology |    60    |               |
+| Topic                                      | Duration | Notes     |
+| :----------------------------------------- | :------: | --------- |
+| Wrap-up Homework 1                         |    10    | p-hacking |
+| Motives                                    |    80    |           |
+| Causality                                  |    60    |           |
+| Hausaufgabe: Read Ch. 1 of Experimentology |    5     |           |
 
 : {.striped}
 
@@ -54,20 +53,6 @@ From this study, we only learn that U.S. preschoolers enjoy eating chicken tende
 
  -->
 
- ## Homework 2 (in groups)
+## Homework 2 (in groups)
 
- 
-- Search for articles in the existing teams (k=4 teams)
-- Ideally: Find articles with **experimental** designs that **manipulate** the intimacy motivation within an **ESM design**.
-  - Note: Such a study probably does not exist.
-- If these are not available, expand the search scope. For example:
-  - non-experimental studies
-  - other DVs than intimacy motivation (e.g., the intimacy motive as a trait, or the experienced intimacy)
-  - not ESM, but a daily diary or a lab study.
-- TODO: Snowball search: Once you found Screen which papers cite Conner and Reid (2012) as well as the chapter by Barta "Measurement reactivity in diary - research". If there are too many results for screening: Search again within these lists by keywords.
-- Save about 8-15 articles that roughly fit. Please copy the bibliography of this coarse selection into the text field in the Moodle task.
-- Then screen all articles very roughly: Read title + abstract
-- Pick the best articles (at least 2; up to 5), and then:
-  - Enter them to the Google sheet and categorize them
-  - Each team should enter at least 2 papers; only new papers (nothing that has already been entered into the Google sheet by another group)
-  - Extract the effect sizes (if you are able to do so - if not, make an informed guess).
+ Revise interventions to target specifically intimacy *motivation* (not "affiliation", not "experienced closeness", not "behavior").
