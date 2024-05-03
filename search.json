@@ -263,7 +263,7 @@
     "href": "slides/Causality/Causality.html#between-person-design",
     "title": "Causality",
     "section": "Between-person design",
-    "text": "Between-person design\n\n\n\n\n\naverage treatment effect (ATE), or average causal effect (ACE)\naverage across persons: some persons might have stronger effects, others have weaker effects (some might even have no, or a reversed effect). But we cannot estimate this inter individual variability from this design.\nStatistical test: Simply a t-test, or a regression.\n\nNote: Often we use the same statistical method for observational and for experimental data."
+    "text": "Between-person design\n\n\n\n\n\naverage treatment effect (ATE), or average causal effect (ACE)\naverage across persons: some persons might have stronger effects, others have weaker effects (some might even have no, or a reversed effect). But we cannot estimate this inter-individual variability from this design.\nStatistical test: Simply a t-test, or a regression.\n\nNote: Often we use the same statistical method for observational and for experimental-data."
   },
   {
     "objectID": "slides/Causality/Causality.html#within-person-design",
@@ -291,7 +291,7 @@
     "href": "slides/Causality/Causality.html#do-fat-hand-vs.-surgeon-precision",
     "title": "Causality",
     "section": "do(): Fat hand vs. surgeon precision",
-    "text": "do(): Fat hand vs. surgeon precision\n\n\nInterventions are assumed to be local, i.e., they only affect one single node.\nIn practice, we often affect multiple variables at once with an intervention.\nYou always get the causal effect for the „ful package“ (i.e., all known and unknown differences between control and experimental group). You never know, which component of the package is the actual driver of the effect."
+    "text": "do(): Fat hand vs. surgeon precision\n\n\nInterventions are assumed to be local, i.e., they only affect one single node.\nIn practice, we often affect multiple variables at once with an intervention.\nYou always get the causal effect for the „full package“ (i.e., all known and unknown differences between control and experimental group). You never know, which component of the package is the actual driver of the effect."
   },
   {
     "objectID": "slides/Causality/Causality.html#what-makes-a-good-control-group",
@@ -382,7 +382,7 @@
     "href": "slides/Causality/Causality.slide.html#between-person-design",
     "title": "Causality",
     "section": "Between-person design",
-    "text": "Between-person design\n\n\n\n\n\naverage treatment effect (ATE), or average causal effect (ACE)\naverage across persons: some persons might have stronger effects, others have weaker effects (some might even have no, or a reversed effect). But we cannot estimate this inter individual variability from this design.\nStatistical test: Simply a t-test, or a regression.\n\nNote: Often we use the same statistical method for observational and for experimental data."
+    "text": "Between-person design\n\n\n\n\n\naverage treatment effect (ATE), or average causal effect (ACE)\naverage across persons: some persons might have stronger effects, others have weaker effects (some might even have no, or a reversed effect). But we cannot estimate this inter-individual variability from this design.\nStatistical test: Simply a t-test, or a regression.\n\nNote: Often we use the same statistical method for observational and for experimental-data."
   },
   {
     "objectID": "slides/Causality/Causality.slide.html#within-person-design",
@@ -410,7 +410,7 @@
     "href": "slides/Causality/Causality.slide.html#do-fat-hand-vs.-surgeon-precision",
     "title": "Causality",
     "section": "do(): Fat hand vs. surgeon precision",
-    "text": "do(): Fat hand vs. surgeon precision\n\n\nInterventions are assumed to be local, i.e., they only affect one single node.\nIn practice, we often affect multiple variables at once with an intervention.\nYou always get the causal effect for the „ful package“ (i.e., all known and unknown differences between control and experimental group). You never know, which component of the package is the actual driver of the effect."
+    "text": "do(): Fat hand vs. surgeon precision\n\n\nInterventions are assumed to be local, i.e., they only affect one single node.\nIn practice, we often affect multiple variables at once with an intervention.\nYou always get the causal effect for the „full package“ (i.e., all known and unknown differences between control and experimental group). You never know, which component of the package is the actual driver of the effect."
   },
   {
     "objectID": "slides/Causality/Causality.slide.html#what-makes-a-good-control-group",
@@ -1341,14 +1341,14 @@
     "href": "sessions/S3-Motives_Causality.html",
     "title": "Session 03 - More Motives & Causality",
     "section": "",
-    "text": "Topic\nDuration\nNotes\n\n\n\n\nWrap-up Homework 1\n10\np-hacking\n\n\nMotives\n80\n\n\n\nCausality\n60\nSlides\n\n\nHomework: Read Ch. 1 of Experimentology\n5"
+    "text": "Topic\nDuration\nNotes\n\n\n\n\nWrap-up Homework 1\n10\np-hacking\n\n\nMotives\n80\nSlides\n\n\nCausality\n60\nSlides\n\n\nHomework: Read Ch. 1 of Experimentology\n5"
   },
   {
     "objectID": "sessions/S3-Motives_Causality.html#homework-2-in-groups",
     "href": "sessions/S3-Motives_Causality.html#homework-2-in-groups",
     "title": "Session 03 - More Motives & Causality",
     "section": "Homework 2 (in groups)",
-    "text": "Homework 2 (in groups)\nRevise interventions to target specifically intimacy motivation (not “affiliation”, not “experienced closeness”, not “behavior”)."
+    "text": "Homework 2 (in groups)\nRevise interventions to target specifically intimacy motivation (not “affiliation”, not “experienced closeness”, not “behavior”). Try not do a “fat hand” manipulation, aim for surgical precision!"
   },
   {
     "objectID": "sessions/S4-DesignPlanning-LitSearch.html",
