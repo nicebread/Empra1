@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Felix Schönbrodt">
-<meta name="dcterms.date" content="2024-04-19">
+<meta name="dcterms.date" content="2024-04-27">
 
 <title>Forschungsorientiertes Praktikum I – Grundlagen der Forschung - Causality</title>
 <style>
@@ -68,9 +68,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script src="../../site_libs/quarto-diagram/mermaid.min.js"></script>
-<script src="../../site_libs/quarto-diagram/mermaid-init.js"></script>
-<link href="../../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="../../styles.css">
@@ -128,17 +125,32 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#ziele" id="toc-ziele" class="nav-link active" data-scroll-target="#ziele">Ziele</a>
+  <li><a href="#causality" id="toc-causality" class="nav-link active" data-scroll-target="#causality">Causality</a></li>
+  <li><a href="#from-correlation-to-causality" id="toc-from-correlation-to-causality" class="nav-link" data-scroll-target="#from-correlation-to-causality">From correlation to causality</a></li>
+  <li><a href="#underlying-causal-structure" id="toc-underlying-causal-structure" class="nav-link" data-scroll-target="#underlying-causal-structure">Underlying causal structure</a>
   <ul class="collapse">
-  <li><a href="#wissenschaftliches-arbeiten-und-denken-in-der-psychologie-kennenlernen" id="toc-wissenschaftliches-arbeiten-und-denken-in-der-psychologie-kennenlernen" class="nav-link" data-scroll-target="#wissenschaftliches-arbeiten-und-denken-in-der-psychologie-kennenlernen">Wissenschaftliches Arbeiten und Denken in der Psychologie kennenlernen</a></li>
+  <li><a href="#directed-acyclic-graphs-dags-to-represent-causal-structures" id="toc-directed-acyclic-graphs-dags-to-represent-causal-structures" class="nav-link" data-scroll-target="#directed-acyclic-graphs-dags-to-represent-causal-structures">Directed acyclic graphs (DAGs) to represent causal structures</a></li>
   </ul></li>
-  <li><a href="#a-mermaid-plot" id="toc-a-mermaid-plot" class="nav-link" data-scroll-target="#a-mermaid-plot">A mermaid plot</a></li>
+  <li><a href="#temporal-order-to-the-rescue" id="toc-temporal-order-to-the-rescue" class="nav-link" data-scroll-target="#temporal-order-to-the-rescue">Temporal order to the rescue?</a></li>
+  <li><a href="#seeing-vs.-doing-observational-and-interventional-inferences" id="toc-seeing-vs.-doing-observational-and-interventional-inferences" class="nav-link" data-scroll-target="#seeing-vs.-doing-observational-and-interventional-inferences">Seeing vs.&nbsp;doing: Observational and interventional inferences</a></li>
+  <li><a href="#seeing-vs.-doing-observational-and-interventional-inferences-1" id="toc-seeing-vs.-doing-observational-and-interventional-inferences-1" class="nav-link" data-scroll-target="#seeing-vs.-doing-observational-and-interventional-inferences-1">Seeing vs.&nbsp;doing: Observational and interventional inferences</a></li>
+  <li><a href="#how-to-rule-out-alternative-causal-models" id="toc-how-to-rule-out-alternative-causal-models" class="nav-link" data-scroll-target="#how-to-rule-out-alternative-causal-models">How to rule out alternative causal models?</a></li>
+  <li><a href="#between-person-design" id="toc-between-person-design" class="nav-link" data-scroll-target="#between-person-design">Between-person design</a></li>
+  <li><a href="#within-person-design" id="toc-within-person-design" class="nav-link" data-scroll-target="#within-person-design">Within-person design</a></li>
+  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"></a></li>
+  <li><a href="#problems-of-average" id="toc-problems-of-average" class="nav-link" data-scroll-target="#problems-of-average">Problems of “average”</a></li>
+  <li><a href="#do-fat-hand-vs.-surgeon-precision" id="toc-do-fat-hand-vs.-surgeon-precision" class="nav-link" data-scroll-target="#do-fat-hand-vs.-surgeon-precision">do(): Fat hand vs.&nbsp;surgeon precision</a></li>
+  <li><a href="#what-makes-a-good-control-group" id="toc-what-makes-a-good-control-group" class="nav-link" data-scroll-target="#what-makes-a-good-control-group">What makes a good control group?</a></li>
+  <li><a href="#section-1" id="toc-section-1" class="nav-link" data-scroll-target="#section-1"></a></li>
+  <li><a href="#section-2" id="toc-section-2" class="nav-link" data-scroll-target="#section-2"></a></li>
+  <li><a href="#apply-to-our-own-study" id="toc-apply-to-our-own-study" class="nav-link" data-scroll-target="#apply-to-our-own-study">Apply to our own study!</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   <li><a href="#end" id="toc-end" class="nav-link" data-scroll-target="#end">End</a>
   <ul class="collapse">
   <li><a href="#contact" id="toc-contact" class="nav-link" data-scroll-target="#contact">Contact</a></li>
   </ul></li>
   </ul>
-<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="Causality.slide.html"><i class="bi bi-file-slides"></i>RevealJS (FOMO)</a></li></ul></div></nav>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="Causality.slide.html"><i class="bi bi-file-slides"></i>RevealJS (nicetheme)</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -146,6 +158,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Causality</h1>
+<p class="subtitle lead">A Primer</p>
 </div>
 
 
@@ -169,7 +182,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">April 19, 2024</p>
+      <p class="date">April 27, 2024</p>
     </div>
   </div>
   
@@ -182,38 +195,187 @@ ul.task-list li input[type="checkbox"] {
 
 
 <!-- Dauer: 25 min. -->
-<section id="ziele" class="level2">
-<h2 class="anchored" data-anchor-id="ziele">Ziele</h2>
-<section id="wissenschaftliches-arbeiten-und-denken-in-der-psychologie-kennenlernen" class="level3">
-<h3 class="anchored" data-anchor-id="wissenschaftliches-arbeiten-und-denken-in-der-psychologie-kennenlernen">Wissenschaftliches Arbeiten und Denken in der Psychologie kennenlernen</h3>
+<section id="causality" class="level2">
+<h2 class="anchored" data-anchor-id="causality">Causality</h2>
+<div style="text-align: center;">
+<p><img src="img/Causality.jpg" width="650" height="300"></p>
+</div>
+</section>
+<section id="from-correlation-to-causality" class="level2">
+<h2 class="anchored" data-anchor-id="from-correlation-to-causality">From correlation to causality</h2>
+<div class="smaller">
 <ul>
-<li>Eine empirische Fragestellung entwickeln</li>
-<li>Eine Studie planen und durchführen</li>
-<li>Die Daten auswerten</li>
-<li>Einen wissenschaftlichen Bericht verfassen</li>
+<li>Observation:
+<ul>
+<li>On days where participants go running, they report a better well-being in the evening.</li>
+</ul></li>
+<li>Interpretation:
+<ul>
+<li>Running is good for your well-being!</li>
+</ul></li>
+<li>But: <em>Correlation does not imply causation</em>!</li>
 </ul>
+</div>
+<div style="text-align: center;">
+<p><img src="img/Running-Wellbeing-Graph.jpg" class="img-fluid"></p>
+</div>
+</section>
+<section id="underlying-causal-structure" class="level2">
+<h2 class="anchored" data-anchor-id="underlying-causal-structure">Underlying causal structure</h2>
+<section id="directed-acyclic-graphs-dags-to-represent-causal-structures" class="level3">
+<h3 class="anchored" data-anchor-id="directed-acyclic-graphs-dags-to-represent-causal-structures">Directed acyclic graphs (DAGs) to represent causal structures</h3>
+<div style="text-align: center;">
+<p><img src="img/DAGs-Running-Wellbeing-Sunshine.jpg" width="550" height="450"></p>
+</div>
 </section>
 </section>
-<section id="a-mermaid-plot" class="level2">
-<h2 class="anchored" data-anchor-id="a-mermaid-plot">A mermaid plot</h2>
-<div class="cell" data-layout-align="default">
-<div class="cell-output-display">
-<div>
-<p></p><figure class="figure"><p></p>
-<div>
-<pre class="mermaid mermaid-js">flowchart TD
-
-S(Sunshine)
-R(Running)
-W(Well-Being)
-
-S --&gt; R
-S --&gt; W
-</pre>
+<section id="temporal-order-to-the-rescue" class="level2">
+<h2 class="anchored" data-anchor-id="temporal-order-to-the-rescue">Temporal order to the rescue?</h2>
+<div style="text-align: center;">
+<p><img src="img/Running-Wellbeing-Sunshine-Time-Graph.jpg" width="600" height="500"></p>
 </div>
-<p></p></figure><p></p>
+</section>
+<section id="seeing-vs.-doing-observational-and-interventional-inferences" class="level2">
+<h2 class="anchored" data-anchor-id="seeing-vs.-doing-observational-and-interventional-inferences">Seeing vs.&nbsp;doing: Observational and interventional inferences</h2>
+<div class="smaller">
+<ul>
+<li>inferences based on passively observed states of a variable (“seeing”)</li>
+<li>inferences based on the very same state resulting from an external intervention (“doing”)</li>
+</ul>
 </div>
+<div style="text-align: center;">
+<p><img src="img/Observation-Intervention-Graph.jpg" width="550" height="300"></p>
 </div>
+</section>
+<section id="seeing-vs.-doing-observational-and-interventional-inferences-1" class="level2">
+<h2 class="anchored" data-anchor-id="seeing-vs.-doing-observational-and-interventional-inferences-1">Seeing vs.&nbsp;doing: Observational and interventional inferences</h2>
+<div class="smaller">
+<ul>
+<li>Reasoning about interventions formalized by Pearl’s (2000) „do-operator“ (cf.&nbsp;Spirtes, Glymour &amp; Scheines, 1993; Dawid, 2002)
+<ul>
+<li>Observational inference: IF B is observed, THEN …</li>
+<li>Interventional inference: IF B is actively generated, THEN …</li>
+</ul></li>
+</ul>
+</div>
+<div style="text-align: center;">
+<p><img src="img/Observation-Intervention-Modells-Graph.jpg" height="300"></p>
+</div>
+</section>
+<section id="how-to-rule-out-alternative-causal-models" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-rule-out-alternative-causal-models">How to rule out alternative causal models?</h2>
+<div style="text-align: center;">
+<p><img src="img/Rulling-Out-Alternative-Causal-Models.jpg" width="700" height="580"></p>
+</div>
+</section>
+<section id="between-person-design" class="level2">
+<h2 class="anchored" data-anchor-id="between-person-design">Between-person design</h2>
+<div style="text-align: center;">
+<p><img src="img/Between-Person-Design.jpg" class="img-fluid"></p>
+</div>
+<div class="smaller">
+<ul>
+<li>average treatment effect (<strong>ATE</strong>), or average causal effect (<strong>ACE</strong>)</li>
+<li><em>average</em> across persons: some persons might have stronger effects, others have weaker effects (some might even have no, or a reversed effect). But we cannot estimate this inter individual variability from this design.</li>
+<li>Statistical test: Simply a t-test, or a regression.
+<ul>
+<li>Note: Often we use the same statistical method for observational and for experimental data.</li>
+</ul></li>
+</ul>
+</div>
+</section>
+<section id="within-person-design" class="level2">
+<h2 class="anchored" data-anchor-id="within-person-design">Within-person design</h2>
+<div style="text-align: center;">
+<p><img src="img/Within-Person-Design.jpg" class="img-fluid"></p>
+</div>
+<div class="smaller">
+<ul>
+<li>Additional assumptions for within-person designs:
+<ol type="1">
+<li><em>Temporal stability</em>: The outcome does not depend on the time the treatment is delivered (e.g., maturation effects: first apply control condition, 1 year later the experimental condition ➙ maturation effect can be misinterpreted as treatment effect)</li>
+<li><em>Causal transience</em>: The treatment effect does not persist beyond the time of outcome measurement (at least, it does not spill over to the next treatment).
+<ol type="1">
+<li>Hmmm. How long does our treatment last?</li>
+</ol></li>
+</ol></li>
+<li>Statistical test: Simply a paired t-test, or a regression.</li>
+</ul>
+</div>
+</section>
+<section id="section" class="level2">
+<h2 class="anchored" data-anchor-id="section"></h2>
+<div style="display: flex; align-items: center; justify-content: center; height: 600px;">
+<h1>
+Assumptions and some pitfalls
+</h1>
+</div>
+</section>
+<section id="problems-of-average" class="level2">
+<h2 class="anchored" data-anchor-id="problems-of-average">Problems of “average”</h2>
+<div style="text-align: center;">
+<p><img src="img/Problems-Of-Average.jpg" class="img-fluid"></p>
+</div>
+</section>
+<section id="do-fat-hand-vs.-surgeon-precision" class="level2">
+<h2 class="anchored" data-anchor-id="do-fat-hand-vs.-surgeon-precision">do(): Fat hand vs.&nbsp;surgeon precision</h2>
+<div class="smaller">
+<ul>
+<li>Interventions are assumed to be local, i.e., they only affect one single node.</li>
+<li>In practice, we often affect multiple variables at once with an intervention.</li>
+<li>You always get the causal effect for the „ful package“ (i.e., all known and unknown differences between control and experimental group). You never know, which component of the package is the actual driver of the effect.</li>
+</ul>
+</div>
+</section>
+<section id="what-makes-a-good-control-group" class="level2">
+<h2 class="anchored" data-anchor-id="what-makes-a-good-control-group">What makes a good control group?</h2>
+<div class="smaller">
+<ul>
+<li>RQ: Does physical exercise increase wellbeing?</li>
+<li>Treatment: „Doing physical exercises (30 min.) for 7 days“, administered in group training with a certified trainer.</li>
+<li>Outcome: Compare pre vs.&nbsp;post well-being</li>
+</ul>
+</div>
+<div style="text-align: center;">
+<p><img src="img/Control-Group.jpg" width="550" height="350"></p>
+</div>
+</section>
+<section id="section-1" class="level2">
+<h2 class="anchored" data-anchor-id="section-1"></h2>
+<div style="text-align: center;">
+<p><img src="img/Control-Group.-Graph.jpg" width="500" height="600"></p>
+</div>
+</section>
+<section id="section-2" class="level2">
+<h2 class="anchored" data-anchor-id="section-2"></h2>
+<div style="display: flex; align-items: center; justify-content: center; height: 600px;">
+<h1>
+Inference of causality is a feature of the <strong>experimental design</strong>, not of the <strong>data analysis</strong>.
+</h1>
+</div>
+</section>
+<section id="apply-to-our-own-study" class="level2">
+<h2 class="anchored" data-anchor-id="apply-to-our-own-study">Apply to our own study!</h2>
+<div class="smaller">
+<ul>
+<li>Should we maximize or minimize reactivity effects? (See Q3 of homework)</li>
+<li>What would be a good control group?</li>
+<li>How to design the ESM protocol, the pre- and posttest?</li>
+</ul>
+</div>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<div class="smaller">
+<ul>
+<li>Maydeu-Olivares, A., Shi, D., &amp; Fairchild, A. J. (2020). Estimating causal effects in linear regression models with observational data: The instrumental variables regression model. Psychological Methods, 25, 243–258. doi:10.1037/met0000226</li>
+<li>Nahum-Shani, I., Almirall, D., Yap, J. R. T., McKay, J. R., Lynch, K. G., Freiheit, E. A., &amp; Dziak, J. J. (2020). SMART longitudinal analysis: A tutorial for using repeated outcome measures from SMART studies to compare adaptive interventions. Psychological Methods, 25, 1–29. doi:10.1037/ met0000219</li>
+<li>Rosenbaum, P. R. (2017). Observation and Experiment: An Introduction to Causal Inference (Illustrated Edition). Harvard University Press.</li>
+<li>Schmiedek, F., &amp; Neubauer, A. B. (2019). Experiments in the Wild: Introducing the Within-Person Encouragement Design. Multivariate Behavioral Research, 0(0), 1–21. https://doi.org/10.1080/00273171.2019.1627660</li>
+<li>Matthay, E. C., &amp; Glymour, M. M. (2020). A Graphical Catalog of Threats to Validity. Epidemiology (Cambridge, Mass.), 31(3), 376–384. https://doi.org/10.1097/EDE.0000000000001161</li>
+<li>https://egap.org/resource/10-things-to-know-about-the-local-average-treatment-effect/</li>
+<li>https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/</li>
+</ul>
 </div>
 <!-- Footer insert below -->
 </section>

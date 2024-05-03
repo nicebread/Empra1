@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://nicebread.github.io/Empra1/sessions/S2-Intimacy.html</loc>
-    <lastmod>2024-05-02T14:24:54.272Z</lastmod>
+    <lastmod>2024-05-03T06:31:13.367Z</lastmod>
   </url>
   <url>
     <loc>https://nicebread.github.io/Empra1/sessions/sessions_overview.html</loc>
@@ -17,28 +17,44 @@
     <lastmod>2024-04-16T09:06:10.109Z</lastmod>
   </url>
   <url>
+    <loc>https://nicebread.github.io/Empra1/slides/slides_overview.html</loc>
+    <lastmod>2024-05-03T06:40:06.504Z</lastmod>
+  </url>
+  <url>
     <loc>https://nicebread.github.io/Empra1/slides/Empra-Orga/Empra-Orga.slide.html</loc>
-    <lastmod>2024-05-03T06:27:20.267Z</lastmod>
+    <lastmod>2024-05-03T07:03:34.020Z</lastmod>
   </url>
   <url>
     <loc>https://nicebread.github.io/Empra1/slides/Empra-Orga/Empra-Orga.html</loc>
-    <lastmod>2024-04-19T13:19:30.651Z</lastmod>
+    <lastmod>2024-05-03T06:34:13.848Z</lastmod>
   </url>
   <url>
     <loc>https://nicebread.github.io/Empra1/index.html</loc>
-    <lastmod>2024-05-02T14:26:32.862Z</lastmod>
+    <lastmod>2024-05-03T06:31:13.367Z</lastmod>
   </url>
   <url>
     <loc>https://nicebread.github.io/Empra1/slides/Causality/Causality.html</loc>
-    <lastmod>2024-05-02T14:24:54.272Z</lastmod>
+    <lastmod>2024-05-03T06:40:50.396Z</lastmod>
   </url>
   <url>
     <loc>https://nicebread.github.io/Empra1/slides/Causality/Causality.slide.html</loc>
-    <lastmod>2024-05-03T06:27:18.473Z</lastmod>
+    <lastmod>2024-05-03T07:03:32.293Z</lastmod>
   </url>
   <url>
-    <loc>https://nicebread.github.io/Empra1/slides/slides_overview.html</loc>
-    <lastmod>2024-04-19T05:08:33.086Z</lastmod>
+    <loc>https://nicebread.github.io/Empra1/slides/General-Intro-Power-Analysis/Power-Analysis-general-intro.html</loc>
+    <lastmod>2024-05-03T06:31:35.583Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nicebread.github.io/Empra1/slides/General-Intro-Power-Analysis/Power-Analysis-general-intro.slide.html</loc>
+    <lastmod>2024-05-03T07:03:36.482Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nicebread.github.io/Empra1/slides/Power-Analysis/How-to-report-a-power-analysis.html</loc>
+    <lastmod>2024-05-03T06:31:35.650Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nicebread.github.io/Empra1/slides/Power-Analysis/How-to-report-a-power-analysis.slide.html</loc>
+    <lastmod>2024-05-03T07:03:37.788Z</lastmod>
   </url>
   <url>
     <loc>https://nicebread.github.io/Empra1/common/lastslide.html</loc>
@@ -46,10 +62,10 @@
   </url>
   <url>
     <loc>https://nicebread.github.io/Empra1/sessions/S3-Motives_Causality.html</loc>
-    <lastmod>2024-05-03T06:26:49.516Z</lastmod>
+    <lastmod>2024-05-03T06:35:30.497Z</lastmod>
   </url>
   <url>
     <loc>https://nicebread.github.io/Empra1/sessions/S4-DesignPlanning-LitSearch.html</loc>
-    <lastmod>2024-05-03T06:26:58.126Z</lastmod>
+    <lastmod>2024-05-03T06:35:40.229Z</lastmod>
   </url>
 </urlset>
