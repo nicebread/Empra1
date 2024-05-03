@@ -1,0 +1,175 @@
+---
+title: "Forschungsorientierte Praktikum I – Grundlagen der Forschung"
+subtitle: "Causality"
+author:
+  - name: Felix Schönbrodt
+    orcid: 0000-0002-8282-3910
+    email: felix.schoenbrodt@psy.lmu.de
+    affiliations: Ludwig-Maximilians-Universität München
+date: 2024-04-27
+footer: "Forschungsorientierte Praktikum I – Empirisches Praktikum, Ludwig-Maximilians-Universität München"
+format: 
+  nicetheme-revealjs: 
+    output-ext: slide.html
+    transition: slide    
+  html: default
+revealjs-plugins:
+  - attribution 
+---
+
+<!-- Dauer: 25 min. -->
+
+## Causality
+
+<div style="text-align: center;">
+![](img/Causality.jpg){ width=650px height=300px }
+</div>
+## From correlation to causality
+
+::: {.smaller}
+- Observation: 
+  - On days where participants go running, they report a better well-being in the evening.
+- Interpretation:
+  - Running is good for your well-being!
+- But: *Correlation does not imply causation*!
+:::
+
+<div style="text-align: center;">
+![](img/Running-Wellbeing-Graph.jpg)
+</div>
+
+## Underlying causal structure
+### Directed acyclic graphs (DAGs) to represent causal structures 
+<div style="text-align: center;">
+![](img/DAGs-Running-Wellbeing-Sunshine.jpg){ width=550px height=450px }
+</div>
+
+## Temporal order to the rescue?
+
+<div style="text-align: center;">
+![](img/Running-Wellbeing-Sunshine-Time-Graph.jpg){ width=600px height=500px }
+</div>
+
+## Seeing vs. doing: Observational and interventional inferences
+
+::: {.smaller}
+  - inferences based on passively observed states of a variable
+(“seeing”)
+  - inferences based on the very same state resulting from an
+external intervention (“doing”)
+:::
+
+<div style="text-align: center;">
+![](img/Observation-Intervention-Graph.jpg){ width=550px height=300px }
+</div>
+
+## Seeing vs. doing: Observational and interventional inferences
+
+::: {.smaller}
+  - Reasoning about interventions formalized by Pearl's (2000) „do-operator“ (cf. Spirtes, Glymour & Scheines, 1993; Dawid, 2002)
+    - Observational inference: IF B is observed, THEN ...
+    - Interventional inference: IF B is actively generated, THEN ...
+:::
+
+<div style="text-align: center;">
+![](img/Observation-Intervention-Modells-Graph.jpg){ height=300px }
+</div>
+
+## How to rule out alternative causal models?
+
+<div style="text-align: center;">
+![](img/Rulling-Out-Alternative-Causal-Models.jpg){ width=700px height=580px }
+</div>
+
+## Between-person design
+
+<div style="text-align: center;">
+![](img/Between-Person-Design.jpg)
+</div>
+::: {.smaller}
+- average treatment effect (**ATE**), or average causal effect (**ACE**)
+- *average* across persons: some persons might have stronger effects, others have weaker effects     (some might even have no, or a reversed effect). But we cannot estimate this inter              individual variability from this design.
+- Statistical test: Simply a t-test, or a regression.
+  - Note: Often we use the same statistical method for observational and for experimental           data.
+:::
+
+## Within-person design
+
+<div style="text-align: center;">
+![](img/Within-Person-Design.jpg)
+</div>
+
+::: {.smaller}
+- Additional assumptions for within-person designs:
+  1. *Temporal stability*: The outcome does not depend on the time the treatment is delivered          (e.g., maturation effects: first apply control condition, 1 year later the experimental         condition ➙ maturation effect can be misinterpreted as treatment effect)
+  2. *Causal transience*: The treatment effect does not persist beyond the time of outcome             measurement (at least, it does not spill over to the next treatment).
+     1. Hmmm. How long does our treatment last?
+- Statistical test: Simply a paired t-test, or a regression.
+:::
+
+
+##
+<div style="display: flex; align-items: center; justify-content: center; height: 600px;">
+  <h1>Assumptions and some pitfalls</h1>
+</div>
+
+## Problems of "average"
+
+<div style="text-align: center;">
+![](img/Problems-Of-Average.jpg)
+</div>
+
+## do(): Fat hand vs. surgeon precision
+
+::: {.smaller}
+- Interventions are assumed to be local, i.e., they only affect one single node.
+- In practice, we often affect multiple variables at once with an intervention.
+- You always get the causal effect for the „ful package“ (i.e., all known and unknown             differences between control and experimental group). You never know, which component of the     package is the actual driver of the effect.
+:::
+
+## What makes a good control group?
+
+::: {.smaller}
+- RQ: Does physical exercise increase wellbeing?
+- Treatment: „Doing physical exercises (30 min.) for 7 days“, administered in group training      with a certified trainer.
+- Outcome: Compare pre vs. post well-being
+:::
+<div style="text-align: center;">
+![](img/Control-Group.jpg){ width=550px height=350px }
+</div>
+
+## 
+
+<div style="text-align: center;">
+![](img/Control-Group.-Graph.jpg){ width=500px height=600px }
+</div>
+
+##
+<div style="display: flex; align-items: center; justify-content: center; height: 600px;">
+  <h1>Inference of causality is a feature of the **experimental design**, not of the **data analysis**.</h1>
+</div>
+
+
+## Apply to our own study! 
+
+::: {.smaller}
+- Should we maximize or minimize reactivity effects? (See Q3 of homework)
+- What would be a good control group?
+- How to design the ESM protocol, the pre- and posttest?
+:::
+
+## References 
+
+::: {.smaller}
+- Maydeu-Olivares, A., Shi, D., & Fairchild, A. J. (2020). Estimating causal effects in linear    regression models with observational data: The instrumental variables regression model.         Psychological Methods, 25, 243–258. doi:10.1037/met0000226
+- Nahum-Shani, I., Almirall, D., Yap, J. R. T., McKay, J. R., Lynch, K. G., Freiheit, E. A., &    Dziak, J. J. (2020). SMART longitudinal analysis: A tutorial for using repeated outcome         measures from SMART studies to compare adaptive interventions. Psychological Methods, 25,       1–29. doi:10.1037/ met0000219
+- Rosenbaum, P. R. (2017). Observation and Experiment: An Introduction to Causal Inference        (Illustrated Edition). Harvard University Press.
+- Schmiedek, F., & Neubauer, A. B. (2019). Experiments in the Wild: Introducing the               Within-Person Encouragement Design. Multivariate Behavioral Research, 0(0), 1–21.               https://doi.org/10.1080/00273171.2019.1627660
+- Matthay, E. C., & Glymour, M. M. (2020). A Graphical Catalog of Threats to Validity.            Epidemiology (Cambridge, Mass.), 31(3), 376–384. https://doi.org/10.1097/EDE.0000000000001161
+- https://egap.org/resource/10-things-to-know-about-the-local-average-treatment-effect/
+- https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/
+:::
+
+<!-- Footer insert below -->
+```{r child="../../common/lastslide.qmd"}
+```
