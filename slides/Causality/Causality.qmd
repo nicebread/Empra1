@@ -22,7 +22,7 @@ revealjs-plugins:
 ## Causality
 
 <div style="text-align: center;">
-![](img/Causality.jpg){ width=650px height=300px }
+![](img/Causality.jpg){width=650px}
 </div>
 ## From correlation to causality
 
@@ -41,13 +41,13 @@ revealjs-plugins:
 ## Underlying causal structure
 ### Directed acyclic graphs (DAGs) to represent causal structures 
 <div style="text-align: center;">
-![](img/DAGs-Running-Wellbeing-Sunshine.jpg){ width=550px height=450px }
+![](img/DAGs-Running-Wellbeing-Sunshine.jpg){ width=800px}
 </div>
 
 ## Temporal order to the rescue?
 
 <div style="text-align: center;">
-![](img/Running-Wellbeing-Sunshine-Time-Graph.jpg){ width=600px height=500px }
+![](img/Running-Wellbeing-Sunshine-Time-Graph.jpg){ width=800px}
 </div>
 
 ## Seeing vs. doing: Observational and interventional inferences
@@ -60,8 +60,12 @@ external intervention (“doing”)
 :::
 
 <div style="text-align: center;">
-![](img/Observation-Intervention-Graph.jpg){ width=550px height=300px }
+![](img/Observation-Intervention-Graph.jpg){ width=700px}
 </div>
+
+::: footer
+Slide from [https://homepages.uni-regensburg.de/~pfn23853/rffcw/mhw.pdf](https://homepages.uni-regensburg.de/~pfn23853/rffcw/mhw.pdf)
+::: 
 
 ## Seeing vs. doing: Observational and interventional inferences
 
@@ -72,13 +76,19 @@ external intervention (“doing”)
 :::
 
 <div style="text-align: center;">
-![](img/Observation-Intervention-Modells-Graph.jpg){ height=300px }
+![](img/Observation-Intervention-Modells-Graph.jpg){width=550}
 </div>
+
+
+::: footer
+Slide from [https://homepages.uni-regensburg.de/~pfn23853/rffcw/mhw.pdf](https://homepages.uni-regensburg.de/~pfn23853/rffcw/mhw.pdf)
+:::
+
 
 ## How to rule out alternative causal models?
 
 <div style="text-align: center;">
-![](img/Rulling-Out-Alternative-Causal-Models.jpg){ width=700px height=580px }
+![](img/Rulling-Out-Alternative-Causal-Models.jpg){width=750px}
 </div>
 
 ## Between-person design
@@ -92,6 +102,7 @@ external intervention (“doing”)
 - Statistical test: Simply a t-test, or a regression.
   - Note: Often we use the same statistical method for observational and for experimental           data.
 :::
+
 
 ## Within-person design
 
@@ -107,6 +118,9 @@ external intervention (“doing”)
 - Statistical test: Simply a paired t-test, or a regression.
 :::
 
+::: footer
+West, S., Biesanz, J., Kwok, O.-M., Sansone, C., Morf, C., & Panter, A. (2004). *Within-subject and longitudinal experiments: Design and analysis issues* (S. 287–312).
+:::
 
 ##
 <div style="display: flex; align-items: center; justify-content: center; height: 600px;">
@@ -129,20 +143,49 @@ external intervention (“doing”)
 
 ## What makes a good control group?
 
+
 ::: {.smaller}
 - RQ: Does physical exercise increase wellbeing?
 - Treatment: „Doing physical exercises (30 min.) for 7 days“, administered in group training      with a certified trainer.
 - Outcome: Compare pre vs. post well-being
+
+
 :::
 <div style="text-align: center;">
-![](img/Control-Group.jpg){ width=550px height=350px }
+![](img/Control-Group.jpg){width=850px}
+
 </div>
+
+
+<style>
+.attribution {
+  font-size: 7px;
+}
+</style>
+
+::: {.attribution}
+[https://doi.org/10.1177/1745691613491271](https://doi.org/10.1177/1745691613491271) <br>
+Why Active Control Groups Are Not Sufficient to Rule Out Placebo Effects.Perspectives on Psychological Science, 8(4), 445–454. <br> 
+Boot, W. R., Simons, D. J., Stothart, C., & Stutts, C. (2013). The Pervasive Problem With Placebos in Psychology:
+:::
 
 ## 
 
 <div style="text-align: center;">
-![](img/Control-Group.-Graph.jpg){ width=500px height=600px }
+![](img/Control-Group.-Graph.jpg){width=500px}
 </div>
+
+<style>
+.attribution {
+  font-size: 7px;
+}
+</style>
+
+::: {.attribution}
+[https://doi.org/10.1177/1745691613491271](https://doi.org/10.1177/1745691613491271) <br>
+Why Active Control Groups Are Not Sufficient to Rule Out Placebo Effects.Perspectives on Psychological Science, 8(4), 445–454. <br> 
+Boot, W. R., Simons, D. J., Stothart, C., & Stutts, C. (2013). The Pervasive Problem With Placebos in Psychology:
+:::
 
 ##
 <div style="display: flex; align-items: center; justify-content: center; height: 600px;">
@@ -160,14 +203,14 @@ external intervention (“doing”)
 
 ## References 
 
-::: {.smaller}
-- Maydeu-Olivares, A., Shi, D., & Fairchild, A. J. (2020). Estimating causal effects in linear    regression models with observational data: The instrumental variables regression model.         Psychological Methods, 25, 243–258. doi:10.1037/met0000226
-- Nahum-Shani, I., Almirall, D., Yap, J. R. T., McKay, J. R., Lynch, K. G., Freiheit, E. A., &    Dziak, J. J. (2020). SMART longitudinal analysis: A tutorial for using repeated outcome         measures from SMART studies to compare adaptive interventions. Psychological Methods, 25,       1–29. doi:10.1037/ met0000219
+::: {.smallest}
+- Maydeu-Olivares, A., Shi, D., & Fairchild, A. J. (2020). Estimating causal effects in linear    regression models with observational data: The instrumental variables regression model.         Psychological Methods, 25, 243–258. [https://doi.org/10.1037/met0000226](https://doi.org/10.1037/met0000226)
+- Nahum-Shani, I., Almirall, D., Yap, J. R. T., McKay, J. R., Lynch, K. G., Freiheit, E. A., &    Dziak, J. J. (2020). SMART longitudinal analysis: A tutorial for using repeated outcome         measures from SMART studies to compare adaptive interventions. Psychological Methods, 25,       1–29. [https://doi.org/10.1037/met0000219](https://doi.org/10.1037/met0000219)
 - Rosenbaum, P. R. (2017). Observation and Experiment: An Introduction to Causal Inference        (Illustrated Edition). Harvard University Press.
-- Schmiedek, F., & Neubauer, A. B. (2019). Experiments in the Wild: Introducing the               Within-Person Encouragement Design. Multivariate Behavioral Research, 0(0), 1–21.               https://doi.org/10.1080/00273171.2019.1627660
-- Matthay, E. C., & Glymour, M. M. (2020). A Graphical Catalog of Threats to Validity.            Epidemiology (Cambridge, Mass.), 31(3), 376–384. https://doi.org/10.1097/EDE.0000000000001161
-- https://egap.org/resource/10-things-to-know-about-the-local-average-treatment-effect/
-- https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/
+- Schmiedek, F., & Neubauer, A. B. (2019). Experiments in the Wild: Introducing the               Within-Person Encouragement Design. Multivariate Behavioral Research, 0(0), 1–21.               [https://doi.org/10.1080/00273171.2019.1627660](https://doi.org/10.1080/00273171.2019.1627660)
+- Matthay, E. C., & Glymour, M. M. (2020). A Graphical Catalog of Threats to Validity.            Epidemiology (Cambridge, Mass.), 31(3), 376–384. [https://doi.org/10.1097/EDE.0000000000001161](https://doi.org/10.1097/EDE.0000000000001161)
+- [https://egap.org/resource/10-things-to-know-about-the-local-average-treatment-effect/]( https://egap.org/resource/10-things-to-know-about-the-local-average-treatment-effect/)
+- [https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/](https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/)
 :::
 
 <!-- Footer insert below -->
