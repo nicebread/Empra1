@@ -253,16 +253,25 @@ Bakker, M., Hartgerink, C. H. J., Wicherts, J. M., & van der Maas, H. L. J. (201
 # Clever designs go a long way
 
 ## The power of within-SS designs
+:::: {.columns}
 
+::: {.column width="40%"}
 ![](img/graph5.jpg){fig-align="left"}
+:::
+
+:::{.column width="60%"}
 
 - Why? Each person is his/her own control group
 - For example, for the paired t-test:
 
 
   - By computing the within-person difference scores, all between-person variance (which contributes to error variance), gets removed
-  - Less error variance &rarr;  less noise &rarr; (relatively) more signal &rarr; larger effect size
+  - Less error variance &rarr;  less noise &rarr; (relatively) more signal 
+&rarr; larger effect size
 
+:::
+
+::::
 
 ## Increase power with reliable measures
 
@@ -302,7 +311,7 @@ BMC Medical Research Methodology, 15. doi:10.1186/s12874-015-0070-6
 ##  Effect size transformations
 ![](img/table6.png)
 
-::: {.footer}
+::: {.attribution}
 Borenstein, M., Hedges, L. V., Higgins, J. P. T., & Rothstein, H. R. (2009). Effect sizes based on correlations. In Introduction to Meta-Analysis, p. 45-49.
 Brysbaert, M. (2019) How Many Participants Do We Have to Include in Properly Powered Experiments? A Tutorial of Power Analysis with Reference
 Tables. Journal of Cognition, 2(1): 16, pp. 1–38. DOI: [https://doi.org/10.5334/joc.72](https://doi.org/10.5334/joc.72)
@@ -425,6 +434,7 @@ Richard, F. D., Bond, C. F. J., & Stokes-Zoota, J. J. (2003). One Hundred Years 
 ## Typical reported effect sizes I
 e.g., Richard, Bond, & Stokes-Zoota (2003):
 ![](img/table7.png){fig-align="center"}
+
 
 ## Typical reported effect sizes II
 e.g., Bosco et al. (2015):
