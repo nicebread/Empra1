@@ -218,7 +218,7 @@ Smaldino, P. E., & McElreath, R. (2016). The natural selection of bad science. a
 
 
 ##
-
+>
 ![](img/text1.png)
 
 ::: {.footer}
@@ -285,6 +285,7 @@ Bakker, M., Hartgerink, C. H. J., Wicherts, J. M., & van der Maas, H. L. J. (201
 Heo, M., Kim, N., & Faith, M. S. (2015). Statistical power as a function of Cronbach alpha of instrument questionnaire items. 
 BMC Medical Research Methodology, 15. doi:10.1186/s12874-015-0070-6
 ::: 
+
 
 
 ## Specific predictions? <br> Use one-tailed tests!
