@@ -1,6 +1,6 @@
 ---
-title: "Forschungsorientierte Praktikum I – Grundlagen der Forschung"
-subtitle: "Causality"
+title: "Causality"
+subtitle: "A Primer"
 author:
   - name: Felix Schönbrodt
     orcid: 0000-0002-8282-3910
@@ -88,9 +88,9 @@ external intervention (“doing”)
 </div>
 ::: {.smaller}
 - average treatment effect (**ATE**), or average causal effect (**ACE**)
-- *average* across persons: some persons might have stronger effects, others have weaker effects     (some might even have no, or a reversed effect). But we cannot estimate this inter              individual variability from this design.
+- *average* across persons: some persons might have stronger effects, others have weaker effects (some might even have no, or a reversed effect). But we cannot estimate this inter-individual variability from this design.
 - Statistical test: Simply a t-test, or a regression.
-  - Note: Often we use the same statistical method for observational and for experimental           data.
+  - Note: Often we use the same statistical method for observational and for experimental-data.
 :::
 
 ## Within-person design
@@ -101,8 +101,8 @@ external intervention (“doing”)
 
 ::: {.smaller}
 - Additional assumptions for within-person designs:
-  1. *Temporal stability*: The outcome does not depend on the time the treatment is delivered          (e.g., maturation effects: first apply control condition, 1 year later the experimental         condition ➙ maturation effect can be misinterpreted as treatment effect)
-  2. *Causal transience*: The treatment effect does not persist beyond the time of outcome             measurement (at least, it does not spill over to the next treatment).
+  1. *Temporal stability*: The outcome does not depend on the time the treatment is delivered (e.g., maturation effects: first apply control condition, 1 year later the experimental condition ➙ maturation effect can be misinterpreted as treatment effect)
+  2. *Causal transience*: The treatment effect does not persist beyond the time of outcome measurement (at least, it does not spill over to the next treatment).
      1. Hmmm. How long does our treatment last?
 - Statistical test: Simply a paired t-test, or a regression.
 :::
@@ -124,7 +124,7 @@ external intervention (“doing”)
 ::: {.smaller}
 - Interventions are assumed to be local, i.e., they only affect one single node.
 - In practice, we often affect multiple variables at once with an intervention.
-- You always get the causal effect for the „ful package“ (i.e., all known and unknown             differences between control and experimental group). You never know, which component of the     package is the actual driver of the effect.
+- You always get the causal effect for the „full package“ (i.e., all known and unknown differences between control and experimental group). You never know, which component of the package is the actual driver of the effect.
 :::
 
 ## What makes a good control group?

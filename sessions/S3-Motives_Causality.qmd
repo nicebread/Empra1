@@ -6,12 +6,12 @@ description: More about motives and motivations; Basics about causality
 
 # Overview
 
-| Topic                                      | Duration | Notes     |
-| :----------------------------------------- | :------: | --------- |
-| Wrap-up Homework 1                         |    10    | p-hacking |
-| Motives                                    |    80    |           |
-| Causality                                  |    60    |           |
-| Hausaufgabe: Read Ch. 1 of Experimentology |    5     |           |
+| Topic                                   | Duration | Notes                                        |
+| :-------------------------------------- | :------: | -------------------------------------------- |
+| Wrap-up Homework 1                      |    10    | p-hacking                                    |
+| Motives                                 |    80    | [Slides](/slides/pdfs/Motive_Definition.pdf) |
+| Causality                               |    60    | [Slides](/slides/Causality/Causality.qmd)    |
+| Homework: Read Ch. 1 of Experimentology |    5     |                                              |
 
 : {.striped}
 
@@ -55,4 +55,4 @@ From this study, we only learn that U.S. preschoolers enjoy eating chicken tende
 
 ## Homework 2 (in groups)
 
- Revise interventions to target specifically intimacy *motivation* (not "affiliation", not "experienced closeness", not "behavior").
+ Revise interventions to target specifically intimacy *motivation* (not "affiliation", not "experienced closeness", not "behavior"). Try not to do a "fat hand" manipulation, aim for surgical precision!

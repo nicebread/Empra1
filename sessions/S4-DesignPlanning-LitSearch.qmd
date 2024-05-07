@@ -6,12 +6,13 @@ description: We plan the experimental design of our study; doing literature sear
 
 # Overview
 
-| Topic                           | Duration | Notes        |
-| :------------------------------ | :------: | ------------ |
-| Wrap-up Homework                |    30    | Intervention |
-| Planning the design             |    90    |              |
-| Literature research in practice |    30    |              |
-| Hausaufgabe: Literature search  |    5     |              |
+| Topic                           | Duration | Notes               |
+| :------------------------------ | :------: | ------------------- |
+| Wrap-up Homework 1              |    20    | Ch. Experimentology |
+| Planning the design             |    90    |                     |
+| Wrap-up Homework 2              |    30    | Intervention        |
+| Literature research in practice |    30    |                     |
+| Homework: Literature search     |    5     |                     |
 
 : {.striped}
 

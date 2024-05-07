@@ -2,14 +2,16 @@
 title: "Slides Overview"
 ---
 
-These are all slides used for the “lecture” part of the course:
 
-```{r, echo=FALSE, warning=FALSE, message=FALSE}
+```{r, echo=FALSE, warning=FALSE, message=FALSE, cache=FALSE}
 # code inspired by https://github.com/ShKlinkenberg/statistics-lectures/blob/master/courses/SSR/2022-2023/SSR.qmd
 files <- list.files(full.names = FALSE, pattern = "\\.qmd", recursive = T)
 
 # exclude the overview file
 files <- files[grep("slides_overview.qmd", files, invert = TRUE)]
+
+# only use slides in the /slides subfolder
+#files <- files[grep("slides/", files)]
 
 lectures <- data.frame()
 n <- length(files)
