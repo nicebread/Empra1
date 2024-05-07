@@ -45,13 +45,24 @@ size. But also: Why α=5% Why power = 80%?
 
 ## Write-Up
 ![](img/writing-power-analysis.png)
-https://twitter.com/GuyProchilo/status/1292780240977223681
+
+:::{.footer}
+[https://twitter.com/GuyProchilo/status/1292780240977223681](https://twitter.com/GuyProchilo/status/1292780240977223681)
+:::
 
 ##
 ![](img/research-articles.png)
 
 ## Example 1
 ![](img/example1.png)
+
+```{r, eval=FALSE,echo=TRUE}
+# 10.1002/ejsp.2710: f2 = 0.07
+# u: Anzahl der Prädiktoren im Modell (ohne Intercept). Hier vermutlich 3.
+# n = v + u + 1; v = n- u - 1
+pwr.f2.test(u = 3, v = 152-3-1, sig.level = 0.05, power = 0.8)
+# -> f2 = 0.07366273
+```
 
 ## Examlpe 2
 ![](img/example2.png)
@@ -62,8 +73,25 @@ https://twitter.com/GuyProchilo/status/1292780240977223681
 ## Example 4
 ![](img/example4.png)
 
+```{r, eval=FALSE,echo=TRUE}
+# 10.1002/ejsp.2713
+# guessing the ES and alpha
+pwr.f2.test(u=3, f2=0.0435, sig.level = 0.05, power = 0.8)
+# n -> 255
+```
+
+
 ## Example 5
 ![](img/example5.png)
+
+```{r, eval=FALSE,echo=TRUE}
+# 10.1002/ejsp.2715
+pwr.f2.test(u=1, f2=0.05, sig.level = 0.05, power = 0.8)
+# n = 158
+```
+
+
+
 
 ## Example 6
 ![](img/example6.png)
