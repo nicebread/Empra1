@@ -9,7 +9,7 @@ author:
 date: 2024-04-19
 footer: "Forschungsorientierte Praktikum I – Empirisches Praktikum, Ludwig-Maximilians-Universität München"
 format: 
-  FOMO-revealjs: 
+  nicetheme-revealjs: 
     output-ext: slide.html
     transition: slide    
   html: default
@@ -264,7 +264,6 @@ Bakker, M., Hartgerink, C. H. J., Wicherts, J. M., & van der Maas, H. L. J. (201
 - Why? Each person is his/her own control group
 - For example, for the paired t-test:
 
-
   - By computing the within-person difference scores, all between-person variance (which contributes to error variance), gets removed
   - Less error variance &rarr;  less noise &rarr; (relatively) more signal 
 &rarr; larger effect size
@@ -272,6 +271,7 @@ Bakker, M., Hartgerink, C. H. J., Wicherts, J. M., & van der Maas, H. L. J. (201
 :::
 
 ::::
+
 
 ## Increase power with reliable measures
 

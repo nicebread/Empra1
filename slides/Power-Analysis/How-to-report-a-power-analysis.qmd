@@ -9,7 +9,7 @@ author:
 date: 2024-04-19
 footer: "Forschungsorientierte Praktikum I – Empirisches Praktikum, Ludwig-Maximilians-Universität München"
 format: 
-  FOMO-revealjs: 
+  nicetheme-revealjs: 
     output-ext: slide.html
     transition: slide    
   html: default
