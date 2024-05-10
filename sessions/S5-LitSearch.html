@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="We plan the experimental design of our study and decide upon interventions">
 
-<title>Forschungsorientiertes Praktikum I – Grundlagen der Forschung - Overview of sessions</title>
+<title>Forschungsorientiertes Praktikum I – Grundlagen der Forschung - Session 05 - Literature Search</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +31,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -68,65 +67,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
@@ -149,7 +90,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="../sessions/sessions_overview.html" aria-current="page"> 
+    <a class="nav-link" href="../sessions/sessions_overview.html"> 
 <span class="menu-text">Sessions</span></a>
   </li>  
   <li class="nav-item">
@@ -179,16 +120,33 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a>
+  <ul class="collapse">
+  <li><a href="#design-considerations" id="toc-design-considerations" class="nav-link" data-scroll-target="#design-considerations">Design considerations</a></li>
+  <li><a href="#homework-1-in-groups" id="toc-homework-1-in-groups" class="nav-link" data-scroll-target="#homework-1-in-groups">Homework 1 (in groups)</a></li>
+  <li><a href="#homework-1-in-groups-1" id="toc-homework-1-in-groups-1" class="nav-link" data-scroll-target="#homework-1-in-groups-1">Homework 1 (in groups)</a></li>
+  <li><a href="#homework-2-in-groups" id="toc-homework-2-in-groups" class="nav-link" data-scroll-target="#homework-2-in-groups">Homework 2 (in groups)</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Overview of sessions</h1>
+<h1 class="title">Session 05 - Literature Search</h1>
 </div>
 
+<div>
+  <div class="description">
+    We plan the experimental design of our study and decide upon interventions
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
@@ -203,85 +161,132 @@ window.Quarto = {
 </header>
 
 
-
-
-
-
-<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Order By</option>
-       <option value="index" data-direction="asc">Default</option>
-         <option value="listing-title-sort" data-direction="asc">
-          Title
-        </option>
-     </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
-<table class="quarto-listing-table table table-striped">
+<section id="overview" class="level1">
+<h1>Overview</h1>
+<table class="table-striped table">
 <thead>
-<tr>
-<th>
-<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
-</th>
-<th>
-Description
-</th>
+<tr class="header">
+<th style="text-align: left;">Topic</th>
+<th style="text-align: center;">Duration</th>
+<th>Notes</th>
 </tr>
 </thead>
-<tbody class="list">
-<tr data-index="0" data-listing-file-modified-sort="1713533030388" data-listing-reading-time-sort="7" data-listing-word-count-sort="1356" data-listing-title-sort="Session 01 - Introduction" data-listing-filename-sort="S1-Introduction.qmd">
-<td>
-<a href="../sessions/S1-Introduction.html" class="title listing-title">Session 01 - Introduction</a>
-</td>
-<td>
-<span class="listing-description">Open Science</span>
-</td>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Wrap-up Homework 1</td>
+<td style="text-align: center;">20</td>
+<td>Ch. Experimentology</td>
 </tr>
-<tr data-index="1" data-listing-file-modified-sort="1715070274076" data-listing-reading-time-sort="3" data-listing-word-count-sort="446" data-listing-title-sort="Session 02 - Intimacy motive" data-listing-filename-sort="S2-Intimacy.qmd">
-<td>
-<a href="../sessions/S2-Intimacy.html" class="title listing-title">Session 02 - Intimacy motive</a>
-</td>
-<td>
-<span class="listing-description">Introducing motives, the intimacy motive, and the DynaMoS model (by Nensy Le)</span>
-</td>
+<tr class="even">
+<td style="text-align: left;">Literature research in practice</td>
+<td style="text-align: center;">30</td>
+<td></td>
 </tr>
-<tr data-index="2" data-listing-file-modified-sort="1715326700509" data-listing-reading-time-sort="5" data-listing-word-count-sort="961" data-listing-title-sort="Session 03 - More Motives &amp; Causality" data-listing-filename-sort="S3-Motives_Causality.qmd">
-<td>
-<a href="../sessions/S3-Motives_Causality.html" class="title listing-title">Session 03 - More Motives &amp; Causality</a>
-</td>
-<td>
-<span class="listing-description">More about motives and motivations; Basics about causality</span>
-</td>
-</tr>
-<tr data-index="3" data-listing-file-modified-sort="1715339343872" data-listing-reading-time-sort="5" data-listing-word-count-sort="806" data-listing-title-sort="Session 04 - Planning the experimental design" data-listing-filename-sort="S4-DesignPlanning.qmd">
-<td>
-<a href="../sessions/S4-DesignPlanning.html" class="title listing-title">Session 04 - Planning the experimental design</a>
-</td>
-<td>
-<span class="listing-description">We plan the experimental design of our study and decide upon interventions</span>
-</td>
-</tr>
-<tr data-index="4" data-listing-file-modified-sort="1715339339411" data-listing-reading-time-sort="6" data-listing-word-count-sort="1074" data-listing-title-sort="Session 05 - Literature Search &amp; Poweranalysis" data-listing-filename-sort="S5-LitSearch_Power.qmd">
-<td>
-<a href="../sessions/S5-LitSearch_Power.html" class="title listing-title">Session 05 - Literature Search &amp; Poweranalysis</a>
-</td>
-<td>
-<span class="listing-description">We plan the experimental design of our study and decide upon interventions</span>
-</td>
+<tr class="odd">
+<td style="text-align: left;">Homework: Literature search</td>
+<td style="text-align: center;">5</td>
+<td></td>
 </tr>
 </tbody>
 </table>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+<section id="design-considerations" class="level2">
+<h2 class="anchored" data-anchor-id="design-considerations">Design considerations</h2>
+<p>–&gt; TODO: Create joint Google doc for notes.</p>
+<ul>
+<li>Three experimental conditions: increase motivation, decrease motivation, neutral control
+<ul>
+<li>One generic control condition, or tailored control conditions for each intervention?</li>
+</ul></li>
+<li>How many days does the study go? (e.g., 7-8 days)</li>
+<li>How to spread conditions across days?
+<ul>
+<li>Repeat exactly the same intervention? (probably not)</li>
+<li>Repeat the same condition, but different interventions? (i.e., participants are always pushed up <em>or</em> pushed down)</li>
+<li>Use the same type of intervention with different conditions (keep videos as category, but do one increase, one decrease, one neutral)</li>
+</ul></li>
+<li>How to balance/randomize the conditions across the EMI days? Start with a baseline measurement?
+<ul>
+<li>Always flip pos/neg/neutral? Or can we have 2 pos days in sequence?</li>
+<li>PCNCPCN (7 days)</li>
+</ul></li>
+<li>When do we measure the DV?
+<ul>
+<li>directly after intervention? Demand effects?</li>
+<li>wait some minutes? At least close to</li>
+<li>In Zygar et al 2022, no effect was present any more in the evening report.
+<ul>
+<li>Either the intervention is only short lived, or participants lived out and saturated their motivation in the afternoon, so that no extra motivation is left in the evening.</li>
+<li>At least we don’t have to worry about carry-over effects to the next day.</li>
+</ul></li>
+</ul></li>
+<li>When to ask the qualitative questions about the interventions?</li>
+<li>How to deal with the weekend? (Participants spend more time with partner, are more happy, and probably more motivated)
+<ul>
+<li>Counter-balance conditions across weekend days</li>
+<li>All participants start on same day, say, Monday?</li>
+<li>If the conditions systematically flip (P-C-N-C-P-C-N), then automaticall two different conditions are realized at the weekend.</li>
+</ul></li>
+<li>What to put into the preliminary questionnaire?</li>
+<li>What are preconditions for the sample?
+<ul>
+<li>Meet the partner on that day?</li>
+<li>Interventions are done individually (not dyadic)</li>
+</ul></li>
+<li>Control variables?
+<ul>
+<li>L1: Daily fluctuations</li>
+<li>L2: Personality etc.</li>
+</ul></li>
+<li>We expect ~100 participants (who complete the study to the end).
+<ul>
+<li>100 participants x 2xpos, 2xneg</li>
+<li>50 participants x 4xpos, 4xneg –&gt; less statistical power, more qualitative data</li>
+</ul></li>
+</ul>
+</section>
+<section id="homework-1-in-groups" class="level2">
+<h2 class="anchored" data-anchor-id="homework-1-in-groups">Homework 1 (in groups)</h2>
+<ul>
+<li>Create specific interventions (after we decided which to take)</li>
+</ul>
+</section>
+<section id="homework-1-in-groups-1" class="level2">
+<h2 class="anchored" data-anchor-id="homework-1-in-groups-1">Homework 1 (in groups)</h2>
+<ul>
+<li>Search for articles in the existing teams (k=4 teams)</li>
+<li>Ideally: Find articles with <strong>experimental</strong> designs that <strong>manipulate</strong> the intimacy motivation within an <strong>ESM design</strong>.
+<ul>
+<li>Note: Such a study probably does not exist.</li>
+</ul></li>
+<li>If these are not available, expand the search scope. For example:
+<ul>
+<li>non-experimental studies</li>
+<li>other DVs than intimacy motivation (e.g., the intimacy motive as a trait, or the experienced intimacy)</li>
+<li>not ESM, but a daily diary or a lab study.</li>
+</ul></li>
+<li>TODO: Snowball search: Once you found Screen which papers cite Conner and Reid (2012) as well as the chapter by Barta “Measurement reactivity in diary - research”. If there are too many results for screening: Search again within these lists by keywords.</li>
+<li>Save about 8-15 articles that roughly fit. Please copy the bibliography of this coarse selection into the text field in the Moodle task.</li>
+<li>Then screen all articles very roughly: Read title + abstract</li>
+<li>Pick the best articles (at least 2; up to 5), and then:
+<ul>
+<li>Enter them to the Google sheet and categorize them</li>
+<li>Each team should enter at least 2 papers; only new papers (nothing that has already been entered into the Google sheet by another group)</li>
+<li>Extract the effect sizes (if you are able to do so - if not, make an informed guess).</li>
+</ul></li>
+</ul>
+</section>
+<section id="homework-2-in-groups" class="level2">
+<h2 class="anchored" data-anchor-id="homework-2-in-groups">Homework 2 (in groups)</h2>
+<ul>
+<li>Prepare flyers, advertisement</li>
+<li>…</li>
+</ul>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -363,7 +368,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/nicebread\.github\.io\/Empra1\/");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

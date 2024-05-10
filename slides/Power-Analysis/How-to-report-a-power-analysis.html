@@ -22,6 +22,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -197,7 +231,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="what-information-do-you-need-to-compute-a-power-analysis" class="level3">
 <h3 class="anchored" data-anchor-id="what-information-do-you-need-to-compute-a-power-analysis">What information do you need to compute a power analysis?</h3>
-<div class="smaller">
+<div class="smallest">
 <ul>
 <li>Type of power analysis:
 <ul>
@@ -217,7 +251,10 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="write-up" class="level2">
 <h2 class="anchored" data-anchor-id="write-up">Write-Up</h2>
-<p><img src="img/writing-power-analysis.png" class="img-fluid"> https://twitter.com/GuyProchilo/status/1292780240977223681</p>
+<p><img src="img/writing-power-analysis.png" class="img-fluid"></p>
+<div class="footer">
+<p><a href="https://twitter.com/GuyProchilo/status/1292780240977223681">https://twitter.com/GuyProchilo/status/1292780240977223681</a></p>
+</div>
 </section>
 <section id="section" class="level2">
 <h2 class="anchored" data-anchor-id="section"></h2>
@@ -226,6 +263,13 @@ ul.task-list li input[type="checkbox"] {
 <section id="example-1" class="level2">
 <h2 class="anchored" data-anchor-id="example-1">Example 1</h2>
 <p><img src="img/example1.png" class="img-fluid"></p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 10.1002/ejsp.2710: f2 = 0.07</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co"># u: Anzahl der Prädiktoren im Modell (ohne Intercept). Hier vermutlich 3.</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co"># n = v + u + 1; v = n- u - 1</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">pwr.f2.test</span>(<span class="at">u =</span> <span class="dv">3</span>, <span class="at">v =</span> <span class="dv">152-3-1</span>, <span class="at">sig.level =</span> <span class="fl">0.05</span>, <span class="at">power =</span> <span class="fl">0.8</span>)</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co"># -&gt; f2 = 0.07366273</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 </section>
 <section id="examlpe-2" class="level2">
 <h2 class="anchored" data-anchor-id="examlpe-2">Examlpe 2</h2>
@@ -238,10 +282,21 @@ ul.task-list li input[type="checkbox"] {
 <section id="example-4" class="level2">
 <h2 class="anchored" data-anchor-id="example-4">Example 4</h2>
 <p><img src="img/example4.png" class="img-fluid"></p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 10.1002/ejsp.2713</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="co"># guessing the ES and alpha</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="fu">pwr.f2.test</span>(<span class="at">u=</span><span class="dv">3</span>, <span class="at">f2=</span><span class="fl">0.0435</span>, <span class="at">sig.level =</span> <span class="fl">0.05</span>, <span class="at">power =</span> <span class="fl">0.8</span>)</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="co"># n -&gt; 255</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 </section>
 <section id="example-5" class="level2">
 <h2 class="anchored" data-anchor-id="example-5">Example 5</h2>
 <p><img src="img/example5.png" class="img-fluid"></p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 10.1002/ejsp.2715</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">pwr.f2.test</span>(<span class="at">u=</span><span class="dv">1</span>, <span class="at">f2=</span><span class="fl">0.05</span>, <span class="at">sig.level =</span> <span class="fl">0.05</span>, <span class="at">power =</span> <span class="fl">0.8</span>)</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="co"># n = 158</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 </section>
 <section id="example-6" class="level2">
 <h2 class="anchored" data-anchor-id="example-6">Example 6</h2>
