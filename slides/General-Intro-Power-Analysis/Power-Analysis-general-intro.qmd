@@ -218,8 +218,9 @@ Smaldino, P. E., & McElreath, R. (2016). The natural selection of bad science. a
 
 
 ##
+> When a study is underpowered it most likely provides only weak inference. Even before a single participant is assessed, it is highly unlikely that an underpowered study provides an informative result.
 >
-![](img/text1.png)
+> Consequently, research unlikely to produce diagnostic outcomes is inefficient and can even be considered unethical. Why sacrifice people's time, animals' lives, and societies' resources on an experiment that is highly unlikely to be informative?
 
 ::: {.footer}
 Schönbrodt, F. D. & Wagenmakers, E.-J. (2016). Bayes Factor Design Analysis: Planning for Compelling Evidence. [http://dx.doi.org/10.2139/ssrn.2722435](http://dx.doi.org/10.2139/ssrn.2722435) 

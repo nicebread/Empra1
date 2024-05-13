@@ -1,0 +1,83 @@
+---
+title: Session 04 - Planning the experimental design
+number-sections: false
+description: We plan the experimental design of our study and decide upon interventions
+---
+
+# Overview
+
+| Topic                             | Duration | Notes                  |
+| :-------------------------------- | :------: | ---------------------- |
+| Wrap-up Homework 1                |    30    | Ch. Experimentology    |
+| Planning the design               |   120    | with 25 min group task |
+| Wrap-up Homework 2                |    45    | Intervention           |
+| Homework: Read Zygar et al (2022) |    5     |                        |
+
+: {.striped}
+
+
+
+## Design considerations
+
+See [Google sheet](https://docs.google.com/document/d/1bfd7jOaLDatERS8lGLlo7QRLCdl2gG35DcnmGgmIp80/edit?usp=sharing) for an updated version.
+
+1. Show the different questions and decisions that need to be taken (50 min)
+2. Four groups work on a subset of questions (25 min)
+3. The group present their results to the plenum (30 min)
+
+### Experimental conditions and their order
+
+- Three experimental conditions: increase motivation, decrease motivation, neutral control
+  - One generic control condition, or tailored control conditions for each intervention?
+- How many days does the study go? (e.g., 7-8 days)
+- How to spread conditions across days?
+  - Repeat exactly the same intervention?
+  - Repeat the same condition, but different interventions? (i.e., participants are always pushed up *or* pushed down and have a control group)
+  - Use the same type of intervention with different conditions (keep videos as category, but do one increase, one decrease, one neutral)
+- How to balance/randomize the conditions across the EMI days? Start with a baseline measurement?
+  - Always flip pos/neg/neutral? Or can we have 2 pos days in sequence?
+  - PCNCPCN (7 days)
+- How many conditions can be tested? We expect ~100 participants (who completed the study to the end).
+  - 100 participants x 2xpos, 2xneg
+  -  50 participants x 4xpos, 4xneg  --> less statistical power, more qualitative data
+
+### Measured variables and their timing
+
+- When do we measure the DV?
+  - Directly after intervention? Demand effects?
+  - Wait some minutes? At least close to the intervention
+  - In Zygar et al 2022, no effect was present any more in the evening report.
+    - Either the intervention is only short lived, or participants lived out and saturated their motivation in the afternoon, so that no extra motivation is left in the evening.
+    - At least we don't have to worry about carry-over effects to the next day.
+- When to ask the qualitative questions about the interventions?
+- How to deal with the weekend? (Participants spend more time with partner, are more happy, and probably more motivated)
+  - Counter-balance conditions across weekend days
+  - All participants start on same day, say, Monday?
+  - If the conditions systematically flip (P-C-N-C-P-C-N), then automaticall two different conditions are realized at the weekend.
+
+### Pre- and Post-Questionnaire (before and after the ESM period)
+
+- What to put into the preliminary questionnaire?
+- What are inclusion criteria for the sample?
+  - Interventions are done individually (not dyadic)
+  - Must be in stable relationship (how long? Only hetero or everything?)
+- Control variables?
+  - daily level / state: Daily fluctuations of ...?
+  - person level / trait: Personality etc.
+
+
+
+## Homework 1: Read Zygar et al. (2022)
+
+In this study we did a comparable EMI design:
+
+> Zygar-Hoffmann, C., Cristoforo, L., Wolf, L., & Schönbrodt, F. D. (2022). Eliciting short-term closeness in couple relationships with Ecological Momentary Interventions. *Collabra: Psychology, 8(1)*, 38599. [https://doi.org/10.1525/collabra.38599](https://doi.org/10.1525/collabra.38599)
+
+You can answer the following questions in English or in German. Please write the answers directly into the answer field in Moodle. (You can of course write the answers beforehand in Word or something, and then copy the answers in here). You do not need to read any of the cited references additionally, just refer to the paper.
+
+- Q1: What are Ecological Momentary Interventions (EMIs)?
+- Q2: Give a one-sentence description of each of the four closeness interventions.
+- Q3: What were the main findings regarding the effectiveness of the closeness interventions compared to neutral control conditions?
+- Q4: How long did the intervention last? Did they find effects that lasted until the evening?
+- Q5a: How did they measure "State Relationship Closeness"?
+- Q5b: Would this be a suitable measure for the dependent variable in our own study (i.e., intimacy motivation)?

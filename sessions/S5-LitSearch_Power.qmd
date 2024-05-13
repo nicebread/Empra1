@@ -1,0 +1,38 @@
+---
+title: Session 05 - Literature Search & Poweranalysis
+number-sections: false
+description: We plan the experimental design of our study and decide upon interventions
+---
+
+# Overview
+
+| Topic                                 | Duration | Notes                                                                                                              |
+| :------------------------------------ | :------: | ------------------------------------------------------------------------------------------------------------------ |
+| Wrap-up Homework 1                    |    20    | Zygar et al. 2022                                                                                                  |
+| Introduce the measurement instruments |    15    |                                                                                                                    |
+| Power analysis Intro                  |    60    |                                                                                                                    |
+| Literature research in practice       |    20    |                                                                                                                    |
+| Start doing lit search in groups      |    20    | [Google doc](https://docs.google.com/spreadsheets/d/1N-o_dUfMaQvMIIctJi4H7RM3TfF5OQZQN7IMEBA9w2o/edit?usp=sharing) |
+| Homework: Literature search           |    5     |                                                                                                                    |
+
+: {.striped}
+
+
+
+## Homework 1 (in groups)
+
+ 
+- Search for articles in the existing teams (k=4 teams)
+- Ideally: Find articles with **experimental** designs that **manipulate** the intimacy motivation (either up or down) within an **ESM design**.
+  - Note: Such a study probably does not exist.
+- If these are not available, expand the search scope. For example:
+  - non-experimental studies
+  - other DVs than intimacy motivation (e.g., the intimacy motive as a trait, or the experienced intimacy)
+  - not ESM, but a daily diary or a lab study.
+- TODO: Snowball search: Screen which papers cite the central paper TODO. If there are too many results for screening: Search again within these lists by keywords.
+- Save about 8-15 articles that *roughly* fit. Please copy the bibliography of this coarse selection into the text field in the Moodle task.
+- Then screen all articles: Read title + abstract
+- Pick the best articles (at least 2; up to 5), and then:
+  - Enter them to the [Google sheet]([Google doc](https://docs.google.com/spreadsheets/d/1N-o_dUfMaQvMIIctJi4H7RM3TfF5OQZQN7IMEBA9w2o/edit?usp=sharing)) and categorize them
+  - Each team should enter at least 2 papers; only new papers (nothing that has already been entered into the Google sheet by another group)
+  - Extract the effect sizes (if you are able to do so - if not, make an informed guess).
