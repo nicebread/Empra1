@@ -1,0 +1,19 @@
+---
+title: Session 06 - Preregistration 1
+number-sections: false
+description: We learn how to preregister a study
+---
+
+# Overview
+
+| Topic                          | Duration | Notes |
+| :----------------------------- | :------: | ----- |
+| Wrap up homework: Read Prereg  |    25    |       |
+| Game: Prereg advocatus Diaboli |    20    |       |
+| Homework: Literature search    |    5     |       |
+
+: {.striped}
+
+
+
+## Homework 1

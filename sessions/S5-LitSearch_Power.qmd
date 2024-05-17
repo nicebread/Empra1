@@ -9,7 +9,6 @@ description: We plan the experimental design of our study and decide upon interv
 | Topic                                 | Duration | Notes                                                                                                              |
 | :------------------------------------ | :------: | ------------------------------------------------------------------------------------------------------------------ |
 | Wrap-up Homework 1                    |    20    | Zygar et al. 2022                                                                                                  |
-| Introduce the measurement instruments |    15    |                                                                                                                    |
 | Power analysis Intro                  |    60    |                                                                                                                    |
 | Literature research in practice       |    20    |                                                                                                                    |
 | Start doing lit search in groups      |    20    | [Google doc](https://docs.google.com/spreadsheets/d/1N-o_dUfMaQvMIIctJi4H7RM3TfF5OQZQN7IMEBA9w2o/edit?usp=sharing) |

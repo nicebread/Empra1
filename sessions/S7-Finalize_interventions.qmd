@@ -1,0 +1,18 @@
+---
+title: Session 07 - Finalize Interventions
+number-sections: false
+description: We decide upon the final design and interventions
+---
+
+# Overview
+
+| Topic                                 | Duration | Notes |
+| :------------------------------------ | :------: | ----- |
+| Introduce the measurement instruments |    25    |       |
+| Homework: Literature search           |    5     |       |
+
+: {.striped}
+
+
+
+## Homework 1
