@@ -6,10 +6,14 @@ description: We decide upon the final design and interventions
 
 # Overview
 
-| Topic                                 | Duration | Notes |
-| :------------------------------------ | :------: | ----- |
-| Introduce the measurement instruments |    25    |       |
-| Homework: Literature search           |    5     |       |
+| Topic                                                           | Duration | Notes                                                                                                                 |
+| :-------------------------------------------------------------- | :------: | --------------------------------------------------------------------------------------------------------------------- |
+| Introduce the measurement instruments                           |    45    |                                                                                                                       |
+| Watch and discuss the audio/videos interventions                |    30    |                                                                                                                       |
+| Make a final selection (or at least shortlist) of interventions |    20    |                                                                                                                       |
+| Show/discuss the final experimental design and procedure        |    30    | See [Google sheet](https://docs.google.com/document/d/1bfd7jOaLDatERS8lGLlo7QRLCdl2gG35DcnmGgmIp80/edit?usp=sharing). |
+|                                                                 |          |                                                                                                                       |
+| Homework: ???                                                   |    5     |                                                                                                                       |
 
 : {.striped}
 

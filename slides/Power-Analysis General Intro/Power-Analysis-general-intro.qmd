@@ -47,36 +47,7 @@ revealjs-plugins:
 ##
 ![](img/matrix2.png)
 
-## How to do a power analysis {visibility="hidden"}
 
-::: {.r-stretch}
-
-```{mermaid}
-
-flowchart LR
-    E["` **Effect Size** 
-    (see Part II of the workshop)`"]
-    D["` **Desired Power**
-     usually 80%, 90% recommended for critical
-studies (Bondavera, 2013)`"]
-    L["` **Significance Level**
-    0.05? 0.005 (Benjamin et al., 2018)? justify
-your alpha (Lakens et al., 2018)? `"]
-    S[Sample Size]
-    L --> S
-    D --> S
-    E --> S
-
-
-```
-
-:::
-
-::: {.smaller}
-Benjamin, D. J., Berger, J. O., Johannesson, M., Nosek, B. A., Wagenmakers, E. J., Berk, R., ... & Cesarini, D. (2018). Redefine statistical significance. Nature Human Behaviour, 2(1), 6. doi:10.1038/s41562-017-0189-z
-Bondareva, D. (2013). Introduction to Power Analysis. Presentation for EPSE 482 Introduction to Statistics for Research in Education. Slides available at [slideshare.net/dbondareva/introduction-to-power-analysis](slideshare.net/dbondareva/introduction-to-power-analysis)
-Lakens, D., Adolfi, F. G., Albers, C. J., Anvari, F., Apps, M. A., Argamon, S. E., ... & Buchanan, E. M. (2018). Justify your alpha. Nature Human Behaviour, 2, 168-171. doi: 10.1038/s41562-018-0311-x
-:::
 
 ## How to do a power analysis 
 
@@ -104,14 +75,9 @@ your alpha (Lakens et al., 2018)? "]
 :::
 
 ::: {.footer}
-Benjamin, D. J., Berger, J. O., Johannesson, M., Nosek, B. A., Wagenmakers, E. J., Berk, R., ... & Cesarini, D. (2018). Redefine statistical
-significance. Nature Human Behaviour, 2(1), 6. doi:10.1038/s41562-017-0189-z
-
-Bondareva, D. (2013). Introduction to Power Analysis. Presentation for EPSE 482 Introduction to Statistics for Research in Education. Slides available at
-[slideshare.net/dbondareva/introduction-to-power-analysis](slideshare.net/dbondareva/introduction-to-power-analysis)
-
-Lakens, D., Adolfi, F. G., Albers, C. J., Anvari, F., Apps, M. A., Argamon, S. E., ... & Buchanan, E. M. (2018). Justify your alpha. Nature Human Behaviour,
-2, 168-171. doi: 10.1038/s41562-018-0311-x
+::: {.smaller}
+Benjamin et al. (2018). Redefine statistical significance. doi:[10.1038/s41562-017-0189-z]([10.1038/s41562-017-0189-z]()); Lakens et al. (2018). Justify your alpha. doi:[10.1038/s41562-018-0311-x](https://pure.tue.nl/ws/portalfiles/portal/119109470/Lakens_et_al._2018_Justify_your_alpha.pdf)
+:::
 :::
 
 ## Power is a frequentist property - beware of fallacies!
@@ -223,7 +189,7 @@ Smaldino, P. E., & McElreath, R. (2016). The natural selection of bad science. a
 > Consequently, research unlikely to produce diagnostic outcomes is inefficient and can even be considered unethical. Why sacrifice people's time, animals' lives, and societies' resources on an experiment that is highly unlikely to be informative?
 
 ::: {.footer}
-Schönbrodt, F. D. & Wagenmakers, E.-J. (2016). Bayes Factor Design Analysis: Planning for Compelling Evidence. [http://dx.doi.org/10.2139/ssrn.2722435](http://dx.doi.org/10.2139/ssrn.2722435) 
+Schönbrodt, F. D. & Wagenmakers, E.-J. (2018). [Bayes Factor Design Analysis: Planning for compelling evidence](https://osf.io/d4dcu/). Psychonomic Bulletin & Review, 25, 128-142. doi:10.3758/s13423-017-1230-y
 ::: 
 
 ## A power analysis helps you to find a balance between...
@@ -254,8 +220,8 @@ Bakker, M., Hartgerink, C. H. J., Wicherts, J. M., & van der Maas, H. L. J. (201
 # Clever designs go a long way
 
 ## The power of within-SS designs
-:::: {.columns}
 
+:::: {.columns}
 ::: {.column width="40%"}
 ![](img/graph5.jpg){fig-align="left"}
 :::
@@ -276,11 +242,17 @@ Bakker, M., Hartgerink, C. H. J., Wicherts, J. M., & van der Maas, H. L. J. (201
 
 ## Increase power with reliable measures
 
+:::: {.columns}
+::: {.column width="60%"}
 ![](img/table3.png)
+:::
 
+:::{.column width="40%"}
 - Cohen’s d = 0.4
 - N = 30
 - pre-post-test
+:::
+::::
 
 ::: {.footer}
 Heo, M., Kim, N., & Faith, M. S. (2015). Statistical power as a function of Cronbach alpha of instrument questionnaire items. 
@@ -407,7 +379,7 @@ Lakens, D. (2013). Calculating and reporting effect sizes to facilitate cumulati
 
 ## Understanding effect sizes
 
-Example: d = 0.4, n=55 in each group
+Example: *d* = 0.4, *n* = 55 in each group
 
 - Repeated-measures factor: 61% of the participants change into the expected direction
 - Between-groups factor: 61% chance of finding the expected ordering if you test a random participant from each sample
@@ -420,29 +392,28 @@ Example: d = 0.4, n=55 in each group
 Is this reasonable?
 
 ## Typical reported effect sizes I
-
-e.g., Richard, Bond, & Stokes-Zoota (2003):
+### Richard, Bond, & Stokes-Zoota (2003):
 
 - Meta-meta-analysis; > 25.000 studies, > 8.000.000
 participants
-- mean effect r = .21 (across literature SD = .15); median = .18
+- mean effect *r* = .21 (across literature *SD* = .15); median = .18
 
-![](img/reportedeffectsize.png){fig-align="center"}
+![](img/reportedeffectsize.png){fig-align="center" height=420px}
 
 ::: {.footer}
 Richard, F. D., Bond, C. F. J., & Stokes-Zoota, J. J. (2003). One Hundred Years of Social Psychology Quantitatively Described. Review of General Psychology, 7(4), 331–363. doi:10.1037/1089-2680.7.4.331
 :::
 
 ## Typical reported effect sizes I
-e.g., Richard, Bond, & Stokes-Zoota (2003):
-![](img/table7.png){fig-align="center"}
+### Richard, Bond, & Stokes-Zoota (2003):
+![](img/table7.png){fig-align="center" height=450px}
 
 
 ## Typical reported effect sizes II
-e.g., Bosco et al. (2015):
+### Bosco et al. (2015):
 
 - 147,328 correlations from Journal of Applied Psychology and Personnel Psychology
-- median effect: r = .16,  mean effect r = .22 (SD = .20)
+- median effect: *r* = .16,  mean effect *r* = .22 (SD = .20)
 
 ![](img/graph9.jpg){fig-align="center"}
 
@@ -453,7 +424,7 @@ Bosco, F. A., Aguinis, H., Singh, K., Field, J. G., & Pierce, C. A. (2015). Corr
 :::
 
 ## Typical reported effect sizes III
-e.g., Hill et al. (2008):
+### Hill et al. (2008):
 
 - How does the effect of an intervention compare to a typical year of growth in
 school?
@@ -465,7 +436,7 @@ Hill, C. J., Bloom, H. S., Black, A. R., & Lipsey, M. W. (2008). Empirical Bench
 :::
 
 ## Typical reported effect sizes IV
-e.g., Funder & Ozer (2019):
+### Funder & Ozer (2019):
 
 ![](img/graph10.jpg){fig-align="center"}
 
@@ -474,7 +445,7 @@ Funder, D. C., & Ozer, D. J. (2019). Evaluating Effect Size in Psychological Res
 :::
 
 ## Typical reported effect sizes V
-e.g., Aguinis, Beaty, Boik, & Pierce (2005):
+### Aguinis, Beaty, Boik, & Pierce (2005):
 - Effect size of interaction from dichotomous moderator and continuous predictor
 ![](img/table8.png){fig-align="center"}
 
@@ -483,13 +454,16 @@ Aguinis, H., Beaty, J. C., Boik, R. J., & Pierce, C. A. (2005). Effect size and 
 :::
 
 ## Other benchmarks I
-Average placebo effect? <br> d = 0.24 [0.17; 0.31]!
+::: {.callout-caution collapse="true"}
+# Average placebo effect?
+*d* = 0.24 [0.17; 0.31]!
+:::
 
 ::: {.footer}
 Hróbjartsson, A., & Gøtzsche, P. C. (2004). Is the placebo powerless? Update of a systematic review with 52 new randomized trials comparing placebo with no treatment. Journal of internal medicine, 256(2), 91-100.
 :::
 
-## Other benchmarks II (ES: d)
+## Other benchmarks II (ES: *d*)
 
 ![](img/graph11.png){fig-align="center"}
 
