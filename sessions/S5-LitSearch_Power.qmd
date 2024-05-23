@@ -6,13 +6,14 @@ description: We plan the experimental design of our study and decide upon interv
 
 # Overview
 
-| Topic                                 | Duration | Notes                                                                                                              |
-| :------------------------------------ | :------: | ------------------------------------------------------------------------------------------------------------------ |
-| Wrap-up Homework 1                    |    20    | Zygar et al. 2022                                                                                                  |
-| Power analysis Intro                  |    60    |                                                                                                                    |
-| Literature research in practice       |    20    |                                                                                                                    |
-| Start doing lit search in groups      |    20    | [Google doc](https://docs.google.com/spreadsheets/d/1N-o_dUfMaQvMIIctJi4H7RM3TfF5OQZQN7IMEBA9w2o/edit?usp=sharing) |
-| Homework: Literature search           |    5     |                                                                                                                    |
+| Topic                                             | Duration | Notes                                                                                                              |
+| :------------------------------------------------ | :------: | ------------------------------------------------------------------------------------------------------------------ |
+| Wrap-up Homework 1                                |    30    | Zygar et al. 2022                                                                                                  |
+| Power analysis Intro                              |    60    |                                                                                                                    |
+| Literature research in practice                   |    20    |                                                                                                                    |
+| Start doing lit search in groups                  |    30    | [Google doc](https://docs.google.com/spreadsheets/d/1N-o_dUfMaQvMIIctJi4H7RM3TfF5OQZQN7IMEBA9w2o/edit?usp=sharing) |
+| Homework 1: Literature search                     |    5     |                                                                                                                    |
+| Homework 2: Read "The preregistration revolution" |    5     |                                                                                                                    |
 
 : {.striped}
 
@@ -22,16 +23,46 @@ description: We plan the experimental design of our study and decide upon interv
 
  
 - Search for articles in the existing teams (k=4 teams)
-- Ideally: Find articles with **experimental** designs that **manipulate** the intimacy motivation (either up or down) within an **ESM design**.
+- Ideally: Find articles with **experimental** designs that **manipulate** the intimacy/closeness motivation (either up or down) within an **ESM design**.
   - Note: Such a study probably does not exist.
 - If these are not available, expand the search scope. For example:
   - non-experimental studies
   - other DVs than intimacy motivation (e.g., the intimacy motive as a trait, or the experienced intimacy)
   - not ESM, but a daily diary or a lab study.
-- TODO: Snowball search: Screen which papers cite the central paper TODO. If there are too many results for screening: Search again within these lists by keywords.
+- Snowball search: Screen which papers cite [10.1080/01973533.2011.614164](https://www.tandfonline.com/doi/full/10.1080/01973533.2011.614164). If there are too many results for screening: Search again within these lists by keywords.
 - Save about 8-15 articles that *roughly* fit. Please copy the bibliography of this coarse selection into the text field in the Moodle task.
 - Then screen all articles: Read title + abstract
 - Pick the best articles (at least 2; up to 5), and then:
-  - Enter them to the [Google sheet]([Google doc](https://docs.google.com/spreadsheets/d/1N-o_dUfMaQvMIIctJi4H7RM3TfF5OQZQN7IMEBA9w2o/edit?usp=sharing)) and categorize them
+  - Enter them to the [Google sheet](https://docs.google.com/spreadsheets/d/1N-o_dUfMaQvMIIctJi4H7RM3TfF5OQZQN7IMEBA9w2o/edit) and categorize them
   - Each team should enter at least 2 papers; only new papers (nothing that has already been entered into the Google sheet by another group)
-  - Extract the effect sizes (if you are able to do so - if not, make an informed guess).
+  - Extract the effect sizes of the **manipulation** (if you are able to do so - if not, make an informed guess).
+
+## Homework 2 (individually)
+
+Please read "[The preregistration revolution](https://www.pnas.org/content/115/11/2600)" by Nosek et al. (2018). Answer the following questions succintly in Moodle. As always, you can answer in German or English.
+
+- Q1: Give a short definition of "prediction" and "postdiction".
+- Q2: What is the problem when pre- and postdiction are not properly distinguished?
+- Q3: What is the hindsight bias?
+- Q4: Researchers often deviate from their preregistration, losing some of its benefits. Even in case of a major deviation: What advantage does a preregistration still give?
+- Q5: Read the challenges and think about which challenge might apply to our own research design. Select one of the challenges, and describe shortly how this applies to our research project, and what might be done about it.
+
+<!-- ANSWERS:
+
+Q1: 
+Prediction: Forming a hypothesis before seeing the data and then collecting data to test the hypothesis. 
+Postdiction: Try to explain why something has happened after seeing the data.
+
+Q2:
+You find evidence for effects which do not really exist, since you can find a post-hoc explanation to everything.
+"Results” are easier to publish since you always “have the claim to support the data”.
+
+Q3:
+Thinking that some outcomes are really predictable after actually seeing them happen, even if they were not that predictable.
+
+Q4:
+You can still report and explain changes you make on your initial plan. It is then possible to analyze the impact of those changes, this is very good for the internal validity of the study.
+
+Q5:
+
+ -->

@@ -21,11 +21,12 @@ revealjs-plugins:
 ## Reproducibility & Justification
 ### A well reported power analysis means:
 
+::: {.smaller}
 -  Minimum: Anybody can reproduce the computations (without
 ambiguities and guessing), and get to the same result.
 -  Optimal: Key choices are justified. Most importantly: the assumed effect
 size. But also: Why α=5% Why power = 80%?
-
+:::
 
 ### What information do you need to compute a power analysis?
 
@@ -58,13 +59,13 @@ size. But also: Why α=5% Why power = 80%?
 
 ```{r, eval=FALSE,echo=TRUE}
 # 10.1002/ejsp.2710: f2 = 0.07
-# u: Anzahl der Prädiktoren im Modell (ohne Intercept). Hier vermutlich 3.
+# u: Number of predictors in the model (without intercept). Here presumably 3.
 # n = v + u + 1; v = n- u - 1
 pwr.f2.test(u = 3, v = 152-3-1, sig.level = 0.05, power = 0.8)
 # -> f2 = 0.07366273
 ```
 
-## Examlpe 2
+## Example 2
 ![](img/example2.png)
 
 ## Example 3
