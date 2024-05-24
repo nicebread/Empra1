@@ -11,7 +11,7 @@ footer: "Forschungsorientierte Praktikum I – Empirisches Praktikum, Ludwig-Max
 format: 
   nicetheme-revealjs: 
     output-ext: slide.html
-    transition: slide    
+    transition: none    
   html: default
 revealjs-plugins:
   - attribution 
@@ -22,7 +22,7 @@ revealjs-plugins:
 
 ## Advocatus Diaboli
 
-::: columns
+:::: {.columns}
 ::: {.column width="30%"}
 ![](img/Engel_Teufel.jpg){width=200px}
 :::
@@ -34,27 +34,24 @@ But...<br>
 ... preregistration keeps me from conducting exploratory research!
 
 <!-- Insert blank lines -->
+
+::: {.fragment .fade-up}
 <br>
 
 - Improving your confirmatory research does not mean that you have to refrain from doing          exploratory research
 - You can also preregister your exploratory research (e.g., planned analysis methods)
 :::
 :::
+::::
 
 ::: footer
-Icons from [flaticon.com](flaticon.com) by Eucalyp
+Icons from [flaticon.com](flaticon.com) by EucalypIcons, Smashicons, and Freepic
 :::
 
-<!-- HTML to position image in the upper right corner -->
-<div style="position: absolute; top: 0; right: 0; z-index: 10;">
-    
-![](img/OSC_LMU_Open_Science_Center.jpg){width=250px}
-    
-</div>
 
 ## Advocatus Diaboli
 
-::: columns
+:::: {.columns}
 ::: {.column width="30%"}
 ![](img/Engel_Teufel.jpg){width=200px}
 :::
@@ -66,6 +63,8 @@ But...<br>
 ... preregistration takes so much time!
 
 <!-- Insert blank lines -->
+
+::: {.fragment .fade-up}
 <br>
 <br>
 
@@ -73,21 +72,14 @@ But...<br>
 - Preregistration mostly changes the order of the research process (e.g., think about how to      analyze your data before / after you collect them).
 :::
 :::
+::::
 
-::: footer
-Icons from [flaticon.com](flaticon.com) by Eucalyp
-:::
 
-<!-- HTML to position image in the upper right corner -->
-<div style="position: absolute; top: 0; right: 0; z-index: 10;">
-    
-![](img/OSC_LMU_Open_Science_Center.jpg){width=250px}
-    
-</div>
+
 
 ## Advocatus Diaboli
 
-::: columns
+:::: {.columns}
 ::: {.column width="30%"}
 ![](img/Engel_Teufel.jpg){width=200px}
 :::
@@ -99,27 +91,22 @@ But...<br>
 ... someone will steal my ideas!
 
 <!-- Insert blank lines -->
+::: {.fragment .fade-up}
 <br>
 <br>
 
 - On the contrary. By preregistering your ideas you mark them as yours! If anyone still dares to   steal them, it will be very easy to point this out as scientific misconduct.
+- On some repositories (e.g., OSF), you can put an embargo on the preregistration. Then the preregistration is not publicly visible for a period of up to 4 years.
 :::
 :::
+::::
 
-::: footer
-Icons from [flaticon.com](flaticon.com) by Eucalyp
-:::
 
-<!-- HTML to position image in the upper right corner -->
-<div style="position: absolute; top: 0; right: 0; z-index: 10;">
-    
-![](img/OSC_LMU_Open_Science_Center.jpg){width=250px}
-    
-</div>
+
 
 ## Advocatus Diaboli
 
-::: columns
+:::: {.columns}
 ::: {.column width="30%"}
 ![](img/Engel_Teufel.jpg){width=200px}
 :::
@@ -132,6 +119,7 @@ But...<br>
 preregistration?
 
 <!-- Insert blank lines -->
+::: {.fragment .fade-up}
 <br>
 
 - Everyone makes mistakes, no need to be embarrassed!
@@ -139,21 +127,14 @@ preregistration?
 - If you make your preregistration open and someone finds a mistake, consider yourself lucky      because this spares you finding it out when it is too late.
 :::
 :::
+::::
 
-::: footer
-Icons from [flaticon.com](flaticon.com) by Eucalyp
-:::
 
-<!-- HTML to position image in the upper right corner -->
-<div style="position: absolute; top: 0; right: 0; z-index: 10;">
-    
-![](img/OSC_LMU_Open_Science_Center.jpg){width=250px}
-    
-</div>
+
 
 ## Advocatus Diaboli
 
-::: columns
+:::: {.columns}
 ::: {.column width="30%"}
 ![](img/Engel_Teufel.jpg){width=200px}
 :::
@@ -166,27 +147,21 @@ But...<br>
 and take the preregistration that fits the data best!
 
 <!-- Insert blank lines -->
+::: {.fragment .fade-up}
 <br>
 
-- That would be easy-to-spot scientific misconduct.(compared to not-so-easy to spot HARKing       without prereg)
-- If more than one hypothesis is preregistered you will need a lot of luck that you have a        „perfect-fit“ preregistration
+- That would be easy-to-spot scientific misconduct (compared to not-so-easy to spot HARKing       without prereg)
+- If more than one hypothesis is preregistered you will need a lot of luck that you have a        "perfect-fit" preregistration
 :::
 :::
+::::
 
-::: footer
-Icons from [flaticon.com](flaticon.com) by Eucalyp
-:::
 
-<!-- HTML to position image in the upper right corner -->
-<div style="position: absolute; top: 0; right: 0; z-index: 10;">
-    
-![](img/OSC_LMU_Open_Science_Center.jpg){width=250px}
-    
-</div>
+
 
 ## Advocatus Diaboli
 
-::: columns
+:::: {.columns}
 ::: {.column width="30%"}
 ![](img/Engel_Teufel.jpg){width=200px}
 :::
@@ -199,6 +174,7 @@ But...<br>
 significantly from the preregistration. What is it good for then?
 
 <!-- Insert blank lines -->
+::: {.fragment .fade-up}
 <br>
 
 - As a reviewer, it should make you vigilant about the quality of the paper → require             justifications for deviations from the preregistration
@@ -206,21 +182,14 @@ significantly from the preregistration. What is it good for then?
 - It helps you to spot QRPs.
 :::
 :::
+::::
 
-::: footer
-Icons from [flaticon.com](flaticon.com) by Eucalyp
-:::
 
-<!-- HTML to position image in the upper right corner -->
-<div style="position: absolute; top: 0; right: 0; z-index: 10;">
-    
-![](img/OSC_LMU_Open_Science_Center.jpg){width=250px}
-    
-</div>
+
 
 ## Advocatus Diaboli
 
-::: columns
+:::: {.columns}
 ::: {.column width="30%"}
 ![](img/Engel_Teufel.jpg){width=200px}
 :::
@@ -233,6 +202,7 @@ But...<br>
 quantitative templates fits my way of working!?
 
 <!-- Insert blank lines -->
+::: {.fragment .fade-up}
 <br>
 
 - That the templates do not fit perfectly does not mean you cannot conduct a preregistration.
@@ -240,17 +210,10 @@ quantitative templates fits my way of working!?
   data look like? How do you plan to evaluate the data? → Try to minimize degrees of freedom and   you have met the goal.
 :::
 :::
+::::
 
-::: footer
-Icons from [flaticon.com](flaticon.com) by Eucalyp
-:::
 
-<!-- HTML to position image in the upper right corner -->
-<div style="position: absolute; top: 0; right: 0; z-index: 10;">
-    
-![](img/OSC_LMU_Open_Science_Center.jpg){width=250px}
-    
-</div>
+
 
 
 ## Elements of a preregistration
@@ -274,15 +237,6 @@ Icons from [flaticon.com](flaticon.com) by Eucalyp
 - Rationales / theoretical frameworks to justify the hypotheses
 :::
 
-<div style="position: absolute; top: 0; right: 0; z-index: 10;">
-    
-![](img/OSC_LMU_Open_Science_Center.jpg){width=250px}
-    
-</div>
-
-::: footer
-Icons from [flaticon.com](flaticon.com) by Smashicons, Freepic
-:::
 
 ::: {.attribution style="font-size: 12px;"}
 van t‘Veer & Giner-Sorolla (2016)
@@ -302,19 +256,12 @@ van t‘Veer & Giner-Sorolla (2016)
   - Third variables (covariates, moderators, control variables etc.)
 :::
 
-:::footer
-Icons from [flaticon.com](flaticon.com) by Smashicons
-:::
 
 ::: {.attribution style="font-size: 12px;"}
 van t‘Veer & Giner-Sorolla (2016)
 :::
 
-<div style="position: absolute; top: 0; right: 0; z-index: 10;">
-    
-![](img/OSC_LMU_Open_Science_Center.jpg){width=250px}
-    
-</div>
+
 
 ## Elements of a preregistration
 
@@ -330,19 +277,12 @@ van t‘Veer & Giner-Sorolla (2016)
 - Describe data collection termination rule
 :::
 
-:::footer
-Icons from [flaticon.com](flaticon.com) by Smashicons
-:::
 
 ::: {.attribution style="font-size: 12px;"}
 van t‘Veer & Giner-Sorolla (2016), Schönbrodt & Wagenmakers (2017)
 :::
 
-<div style="position: absolute; top: 0; right: 0; z-index: 10;">
-    
-![](img/OSC_LMU_Open_Science_Center.jpg){width=250px}
-    
-</div>
+
 
 ## Elements of a preregistration
 
@@ -370,19 +310,12 @@ van t‘Veer & Giner-Sorolla (2016), Schönbrodt & Wagenmakers (2017)
 altered, and restarted
 :::
 
-:::footer
-Icons from [flaticon.com](flaticon.com) by Smashicons, Freepic
-:::
 
 ::: {.attribution style="font-size: 12px;"}
 van t‘Veer & Giner-Sorolla (2016)
 :::
 
-<div style="position: absolute; top: 0; right: 0; z-index: 10;">
-    
-![](img/OSC_LMU_Open_Science_Center.jpg){width=250px}
-    
-</div>
+
 
 ## Elements of a preregistration
 
@@ -400,19 +333,12 @@ van t‘Veer & Giner-Sorolla (2016)
   - If using techniques other than NHST, describe criteria and inputs toward making conclusions     about your hypotheses
 :::
 
-:::footer
-Icons from [flaticon.com](flaticon.com) by Smashicons, Freepic
-:::
 
 ::: {.attribution style="font-size: 12px;"}
 van t‘Veer & Giner-Sorolla (2016)
 :::
 
-<div style="position: absolute; top: 0; right: 0; z-index: 10;">
-    
-![](img/OSC_LMU_Open_Science_Center.jpg){width=250px}
-    
-</div>
+
 
 ## Elements of a preregistration
 
@@ -429,19 +355,12 @@ van t‘Veer & Giner-Sorolla (2016)
   - Assumptions and assumption checks for analyses and alternative plans for data analysis if       assumptions are not met
 :::
 
-:::footer
-Icons from [flaticon.com](flaticon.com) by Smashicons, Freepic
-:::
 
 ::: {.attribution style="font-size: 12px;"}
 van t‘Veer & Giner-Sorolla (2016)
 :::
 
-<div style="position: absolute; top: 0; right: 0; z-index: 10;">
-    
-![](img/OSC_LMU_Open_Science_Center.jpg){width=250px}
-    
-</div>
+
 
 ## Elements of a preregistration
 
@@ -451,41 +370,28 @@ van t‘Veer & Giner-Sorolla (2016)
 </div>
 
 ::: {.smaller}
-- For exploratory analyses: „We don‘t have any hypotheses“
+- For exploratory analyses: "We don‘t have any hypotheses"
 - Transparency statement: How will research output be shared?
 - Conditional safeguards: What will happen if...?
 :::
 
-:::footer
-Icons from [flaticon.com](flaticon.com) by Smashicons, Freepic
-:::
 
 ::: {.attribution style="font-size: 12px;"}
 Lin & Green (2016)
 :::
 
-<div style="position: absolute; top: 0; right: 0; z-index: 10;">
-    
-![](img/OSC_LMU_Open_Science_Center.jpg){width=250px}
-    
-</div>
+
 
 ## Preregistration templates
 
-::: {.smaller}
-<div style="margin-top: 100px;">
+[Recommended]{.hl}: 
+
 - The **Preregistration for Quantitative Research in Psychology Template (PRP-QUANT)** was        developed in a joint effort by a task force composed of members of the APA, BPS, DGPs, the      COS, and ZPID.
 - [https://prereg-psych.org/index.php/rrp/templates](https://prereg-psych.org/index.php/rrp/templates)
-</div>
-:::
 
-<div style="position: absolute; top: 0; right: 0; z-index: 10;">
-    
-![](img/OSC_LMU_Open_Science_Center.jpg){width=250px}
-    
-</div>
 
-## Preregistration templates
+
+## Preregistration templates (alternatives)
 
 ::: {.smaller}
 <div style="margin-top: 100px;">
@@ -499,11 +405,7 @@ Lin & Green (2016)
 </div>
 :::
 
-<div style="position: absolute; top: 0; right: 0; z-index: 10;">
-    
-![](img/OSC_LMU_Open_Science_Center.jpg){width=250px}
-    
-</div>
+
 
 ## A curated list of high quality preregistrations
 
@@ -517,37 +419,29 @@ Lin & Green (2016)
 ![](img/Example_Of_Preregistrations.jpg){width=650px}
 </div>
 
-<div style="position: absolute; top: 10px; right: 0; z-index: 10;">
-    
-![](img/OSC_LMU_Open_Science_Center.jpg){width=250px}
-    
-</div>
 
 ## Credentials
 
-<br>
-
 ::: {.smaller}
 The creation of this workshop material was partially funded by the Berkeley Initiative for Transparency in the Social Sciences (BITSS) Catalyst Program. For more information, please visit [www.bitss.org](https://www.bitss.org/), sign up for the BITSS blog, and follow BITSS on Twitter [@UCBITSS](https://twitter.com/UCBITSS). We also kindly thank the LMU GraduateCenter for their support.
-:::
 
 <div style="text-align: left;">
 ![](img/BITSS.jpg){width=350px}
 </div>
 
-:::footer
-<div style="font-size: 15px; line-height: 1.5; align-items: center; display: flex;">
-  <img src="img/Licence.jpg" alt="CC-BY" style="width: 50px; margin-right: 10px; vertical-align: middle;">
-  These slides were created by Angelika Stefan, Julia Brandt, and Felix Schönbrodt. The work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). *That means, you can reuse this slides in your own workshops, remix them, or copy them, as long as you attribute the original creators.*.
-</div>
+These slides were created by Angelika Stefan, Julia Brandt, and Felix Schönbrodt. The work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). *That means, you can reuse this slides in your own workshops, remix them, or copy them, as long as you attribute the original creators.*
+
+<small style="text-align:left;">
+[![CC-BY-SA 4.0][cc-by-sa-image]][cc-by-sa]
+
+[cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
+[cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
+[cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY%20SA4.0-lightgrey.svg
+</small>
 :::
 
 
-<div style="position: absolute; top: 0; right: 0; z-index: 10;">
-    
-![](img/OSC_LMU_Open_Science_Center.jpg){width=250px}
-    
-</div>
+
 
 <!-- Footer insert below -->
 ```{r child="../../common/lastslide.qmd"}

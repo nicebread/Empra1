@@ -1,5 +1,5 @@
 ---
-title: "How to report a power analysis"
+title: "How (not) to report a power analysis"
 subtitle: ""
 author:
   - name: Felix Schönbrodt
@@ -41,7 +41,7 @@ size. But also: Why α=5% Why power = 80%?
 - Power = 80%?
 - One-sided or two-sided test?
 - Expected / Minimally interesting effect size
--The metric of the effect size (d? r? f²?)
+-The metric of the effect size (*d*? *r*? $f^2$?)
 :::
 
 ## Write-Up
@@ -51,7 +51,8 @@ size. But also: Why α=5% Why power = 80%?
 [https://twitter.com/GuyProchilo/status/1292780240977223681](https://twitter.com/GuyProchilo/status/1292780240977223681)
 :::
 
-##
+## Let's check an issue from a journal ...
+### How are power analyses reported in practice?
 ![](img/research-articles.png)
 
 ## Example 1

@@ -9,14 +9,23 @@ description: We decide upon the final design and interventions
 | Topic                                                           | Duration | Notes                                                                                                                 |
 | :-------------------------------------------------------------- | :------: | --------------------------------------------------------------------------------------------------------------------- |
 | Introduce the measurement instruments                           |    45    |                                                                                                                       |
-| Watch and discuss the audio/videos interventions                |    30    |                                                                                                                       |
+| Watch and discuss the audio/videos interventions                |    45    |                                                                                                                       |
 | Make a final selection (or at least shortlist) of interventions |    20    |                                                                                                                       |
 | Show/discuss the final experimental design and procedure        |    30    | See [Google sheet](https://docs.google.com/document/d/1bfd7jOaLDatERS8lGLlo7QRLCdl2gG35DcnmGgmIp80/edit?usp=sharing). |
-|                                                                 |          |                                                                                                                       |
-| Homework: ???                                                   |    5     |                                                                                                                       |
+| Tellmi: Show the app                                            |    20    |                                                                                                                       |
+| Tellmi: Show the recruitment website                            |    20    |                                                                                                                       |
+| Homework: Prepare study material                                |    5     |                                                                                                                       |
 
 : {.striped}
 
 
 
-## Homework 1
+## Homework
+
+- Group 1 (sollte die größte sein, Aufgaben aufteilen)
+  - Webseite überarbeiten (direkt im html - wer kann das?)
+- Group 2
+  - Flyer/Aushänge, Werbetexte für Social Media
+- Group 3
+  - Werbekanäle überlegen: Social Media, Whatsapp-Gruppen, andere Empras, Freundeskreis/Familie, nicht nur Studenten, wo bekommt man Männer her?
+- Group 4: Vergütung? Rückmeldung Persönlichkeitsprofil (was ist die interessanteste Variable, die wir messen)? --> Ideen sammeln.
