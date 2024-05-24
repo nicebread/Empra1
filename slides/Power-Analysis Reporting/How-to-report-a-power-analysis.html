@@ -9,7 +9,7 @@
 <meta name="author" content="Felix Schönbrodt">
 <meta name="dcterms.date" content="2024-04-19">
 
-<title>Forschungsorientiertes Praktikum I – Grundlagen der Forschung - How to report a power analysis</title>
+<title>Forschungsorientiertes Praktikum I – Grundlagen der Forschung - How (not) to report a power analysis</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -103,6 +103,35 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   }
 }</script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../styles.css">
 </head>
@@ -165,7 +194,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#what-information-do-you-need-to-compute-a-power-analysis" id="toc-what-information-do-you-need-to-compute-a-power-analysis" class="nav-link" data-scroll-target="#what-information-do-you-need-to-compute-a-power-analysis">What information do you need to compute a power analysis?</a></li>
   </ul></li>
   <li><a href="#write-up" id="toc-write-up" class="nav-link" data-scroll-target="#write-up">Write-Up</a></li>
-  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"></a></li>
+  <li><a href="#lets-check-an-issue-from-a-journal" id="toc-lets-check-an-issue-from-a-journal" class="nav-link" data-scroll-target="#lets-check-an-issue-from-a-journal">Let’s check an issue from a journal …</a>
+  <ul class="collapse">
+  <li><a href="#how-are-power-analyses-reported-in-practice" id="toc-how-are-power-analyses-reported-in-practice" class="nav-link" data-scroll-target="#how-are-power-analyses-reported-in-practice">How are power analyses reported in practice?</a></li>
+  </ul></li>
   <li><a href="#example-1" id="toc-example-1" class="nav-link" data-scroll-target="#example-1">Example 1</a></li>
   <li><a href="#example-2" id="toc-example-2" class="nav-link" data-scroll-target="#example-2">Example 2</a></li>
   <li><a href="#example-3" id="toc-example-3" class="nav-link" data-scroll-target="#example-3">Example 3</a></li>
@@ -184,7 +216,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">How to report a power analysis</h1>
+<h1 class="title">How (not) to report a power analysis</h1>
 </div>
 
 
@@ -246,7 +278,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li>α = .05? .005?</li>
 <li>Power = 80%?</li>
 <li>One-sided or two-sided test?</li>
-<li>Expected / Minimally interesting effect size -The metric of the effect size (d? r? f²?)</li>
+<li>Expected / Minimally interesting effect size -The metric of the effect size (<em>d</em>? <em>r</em>? <span class="math inline">\(f^2\)</span>?)</li>
 </ul>
 </div>
 </section>
@@ -258,9 +290,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p><a href="https://twitter.com/GuyProchilo/status/1292780240977223681">https://twitter.com/GuyProchilo/status/1292780240977223681</a></p>
 </div>
 </section>
-<section id="section" class="level2">
-<h2 class="anchored" data-anchor-id="section"></h2>
+<section id="lets-check-an-issue-from-a-journal" class="level2">
+<h2 class="anchored" data-anchor-id="lets-check-an-issue-from-a-journal">Let’s check an issue from a journal …</h2>
+<section id="how-are-power-analyses-reported-in-practice" class="level3">
+<h3 class="anchored" data-anchor-id="how-are-power-analyses-reported-in-practice">How are power analyses reported in practice?</h3>
 <p><img src="img/research-articles.png" class="img-fluid"></p>
+</section>
 </section>
 <section id="example-1" class="level2">
 <h2 class="anchored" data-anchor-id="example-1">Example 1</h2>
@@ -327,13 +362,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <i class="fa-li fa fa-github" aria-hidden="true"></i> <a href="https://github.com/nicebread" target="_blank" style="color:black; border-bottom:none;">https://github.com/nicebread</a>
 </li>
 </ul>
-<p><small style="text-align:left;"></small></p><small style="text-align:left;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="http://creativecommons.org/licenses/by-sa/4.0/"><img src="https://licensebuttons.net/l/by-sa/4.0/88x31.png" class="img-fluid figure-img" alt="CC-BY-SA 4.0"></a></p>
-<figcaption>CC-BY-SA 4.0</figcaption>
-</figure>
-</div>
+<p><small style="text-align:left;"> <a href="http://creativecommons.org/licenses/by-sa/4.0/"><img src="https://licensebuttons.net/l/by-sa/4.0/88x31.png" class="img-fluid" alt="CC-BY-SA 4.0"></a></small></p><small style="text-align:left;">
 </small><p><small style="text-align:left;"></small></p>
 
 

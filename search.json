@@ -65,135 +65,149 @@
   {
     "objectID": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.slide.html#reproducibility-justification",
     "href": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.slide.html#reproducibility-justification",
-    "title": "How to report a power analysis",
+    "title": "How (not) to report a power analysis",
     "section": "Reproducibility & Justification",
-    "text": "Reproducibility & Justification\nA well reported power analysis means:\n\n\nMinimum: Anybody can reproduce the computations (without ambiguities and guessing), and get to the same result.\nOptimal: Key choices are justified. Most importantly: the assumed effect size. But also: Why α=5% Why power = 80%?\n\n\nWhat information do you need to compute a power analysis?\n\n\nType of power analysis:\n\nA priori: compute N, given alpha, power, ES\nPost-hoc: compute power, given alpha, N, ES\nCriterion: compute alpha, given power, ES, N\nSensitivity: compute ES, given alpha, power, N\nDesign: Correlations? t-test? Two-group or paired? Linear model?\n\nα = .05? .005?\nPower = 80%?\nOne-sided or two-sided test?\nExpected / Minimally interesting effect size -The metric of the effect size (d? r? f²?)"
+    "text": "Reproducibility & Justification\nA well reported power analysis means:\n\n\nMinimum: Anybody can reproduce the computations (without ambiguities and guessing), and get to the same result.\nOptimal: Key choices are justified. Most importantly: the assumed effect size. But also: Why α=5% Why power = 80%?\n\n\nWhat information do you need to compute a power analysis?\n\n\nType of power analysis:\n\nA priori: compute N, given alpha, power, ES\nPost-hoc: compute power, given alpha, N, ES\nCriterion: compute alpha, given power, ES, N\nSensitivity: compute ES, given alpha, power, N\nDesign: Correlations? t-test? Two-group or paired? Linear model?\n\nα = .05? .005?\nPower = 80%?\nOne-sided or two-sided test?\nExpected / Minimally interesting effect size -The metric of the effect size (d? r? \\(f^2\\)?)"
   },
   {
     "objectID": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.slide.html#write-up",
     "href": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.slide.html#write-up",
-    "title": "How to report a power analysis",
+    "title": "How (not) to report a power analysis",
     "section": "Write-Up",
     "text": "Write-Up\n\n\nhttps://twitter.com/GuyProchilo/status/1292780240977223681"
   },
   {
+    "objectID": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.slide.html#lets-check-an-issue-from-a-journal",
+    "href": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.slide.html#lets-check-an-issue-from-a-journal",
+    "title": "How (not) to report a power analysis",
+    "section": "Let’s check an issue from a journal …",
+    "text": "Let’s check an issue from a journal …\nHow are power analyses reported in practice?"
+  },
+  {
     "objectID": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.slide.html#example-1",
     "href": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.slide.html#example-1",
-    "title": "How to report a power analysis",
+    "title": "How (not) to report a power analysis",
     "section": "Example 1",
     "text": "Example 1\n\n\n# 10.1002/ejsp.2710: f2 = 0.07\n# u: Number of predictors in the model (without intercept). Here presumably 3.\n# n = v + u + 1; v = n- u - 1\npwr.f2.test(u = 3, v = 152-3-1, sig.level = 0.05, power = 0.8)\n# -&gt; f2 = 0.07366273"
   },
   {
     "objectID": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.slide.html#example-2",
     "href": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.slide.html#example-2",
-    "title": "How to report a power analysis",
+    "title": "How (not) to report a power analysis",
     "section": "Example 2",
     "text": "Example 2"
   },
   {
     "objectID": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.slide.html#example-3",
     "href": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.slide.html#example-3",
-    "title": "How to report a power analysis",
+    "title": "How (not) to report a power analysis",
     "section": "Example 3",
     "text": "Example 3"
   },
   {
     "objectID": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.slide.html#example-4",
     "href": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.slide.html#example-4",
-    "title": "How to report a power analysis",
+    "title": "How (not) to report a power analysis",
     "section": "Example 4",
     "text": "Example 4\n\n\n# 10.1002/ejsp.2713\n# guessing the ES and alpha\npwr.f2.test(u=3, f2=0.0435, sig.level = 0.05, power = 0.8)\n# n -&gt; 255"
   },
   {
     "objectID": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.slide.html#example-5",
     "href": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.slide.html#example-5",
-    "title": "How to report a power analysis",
+    "title": "How (not) to report a power analysis",
     "section": "Example 5",
     "text": "Example 5\n\n\n# 10.1002/ejsp.2715\npwr.f2.test(u=1, f2=0.05, sig.level = 0.05, power = 0.8)\n# n = 158"
   },
   {
     "objectID": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.slide.html#example-6",
     "href": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.slide.html#example-6",
-    "title": "How to report a power analysis",
+    "title": "How (not) to report a power analysis",
     "section": "Example 6",
     "text": "Example 6\n\n\nSiehe https://www.fak11.lmu.de/dep_psychologie/studium/lehrelounge/benotung-schriftl-arbeiten/index.html"
   },
   {
     "objectID": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.slide.html#contact",
     "href": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.slide.html#contact",
-    "title": "How to report a power analysis",
+    "title": "How (not) to report a power analysis",
     "section": "Contact",
-    "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0\n\n\n\n\n\n\nForschungsorientierte Praktikum I – Empirisches Praktikum, Ludwig-Maximilians-Universität München"
+    "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n \n\n\n\n\nForschungsorientierte Praktikum I – Empirisches Praktikum, Ludwig-Maximilians-Universität München"
   },
   {
     "objectID": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.html",
     "href": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.html",
-    "title": "How to report a power analysis",
+    "title": "How (not) to report a power analysis",
     "section": "",
-    "text": "Minimum: Anybody can reproduce the computations (without ambiguities and guessing), and get to the same result.\nOptimal: Key choices are justified. Most importantly: the assumed effect size. But also: Why α=5% Why power = 80%?\n\n\n\n\n\n\n\nType of power analysis:\n\nA priori: compute N, given alpha, power, ES\nPost-hoc: compute power, given alpha, N, ES\nCriterion: compute alpha, given power, ES, N\nSensitivity: compute ES, given alpha, power, N\nDesign: Correlations? t-test? Two-group or paired? Linear model?\n\nα = .05? .005?\nPower = 80%?\nOne-sided or two-sided test?\nExpected / Minimally interesting effect size -The metric of the effect size (d? r? f²?)"
+    "text": "Minimum: Anybody can reproduce the computations (without ambiguities and guessing), and get to the same result.\nOptimal: Key choices are justified. Most importantly: the assumed effect size. But also: Why α=5% Why power = 80%?\n\n\n\n\n\n\n\nType of power analysis:\n\nA priori: compute N, given alpha, power, ES\nPost-hoc: compute power, given alpha, N, ES\nCriterion: compute alpha, given power, ES, N\nSensitivity: compute ES, given alpha, power, N\nDesign: Correlations? t-test? Two-group or paired? Linear model?\n\nα = .05? .005?\nPower = 80%?\nOne-sided or two-sided test?\nExpected / Minimally interesting effect size -The metric of the effect size (d? r? \\(f^2\\)?)"
   },
   {
     "objectID": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.html#reproducibility-justification",
     "href": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.html#reproducibility-justification",
-    "title": "How to report a power analysis",
+    "title": "How (not) to report a power analysis",
     "section": "",
-    "text": "Minimum: Anybody can reproduce the computations (without ambiguities and guessing), and get to the same result.\nOptimal: Key choices are justified. Most importantly: the assumed effect size. But also: Why α=5% Why power = 80%?\n\n\n\n\n\n\n\nType of power analysis:\n\nA priori: compute N, given alpha, power, ES\nPost-hoc: compute power, given alpha, N, ES\nCriterion: compute alpha, given power, ES, N\nSensitivity: compute ES, given alpha, power, N\nDesign: Correlations? t-test? Two-group or paired? Linear model?\n\nα = .05? .005?\nPower = 80%?\nOne-sided or two-sided test?\nExpected / Minimally interesting effect size -The metric of the effect size (d? r? f²?)"
+    "text": "Minimum: Anybody can reproduce the computations (without ambiguities and guessing), and get to the same result.\nOptimal: Key choices are justified. Most importantly: the assumed effect size. But also: Why α=5% Why power = 80%?\n\n\n\n\n\n\n\nType of power analysis:\n\nA priori: compute N, given alpha, power, ES\nPost-hoc: compute power, given alpha, N, ES\nCriterion: compute alpha, given power, ES, N\nSensitivity: compute ES, given alpha, power, N\nDesign: Correlations? t-test? Two-group or paired? Linear model?\n\nα = .05? .005?\nPower = 80%?\nOne-sided or two-sided test?\nExpected / Minimally interesting effect size -The metric of the effect size (d? r? \\(f^2\\)?)"
   },
   {
     "objectID": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.html#write-up",
     "href": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.html#write-up",
-    "title": "How to report a power analysis",
+    "title": "How (not) to report a power analysis",
     "section": "Write-Up",
     "text": "Write-Up\n\n\nhttps://twitter.com/GuyProchilo/status/1292780240977223681"
   },
   {
+    "objectID": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.html#lets-check-an-issue-from-a-journal",
+    "href": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.html#lets-check-an-issue-from-a-journal",
+    "title": "How (not) to report a power analysis",
+    "section": "Let’s check an issue from a journal …",
+    "text": "Let’s check an issue from a journal …\n\nHow are power analyses reported in practice?"
+  },
+  {
     "objectID": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.html#example-1",
     "href": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.html#example-1",
-    "title": "How to report a power analysis",
+    "title": "How (not) to report a power analysis",
     "section": "Example 1",
     "text": "Example 1\n\n\n# 10.1002/ejsp.2710: f2 = 0.07\n# u: Number of predictors in the model (without intercept). Here presumably 3.\n# n = v + u + 1; v = n- u - 1\npwr.f2.test(u = 3, v = 152-3-1, sig.level = 0.05, power = 0.8)\n# -&gt; f2 = 0.07366273"
   },
   {
     "objectID": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.html#example-2",
     "href": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.html#example-2",
-    "title": "How to report a power analysis",
+    "title": "How (not) to report a power analysis",
     "section": "Example 2",
     "text": "Example 2"
   },
   {
     "objectID": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.html#example-3",
     "href": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.html#example-3",
-    "title": "How to report a power analysis",
+    "title": "How (not) to report a power analysis",
     "section": "Example 3",
     "text": "Example 3"
   },
   {
     "objectID": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.html#example-4",
     "href": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.html#example-4",
-    "title": "How to report a power analysis",
+    "title": "How (not) to report a power analysis",
     "section": "Example 4",
     "text": "Example 4\n\n\n# 10.1002/ejsp.2713\n# guessing the ES and alpha\npwr.f2.test(u=3, f2=0.0435, sig.level = 0.05, power = 0.8)\n# n -&gt; 255"
   },
   {
     "objectID": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.html#example-5",
     "href": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.html#example-5",
-    "title": "How to report a power analysis",
+    "title": "How (not) to report a power analysis",
     "section": "Example 5",
     "text": "Example 5\n\n\n# 10.1002/ejsp.2715\npwr.f2.test(u=1, f2=0.05, sig.level = 0.05, power = 0.8)\n# n = 158"
   },
   {
     "objectID": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.html#example-6",
     "href": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.html#example-6",
-    "title": "How to report a power analysis",
+    "title": "How (not) to report a power analysis",
     "section": "Example 6",
     "text": "Example 6\n\n\nSiehe https://www.fak11.lmu.de/dep_psychologie/studium/lehrelounge/benotung-schriftl-arbeiten/index.html"
   },
   {
     "objectID": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.html#contact",
     "href": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.html#contact",
-    "title": "How to report a power analysis",
+    "title": "How (not) to report a power analysis",
     "section": "Contact",
-    "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0"
+    "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread"
   },
   {
     "objectID": "slides/slides_overview.html",
