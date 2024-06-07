@@ -247,6 +247,7 @@ ul.task-list li input[type="checkbox"] {
 <p><br> <br></p>
 <ul>
 <li>On the contrary. By preregistering your ideas you mark them as yours! If anyone still dares to steal them, it will be very easy to point this out as scientific misconduct.</li>
+<li>On some repositories (e.g., OSF), you can put an embargo on the preregistration. Then the preregistration is not publicly visible for a period of up to 4 years.</li>
 </ul>
 </div>
 </div>
@@ -284,8 +285,8 @@ ul.task-list li input[type="checkbox"] {
 <div class="fragment fade-up">
 <p><br></p>
 <ul>
-<li>That would be easy-to-spot scientific misconduct.(compared to not-so-easy to spot HARKing without prereg)</li>
-<li>If more than one hypothesis is preregistered you will need a lot of luck that you have a „perfect-fit“ preregistration</li>
+<li>That would be easy-to-spot scientific misconduct (compared to not-so-easy to spot HARKing without prereg)</li>
+<li>If more than one hypothesis is preregistered you will need a lot of luck that you have a “perfect-fit” preregistration</li>
 </ul>
 </div>
 </div>
@@ -477,7 +478,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="smaller">
 <ul>
-<li>For exploratory analyses: „We don‘t have any hypotheses“</li>
+<li>For exploratory analyses: “We don‘t have any hypotheses”</li>
 <li>Transparency statement: How will research output be shared?</li>
 <li>Conditional safeguards: What will happen if…?</li>
 </ul>
@@ -563,44 +564,6 @@ ul.task-list li input[type="checkbox"] {
 </section>
 
 </main> <!-- /main -->
-
-<script>
-  // htmlwidgets need to know to resize themselves when slides are shown/hidden.
-  // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
-  // slide changes (different for each slide format).
-  (function () {
-    // dispatch for htmlwidgets
-    function fireSlideEnter() {
-      const event = window.document.createEvent("Event");
-      event.initEvent("slideenter", true, true);
-      window.document.dispatchEvent(event);
-    }
-
-    function fireSlideChanged(previousSlide, currentSlide) {
-      fireSlideEnter();
-
-      // dispatch for shiny
-      if (window.jQuery) {
-        if (previousSlide) {
-          window.jQuery(previousSlide).trigger("hidden");
-        }
-        if (currentSlide) {
-          window.jQuery(currentSlide).trigger("shown");
-        }
-      }
-    }
-
-    // hookup for slidy
-    if (window.w3c_slidy) {
-      window.w3c_slidy.add_observer(function (slide_num) {
-        // slide_num starts at position 1
-        fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
-      });
-    }
-
-  })();
-</script>
-
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
