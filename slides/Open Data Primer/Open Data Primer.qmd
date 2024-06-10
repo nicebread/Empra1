@@ -268,7 +268,7 @@ Recommendations of the German Psychological Association, [https://psyarxiv.com/2
 <!-- Insert blank lines -->
 <br>
 <div style="text-align: center;">
-![](img/The_FAIR_Principles.jpg){width=750px}
+![](img/The_FAIR_Principles.jpg){width=650px}
 </div>
 
 ::: footer
@@ -301,15 +301,34 @@ Icon from [flaticon.com](https://www.flaticon.com/) by freepic, mynamepong, monk
 <br>
 <br>
 <br>
+
 <div style="text-align: center;">
-![](img/Balancing_values.jpg){width=750px}
+
+```{mermaid}
+
+flowchart LR
+    A["<div style='padding:20px;width:300px;height:auto;background-color:#add8e6;border:2px solid #000;font-size:32px;'>Open Data, public interest <br> entitlement to publicly funded data</div>"] <--> B["<div style='padding:20px;width:300px;height:auto;background-color:#90ee90;border:2px solid #000;font-size:32px;'>Privacy rights of <br> research subjects</div>"]
+    C["<div style='padding:20px;width:300px;height:auto;background-color:#add8e6;border:2px solid #000;font-size:32px;'>Right of first usage, <br> incentives to collect data in the first place</div>"] <--> D["<div style='padding:20px;width:300px;height:auto;background-color:#90ee90;border:2px solid #000;font-size:32px;'>Optimal and efficient gain of <br> knowledge by data reuse</div>"]
+    E["<div style='padding:20px;width:300px;height:auto;background-color:#add8e6;border:2px solid #000;font-size:32px;'>Reproducibility and verifiability of <br> published analyses</div>"] <--> F["<div style='padding:20px;width:300px;height:auto;background-color:#90ee90;border:2px solid #000;font-size:32px;'>Protect original authors against <br> inadequate burden and potential attacks</div>"]
+
+    
+```
 </div>
+
 
 ## Balancing values: Three fields of <br> tension with human subject data
 
 <div style="text-align: center;">
-![](img/Balancing_values_2.jpg){width=700px}
+
+```{mermaid}
+
+flowchart LR
+
+    A["<div style='padding:20px;width:300px;height:auto;background-color:#add8e6;border:2px solid #000;font-size:24px;'>Open Data, public interest <br> entitlement to publicly funded data</div>"] <--> B["<div style='padding:20px;width:300px;height:auto;background-color:#90ee90;border:2px solid #000;font-size:24px;'>Privacy rights of <br> research subjects</div>"]
+    
+```
 </div>
+
 
 - Privacy rights > openness; but also: „legitimate interest“ of
   research
@@ -326,8 +345,12 @@ Icon from [flaticon.com](https://www.flaticon.com/) by freepic, mynamepong, monk
 ## Balancing values: Three fields of <br> tension with human subject data
 
 <div style="text-align: center;">
-![](img/Balancing_values_3.jpg){width=700px}
+```{mermaid}
 
+flowchart LR
+
+C["<div style='padding:20px;width:300px;height:auto;background-color:#add8e6;border:2px solid #000;font-size:24px;'>Right of first usage, <br> incentives to collect data in the first place</div>"] <--> D["<div style='padding:20px;width:300px;height:auto;background-color:#90ee90;border:2px solid #000;font-size:24px;'>Optimal and efficient gain of <br> knowledge by data reuse</div>"]
+``` 
 </div>
 
 - Right of first usage, possibility of embargo
@@ -356,7 +379,12 @@ Icon from [flaticon.com](https://www.flaticon.com/) by freepic, mynamepong, monk
 ## Balancing values: Three fields of <br> tension with human subject data
 
 <div style="text-align: center;">
-![](img/Balancing_values_4.jpg){width=700px}
+```{mermaid}
+
+flowchart LR
+
+E["<div style='padding:20px;width:300px;height:auto;background-color:#add8e6;border:2px solid #000;font-size:24px;'>Reproducibility and verifiability of <br> published analyses</div>"] <--> F["<div style='padding:20px;width:300px;height:auto;background-color:#90ee90;border:2px solid #000;font-size:24px;'>Protect original authors against <br> inadequate burden and potential attacks</div>"]
+``` 
 
 </div>
 
@@ -375,7 +403,12 @@ Icon from [flaticon.com](https://www.flaticon.com/) by freepic, mynamepong, monk
 ## Balancing values: Three fields of <br> tension with human subject data
 
 <div style="text-align: center;">
-![](img/Balancing_values_4.jpg){width=700px}
+```{mermaid}
+
+flowchart LR
+
+E["<div style='padding:20px;width:300px;height:auto;background-color:#add8e6;border:2px solid #000;font-size:24px;'>Reproducibility and verifiability of <br> published analyses</div>"] <--> F["<div style='padding:20px;width:300px;height:auto;background-color:#90ee90;border:2px solid #000;font-size:24px;'>Protect original authors against <br> inadequate burden and potential attacks</div>"]
+``` 
 
 </div>
 

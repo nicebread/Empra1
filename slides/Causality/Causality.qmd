@@ -14,7 +14,7 @@ format:
     transition: slide    
   html: default
 revealjs-plugins:
-  - attribution 
+  - attribution
 ---
 
 <!-- Dauer: 25 min. -->
@@ -35,7 +35,21 @@ revealjs-plugins:
 :::
 
 <div style="text-align: center;">
-![](img/Running-Wellbeing-Graph.jpg)
+
+```{mermaid}
+graph LR
+    A["<div style='padding:20px;width:200px;height:auto;background-color:#add8e6;border:2px solid #000;font-size:24px;color:#000;'>Running</div>"] 
+    <--> 
+    B["<div style='padding:20px;width:200px;height:auto;background-color:#add8e6;border:2px solid #000;font-size:24px;color:#000;'>Wellbeing</div>"]
+
+    linkStyle 0 stroke-width:2px,stroke:#000,color:#000
+
+```
+</div>
+
+
+<div style="text-align: center;margin-top: -100px;">
+![](img/Double_Correlation.jpg){ width=400px}
 </div>
 
 ## Underlying causal structure
@@ -151,7 +165,7 @@ West, S., Biesanz, J., Kwok, O.-M., Sansone, C., Morf, C., & Panter, A. (2004). 
 
 
 :::
-<div style="text-align: center;">
+<div style="text-align: center; margin-top: -40px;">
 ![](img/Control-Group.jpg){width=850px}
 
 </div>
@@ -172,8 +186,9 @@ Boot, W. R., Simons, D. J., Stothart, C., & Stutts, C. (2013). The Pervasive Pro
 ## 
 
 <div style="text-align: center;">
-![](img/Control-Group.-Graph.jpg){width=500px}
+![](img/Control-Group.-Graph.jpg){width=550px}
 </div>
+
 
 <style>
 .attribution {
