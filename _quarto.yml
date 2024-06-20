@@ -22,6 +22,8 @@ format:
     theme: flatly
     css: styles.css
     toc: true
+    mermaid: 
+      version: "10.9.1"
 
 editor: source
 

@@ -1,0 +1,447 @@
+---
+title: "How to minimize mistakes"
+subtitle: "Good coding practices"
+author:
+  - name: Felix Schönbrodt
+    orcid: 0000-0002-8282-3910
+    email: felix.schoenbrodt@psy.lmu.de
+    affiliations: Ludwig-Maximilians-Universität München
+date: 2024-04-27
+footer: "Forschungsorientierte Praktikum I – Empirisches Praktikum, Ludwig-Maximilians-Universität München"
+format: 
+  nicetheme-revealjs: 
+    output-ext: slide.html
+    transition: slide    
+  html: default
+revealjs-plugins:
+  - attribution
+---
+
+<!-- Dauer: 25 min. -->
+
+## 
+
+<div style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100vh; font-family: 'Segoe', sans-serif;">
+  <div style="font-size: 48px; font-weight: bold;">  <!-- This matches a bold title -->
+    How to minimize mistakes
+  </div>
+  <div style="font-size: 32px; color: gray; margin-top: 20px;">  <!-- Smaller, lighter for subtitle -->
+    Good coding practices
+  </div>
+</div>
+
+
+<div style="position: absolute; top: 0; right: 0; z-index: 10;">
+    
+![](img/Research_Transparency.jpg){width=130px}
+![](img/OSC_LMU_Open_Science_Center.jpg){width=250px}
+    
+</div>
+
+<div style="position: absolute; top: 0; left: 0; z-index: 10;">
+    
+![](img/LMU.jpg){width=250px}
+    
+</div>
+
+<div style="position: absolute; bottom: 0; right: 0; z-index: 10;font-size: 20px;">
+**Felix Schönbrodt & Caroline Zygar-Hoffmann** <br>
+Ludwig-Maximilians-Universität <br>
+München
+</div>
+
+
+<div style="position: absolute; bottom: 0; left: 0; z-index: 10;font-size: 14px">
+
+::: columns
+::: {.column width="70%"}
+
+This presentation is licensed under a [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) license. <br> You may copy, distribute, and use the slides in your own work, <br> 
+as long as you give attribution to the original author at each slide that you use.
+
+:::
+::: {.column width="30%"}
+
+<div>
+![](img/Licence.jpg){width=70px}
+</div>
+:::
+:::
+</div>
+
+::: footer
+Twitter accounts: [@psycaroly](https://twitter.com/psycaroly), [@nicebread303](https://twitter.com/nicebread303)
+:::
+
+
+## The Ideal? <span style="padding-left: 300px;">Reality?</span>
+
+
+::: columns
+::: {.column width="50%"}
+
+- Surrounded from a flood of fake news,
+  science is one of (the last?)
+  sources of credible information.
+- Trust in science: Scientists are
+  impartial, meticulous, and check
+  their results rigorously in peer
+  review before publication
+- Although error-freeness cannot be
+  guaranteed, science provides the
+  most reliable source of
+  information, and if errors happen,
+  they soon get detected and
+  corrected.
+:::
+::: {.column width="50%"}
+
+- <span style="border-bottom: 2px solid #89CFF0; display: inline;">Replication/credibility crisis</span>
+- <span style="border-bottom: 2px solid #89CFF0; display: inline;">Number of retractions rises
+  exponentially</span>
+- <span style="border-bottom: 2px solid #89CFF0; display: inline;">Pressure to „publish or perish“
+  leads to hurried manuscript, less
+  error checking</span>
+- Reviewer overload leads to
+  superficial reviews
+- <span style="border-bottom: 2px solid #89CFF0; display: inline;">***statcheck***(Nuijten et al., 2016):
+  50% of psychology papers contain</span>
+  at least one inconsistent statistic
+:::
+:::
+
+## Mistakes lurke everywhere
+
+::: {.smaller}
+- Errors in data collection software/scripts
+- Error in manual data transcription
+- Analyzing the wrong data set (e.g., an old version, a filter has been
+  unknowingly applied)
+- Coding errors
+  - Wrong group assignment (control/ experimental group)
+  - NAs coded as 99?
+- Faulty analysis software; version changes in R packages
+- Mistyping numbers when copying them from R to manuscript
+- Send the wrong file to the journal submission system
+- Asymmetry: Mistakes tend to go in the preferred direction (Gould, 1996),
+  because we check more vigorously when results (unexpectedly) go into the
+  wrong direction.
+  - See also „garden of forking paths“ (Gelman & Loken, 2013): A lot of **p**-hacking is unintentional
+:::
+
+## Mistakes lurke everywhere
+<div style="text-align: center;">
+![](img/Example.jpg){ width=750px}
+</div>
+
+::: footer
+Screenshot from presentation from Katrin Auspurg & Josef Brüderl
+::: 
+
+## How to prevent coding errors?
+
+<div style="text-align: center;">
+![](img/Preventing_Coding_Errors.jpg){ width=550px}
+</div>
+
+::: footer
+[https://www.osnews.com/story/19266/wtfsm/](https://www.osnews.com/story/19266/wtfsm/)
+::: 
+
+## Unit tests / sanity checks
+
+- <span style="border-bottom: 2px solid #89CFF0; display: inline;">***Always***</span> look at the descriptive statistics (min, max,
+  NAs, mean) of <span style="border-bottom: 2px solid #89CFF0; display: inline;">***every***</span> variable (also
+  transformed/computed variables)
+  - Know the scales of your variables: Is the mean plausible? Is the
+    minimum and maximum value theoretically possible and plausible?
+  - Does a scale value from multiple items have only discrete values?
+  - Do z-standardized variables really have *mean*=0 and *SD*=1?
+- Plot all variables (scatterplot, histograms)
+
+## Unit tests / sanity checks
+
+- The ***summarytools*** package
+  makes this really easy:
+
+<div style="position: absolute; top: 10px; right: 10px;">
+  ![](img/Unit_Tests_1.jpg){width=300px}
+</div>
+
+
+::: columns
+::: {.column width="70%"}
+
+<div style="margin-top: -30px;">
+![](img/Unit_Tests_2.jpg){ width=650px}
+</div>
+
+:::
+::: {.column width="30%"}
+
+::: {.smaller}
+alternatively:
+***codebook*** package
+by Ruben Arslan
+(also has RStudio plugin).
+Has some nice
+convenience functions, e.g.
+when importing SPSS or
+other data files.
+:::
+:::
+:::
+
+
+## Technical reproducibility
+
+::: {.smallest}
+::: columns
+::: {.column width="60%"}
+
+1. When you rely on random numbers (e.g., in
+   simulation studies): Set a seed for reproducibility
+   - Take care when doing parallel computing, this sometimes
+requires special treatment of seeds
+2. Document exact versions of all packages/ external
+   programs at each completed stage of data analysis
+   - e.g., in R: Save the sessionInfo() of the analytical pipeline in an
+     accompanying file when you submit a paper, and for every revision
+3. Save a snapshot of the current version/state of the
+   statistical software
+   - e.g., in R: checkpoint package, packrat package, renv package
+4. The safest way: Make a docker container which
+   contains the full computational environment
+   (including OS)
+:::
+
+::: {.column width="40%"}
+
+<div>
+![](img/Technical_Reproducibility.jpg){width=850px}
+</div>
+:::
+:::
+:::
+
+<div style="text-align: center; margin-top: -30px;">
+![](img/Technical_Reproducibility_2.jpg){width=800px}
+</div>
+
+::: footer
+Graphic from [https://rviews.rstudio.com/2018/01/18/package-management-for-reproducible-r-code/](https://rviews.rstudio.com/2018/01/18/package-management-for-reproducible-r-code/)
+:::
+
+## Coding style
+
+- Meaningful variable names, meaningful directory
+  structure
+- Never copy and paste code
+- Never write a coding block longer than your screen
+- Literate Programming (Knuth): Computer code is for
+  humans, not just for computers.
+  
+::: footer
+[https://x.com/mcxfrank/status/1075466294797824000](https://x.com/mcxfrank/status/1075466294797824000)
+:::
+
+## File organization
+
+<br>
+
+- (The following guidelines apply to many, but not all
+  possible types of projects)
+- All files that are necessary for reproducing the results
+  should be bundled in <span style="border-bottom: 2px solid #89CFF0; display: inline;">one</span> directory
+  - Including: primary unprocessed data files, scripts for data
+    preprocessing, cached intermediate data objects, scripts for
+    hypothesis testing, generated result plots, ...
+  - Goal: You zip the directory, send it to somebody, and the
+    person can reproduce the full analytical pipeline.
+- Use a consistent, self-explanatory subdirectory structure
+- Number script files in execution order (see next slide)
+
+<div style="position: absolute; top: 0; right: 0; z-index: 10;">
+    
+![](img/OSC_LMU_Open_Science_Center.jpg){width=250px}
+    
+</div>
+
+## Directory organization
+
+<br>
+
+<div style="text-align: center;">
+![](img/Directory_Organization.jpg){ width=700px}
+</div>
+
+<div style="position: absolute; top: 0; right: 0; z-index: 10;">
+    
+![](img/OSC_LMU_Open_Science_Center.jpg){width=250px}
+    
+</div>
+
+## Subdirectory organization
+
+<div style="text-align: center; margin-top: +30px;">
+::: {.smaller}
+- (Again, this is one possible organization scheme)
+- **/raw_data**: Contains all raw primary data files, as you received them (or exported them
+  from the experimental software), without any manual preprocessing. <br>
+  Primary data files are sacrosanct – set them to read-only, never change anything in them. <br>
+  Any transformation, data exclusions, or error corrections must be done in scripts in order to
+  be reproducible.
+- **/processed_data**: Stores intermediate data objects. For example, after you did all your
+  outlier exclusions, data transformations, etc., store a file „data_cleaned.csv“ in /cache. If
+  you refer to this data file in subsequent scripts, you do not have to run the preprocessing
+  script every time.
+  All files in **/processed_data** can be safely deleted, as they can be reconstructed by running
+  all script files in the correct order.
+- **/doc**: Documents (such as PDFs, manuals, etc.) related to the project.
+- **/plots**: Store result plots that you created in your scripts.
+- **/export**: If you export (sub)data sets or summaries for dissemination, store them here.
+- **/archive**: Old scripts and other files which are not used for your final analytical pipeline, but
+  which you want to keep for some reasons.
+:::
+</div>
+
+<div style="position: absolute; top: 0; right: 0; z-index: 10;">
+    
+![](img/OSC_LMU_Open_Science_Center.jpg){width=250px}
+    
+</div>
+
+## Variable name conventions
+<br>
+
+::: columns
+::: {.column width="70%"}
+
+- snake_case, camelCase, dot.style,
+  sTUdLy cAPs?
+  - Do not use dots in variables (clashes
+    with some functions)
+  - Some consensus that snake_case is
+    the best choice, but respect languagespecific coding conventions
+  - Be consistent!
+- Prefer short variable names, but:<br>
+  understandability >> brevity
+:::
+
+::: {.column width="30%"}
+
+<div>
+![](img/Variable_Name_Convention_1.jpg){width=350px}
+</div>
+
+<div>
+![](img/Variable_Name_Convention_2.jpg){width=350px}
+</div>
+:::
+:::
+
+<div style="position: absolute; top: 0; right: 0; z-index: 10;">
+    
+![](img/OSC_LMU_Open_Science_Center.jpg){width=250px}
+    
+</div>
+
+## Variable name conventions
+
+::: {.smaller}
+- Before: Inconsistent mixture of naming styles
+
+<div style="margin-top: -60px;">
+![](img/Table_1.jpg){width=750px}
+</div>
+
+
+- After: Consistent naming style
+
+<div style="margin-top: -60px;">
+![](img/Table_2.jpg){width=750px}
+</div>
+
+:::
+
+<div style="position: absolute; top: 0; right: 0; z-index: 10;">
+    
+![](img/OSC_LMU_Open_Science_Center.jpg){width=250px}
+    
+</div>
+
+## Code commenting
+
+<div style="margin-top: +50px;">
+::: {.smallest}
+::: columns
+::: {.column width="50%"}
+
+- At the start of each script file: Author,
+  license, purpose of the file.
+- Load add-on packages all at once at the
+  beginning of the file
+- Rule of thumb: At least
+  1 comment per 3 lines of code
+- Link code comments to paper structure
+  - „Table 3: Descriptives of...“
+  - „Hypothesis 2: Does metafilin increase
+    [...]?“
+- Bonus: Link code comments to IDs of
+  the preregistration
+- Separate chunks of code with comment
+  lines
+- If the file gets too long (e.g., > 500
+  lines), split into multiple files
+- Use English variable names and
+  comments from the beginning
+  (you don‘t want to translate everything
+  before dissemination)
+:::
+
+::: {.column width="50%"}
+
+<div>
+![](img/Code_Commenting.jpg){width=450px}
+</div>
+
+:::
+:::
+:::
+</div>
+
+<div style="position: absolute; top: 0; right: 0; z-index: 10;">
+    
+![](img/OSC_LMU_Open_Science_Center.jpg){width=250px}
+    
+</div>
+
+## Collaboration
+
+- Pair Programming
+  - Pair programming is an agile software development technique in
+    which two programmers work together at one workstation. One,
+    the ***driver***, writes code while the other, the ***observer*** or ***navigator***,
+    reviews each line of code as it is typed in. The two programmers
+    switch roles frequently. ([Wikipedia](https://en.wikipedia.org/wiki/Pair_programming))
+- Golden route: Independent implementation
+
+## References
+
+- Bishop, D. V. M. (2018). Fallibility in Science: Responding to Errors in
+  the Work of Oneself and Others. Advances in Methods and Practices
+  in Psychological Science, 1(3), 432–438.
+  [http://doi.org/10.1177/2515245918776632](http://doi.org/10.1177/2515245918776632)
+- Rouder, J., Haaf, J. M., & Snyder, H. K. (2018, March 25). Minimizing
+  Mistakes In Psychological Science.    [https://doi.org/10.31234/osf.io/gxcy5](https://doi.org/10.31234/osf.io/gxcy5)
+- Martin, R. (2008). Clean Code: A Handbook of Agile Software
+  Craftsmanship (1st ed.). Upper Saddle River, NJ: Prentice Hall.
+- Karthik Ram: How To Make Your Data Analysis Notebooks More
+  Reproducible
+  - [https://github.com/karthik/rstudio2019](https://github.com/karthik/rstudio2019)
+  - [https://inundata.org/talks/rstd19/#/](https://inundata.org/talks/rstd19/#/)
+
+
+<!-- Footer insert below -->
+```{r child="../../common/lastslide.qmd"}
+```
