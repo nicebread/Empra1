@@ -1,0 +1,35 @@
+---
+title: Session 10 - Open Data
+number-sections: false
+description: We talk about how to publish open data and to secure anonymity.
+---
+
+# Overview
+
+| Topic                                        | Duration | Notes |
+| :------------------------------------------- | :------: | ----- |
+| Wrap up homework 1: Recommendations RDM      |    30    |       |
+| Introduction Open Data                       |    55    |       |
+| Group exercise: Plan participant acquisition |    45    |       |
+| Homework: Create Codebook for Prereg         |    5     |       |
+
+: {.striped}
+
+
+## Do a power analysis in practice
+
+Convert a between-person effect size into a within-person effect size:
+
+See Eq. 9 from [Lakens (2013)](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2013.00863/full):
+![](img/d_rm_formula.png)
+
+```r
+M_diff = 6.02 - 5.69
+SD1 = 1.34
+SD2 = 1.23
+r = 0.5
+d_rm = M_diff / sqrt(SD1^2 + SD2^2 - 2*r*SD1*SD2) * sqrt(2*(1-r))
+```
+
+## Homework 1
+

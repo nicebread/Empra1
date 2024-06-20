@@ -1,0 +1,120 @@
+---
+title: Session 08 + 09 - Finalize Study
+number-sections: false
+description: We try to get the study ready to run, so that it can be tested.
+---
+
+# Overview
+
+| Topic                                       | Duration | Notes |
+| :------------------------------------------ | :------: | ----- |
+| Work on finalizing the study                |   180    |       |
+| Homework: Test the study on your smartphone |    5     |       |
+
+: {.striped}
+
+
+
+## Finalize Study
+
+### Intervention
+
+Wir haben 6-7 Kategorien von Interventionen. Jede Person macht 3 Kategorien (3 Kategorien * 3 Ausprägungen = 9 Interventionen = 9 Tage).
+Alles auf deutsch.
+
+- Eigene Fotos (Elisa, Anne, Leonie)
+  - [ ] Instruktion fehlt noch (3 Varianten)
+  - [ ] Negativ-Variante fehlt noch
+- Audioimagination (Antonia, Maria, Elina, Elena, Theresa, Ann-Sophie, Paula)
+  - [X] Audio fehlt noch (3 Varianten)
+  - [X] Instruktion fehlt noch
+  - [ ] Parallisierung: ähnlicher Stil, Instruktion, Länge, Aufbau
+- Podcasts (Clara, Laura)
+  - [X] Audio fehlt noch (3 Varianten)
+  - [ ] evtl. neue Neutralbedingung
+  - [ ] Instruktion fehlt noch
+  - [ ] Nach Möglichkeit fragen, das in einem Forschungsprojekt zu benutzen
+- Gemeinsamen Events (Oceane, Samuel, Estelle)
+  - [ ] Instruktion fehlt noch (3 Varianten)
+  - [ ] Events fehlen noch
+- Filmausschnitte (Emma, Madeleine, Lily)
+  - [ ] Video Kontrollgruppe fehlt noch: Natur
+  - [ ] Alle drei Gruppen sollten möglichst gleich in Valenz und Arousal sein. (Ist bei den Filmausschnitten nicht der Fall. --> idealerweise selber Film, selbe Valenz, aber unterschiedliche motivationale Ausrichtung). Bei Up wird das nicht klappen.
+  - [X] Instruktion von Nensy
+  - Screencapture: Google Chrome + Einstellungen ändern. Alles auf deutsch. Ohne Untertitel.
+
+In Kombi:
+
+- Suchsel (Mashek Replikation: Xinyi, Evelyn)
+  - [X] motivationsanhebende Wörter fehlen noch (neutral und negativ wird von Mashek übernommen)
+  - [ ] 3 Gitter erstellen (12x12 Buchstaben), wo die Wörter horizontal und vertikal versteckt sind (Onlinetools)
+  - [ ] "csomfjfreundvf/fobkolnqltdujw/wzobeziehungur/miqwvnydzjudfm/uahtflpartnerr/nlikcvkrbpfueh/ryapyejwollqil/kunterstützung/lhcnwpcmfsrxha/tzzusammenhmbp/eexhenicrikuse/aqyfcwhemqwkrq/mcgesellschaft/tdfjklrcdmnjqs"
+  - [X] Instruktion fehlt noch
+- Wortketten (gleiche Wörter wie Mashek) --> Als Backup
+
+Kontrollgruppe: Natur?
+
+Generell darauf achten:
+- [ ] Gogle drive umstrukturieren: Ein Unterordner für jede Intervention; Dateinamen einheitlich:
+  - "INTERVENTIONSNAME_Instruktion.pdf"
+  - "INTERVENTIONSNAME_Material.pdf" --> sinnvollen Namen finden
+- [ ] Man kann die Intervention auch später machen
+
+
+
+::: {.callout-tip}
+# Wie Bildschirmaufnahmen machen für die Videoausschnitte? 
+
+Das sind die Schritte, die auf dem Windows Laptop funktioniert haben. Hier eine Anleitung zum Deaktivieren der Hardwarebeschleunigung:
+
+- Schritt 1. Suchen Sie das Dreipunktsymbol oben rechts auf Ihrem Google Chrome-Bildschirm. Klicken Sie mit der rechten Maustaste darauf und wählen Sie Einstellungen.
+- Schritt 2. Gehen Sie anschließend zum Systemabschnitt.
+- Schritt 3: Deaktivieren Sie die Option „ Hardwarebeschleunigung verwenden, wenn verfügbar“ auf der rechten Seite.
+- Schritt 4. Klicken Sie nun auf „Neu starten“, um Ihren Chrome-Browser neu zu starten.
+- Schritt 5. Öffnen Sie nun Ihr Netflix und machen Sie einen Screenshot. Wenn der schwarze Bildschirm nicht angezeigt wird, ist Ihre Arbeit erledigt.
+:::
+
+### Experimental Design
+
+9 Interventionstage: Pro sample drei Konditionen in 3 Ausprägungen = 9 Interventionen +
+prä/post Befragung
+
+- [ ] Welche 3 Kategorien bekommt jede Person? Randomisiert oder feste Bundles?
+- [ ] Wie werden die 9 Interventionen auf die 9 Tage verteilt? Randomisiert oder feste Reihenfolge?
+- [X] Qualitative Fragen.
+
+### App programmierung
+
+How to JSON
+
+- [ ] Du / Sie anpassen: Parallele Elemente beachten!
+
+- [ ] ECR in PreQ (ansonsten ist alles da)
+- [ ] Morgenbefragung
+- [ ] Interventionsanzeige + Prä/Post Befragung
+- [ ] Abendbefragung
+- [ ] PostQ: Qualitative Fragen, globale RS, trait Motive
+
+### Recruitment etc.
+
+- Gruppe 1: Webseite überarbeiten
+  - [ ] Peer Review
+- Gruppe 2: Flyer/Aushänge, Werbetexte für Social Media
+- Gruppe 3: Werbekanäle überlegen
+- Gruppe 4: Vergütung
+
+**Geplanter Studienstart: 17.06.2024**
+
+## Homework (individually)
+
+- Test the study yourself (when the app is ready; we send an email)
+- Turn your instructions and follow-up questions into JSON snippets (see examples [here](https://codefile.io/f/Nz7Jnjiksp)) and upload your snippets in Moodle --> Until Tuesday evening
+- Bitte lesen Sie die DGPs-Empfehlungen "Management und Bereitstellung von Forschungsdaten in der Psychologie" ([Gollwitzer et al., 2020](https://psyarxiv.com/hcxtm)) und beantworten Sie die folgenden Leitfragen kurz und präzise in Moodle.
+
+1. Ein Autor veröffentlicht vollständig Mittelwerte und SDs aller Variablen in einer Tabelle im Ergebnisteil. Sind damit die Primärdaten publiziert und der Dokumentationspflicht entsprochen worden? Wenn nein, warum nicht?
+2. Nennen Sie drei Beispiele für Metadaten eines Datensatzes.
+3. Was sind "personenbezogene Daten"? Ist das Geschlecht und Alter einer Person ein personenbezogenes Datum?
+4. Welche dieser Orte sind geeignet als Repositorium für die langfristige Archivierung und Bereitstellung von Daten? Wenn "Nein", warum nicht?. (a) Die persönliche Webseite der Forscherin an ihrer Universität; (b) das "Online Supplemental Material (OSM)" einer wissenschaftlichen Zeitschrift des Elsevier Verlags; (c) in einem öffentlichen Projekt des Open Science Frameworks (https://osf.io); (d) bei Figshare (https://figshare.com); (e) bei Zenodo (https://zenodo.org)
+5. Beschreiben Sie in jeweils einem Satz die "Datenbereitstellung Typ 1" und die "Datenbereitstellung Typ 2".
+6. Was bedeutet ein "Nutzungsembargo"? Wie lange sollte es maximal sein?
+7. Welche Zugriffsklassen gelten als "open data"?
