@@ -19,11 +19,6 @@ revealjs-plugins:
 
 <!-- Dauer: 25 min. -->
 
-##
-<div style="display: flex; align-items: center; justify-content: center; height: 600px;">
-  <h1>Research Data Management & Open Data</h1>
-</div>
-
 ## Open Science in the research process
 
 <!-- Insert blank lines -->
@@ -33,88 +28,58 @@ revealjs-plugins:
 ![](img/Open_Science_in_research_process.jpg){width=750px}
 </div>
 
-<div style="position: absolute; top: 0; right: 0; z-index: 10;">
 
-![](img/OSC_LMU_Open_Science_Center.jpg){width=200px}
-    
-</div>
 
 ::: footer
 get all material here: [https://osf.io/zjrhu/](https://osf.io/zjrhu/)
 :::
 
-##
-<div style="display: flex; align-items: center; justify-content: center; height: 600px;">
-  <h1>Why open data?</h1>
-</div>
-
-<div style="position: absolute; top: 0; right: 0; z-index: 10;">
-
-![](img/OSC_LMU_Open_Science_Center.jpg){width=200px}
-    
-</div>
+# Why open data?
 
 ## Why open data?
-
-<!-- Insert blank lines -->
-<br>
+### 1. Nullius in verba
 
 ::: columns
 ::: {.column width="70%"}
 
-- *1. Nullius in verba*
-   - take nobody's word for it
-   - Motto of the oldest scientific
-     society (Royal Society, founded 1660)
-   - Science is not built upon blind
-     trust, but on verifiability.
-   - „Organized skepticism“
-     (Merton, 1947)
+- take nobody's word for it
+- Motto of the oldest scientific
+  society (Royal Society, founded 1660)
+- Science is not built upon blind
+  trust, but on verifiability.
+- "Organized skepticism"
+  (Merton, 1947)
 :::
 ::: {.column width="30%"}
 ![](img/Nullius_in_verba.jpg){width=300px}
 :::
 :::
 
-::: {.smallest}
-Only when raw data (and other research material) are shared organized
-skepticism can be enacted, and science can really be self-correcting.
-Open data is one part of good scientific practice.
+::: {.callout-important style="font-size: 32px;"}
+Only when raw data (and other research material) are shared organized skepticism can be enacted, and science can really be self-correcting. Open data is one part of good scientific practice.
 :::
 
-<div style="position: absolute; top: 0; right: 0; z-index: 10;">
-
-![](img/OSC_LMU_Open_Science_Center.jpg){width=200px}
-    
-</div>
 
 
 ## Why open data?
+### 2. Efficiency and Inclusiveness
 
-
-- *2. Efficiency and Inclusiveness*
-  - Speedy responses in outbreaks; share rare and hard-to-collect
-    data
+- Speedy responses in outbreaks; share rare and hard-to-collect data
 
 <div style="text-align: center;">
-![](img/Efficiency_and_Inclusiveness.jpg){ width=800px}
+![](img/Efficiency_and_Inclusiveness.jpg){height=260px}
 </div>
 
-::: {.smallest}
-The covid-19 pandemic has shown how fast scientific progress can be when we share our
-data and knowledge freely, and that free knowledge is a moral imperative.
+::: {.callout-important style="font-size: 32px;"}
+The covid-19 pandemic has shown how fast scientific progress can be when we share our data and knowledge freely, and that free knowledge is a moral imperative.
 :::
 
-<div style="position: absolute; top: 0; right: 0; z-index: 10;">
-![](img/OSC_LMU_Open_Science_Center.jpg){width=200px}
-    
-</div>
+
 
 ## Why open data?
+### 3. Public money = public good
 
-- *3. Public money = public good*
-
-<div style="text-align: center; margin-top: -40px;">
+<div style="text-align: center;">
 ![](img/Public_money.jpg){ width=600px}
 </div>
 
@@ -122,26 +87,18 @@ data and knowledge freely, and that free knowledge is a moral imperative.
 [https://publiccode.eu/en/](https://publiccode.eu/en/)
 ::: 
 
-::: {.smallest}
-Publicly funded research data does not belong to the researcher who collected it.
-S/he has the right of primary usage, but after that the data should be considered a public
-good (of course respecting privacy rights and applicable copyrights).
+::: {.callout-important style="font-size: 32px;"}
+Publicly funded research data does not belong to the researcher who collected it. S/he has the right of primary usage, but after that the data should be considered a public good (of course respecting privacy rights and applicable copyrights).
 :::
 
-<div style="position: absolute; top: 0; right: 0; z-index: 10;">
-![](img/OSC_LMU_Open_Science_Center.jpg){width=200px}
-    
-</div>
+
 
 ## Why open data?
-
-<!-- Insert blank lines -->
-<br>
+### 4. Data persistence
 
 ::: columns
 ::: {.column width="60%"}
--   *4. Data persistence*
-    - never lose data due to a crashed hard disk drive
+- never lose data due to a crashed hard disk drive
 :::
 ::: {.column width="40%"}
 <div style="text-align: center;">
@@ -151,42 +108,22 @@ good (of course respecting privacy rights and applicable copyrights).
 :::
 
 
-::: {.smallest}
-A publicly funded repository is the right place for long term storage of research data – not
-your private USB stick, your personal university website (that vanishes after you change
-affiliation), or the journal’s online supplemental material that hides the data behind a
-paywall.
+::: {.callout-important style="font-size: 32px;"}
+A publicly funded repository is the right place for long term storage of research data – not your private USB stick, your personal university website (that vanishes after you change affiliation), or the journal’s online supplemental material that hides the data behind a paywall.
 :::
 
-<div style="position: absolute; top: 0; right: 0; z-index: 10;">
-![](img/OSC_LMU_Open_Science_Center.jpg){width=200px}
-    
-</div>
+
 
 ## Why open data?
+### 5. More and more funders and journals demand it.
 
--   *5. More and more funders and journals demand it.*
-
-<div style="text-align: center; margin-top: -40px;">
+<div style="text-align: center;">
 ![](img/Top_Guidelines.jpg){width=750px}
 </div>
 
-<div style="position: absolute; top: 0; right: 0; z-index: 10;">
-![](img/OSC_LMU_Open_Science_Center.jpg){width=200px}
-    
-</div>
-
-##
-<div style="display: flex; align-items: center; justify-content: center; height: 600px;">
-  <h1>What is open data?</h1>
-</div>
 
 
-<div style="position: absolute; top: 0; right: 0; z-index: 10;">
-![](img/OSC_LMU_Open_Science_Center.jpg){width=200px}
-    
-</div>
-
+# What is open data?
 
 ## What is Data?
 
@@ -195,10 +132,9 @@ paywall.
 <br>
 <br>
 
-“The recorded factual material commonly retained by and
+> "The recorded factual material commonly retained by and
 accepted in the scientific community as necessary to validate
-research findings.”
-                                                (EPSRC, 2018)
+research findings." (EPSRC, 2018)
 
 
 <div style="text-align: center;">
@@ -209,10 +145,7 @@ research findings.”
 Icon from [flaticon.com](https://www.flaticon.com/) by freepic
 ::: 
 
-<div style="position: absolute; top: 0; right: 0; z-index: 10;">
-![](img/OSC_LMU_Open_Science_Center.jpg){width=200px}
-    
-</div>
+
 
 ## What is Data?
 
@@ -225,19 +158,18 @@ Icon from [flaticon.com](https://www.flaticon.com/) by freepic
 
 ::: {.smaller}
 <div style="text-align: center;" "margin-top: -40px;">
-➙ we need field-specific definitions: What constitutes „research data“?
+➙ we need field-specific definitions: What constitutes "research data"?
 </div>
 :::
 
 ::: footer
+::: {.smallest}
 Pictures from [en.wikipedia.org/w/index.php?curid=36808161](en.wikipedia.org/w/index.php?curid=36808161); [pixabay.com](pixabay.com); [pxhere.com/en/photo/1192476](pxhere.com/en/photo/1192476); [pxhere.com/en/photo/914805](pxhere.com/en/photo/914805); [pxhere.com/en/photo/595225](pxhere.com/en/photo/595225);
 [commons.wikimedia.org/wiki/File:Gdp_real_growth_rate_2007_CIA_Factbook.PNG](commons.wikimedia.org/wiki/File:Gdp_real_growth_rate_2007_CIA_Factbook.PNG)
+:::
 ::: 
 
-<div style="position: absolute; top: 0; right: 0; z-index: 10;">
-![](img/OSC_LMU_Open_Science_Center.jpg){width=200px}
-    
-</div>
+
 
 ## Example: Psychology
 
@@ -257,10 +189,7 @@ Recommendations of the German Psychological Association, [https://psyarxiv.com/2
 [https://osf.io/preprints/psyarxiv/vhx89](https://osf.io/preprints/psyarxiv/vhx89)
 :::
 
-<div style="position: absolute; top: 0; right: 0; z-index: 10;">
-![](img/OSC_LMU_Open_Science_Center.jpg){width=200px}
-    
-</div>
+
 
 
 ## Not only open, but FAIR
@@ -275,28 +204,11 @@ Recommendations of the German Psychological Association, [https://psyarxiv.com/2
 Icon from [flaticon.com](https://www.flaticon.com/) by freepic, mynamepong, monkik <br>       FORCE11(2011)
 :::
 
-<div style="position: absolute; top: 0; right: 0; z-index: 10;">
-![](img/OSC_LMU_Open_Science_Center.jpg){width=200px}
-    
-</div>
 
-##
-<div style="display: flex; align-items: center; justify-content: center; height: 600px;">
-  <h1>Balancing values: <br> Three fields of tension with <br> (human subject) data</h1>
-</div>
 
-<div style="position: absolute; top: 0; right: 0; z-index: 10;">
-![](img/OSC_LMU_Open_Science_Center.jpg){width=200px}
-    
-</div>
+# Balancing values: <br> Three fields of tension with <br> (human subject) data
 
-##
-
-<div style="position: absolute; top: 0; right: 0; z-index: 10;">
-![](img/OSC_LMU_Open_Science_Center.jpg){width=200px}
-    
-</div>
-
+## Balancing values
 <!-- Insert blank lines -->
 <br>
 <br>
@@ -316,7 +228,7 @@ flowchart LR
 </div>
 
 
-## Balancing values: Three fields of <br> tension with human subject data
+## Balancing values 1
 
 <div style="text-align: center;">
 
@@ -330,19 +242,16 @@ flowchart LR
 </div>
 
 
-- Privacy rights > openness; but also: „legitimate interest“ of
+- Privacy rights > openness; but also: "legitimate interest" of
   research
 - Ask participants for a broad consent of open reuse
-- Restrict access with „scientific use files“; publish aggregated data (e.g., ratings of videos)   without the primary data (videos)
+- Restrict access with "scientific use files"; publish aggregated data (e.g., ratings of videos)   without the primary data (videos)
 - Sharing something > sharing nothing
 - As open as possible, as restricted as necessary
 
-<div style="position: absolute; top: 0; right: 0; z-index: 10;">
-![](img/OSC_LMU_Open_Science_Center.jpg){width=200px}
-    
-</div>
 
-## Balancing values: Three fields of <br> tension with human subject data
+
+## Balancing values 2
 
 <div style="text-align: center;">
 ```{mermaid}
@@ -357,12 +266,9 @@ C["<div style='padding:20px;width:300px;height:auto;background-color:#add8e6;bor
 - At the end of the day (resp., the embargo), all data are as open as possible
 - Incentivize data sharing
 
-<div style="position: absolute; top: 0; right: 0; z-index: 10;">
-![](img/OSC_LMU_Open_Science_Center.jpg){width=200px}
-    
-</div>
 
-##
+
+## 
 
 <div style="text-align: center;">
 ![](img/Story_1.jpg){width=750px}
@@ -376,7 +282,7 @@ C["<div style='padding:20px;width:300px;height:auto;background-color:#add8e6;bor
 
 </div>
 
-## Balancing values: Three fields of <br> tension with human subject data
+## Balancing values 3
 
 <div style="text-align: center;">
 ```{mermaid}
@@ -395,12 +301,9 @@ E["<div style='padding:20px;width:300px;height:auto;background-color:#add8e6;bor
   going to be reused or reanalyzed ➙ allows to prepare a
   reaction
 
-<div style="position: absolute; top: 0; right: 0; z-index: 10;">
-![](img/OSC_LMU_Open_Science_Center.jpg){width=200px}
-    
-</div>
 
-## Balancing values: Three fields of <br> tension with human subject data
+
+## Balancing values 3
 
 <div style="text-align: center;">
 ```{mermaid}
@@ -415,17 +318,14 @@ E["<div style='padding:20px;width:300px;height:auto;background-color:#add8e6;bor
 - Problematic asymmetry:
   - Data provided ➙ often errors get detected
   - No data provided ➙ no errors are detected (because not
-    possible). Default assumption: „Everything is OK. Perfect paper,
-    because no errors are spotted!“
+    possible). Default assumption: "Everything is OK. Perfect paper,
+    because no errors are spotted!"
 - Making oneself vulnerable is good for science, and should also be
   good for reputation!
 - Change default assumption?
-  „No data ➙ Probably erroneous analysis.“
+  "No data ➙ Probably erroneous analysis."
 
-<div style="position: absolute; top: 0; right: 0; z-index: 10;">
-![](img/OSC_LMU_Open_Science_Center.jpg){width=200px}
-    
-</div>
+
 
 ## Success stories
 
@@ -441,10 +341,7 @@ E["<div style='padding:20px;width:300px;height:auto;background-color:#add8e6;bor
 [https://www.cell.com/action/showPdf?pii=S0969-2126%2812%2900018-4](https://www.cell.com/action/showPdf?pii=S0969-2126%2812%2900018-4)
 :::
 
-<div style="position: absolute; top: 0; right: 0; z-index: 10;">
-![](img/OSC_LMU_Open_Science_Center.jpg){width=200px}
-    
-</div>
+
 
 ## Resources
 
