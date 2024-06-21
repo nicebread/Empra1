@@ -68,6 +68,10 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<meta name="mermaid-theme" content="neutral">
+<script src="../../site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="../../site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="../../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="../../styles.css">
@@ -217,7 +221,27 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 </div>
 <div style="text-align: center;">
-<p><img src="img/Running-Wellbeing-Graph.jpg" class="img-fluid"></p>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">graph LR
+    A["&lt;div style='padding:20px;width:200px;height:auto;background-color:#add8e6;border:2px solid #000;font-size:24px;color:#000;'&gt;Running&lt;/div&gt;"] 
+    &lt;--&gt; 
+    B["&lt;div style='padding:20px;width:200px;height:auto;background-color:#add8e6;border:2px solid #000;font-size:24px;color:#000;'&gt;Wellbeing&lt;/div&gt;"]
+
+    linkStyle 0 stroke-width:2px,stroke:#000,color:#000
+
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+</div>
+<div style="text-align: center;margin-top: -100px;">
+<p><img src="img/Double_Correlation.jpg" class="img-fluid" width="400"></p>
 </div>
 </section>
 <section id="underlying-causal-structure" class="level2">
@@ -345,7 +369,7 @@ Assumptions and some pitfalls
 <li>Outcome: Compare pre vs.&nbsp;post well-being</li>
 </ul>
 </div>
-<div style="text-align: center;">
+<div style="text-align: center; margin-top: -40px;">
 <p><img src="img/Control-Group.jpg" class="img-fluid" width="850"></p>
 </div>
 <style>
@@ -360,7 +384,7 @@ Assumptions and some pitfalls
 <section id="section-1" class="level2">
 <h2 class="anchored" data-anchor-id="section-1"></h2>
 <div style="text-align: center;">
-<p><img src="img/Control-Group.-Graph.jpg" class="img-fluid" width="500"></p>
+<p><img src="img/Control-Group.-Graph.jpg" class="img-fluid" width="550"></p>
 </div>
 <style>
 .attribution {
@@ -423,13 +447,7 @@ Inference of causality is a feature of the <strong>experimental design</strong>,
 <i class="fa-li fa fa-github" aria-hidden="true"></i> <a href="https://github.com/nicebread" target="_blank" style="color:black; border-bottom:none;">https://github.com/nicebread</a>
 </li>
 </ul>
-<p><small style="text-align:left;"></small></p><small style="text-align:left;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="http://creativecommons.org/licenses/by-sa/4.0/"><img src="https://licensebuttons.net/l/by-sa/4.0/88x31.png" class="img-fluid figure-img" alt="CC-BY-SA 4.0"></a></p>
-<figcaption>CC-BY-SA 4.0</figcaption>
-</figure>
-</div>
+<p><small style="text-align:left;"> <a href="http://creativecommons.org/licenses/by-sa/4.0/"><img src="https://licensebuttons.net/l/by-sa/4.0/88x31.png" class="img-fluid" alt="CC-BY-SA 4.0"></a></small></p><small style="text-align:left;">
 </small><p><small style="text-align:left;"></small></p>
 
 

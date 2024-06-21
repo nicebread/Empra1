@@ -68,6 +68,10 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<meta name="mermaid-theme" content="neutral">
+<script src="../../site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="../../site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="../../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="../../styles.css">
@@ -125,29 +129,49 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#section" id="toc-section" class="nav-link active" data-scroll-target="#section"></a></li>
-  <li><a href="#open-science-in-the-research-process" id="toc-open-science-in-the-research-process" class="nav-link" data-scroll-target="#open-science-in-the-research-process">Open Science in the research process</a></li>
-  <li><a href="#section-1" id="toc-section-1" class="nav-link" data-scroll-target="#section-1"></a></li>
-  <li><a href="#why-open-data" id="toc-why-open-data" class="nav-link" data-scroll-target="#why-open-data">Why open data?</a></li>
-  <li><a href="#why-open-data-1" id="toc-why-open-data-1" class="nav-link" data-scroll-target="#why-open-data-1">Why open data?</a></li>
-  <li><a href="#why-open-data-2" id="toc-why-open-data-2" class="nav-link" data-scroll-target="#why-open-data-2">Why open data?</a></li>
-  <li><a href="#why-open-data-3" id="toc-why-open-data-3" class="nav-link" data-scroll-target="#why-open-data-3">Why open data?</a></li>
-  <li><a href="#why-open-data-4" id="toc-why-open-data-4" class="nav-link" data-scroll-target="#why-open-data-4">Why open data?</a></li>
-  <li><a href="#section-2" id="toc-section-2" class="nav-link" data-scroll-target="#section-2"></a></li>
+  <li><a href="#open-science-in-the-research-process" id="toc-open-science-in-the-research-process" class="nav-link active" data-scroll-target="#open-science-in-the-research-process">Open Science in the research process</a></li>
+  <li><a href="#why-open-data" id="toc-why-open-data" class="nav-link" data-scroll-target="#why-open-data">Why open data?</a>
+  <ul class="collapse">
+  <li><a href="#why-open-data-1" id="toc-why-open-data-1" class="nav-link" data-scroll-target="#why-open-data-1">Why open data?</a>
+  <ul class="collapse">
+  <li><a href="#nullius-in-verba" id="toc-nullius-in-verba" class="nav-link" data-scroll-target="#nullius-in-verba">1. Nullius in verba</a></li>
+  </ul></li>
+  <li><a href="#why-open-data-2" id="toc-why-open-data-2" class="nav-link" data-scroll-target="#why-open-data-2">Why open data?</a>
+  <ul class="collapse">
+  <li><a href="#efficiency-and-inclusiveness" id="toc-efficiency-and-inclusiveness" class="nav-link" data-scroll-target="#efficiency-and-inclusiveness">2. Efficiency and Inclusiveness</a></li>
+  </ul></li>
+  <li><a href="#why-open-data-3" id="toc-why-open-data-3" class="nav-link" data-scroll-target="#why-open-data-3">Why open data?</a>
+  <ul class="collapse">
+  <li><a href="#public-money-public-good" id="toc-public-money-public-good" class="nav-link" data-scroll-target="#public-money-public-good">3. Public money = public good</a></li>
+  </ul></li>
+  <li><a href="#why-open-data-4" id="toc-why-open-data-4" class="nav-link" data-scroll-target="#why-open-data-4">Why open data?</a>
+  <ul class="collapse">
+  <li><a href="#data-persistence" id="toc-data-persistence" class="nav-link" data-scroll-target="#data-persistence">4. Data persistence</a></li>
+  </ul></li>
+  <li><a href="#why-open-data-5" id="toc-why-open-data-5" class="nav-link" data-scroll-target="#why-open-data-5">Why open data?</a>
+  <ul class="collapse">
+  <li><a href="#more-and-more-funders-and-journals-demand-it." id="toc-more-and-more-funders-and-journals-demand-it." class="nav-link" data-scroll-target="#more-and-more-funders-and-journals-demand-it.">5. More and more funders and journals demand it.</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#what-is-open-data" id="toc-what-is-open-data" class="nav-link" data-scroll-target="#what-is-open-data">What is open data?</a>
+  <ul class="collapse">
   <li><a href="#what-is-data" id="toc-what-is-data" class="nav-link" data-scroll-target="#what-is-data">What is Data?</a></li>
   <li><a href="#what-is-data-1" id="toc-what-is-data-1" class="nav-link" data-scroll-target="#what-is-data-1">What is Data?</a></li>
   <li><a href="#example-psychology" id="toc-example-psychology" class="nav-link" data-scroll-target="#example-psychology">Example: Psychology</a></li>
   <li><a href="#not-only-open-but-fair" id="toc-not-only-open-but-fair" class="nav-link" data-scroll-target="#not-only-open-but-fair">Not only open, but FAIR</a></li>
-  <li><a href="#section-3" id="toc-section-3" class="nav-link" data-scroll-target="#section-3"></a></li>
-  <li><a href="#section-4" id="toc-section-4" class="nav-link" data-scroll-target="#section-4"></a></li>
-  <li><a href="#balancing-values-three-fields-of-tension-with-human-subject-data" id="toc-balancing-values-three-fields-of-tension-with-human-subject-data" class="nav-link" data-scroll-target="#balancing-values-three-fields-of-tension-with-human-subject-data">Balancing values: Three fields of <br> tension with human subject data</a></li>
-  <li><a href="#balancing-values-three-fields-of-tension-with-human-subject-data-1" id="toc-balancing-values-three-fields-of-tension-with-human-subject-data-1" class="nav-link" data-scroll-target="#balancing-values-three-fields-of-tension-with-human-subject-data-1">Balancing values: Three fields of <br> tension with human subject data</a></li>
-  <li><a href="#section-5" id="toc-section-5" class="nav-link" data-scroll-target="#section-5"></a></li>
-  <li><a href="#section-6" id="toc-section-6" class="nav-link" data-scroll-target="#section-6"></a></li>
-  <li><a href="#balancing-values-three-fields-of-tension-with-human-subject-data-2" id="toc-balancing-values-three-fields-of-tension-with-human-subject-data-2" class="nav-link" data-scroll-target="#balancing-values-three-fields-of-tension-with-human-subject-data-2">Balancing values: Three fields of <br> tension with human subject data</a></li>
-  <li><a href="#balancing-values-three-fields-of-tension-with-human-subject-data-3" id="toc-balancing-values-three-fields-of-tension-with-human-subject-data-3" class="nav-link" data-scroll-target="#balancing-values-three-fields-of-tension-with-human-subject-data-3">Balancing values: Three fields of <br> tension with human subject data</a></li>
+  </ul></li>
+  <li><a href="#balancing-values-three-fields-of-tension-with-human-subject-data" id="toc-balancing-values-three-fields-of-tension-with-human-subject-data" class="nav-link" data-scroll-target="#balancing-values-three-fields-of-tension-with-human-subject-data">Balancing values: <br> Three fields of tension with <br> (human subject) data</a>
+  <ul class="collapse">
+  <li><a href="#balancing-values" id="toc-balancing-values" class="nav-link" data-scroll-target="#balancing-values">Balancing values</a></li>
+  <li><a href="#balancing-values-1" id="toc-balancing-values-1" class="nav-link" data-scroll-target="#balancing-values-1">Balancing values 1</a></li>
+  <li><a href="#balancing-values-2" id="toc-balancing-values-2" class="nav-link" data-scroll-target="#balancing-values-2">Balancing values 2</a></li>
+  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"></a></li>
+  <li><a href="#section-1" id="toc-section-1" class="nav-link" data-scroll-target="#section-1"></a></li>
+  <li><a href="#balancing-values-3" id="toc-balancing-values-3" class="nav-link" data-scroll-target="#balancing-values-3">Balancing values 3</a></li>
+  <li><a href="#balancing-values-3-1" id="toc-balancing-values-3-1" class="nav-link" data-scroll-target="#balancing-values-3-1">Balancing values 3</a></li>
   <li><a href="#success-stories" id="toc-success-stories" class="nav-link" data-scroll-target="#success-stories">Success stories</a></li>
   <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">Resources</a></li>
+  </ul></li>
   <li><a href="#end" id="toc-end" class="nav-link" data-scroll-target="#end">End</a>
   <ul class="collapse">
   <li><a href="#contact" id="toc-contact" class="nav-link" data-scroll-target="#contact">Contact</a></li>
@@ -198,14 +222,6 @@ ul.task-list li input[type="checkbox"] {
 
 
 <!-- Dauer: 25 min. -->
-<section id="section" class="level2">
-<h2 class="anchored" data-anchor-id="section"></h2>
-<div style="display: flex; align-items: center; justify-content: center; height: 600px;">
-<h1>
-Research Data Management &amp; Open Data
-</h1>
-</div>
-</section>
 <section id="open-science-in-the-research-process" class="level2">
 <h2 class="anchored" data-anchor-id="open-science-in-the-research-process">Open Science in the research process</h2>
 <!-- Insert blank lines -->
@@ -213,97 +229,101 @@ Research Data Management &amp; Open Data
 <div style="text-align: center;">
 <p><img src="img/Open_Science_in_research_process.jpg" class="img-fluid" width="750"></p>
 </div>
-<div style="position: absolute; top: 0; right: 0; z-index: 10;">
-<p><img src="img/OSC_LMU_Open_Science_Center.jpg" class="img-fluid" width="200"></p>
-</div>
 <div class="footer">
 <p>get all material here: <a href="https://osf.io/zjrhu/">https://osf.io/zjrhu/</a></p>
 </div>
 </section>
-<section id="section-1" class="level2">
-<h2 class="anchored" data-anchor-id="section-1"></h2>
-<div style="display: flex; align-items: center; justify-content: center; height: 600px;">
-<h1>
-Why open data?
-</h1>
-</div>
-<div style="position: absolute; top: 0; right: 0; z-index: 10;">
-<p><img src="img/OSC_LMU_Open_Science_Center.jpg" class="img-fluid" width="200"></p>
-</div>
-</section>
-<section id="why-open-data" class="level2">
-<h2 class="anchored" data-anchor-id="why-open-data">Why open data?</h2>
-<!-- Insert blank lines -->
-<p><br></p>
+<section id="why-open-data" class="level1">
+<h1>Why open data?</h1>
+<section id="why-open-data-1" class="level2">
+<h2 class="anchored" data-anchor-id="why-open-data-1">Why open data?</h2>
+<section id="nullius-in-verba" class="level3">
+<h3 class="anchored" data-anchor-id="nullius-in-verba">1. Nullius in verba</h3>
 <div class="columns">
 <div class="column" style="width:70%;">
-<ul>
-<li><em>1. Nullius in verba</em>
 <ul>
 <li>take nobody’s word for it</li>
 <li>Motto of the oldest scientific society (Royal Society, founded 1660)</li>
 <li>Science is not built upon blind trust, but on verifiability.</li>
-<li>„Organized skepticism“ (Merton, 1947)</li>
-</ul></li>
+<li>“Organized skepticism” (Merton, 1947)</li>
 </ul>
 </div><div class="column" style="width:30%;">
 <p><img src="img/Nullius_in_verba.jpg" class="img-fluid" width="300"></p>
 </div>
 </div>
-<div class="smallest">
+<div class="callout callout-style-default callout-important callout-titled" style="font-size: 32px;">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <p>Only when raw data (and other research material) are shared organized skepticism can be enacted, and science can really be self-correcting. Open data is one part of good scientific practice.</p>
 </div>
-<div style="position: absolute; top: 0; right: 0; z-index: 10;">
-<p><img src="img/OSC_LMU_Open_Science_Center.jpg" class="img-fluid" width="200"></p>
 </div>
 </section>
-<section id="why-open-data-1" class="level2">
-<h2 class="anchored" data-anchor-id="why-open-data-1">Why open data?</h2>
-<ul>
-<li><em>2. Efficiency and Inclusiveness</em>
-<ul>
-<li>Speedy responses in outbreaks; share rare and hard-to-collect data</li>
-</ul></li>
-</ul>
-<div style="text-align: center;">
-<p><img src="img/Efficiency_and_Inclusiveness.jpg" class="img-fluid" width="800"></p>
-</div>
-<div class="smallest">
-<p>The covid-19 pandemic has shown how fast scientific progress can be when we share our data and knowledge freely, and that free knowledge is a moral imperative.</p>
-</div>
-<div style="position: absolute; top: 0; right: 0; z-index: 10;">
-<p><img src="img/OSC_LMU_Open_Science_Center.jpg" class="img-fluid" width="200"></p>
-</div>
 </section>
 <section id="why-open-data-2" class="level2">
 <h2 class="anchored" data-anchor-id="why-open-data-2">Why open data?</h2>
+<section id="efficiency-and-inclusiveness" class="level3">
+<h3 class="anchored" data-anchor-id="efficiency-and-inclusiveness">2. Efficiency and Inclusiveness</h3>
 <ul>
-<li><em>3. Public money = public good</em></li>
+<li>Speedy responses in outbreaks; share rare and hard-to-collect data</li>
 </ul>
-<div style="text-align: center; margin-top: -40px;">
+<div style="text-align: center;">
+<p><img src="img/Efficiency_and_Inclusiveness.jpg" height="260"></p>
+</div>
+<div class="callout callout-style-default callout-important callout-titled" style="font-size: 32px;">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The covid-19 pandemic has shown how fast scientific progress can be when we share our data and knowledge freely, and that free knowledge is a moral imperative.</p>
+</div>
+</div>
+</section>
+</section>
+<section id="why-open-data-3" class="level2">
+<h2 class="anchored" data-anchor-id="why-open-data-3">Why open data?</h2>
+<section id="public-money-public-good" class="level3">
+<h3 class="anchored" data-anchor-id="public-money-public-good">3. Public money = public good</h3>
+<div style="text-align: center;">
 <p><img src="img/Public_money.jpg" class="img-fluid" width="600"></p>
 </div>
 <div class="footer">
 <p><a href="https://publiccode.eu/en/">https://publiccode.eu/en/</a></p>
 </div>
-<div class="smallest">
+<div class="callout callout-style-default callout-important callout-titled" style="font-size: 32px;">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <p>Publicly funded research data does not belong to the researcher who collected it. S/he has the right of primary usage, but after that the data should be considered a public good (of course respecting privacy rights and applicable copyrights).</p>
 </div>
-<div style="position: absolute; top: 0; right: 0; z-index: 10;">
-<p><img src="img/OSC_LMU_Open_Science_Center.jpg" class="img-fluid" width="200"></p>
 </div>
 </section>
-<section id="why-open-data-3" class="level2">
-<h2 class="anchored" data-anchor-id="why-open-data-3">Why open data?</h2>
-<!-- Insert blank lines -->
-<p><br></p>
+</section>
+<section id="why-open-data-4" class="level2">
+<h2 class="anchored" data-anchor-id="why-open-data-4">Why open data?</h2>
+<section id="data-persistence" class="level3">
+<h3 class="anchored" data-anchor-id="data-persistence">4. Data persistence</h3>
 <div class="columns">
 <div class="column" style="width:60%;">
 <ul>
-<li><em>4. Data persistence</em>
-<ul>
 <li>never lose data due to a crashed hard disk drive</li>
-</ul></li>
 </ul>
 </div><div class="column" style="width:40%;">
 <div style="text-align: center;">
@@ -311,49 +331,45 @@ Why open data?
 </div>
 </div>
 </div>
-<div class="smallest">
+<div class="callout callout-style-default callout-important callout-titled" style="font-size: 32px;">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <p>A publicly funded repository is the right place for long term storage of research data – not your private USB stick, your personal university website (that vanishes after you change affiliation), or the journal’s online supplemental material that hides the data behind a paywall.</p>
 </div>
-<div style="position: absolute; top: 0; right: 0; z-index: 10;">
-<p><img src="img/OSC_LMU_Open_Science_Center.jpg" class="img-fluid" width="200"></p>
 </div>
 </section>
-<section id="why-open-data-4" class="level2">
-<h2 class="anchored" data-anchor-id="why-open-data-4">Why open data?</h2>
-<ul>
-<li><em>5. More and more funders and journals demand it.</em></li>
-</ul>
-<div style="text-align: center; margin-top: -40px;">
+</section>
+<section id="why-open-data-5" class="level2">
+<h2 class="anchored" data-anchor-id="why-open-data-5">Why open data?</h2>
+<section id="more-and-more-funders-and-journals-demand-it." class="level3">
+<h3 class="anchored" data-anchor-id="more-and-more-funders-and-journals-demand-it.">5. More and more funders and journals demand it.</h3>
+<div style="text-align: center;">
 <p><img src="img/Top_Guidelines.jpg" class="img-fluid" width="750"></p>
 </div>
-<div style="position: absolute; top: 0; right: 0; z-index: 10;">
-<p><img src="img/OSC_LMU_Open_Science_Center.jpg" class="img-fluid" width="200"></p>
-</div>
 </section>
-<section id="section-2" class="level2">
-<h2 class="anchored" data-anchor-id="section-2"></h2>
-<div style="display: flex; align-items: center; justify-content: center; height: 600px;">
-<h1>
-What is open data?
-</h1>
-</div>
-<div style="position: absolute; top: 0; right: 0; z-index: 10;">
-<p><img src="img/OSC_LMU_Open_Science_Center.jpg" class="img-fluid" width="200"></p>
-</div>
 </section>
+</section>
+<section id="what-is-open-data" class="level1">
+<h1>What is open data?</h1>
 <section id="what-is-data" class="level2">
 <h2 class="anchored" data-anchor-id="what-is-data">What is Data?</h2>
 <!-- Insert blank lines -->
 <p><br> <br> <br></p>
+<blockquote class="blockquote">
 <p>“The recorded factual material commonly retained by and accepted in the scientific community as necessary to validate research findings.” (EPSRC, 2018)</p>
+</blockquote>
 <div style="text-align: center;">
 <p><img src="img/What_Is_Data_1.jpg" class="img-fluid"></p>
 </div>
 <div class="footer">
 <p>Icon from <a href="https://www.flaticon.com/">flaticon.com</a> by freepic</p>
-</div>
-<div style="position: absolute; top: 0; right: 0; z-index: 10;">
-<p><img src="img/OSC_LMU_Open_Science_Center.jpg" class="img-fluid" width="200"></p>
 </div>
 </section>
 <section id="what-is-data-1" class="level2">
@@ -365,14 +381,13 @@ What is open data?
 </div>
 <div class="smaller">
 <div style="text-align: center;" "margin-top:="" -40px;"="">
-➙ we need field-specific definitions: What constitutes „research data“?
+➙ we need field-specific definitions: What constitutes "research data"?
 </div>
 </div>
 <div class="footer">
+<div class="smallest">
 <p>Pictures from <a href="en.wikipedia.org/w/index.php?curid=36808161">en.wikipedia.org/w/index.php?curid=36808161</a>; <a href="pixabay.com">pixabay.com</a>; <a href="pxhere.com/en/photo/1192476">pxhere.com/en/photo/1192476</a>; <a href="pxhere.com/en/photo/914805">pxhere.com/en/photo/914805</a>; <a href="pxhere.com/en/photo/595225">pxhere.com/en/photo/595225</a>; <a href="commons.wikimedia.org/wiki/File:Gdp_real_growth_rate_2007_CIA_Factbook.PNG">commons.wikimedia.org/wiki/File:Gdp_real_growth_rate_2007_CIA_Factbook.PNG</a></p>
 </div>
-<div style="position: absolute; top: 0; right: 0; z-index: 10;">
-<p><img src="img/OSC_LMU_Open_Science_Center.jpg" class="img-fluid" width="200"></p>
 </div>
 </section>
 <section id="example-psychology" class="level2">
@@ -390,118 +405,158 @@ What is open data?
 <div class="attribution" style="font-size: 12px;">
 <p><a href="https://osf.io/preprints/psyarxiv/vhx89">https://osf.io/preprints/psyarxiv/vhx89</a></p>
 </div>
-<div style="position: absolute; top: 0; right: 0; z-index: 10;">
-<p><img src="img/OSC_LMU_Open_Science_Center.jpg" class="img-fluid" width="200"></p>
-</div>
 </section>
 <section id="not-only-open-but-fair" class="level2">
 <h2 class="anchored" data-anchor-id="not-only-open-but-fair">Not only open, but FAIR</h2>
 <!-- Insert blank lines -->
 <br>
 <div style="text-align: center;">
-<p><img src="img/The_FAIR_Principles.jpg" class="img-fluid" width="750"></p>
+<p><img src="img/The_FAIR_Principles.jpg" class="img-fluid" width="650"></p>
 </div>
 <div class="footer">
 <p>Icon from <a href="https://www.flaticon.com/">flaticon.com</a> by freepic, mynamepong, monkik <br> FORCE11(2011)</p>
 </div>
-<div style="position: absolute; top: 0; right: 0; z-index: 10;">
-<p><img src="img/OSC_LMU_Open_Science_Center.jpg" class="img-fluid" width="200"></p>
-</div>
 </section>
-<section id="section-3" class="level2">
-<h2 class="anchored" data-anchor-id="section-3"></h2>
-<div style="display: flex; align-items: center; justify-content: center; height: 600px;">
-<h1>
-Balancing values: <br> Three fields of tension with <br> (human subject) data
-</h1>
-</div>
-<div style="position: absolute; top: 0; right: 0; z-index: 10;">
-<p><img src="img/OSC_LMU_Open_Science_Center.jpg" class="img-fluid" width="200"></p>
-</div>
 </section>
-<section id="section-4" class="level2">
-<h2 class="anchored" data-anchor-id="section-4"></h2>
-<div style="position: absolute; top: 0; right: 0; z-index: 10;">
-<p><img src="img/OSC_LMU_Open_Science_Center.jpg" class="img-fluid" width="200"></p>
-</div>
+<section id="balancing-values-three-fields-of-tension-with-human-subject-data" class="level1">
+<h1>Balancing values: <br> Three fields of tension with <br> (human subject) data</h1>
+<section id="balancing-values" class="level2">
+<h2 class="anchored" data-anchor-id="balancing-values">Balancing values</h2>
 <!-- Insert blank lines -->
-<br> <br> <br>
+<p><br> <br> <br></p>
 <div style="text-align: center;">
-<p><img src="img/Balancing_values.jpg" class="img-fluid" width="750"></p>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart LR
+    A["&lt;div style='padding:20px;width:300px;height:auto;background-color:#add8e6;border:2px solid #000;font-size:32px;'&gt;Open Data, public interest &lt;br&gt; entitlement to publicly funded data&lt;/div&gt;"] &lt;--&gt; B["&lt;div style='padding:20px;width:300px;height:auto;background-color:#90ee90;border:2px solid #000;font-size:32px;'&gt;Privacy rights of &lt;br&gt; research subjects&lt;/div&gt;"]
+    C["&lt;div style='padding:20px;width:300px;height:auto;background-color:#add8e6;border:2px solid #000;font-size:32px;'&gt;Right of first usage, &lt;br&gt; incentives to collect data in the first place&lt;/div&gt;"] &lt;--&gt; D["&lt;div style='padding:20px;width:300px;height:auto;background-color:#90ee90;border:2px solid #000;font-size:32px;'&gt;Optimal and efficient gain of &lt;br&gt; knowledge by data reuse&lt;/div&gt;"]
+    E["&lt;div style='padding:20px;width:300px;height:auto;background-color:#add8e6;border:2px solid #000;font-size:32px;'&gt;Reproducibility and verifiability of &lt;br&gt; published analyses&lt;/div&gt;"] &lt;--&gt; F["&lt;div style='padding:20px;width:300px;height:auto;background-color:#90ee90;border:2px solid #000;font-size:32px;'&gt;Protect original authors against &lt;br&gt; inadequate burden and potential attacks&lt;/div&gt;"]
+
+    
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
 </div>
 </section>
-<section id="balancing-values-three-fields-of-tension-with-human-subject-data" class="level2">
-<h2 class="anchored" data-anchor-id="balancing-values-three-fields-of-tension-with-human-subject-data">Balancing values: Three fields of <br> tension with human subject data</h2>
+<section id="balancing-values-1" class="level2">
+<h2 class="anchored" data-anchor-id="balancing-values-1">Balancing values 1</h2>
 <div style="text-align: center;">
-<p><img src="img/Balancing_values_2.jpg" class="img-fluid" width="700"></p>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart LR
+
+    A["&lt;div style='padding:20px;width:300px;height:auto;background-color:#add8e6;border:2px solid #000;font-size:24px;'&gt;Open Data, public interest &lt;br&gt; entitlement to publicly funded data&lt;/div&gt;"] &lt;--&gt; B["&lt;div style='padding:20px;width:300px;height:auto;background-color:#90ee90;border:2px solid #000;font-size:24px;'&gt;Privacy rights of &lt;br&gt; research subjects&lt;/div&gt;"]
+    
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
 </div>
 <ul>
-<li>Privacy rights &gt; openness; but also: „legitimate interest“ of research</li>
+<li>Privacy rights &gt; openness; but also: “legitimate interest” of research</li>
 <li>Ask participants for a broad consent of open reuse</li>
-<li>Restrict access with „scientific use files“; publish aggregated data (e.g., ratings of videos) without the primary data (videos)</li>
+<li>Restrict access with “scientific use files”; publish aggregated data (e.g., ratings of videos) without the primary data (videos)</li>
 <li>Sharing something &gt; sharing nothing</li>
 <li>As open as possible, as restricted as necessary</li>
 </ul>
-<div style="position: absolute; top: 0; right: 0; z-index: 10;">
-<p><img src="img/OSC_LMU_Open_Science_Center.jpg" class="img-fluid" width="200"></p>
-</div>
 </section>
-<section id="balancing-values-three-fields-of-tension-with-human-subject-data-1" class="level2">
-<h2 class="anchored" data-anchor-id="balancing-values-three-fields-of-tension-with-human-subject-data-1">Balancing values: Three fields of <br> tension with human subject data</h2>
+<section id="balancing-values-2" class="level2">
+<h2 class="anchored" data-anchor-id="balancing-values-2">Balancing values 2</h2>
 <div style="text-align: center;">
-<p><img src="img/Balancing_values_3.jpg" class="img-fluid" width="700"></p>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart LR
+
+C["&lt;div style='padding:20px;width:300px;height:auto;background-color:#add8e6;border:2px solid #000;font-size:24px;'&gt;Right of first usage, &lt;br&gt; incentives to collect data in the first place&lt;/div&gt;"] &lt;--&gt; D["&lt;div style='padding:20px;width:300px;height:auto;background-color:#90ee90;border:2px solid #000;font-size:24px;'&gt;Optimal and efficient gain of &lt;br&gt; knowledge by data reuse&lt;/div&gt;"]
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
 </div>
 <ul>
 <li>Right of first usage, possibility of embargo</li>
 <li>At the end of the day (resp., the embargo), all data are as open as possible</li>
 <li>Incentivize data sharing</li>
 </ul>
-<div style="position: absolute; top: 0; right: 0; z-index: 10;">
-<p><img src="img/OSC_LMU_Open_Science_Center.jpg" class="img-fluid" width="200"></p>
-</div>
 </section>
-<section id="section-5" class="level2">
-<h2 class="anchored" data-anchor-id="section-5"></h2>
+<section id="section" class="level2">
+<h2 class="anchored" data-anchor-id="section"></h2>
 <div style="text-align: center;">
 <p><img src="img/Story_1.jpg" class="img-fluid" width="750"></p>
 </div>
 </section>
-<section id="section-6" class="level2">
-<h2 class="anchored" data-anchor-id="section-6"></h2>
+<section id="section-1" class="level2">
+<h2 class="anchored" data-anchor-id="section-1"></h2>
 <div style="text-align: center;">
 <p><img src="img/Story_2.jpg" class="img-fluid" width="750"></p>
 </div>
 </section>
-<section id="balancing-values-three-fields-of-tension-with-human-subject-data-2" class="level2">
-<h2 class="anchored" data-anchor-id="balancing-values-three-fields-of-tension-with-human-subject-data-2">Balancing values: Three fields of <br> tension with human subject data</h2>
+<section id="balancing-values-3" class="level2">
+<h2 class="anchored" data-anchor-id="balancing-values-3">Balancing values 3</h2>
 <div style="text-align: center;">
-<p><img src="img/Balancing_values_4.jpg" class="img-fluid" width="700"></p>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart LR
+
+E["&lt;div style='padding:20px;width:300px;height:auto;background-color:#add8e6;border:2px solid #000;font-size:24px;'&gt;Reproducibility and verifiability of &lt;br&gt; published analyses&lt;/div&gt;"] &lt;--&gt; F["&lt;div style='padding:20px;width:300px;height:auto;background-color:#90ee90;border:2px solid #000;font-size:24px;'&gt;Protect original authors against &lt;br&gt; inadequate burden and potential attacks&lt;/div&gt;"]
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
 </div>
 <ul>
 <li>Primary focus: openness and transparency. Correcting errors is painful, but a necessary condition for doing science</li>
 <li>Data providers should be informed if their data are going to be reused or reanalyzed ➙ allows to prepare a reaction</li>
 </ul>
-<div style="position: absolute; top: 0; right: 0; z-index: 10;">
-<p><img src="img/OSC_LMU_Open_Science_Center.jpg" class="img-fluid" width="200"></p>
-</div>
 </section>
-<section id="balancing-values-three-fields-of-tension-with-human-subject-data-3" class="level2">
-<h2 class="anchored" data-anchor-id="balancing-values-three-fields-of-tension-with-human-subject-data-3">Balancing values: Three fields of <br> tension with human subject data</h2>
+<section id="balancing-values-3-1" class="level2">
+<h2 class="anchored" data-anchor-id="balancing-values-3-1">Balancing values 3</h2>
 <div style="text-align: center;">
-<p><img src="img/Balancing_values_4.jpg" class="img-fluid" width="700"></p>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart LR
+
+E["&lt;div style='padding:20px;width:300px;height:auto;background-color:#add8e6;border:2px solid #000;font-size:24px;'&gt;Reproducibility and verifiability of &lt;br&gt; published analyses&lt;/div&gt;"] &lt;--&gt; F["&lt;div style='padding:20px;width:300px;height:auto;background-color:#90ee90;border:2px solid #000;font-size:24px;'&gt;Protect original authors against &lt;br&gt; inadequate burden and potential attacks&lt;/div&gt;"]
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
 </div>
 <ul>
 <li>Problematic asymmetry:
 <ul>
 <li>Data provided ➙ often errors get detected</li>
-<li>No data provided ➙ no errors are detected (because not possible). Default assumption: „Everything is OK. Perfect paper, because no errors are spotted!“</li>
+<li>No data provided ➙ no errors are detected (because not possible). Default assumption: “Everything is OK. Perfect paper, because no errors are spotted!”</li>
 </ul></li>
 <li>Making oneself vulnerable is good for science, and should also be good for reputation!</li>
-<li>Change default assumption? „No data ➙ Probably erroneous analysis.“</li>
+<li>Change default assumption? “No data ➙ Probably erroneous analysis.”</li>
 </ul>
-<div style="position: absolute; top: 0; right: 0; z-index: 10;">
-<p><img src="img/OSC_LMU_Open_Science_Center.jpg" class="img-fluid" width="200"></p>
-</div>
 </section>
 <section id="success-stories" class="level2">
 <h2 class="anchored" data-anchor-id="success-stories">Success stories</h2>
@@ -512,9 +567,6 @@ Balancing values: <br> Three fields of tension with <br> (human subject) data
 </div>
 <div class="footer">
 <p><a href="https://www.cell.com/action/showPdf?pii=S0969-2126%2812%2900018-4">https://www.cell.com/action/showPdf?pii=S0969-2126%2812%2900018-4</a></p>
-</div>
-<div style="position: absolute; top: 0; right: 0; z-index: 10;">
-<p><img src="img/OSC_LMU_Open_Science_Center.jpg" class="img-fluid" width="200"></p>
 </div>
 </section>
 <section id="resources" class="level2">
@@ -531,6 +583,7 @@ Balancing values: <br> Three fields of tension with <br> (human subject) data
 <p><img src="img/OSC_LMU_Open_Science_Center.jpg" class="img-fluid" width="200"></p>
 </div>
 <!-- Footer insert below -->
+</section>
 </section>
 <section id="end" class="level1">
 <h1>End</h1>
@@ -551,13 +604,7 @@ Balancing values: <br> Three fields of tension with <br> (human subject) data
 <i class="fa-li fa fa-github" aria-hidden="true"></i> <a href="https://github.com/nicebread" target="_blank" style="color:black; border-bottom:none;">https://github.com/nicebread</a>
 </li>
 </ul>
-<p><small style="text-align:left;"></small></p><small style="text-align:left;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="http://creativecommons.org/licenses/by-sa/4.0/"><img src="https://licensebuttons.net/l/by-sa/4.0/88x31.png" class="img-fluid figure-img" alt="CC-BY-SA 4.0"></a></p>
-<figcaption>CC-BY-SA 4.0</figcaption>
-</figure>
-</div>
+<p><small style="text-align:left;"> <a href="http://creativecommons.org/licenses/by-sa/4.0/"><img src="https://licensebuttons.net/l/by-sa/4.0/88x31.png" class="img-fluid" alt="CC-BY-SA 4.0"></a></small></p><small style="text-align:left;">
 </small><p><small style="text-align:left;"></small></p>
 
 
@@ -565,6 +612,44 @@ Balancing values: <br> Three fields of tension with <br> (human subject) data
 </section>
 
 </main> <!-- /main -->
+
+<script>
+  // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+  // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+  // slide changes (different for each slide format).
+  (function () {
+    // dispatch for htmlwidgets
+    function fireSlideEnter() {
+      const event = window.document.createEvent("Event");
+      event.initEvent("slideenter", true, true);
+      window.document.dispatchEvent(event);
+    }
+
+    function fireSlideChanged(previousSlide, currentSlide) {
+      fireSlideEnter();
+
+      // dispatch for shiny
+      if (window.jQuery) {
+        if (previousSlide) {
+          window.jQuery(previousSlide).trigger("hidden");
+        }
+        if (currentSlide) {
+          window.jQuery(currentSlide).trigger("shown");
+        }
+      }
+    }
+
+    // hookup for slidy
+    if (window.w3c_slidy) {
+      window.w3c_slidy.add_observer(function (slide_num) {
+        // slide_num starts at position 1
+        fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+      });
+    }
+
+  })();
+</script>
+
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
