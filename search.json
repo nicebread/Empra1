@@ -242,278 +242,278 @@
     "href": "slides/slides_overview.html",
     "title": "Slides Overview",
     "section": "",
-    "text": "Date\nTopic\nSlides (as a single website)\nSlides (presentation mode)\n\n\n\n\n2024-04-27\nCausality\nlink\nlink\n\n\n2024-04-27\nForschungsorientierte Praktikum I – Grundlagen der Forschung\nlink\nlink\n\n\n2024-04-19\nForschungsorientierte Praktikum I – Grundlagen der Forschung\nlink\nlink\n\n\n2024-04-19\nPower Analysis: Introduction\nlink\nlink\n\n\n2024-04-19\nHow to report a power analysis\nlink\nlink"
+    "text": "Date\nTopic\nSlides (as a single website)\nSlides (presentation mode)\n\n\n\n\n2024-04-27\nCausality\nlink\nlink\n\n\n2024-04-27\nHow to minimize mistakes\nlink\nlink\n\n\n2024-04-27\nResearch Data Management & Open Data\nlink\nlink\n\n\n2024-04-27\nPreregistration\nlink\nlink\n\n\n2024-04-19\nForschungsorientierte Praktikum I – Grundlagen der Forschung\nlink\nlink\n\n\n2024-04-19\nPower Analysis: Introduction\nlink\nlink\n\n\n2024-04-19\nHow (not) to report a power analysis\nlink\nlink"
   },
   {
     "objectID": "slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.slide.html#advocatus-diaboli",
     "href": "slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.slide.html#advocatus-diaboli",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "title": "Preregistration",
     "section": "Advocatus Diaboli",
     "text": "Advocatus Diaboli\n\n\n\n\n\n But… … preregistration keeps me from conducting exploratory research!\n\n\n\n\nImproving your confirmatory research does not mean that you have to refrain from doing exploratory research\nYou can also preregister your exploratory research (e.g., planned analysis methods)\n\n\n\n\n\nIcons from flaticon.com by EucalypIcons, Smashicons, and Freepic"
   },
   {
     "objectID": "slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.slide.html#advocatus-diaboli-1",
     "href": "slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.slide.html#advocatus-diaboli-1",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "title": "Preregistration",
     "section": "Advocatus Diaboli",
     "text": "Advocatus Diaboli\n\n\n\n\n\n But… … preregistration takes so much time!\n\n\n \n\nActually it might even save you time during data analysis / interpretation.\nPreregistration mostly changes the order of the research process (e.g., think about how to analyze your data before / after you collect them)."
   },
   {
     "objectID": "slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.slide.html#advocatus-diaboli-2",
     "href": "slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.slide.html#advocatus-diaboli-2",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "title": "Preregistration",
     "section": "Advocatus Diaboli",
     "text": "Advocatus Diaboli\n\n\n\n\n\n But… … someone will steal my ideas!\n\n\n \n\nOn the contrary. By preregistering your ideas you mark them as yours! If anyone still dares to steal them, it will be very easy to point this out as scientific misconduct.\nOn some repositories (e.g., OSF), you can put an embargo on the preregistration. Then the preregistration is not publicly visible for a period of up to 4 years."
   },
   {
     "objectID": "slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.slide.html#advocatus-diaboli-3",
     "href": "slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.slide.html#advocatus-diaboli-3",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "title": "Preregistration",
     "section": "Advocatus Diaboli",
     "text": "Advocatus Diaboli\n\n\n\n\n\n But… … what if I (or my students) make mistakes in the preregistration?\n\n\n\n\nEveryone makes mistakes, no need to be embarrassed!\nYou can always deviate from your preregistered analysis if you give a good justification.\nIf you make your preregistration open and someone finds a mistake, consider yourself lucky because this spares you finding it out when it is too late."
   },
   {
     "objectID": "slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.slide.html#advocatus-diaboli-4",
     "href": "slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.slide.html#advocatus-diaboli-4",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "title": "Preregistration",
     "section": "Advocatus Diaboli",
     "text": "Advocatus Diaboli\n\n\n\n\n\n But… … someone could preregister multiple hypotheses and take the preregistration that fits the data best!\n\n\n\n\nThat would be easy-to-spot scientific misconduct (compared to not-so-easy to spot HARKing without prereg)\nIf more than one hypothesis is preregistered you will need a lot of luck that you have a “perfect-fit” preregistration"
   },
   {
     "objectID": "slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.slide.html#advocatus-diaboli-5",
     "href": "slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.slide.html#advocatus-diaboli-5",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "title": "Preregistration",
     "section": "Advocatus Diaboli",
     "text": "Advocatus Diaboli\n\n\n\n\n\n But… … people preregister stuff and then deviate significantly from the preregistration. What is it good for then?\n\n\n\n\nAs a reviewer, it should make you vigilant about the quality of the paper → require justifications for deviations from the preregistration\nAs a reader, you will be able to judge the quality of results (do they come from confirmatory or exploratory research?)\nIt helps you to spot QRPs."
   },
   {
     "objectID": "slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.slide.html#advocatus-diaboli-6",
     "href": "slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.slide.html#advocatus-diaboli-6",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "title": "Preregistration",
     "section": "Advocatus Diaboli",
     "text": "Advocatus Diaboli\n\n\n\n\n\n But… … I am doing qualitative research and none of the quantitative templates fits my way of working!?\n\n\n\n\nThat the templates do not fit perfectly does not mean you cannot conduct a preregistration.\nTry to explain: What are your hypotheses? How do you want to investigate them? What will your data look like? How do you plan to evaluate the data? → Try to minimize degrees of freedom and you have met the goal."
   },
   {
     "objectID": "slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.slide.html#elements-of-a-preregistration",
     "href": "slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.slide.html#elements-of-a-preregistration",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "title": "Preregistration",
     "section": "Elements of a preregistration",
     "text": "Elements of a preregistration\n1. Hypotheses\n\n\n\n\n\nDescribe hypotheses as relationships between variables\nDescribe shape of interaction effects\nDescribe manipulation checks (or why they are not included)\n\n\n\n\n\n\n\nFigures / tables to describe interaction effects\nRationales / theoretical frameworks to justify the hypotheses\n\n\n\nvan t‘Veer & Giner-Sorolla (2016)"
   },
   {
     "objectID": "slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.slide.html#elements-of-a-preregistration-1",
     "href": "slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.slide.html#elements-of-a-preregistration-1",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "title": "Preregistration",
     "section": "Elements of a preregistration",
     "text": "Elements of a preregistration\n2. Design\n\n\n\n\n\nList, based on your hypotheses,\n\nIndependent variables (describe variable, all levels, between- or within-person?)\nDependent variables\nThird variables (covariates, moderators, control variables etc.)\n\n\n\n\nvan t‘Veer & Giner-Sorolla (2016)"
   },
   {
     "objectID": "slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.slide.html#elements-of-a-preregistration-2",
     "href": "slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.slide.html#elements-of-a-preregistration-2",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "title": "Preregistration",
     "section": "Elements of a preregistration",
     "text": "Elements of a preregistration\n3. Planned sample\n\n\n\n\n\nPre-selection rules (e.g., age limits)\nWhere, from whom, and how will the data be collected?\nJustify planned sample size (power analysis or Bayesia design analysis)\nDescribe data collection termination rule\n\n\n\nvan t‘Veer & Giner-Sorolla (2016), Schönbrodt & Wagenmakers (2017)"
   },
   {
     "objectID": "slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.slide.html#elements-of-a-preregistration-3",
     "href": "slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.slide.html#elements-of-a-preregistration-3",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "title": "Preregistration",
     "section": "Elements of a preregistration",
     "text": "Elements of a preregistration\n4. Exclusion criteria\n\n\n\n\n\n\nDescribe all anticipated exclusion criteria, e.g.\n\nMissing, erroneous, overly consistent responses\nFailing check-tests or suspicion probes\nDemographic exclusions\nData-based outlier criteria\nMethod-based outlier criteria (e.g., too long response times)\n\n\n\n\n\n\n\n\n\nSet fail-save levels of exclusion at which whole study needs to be stopped, altered, and restarted\n\n\n\nvan t‘Veer & Giner-Sorolla (2016)"
   },
   {
     "objectID": "slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.slide.html#elements-of-a-preregistration-4",
     "href": "slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.slide.html#elements-of-a-preregistration-4",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "title": "Preregistration",
     "section": "Elements of a preregistration",
     "text": "Elements of a preregistration\n5. Analysis plan\n\n\n\n\n\nDescribe statistical analyses that test hypotheses. For each, include\n\nRelevant variables and how they are calculated\nStatistical technique\nEach variable‘s role in the technique (e.g., IV, DV, covariate, …)\nIf covariates are used: Rationale for using them\nIf using techniques other than NHST, describe criteria and inputs toward making conclusions about your hypotheses\n\n\n\n\nvan t‘Veer & Giner-Sorolla (2016)"
   },
   {
     "objectID": "slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.slide.html#elements-of-a-preregistration-5",
     "href": "slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.slide.html#elements-of-a-preregistration-5",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "title": "Preregistration",
     "section": "Elements of a preregistration",
     "text": "Elements of a preregistration\n5. Analysis plan\n\n\n\n\n\nSpecify contingencies and assumptions, such as\n\nMethod of correcting for multiple testing\nMethod of missing data handling\nAnticipated data transformations\nAssumptions and assumption checks for analyses and alternative plans for data analysis if assumptions are not met\n\n\n\n\nvan t‘Veer & Giner-Sorolla (2016)"
   },
   {
     "objectID": "slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.slide.html#elements-of-a-preregistration-6",
     "href": "slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.slide.html#elements-of-a-preregistration-6",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "title": "Preregistration",
     "section": "Elements of a preregistration",
     "text": "Elements of a preregistration\n6. Additional stuff\n\n\n\n\n\nFor exploratory analyses: “We don‘t have any hypotheses”\nTransparency statement: How will research output be shared?\nConditional safeguards: What will happen if…?\n\n\n\nLin & Green (2016)"
   },
   {
     "objectID": "slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.slide.html#preregistration-templates",
     "href": "slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.slide.html#preregistration-templates",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "title": "Preregistration",
     "section": "Preregistration templates",
     "text": "Preregistration templates\nRecommended:\n\nThe Preregistration for Quantitative Research in Psychology Template (PRP-QUANT) was developed in a joint effort by a task force composed of members of the APA, BPS, DGPs, the COS, and ZPID.\nhttps://prereg-psych.org/index.php/rrp/templates"
   },
   {
     "objectID": "slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.slide.html#preregistration-templates-alternatives",
     "href": "slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.slide.html#preregistration-templates-alternatives",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "title": "Preregistration",
     "section": "Preregistration templates (alternatives)",
     "text": "Preregistration templates (alternatives)\n\n\n\nvan t‘Veer, A.E. & Giner-Sorolla, R. (2016)\naspredicted.org\nReplication Recipe (for replication studies)\nBAM!!!Lab Study preregistration\nOSF preregistration challenge\nHappy Lab Preregistration (quite short)\n…"
   },
   {
     "objectID": "slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.slide.html#a-curated-list-of-high-quality-preregistrations",
     "href": "slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.slide.html#a-curated-list-of-high-quality-preregistrations",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "title": "Preregistration",
     "section": "A curated list of high quality preregistrations",
     "text": "A curated list of high quality preregistrations\n\n\n\nhttps://osf.io/e6auq/wiki/Example%20Preregistrations/"
   },
   {
     "objectID": "slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.slide.html#credentials",
     "href": "slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.slide.html#credentials",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "title": "Preregistration",
     "section": "Credentials",
     "text": "Credentials\n\nThe creation of this workshop material was partially funded by the Berkeley Initiative for Transparency in the Social Sciences (BITSS) Catalyst Program. For more information, please visit www.bitss.org, sign up for the BITSS blog, and follow BITSS on Twitter @UCBITSS. We also kindly thank the LMU GraduateCenter for their support.\n\n\n\nThese slides were created by Angelika Stefan, Julia Brandt, and Felix Schönbrodt. The work is licensed under a Creative Commons Attribution 4.0 International License. That means, you can reuse this slides in your own workshops, remix them, or copy them, as long as you attribute the original creators."
   },
   {
     "objectID": "slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.slide.html#contact",
     "href": "slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.slide.html#contact",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "title": "Preregistration",
     "section": "Contact",
     "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n \n\n\n\n\nForschungsorientierte Praktikum I – Empirisches Praktikum, Ludwig-Maximilians-Universität München"
   },
   {
     "objectID": "slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.html",
     "href": "slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.html",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "title": "Preregistration",
     "section": "",
     "text": "But… … preregistration keeps me from conducting exploratory research!\n\n\n\n\nImproving your confirmatory research does not mean that you have to refrain from doing exploratory research\nYou can also preregister your exploratory research (e.g., planned analysis methods)\n\n\n\n\n\nIcons from flaticon.com by EucalypIcons, Smashicons, and Freepic"
   },
   {
     "objectID": "slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.html#advocatus-diaboli",
     "href": "slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.html#advocatus-diaboli",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "title": "Preregistration",
     "section": "",
     "text": "But… … preregistration keeps me from conducting exploratory research!\n\n\n\n\nImproving your confirmatory research does not mean that you have to refrain from doing exploratory research\nYou can also preregister your exploratory research (e.g., planned analysis methods)\n\n\n\n\n\nIcons from flaticon.com by EucalypIcons, Smashicons, and Freepic"
   },
   {
     "objectID": "slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.html#advocatus-diaboli-1",
     "href": "slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.html#advocatus-diaboli-1",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "title": "Preregistration",
     "section": "Advocatus Diaboli",
     "text": "Advocatus Diaboli\n\n\n\n\n\n But… … preregistration takes so much time!\n\n\n \n\nActually it might even save you time during data analysis / interpretation.\nPreregistration mostly changes the order of the research process (e.g., think about how to analyze your data before / after you collect them)."
   },
   {
     "objectID": "slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.html#advocatus-diaboli-2",
     "href": "slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.html#advocatus-diaboli-2",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "title": "Preregistration",
     "section": "Advocatus Diaboli",
     "text": "Advocatus Diaboli\n\n\n\n\n\n But… … someone will steal my ideas!\n\n\n \n\nOn the contrary. By preregistering your ideas you mark them as yours! If anyone still dares to steal them, it will be very easy to point this out as scientific misconduct.\nOn some repositories (e.g., OSF), you can put an embargo on the preregistration. Then the preregistration is not publicly visible for a period of up to 4 years."
   },
   {
     "objectID": "slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.html#advocatus-diaboli-3",
     "href": "slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.html#advocatus-diaboli-3",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "title": "Preregistration",
     "section": "Advocatus Diaboli",
     "text": "Advocatus Diaboli\n\n\n\n\n\n But… … what if I (or my students) make mistakes in the preregistration?\n\n\n\n\nEveryone makes mistakes, no need to be embarrassed!\nYou can always deviate from your preregistered analysis if you give a good justification.\nIf you make your preregistration open and someone finds a mistake, consider yourself lucky because this spares you finding it out when it is too late."
   },
   {
     "objectID": "slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.html#advocatus-diaboli-4",
     "href": "slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.html#advocatus-diaboli-4",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "title": "Preregistration",
     "section": "Advocatus Diaboli",
     "text": "Advocatus Diaboli\n\n\n\n\n\n But… … someone could preregister multiple hypotheses and take the preregistration that fits the data best!\n\n\n\n\nThat would be easy-to-spot scientific misconduct (compared to not-so-easy to spot HARKing without prereg)\nIf more than one hypothesis is preregistered you will need a lot of luck that you have a “perfect-fit” preregistration"
   },
   {
     "objectID": "slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.html#advocatus-diaboli-5",
     "href": "slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.html#advocatus-diaboli-5",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "title": "Preregistration",
     "section": "Advocatus Diaboli",
     "text": "Advocatus Diaboli\n\n\n\n\n\n But… … people preregister stuff and then deviate significantly from the preregistration. What is it good for then?\n\n\n\n\nAs a reviewer, it should make you vigilant about the quality of the paper → require justifications for deviations from the preregistration\nAs a reader, you will be able to judge the quality of results (do they come from confirmatory or exploratory research?)\nIt helps you to spot QRPs."
   },
   {
     "objectID": "slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.html#advocatus-diaboli-6",
     "href": "slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.html#advocatus-diaboli-6",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "title": "Preregistration",
     "section": "Advocatus Diaboli",
     "text": "Advocatus Diaboli\n\n\n\n\n\n But… … I am doing qualitative research and none of the quantitative templates fits my way of working!?\n\n\n\n\nThat the templates do not fit perfectly does not mean you cannot conduct a preregistration.\nTry to explain: What are your hypotheses? How do you want to investigate them? What will your data look like? How do you plan to evaluate the data? → Try to minimize degrees of freedom and you have met the goal."
   },
   {
     "objectID": "slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.html#elements-of-a-preregistration",
     "href": "slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.html#elements-of-a-preregistration",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "title": "Preregistration",
     "section": "Elements of a preregistration",
     "text": "Elements of a preregistration\n1. Hypotheses\n\n\n\n\n\nDescribe hypotheses as relationships between variables\nDescribe shape of interaction effects\nDescribe manipulation checks (or why they are not included)\n\n\n\n\n\n\n\nFigures / tables to describe interaction effects\nRationales / theoretical frameworks to justify the hypotheses\n\n\n\nvan t‘Veer & Giner-Sorolla (2016)"
   },
   {
     "objectID": "slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.html#elements-of-a-preregistration-1",
     "href": "slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.html#elements-of-a-preregistration-1",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "title": "Preregistration",
     "section": "Elements of a preregistration",
     "text": "Elements of a preregistration\n2. Design\n\n\n\n\n\nList, based on your hypotheses,\n\nIndependent variables (describe variable, all levels, between- or within-person?)\nDependent variables\nThird variables (covariates, moderators, control variables etc.)\n\n\n\n\nvan t‘Veer & Giner-Sorolla (2016)"
   },
   {
     "objectID": "slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.html#elements-of-a-preregistration-2",
     "href": "slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.html#elements-of-a-preregistration-2",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "title": "Preregistration",
     "section": "Elements of a preregistration",
     "text": "Elements of a preregistration\n3. Planned sample\n\n\n\n\n\nPre-selection rules (e.g., age limits)\nWhere, from whom, and how will the data be collected?\nJustify planned sample size (power analysis or Bayesia design analysis)\nDescribe data collection termination rule\n\n\n\nvan t‘Veer & Giner-Sorolla (2016), Schönbrodt & Wagenmakers (2017)"
   },
   {
     "objectID": "slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.html#elements-of-a-preregistration-3",
     "href": "slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.html#elements-of-a-preregistration-3",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "title": "Preregistration",
     "section": "Elements of a preregistration",
     "text": "Elements of a preregistration\n4. Exclusion criteria\n\n\n\n\n\n\nDescribe all anticipated exclusion criteria, e.g.\n\nMissing, erroneous, overly consistent responses\nFailing check-tests or suspicion probes\nDemographic exclusions\nData-based outlier criteria\nMethod-based outlier criteria (e.g., too long response times)\n\n\n\n\n\n\n\n\n\nSet fail-save levels of exclusion at which whole study needs to be stopped, altered, and restarted\n\n\n\nvan t‘Veer & Giner-Sorolla (2016)"
   },
   {
     "objectID": "slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.html#elements-of-a-preregistration-4",
     "href": "slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.html#elements-of-a-preregistration-4",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "title": "Preregistration",
     "section": "Elements of a preregistration",
     "text": "Elements of a preregistration\n5. Analysis plan\n\n\n\n\n\nDescribe statistical analyses that test hypotheses. For each, include\n\nRelevant variables and how they are calculated\nStatistical technique\nEach variable‘s role in the technique (e.g., IV, DV, covariate, …)\nIf covariates are used: Rationale for using them\nIf using techniques other than NHST, describe criteria and inputs toward making conclusions about your hypotheses\n\n\n\n\nvan t‘Veer & Giner-Sorolla (2016)"
   },
   {
     "objectID": "slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.html#elements-of-a-preregistration-5",
     "href": "slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.html#elements-of-a-preregistration-5",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "title": "Preregistration",
     "section": "Elements of a preregistration",
     "text": "Elements of a preregistration\n5. Analysis plan\n\n\n\n\n\nSpecify contingencies and assumptions, such as\n\nMethod of correcting for multiple testing\nMethod of missing data handling\nAnticipated data transformations\nAssumptions and assumption checks for analyses and alternative plans for data analysis if assumptions are not met\n\n\n\n\nvan t‘Veer & Giner-Sorolla (2016)"
   },
   {
     "objectID": "slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.html#elements-of-a-preregistration-6",
     "href": "slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.html#elements-of-a-preregistration-6",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "title": "Preregistration",
     "section": "Elements of a preregistration",
     "text": "Elements of a preregistration\n6. Additional stuff\n\n\n\n\n\nFor exploratory analyses: “We don‘t have any hypotheses”\nTransparency statement: How will research output be shared?\nConditional safeguards: What will happen if…?\n\n\n\nLin & Green (2016)"
   },
   {
     "objectID": "slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.html#preregistration-templates",
     "href": "slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.html#preregistration-templates",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "title": "Preregistration",
     "section": "Preregistration templates",
     "text": "Preregistration templates\nRecommended:\n\nThe Preregistration for Quantitative Research in Psychology Template (PRP-QUANT) was developed in a joint effort by a task force composed of members of the APA, BPS, DGPs, the COS, and ZPID.\nhttps://prereg-psych.org/index.php/rrp/templates"
   },
   {
     "objectID": "slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.html#preregistration-templates-alternatives",
     "href": "slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.html#preregistration-templates-alternatives",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "title": "Preregistration",
     "section": "Preregistration templates (alternatives)",
     "text": "Preregistration templates (alternatives)\n\n\n\nvan t‘Veer, A.E. & Giner-Sorolla, R. (2016)\naspredicted.org\nReplication Recipe (for replication studies)\nBAM!!!Lab Study preregistration\nOSF preregistration challenge\nHappy Lab Preregistration (quite short)\n…"
   },
   {
     "objectID": "slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.html#a-curated-list-of-high-quality-preregistrations",
     "href": "slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.html#a-curated-list-of-high-quality-preregistrations",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "title": "Preregistration",
     "section": "A curated list of high quality preregistrations",
     "text": "A curated list of high quality preregistrations\n\n\n\nhttps://osf.io/e6auq/wiki/Example%20Preregistrations/"
   },
   {
     "objectID": "slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.html#credentials",
     "href": "slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.html#credentials",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "title": "Preregistration",
     "section": "Credentials",
     "text": "Credentials\n\nThe creation of this workshop material was partially funded by the Berkeley Initiative for Transparency in the Social Sciences (BITSS) Catalyst Program. For more information, please visit www.bitss.org, sign up for the BITSS blog, and follow BITSS on Twitter @UCBITSS. We also kindly thank the LMU GraduateCenter for their support.\n\n\n\nThese slides were created by Angelika Stefan, Julia Brandt, and Felix Schönbrodt. The work is licensed under a Creative Commons Attribution 4.0 International License. That means, you can reuse this slides in your own workshops, remix them, or copy them, as long as you attribute the original creators."
   },
   {
     "objectID": "slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.html#contact",
     "href": "slides/Preregistration - Advocatus Diaboli Game/Preregistration - Advocatus Diaboli Game.html#contact",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "title": "Preregistration",
     "section": "Contact",
     "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread"
   },
@@ -1927,259 +1927,259 @@
   {
     "objectID": "slides/Open Data Primer/Open Data Primer.html",
     "href": "slides/Open Data Primer/Open Data Primer.html",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "title": "Research Data Management & Open Data",
     "section": "",
     "text": "get all material here: https://osf.io/zjrhu/"
   },
   {
     "objectID": "slides/Open Data Primer/Open Data Primer.html#open-science-in-the-research-process",
     "href": "slides/Open Data Primer/Open Data Primer.html#open-science-in-the-research-process",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "title": "Research Data Management & Open Data",
     "section": "",
     "text": "get all material here: https://osf.io/zjrhu/"
   },
   {
     "objectID": "slides/Open Data Primer/Open Data Primer.html#why-open-data-1",
     "href": "slides/Open Data Primer/Open Data Primer.html#why-open-data-1",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "title": "Research Data Management & Open Data",
     "section": "Why open data?",
     "text": "Why open data?\n\n1. Nullius in verba\n\n\n\ntake nobody’s word for it\nMotto of the oldest scientific society (Royal Society, founded 1660)\nScience is not built upon blind trust, but on verifiability.\n“Organized skepticism” (Merton, 1947)\n\n\n\n\n\n\n\n\n\n\n\nImportant\n\n\n\nOnly when raw data (and other research material) are shared organized skepticism can be enacted, and science can really be self-correcting. Open data is one part of good scientific practice."
   },
   {
     "objectID": "slides/Open Data Primer/Open Data Primer.html#why-open-data-2",
     "href": "slides/Open Data Primer/Open Data Primer.html#why-open-data-2",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "title": "Research Data Management & Open Data",
     "section": "Why open data?",
     "text": "Why open data?\n\n2. Efficiency and Inclusiveness\n\nSpeedy responses in outbreaks; share rare and hard-to-collect data\n\n\n\n\n\n\n\n\n\n\nImportant\n\n\n\nThe covid-19 pandemic has shown how fast scientific progress can be when we share our data and knowledge freely, and that free knowledge is a moral imperative."
   },
   {
     "objectID": "slides/Open Data Primer/Open Data Primer.html#why-open-data-3",
     "href": "slides/Open Data Primer/Open Data Primer.html#why-open-data-3",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "title": "Research Data Management & Open Data",
     "section": "Why open data?",
     "text": "Why open data?\n\n3. Public money = public good\n\n\n\n\nhttps://publiccode.eu/en/\n\n\n\n\n\n\n\nImportant\n\n\n\nPublicly funded research data does not belong to the researcher who collected it. S/he has the right of primary usage, but after that the data should be considered a public good (of course respecting privacy rights and applicable copyrights)."
   },
   {
     "objectID": "slides/Open Data Primer/Open Data Primer.html#why-open-data-4",
     "href": "slides/Open Data Primer/Open Data Primer.html#why-open-data-4",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "title": "Research Data Management & Open Data",
     "section": "Why open data?",
     "text": "Why open data?\n\n4. Data persistence\n\n\n\nnever lose data due to a crashed hard disk drive\n\n\n\n\n\n\n\n\n\n\n\n\n\nImportant\n\n\n\nA publicly funded repository is the right place for long term storage of research data – not your private USB stick, your personal university website (that vanishes after you change affiliation), or the journal’s online supplemental material that hides the data behind a paywall."
   },
   {
     "objectID": "slides/Open Data Primer/Open Data Primer.html#why-open-data-5",
     "href": "slides/Open Data Primer/Open Data Primer.html#why-open-data-5",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "title": "Research Data Management & Open Data",
     "section": "Why open data?",
     "text": "Why open data?\n\n5. More and more funders and journals demand it."
   },
   {
     "objectID": "slides/Open Data Primer/Open Data Primer.html#what-is-data",
     "href": "slides/Open Data Primer/Open Data Primer.html#what-is-data",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "title": "Research Data Management & Open Data",
     "section": "What is Data?",
     "text": "What is Data?\n\n  \n\n“The recorded factual material commonly retained by and accepted in the scientific community as necessary to validate research findings.” (EPSRC, 2018)\n\n\n\n\n\nIcon from flaticon.com by freepic"
   },
   {
     "objectID": "slides/Open Data Primer/Open Data Primer.html#what-is-data-1",
     "href": "slides/Open Data Primer/Open Data Primer.html#what-is-data-1",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "title": "Research Data Management & Open Data",
     "section": "What is Data?",
     "text": "What is Data?\n\n\n\n\n\n\n\n➙ we need field-specific definitions: What constitutes \"research data\"?\n\n\n\n\nPictures from en.wikipedia.org/w/index.php?curid=36808161; pixabay.com; pxhere.com/en/photo/1192476; pxhere.com/en/photo/914805; pxhere.com/en/photo/595225; commons.wikimedia.org/wiki/File:Gdp_real_growth_rate_2007_CIA_Factbook.PNG"
   },
   {
     "objectID": "slides/Open Data Primer/Open Data Primer.html#example-psychology",
     "href": "slides/Open Data Primer/Open Data Primer.html#example-psychology",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "title": "Research Data Management & Open Data",
     "section": "Example: Psychology",
     "text": "Example: Psychology\n\n\n\n\n\n\n\nRecommendations of the German Psychological Association, https://psyarxiv.com/24ncs/\n\n\n\nhttps://osf.io/preprints/psyarxiv/vhx89"
   },
   {
     "objectID": "slides/Open Data Primer/Open Data Primer.html#not-only-open-but-fair",
     "href": "slides/Open Data Primer/Open Data Primer.html#not-only-open-but-fair",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "title": "Research Data Management & Open Data",
     "section": "Not only open, but FAIR",
     "text": "Not only open, but FAIR\n\n\n\n\n\n\nIcon from flaticon.com by freepic, mynamepong, monkik  FORCE11(2011)"
   },
   {
     "objectID": "slides/Open Data Primer/Open Data Primer.html#balancing-values",
     "href": "slides/Open Data Primer/Open Data Primer.html#balancing-values",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "title": "Research Data Management & Open Data",
     "section": "Balancing values",
     "text": "Balancing values\n\n  \n\n\n\n\n\n\nflowchart LR\n    A[\"&lt;div style='padding:20px;width:300px;height:auto;background-color:#add8e6;border:2px solid #000;font-size:32px;'&gt;Open Data, public interest &lt;br&gt; entitlement to publicly funded data&lt;/div&gt;\"] &lt;--&gt; B[\"&lt;div style='padding:20px;width:300px;height:auto;background-color:#90ee90;border:2px solid #000;font-size:32px;'&gt;Privacy rights of &lt;br&gt; research subjects&lt;/div&gt;\"]\n    C[\"&lt;div style='padding:20px;width:300px;height:auto;background-color:#add8e6;border:2px solid #000;font-size:32px;'&gt;Right of first usage, &lt;br&gt; incentives to collect data in the first place&lt;/div&gt;\"] &lt;--&gt; D[\"&lt;div style='padding:20px;width:300px;height:auto;background-color:#90ee90;border:2px solid #000;font-size:32px;'&gt;Optimal and efficient gain of &lt;br&gt; knowledge by data reuse&lt;/div&gt;\"]\n    E[\"&lt;div style='padding:20px;width:300px;height:auto;background-color:#add8e6;border:2px solid #000;font-size:32px;'&gt;Reproducibility and verifiability of &lt;br&gt; published analyses&lt;/div&gt;\"] &lt;--&gt; F[\"&lt;div style='padding:20px;width:300px;height:auto;background-color:#90ee90;border:2px solid #000;font-size:32px;'&gt;Protect original authors against &lt;br&gt; inadequate burden and potential attacks&lt;/div&gt;\"]"
   },
   {
     "objectID": "slides/Open Data Primer/Open Data Primer.html#balancing-values-1",
     "href": "slides/Open Data Primer/Open Data Primer.html#balancing-values-1",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "title": "Research Data Management & Open Data",
     "section": "Balancing values 1",
     "text": "Balancing values 1\n\n\n\n\n\n\nflowchart LR\n\n    A[\"&lt;div style='padding:20px;width:300px;height:auto;background-color:#add8e6;border:2px solid #000;font-size:24px;'&gt;Open Data, public interest &lt;br&gt; entitlement to publicly funded data&lt;/div&gt;\"] &lt;--&gt; B[\"&lt;div style='padding:20px;width:300px;height:auto;background-color:#90ee90;border:2px solid #000;font-size:24px;'&gt;Privacy rights of &lt;br&gt; research subjects&lt;/div&gt;\"]\n    \n\n\n\n\n\n\n\n\nPrivacy rights &gt; openness; but also: “legitimate interest” of research\nAsk participants for a broad consent of open reuse\nRestrict access with “scientific use files”; publish aggregated data (e.g., ratings of videos) without the primary data (videos)\nSharing something &gt; sharing nothing\nAs open as possible, as restricted as necessary"
   },
   {
     "objectID": "slides/Open Data Primer/Open Data Primer.html#balancing-values-2",
     "href": "slides/Open Data Primer/Open Data Primer.html#balancing-values-2",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "title": "Research Data Management & Open Data",
     "section": "Balancing values 2",
     "text": "Balancing values 2\n\n\n\n\n\n\nflowchart LR\n\nC[\"&lt;div style='padding:20px;width:300px;height:auto;background-color:#add8e6;border:2px solid #000;font-size:24px;'&gt;Right of first usage, &lt;br&gt; incentives to collect data in the first place&lt;/div&gt;\"] &lt;--&gt; D[\"&lt;div style='padding:20px;width:300px;height:auto;background-color:#90ee90;border:2px solid #000;font-size:24px;'&gt;Optimal and efficient gain of &lt;br&gt; knowledge by data reuse&lt;/div&gt;\"]\n\n\n\n\n\n\n\n\nRight of first usage, possibility of embargo\nAt the end of the day (resp., the embargo), all data are as open as possible\nIncentivize data sharing"
   },
   {
     "objectID": "slides/Open Data Primer/Open Data Primer.html#balancing-values-3",
     "href": "slides/Open Data Primer/Open Data Primer.html#balancing-values-3",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "title": "Research Data Management & Open Data",
     "section": "Balancing values 3",
     "text": "Balancing values 3\n\n\n\n\n\n\nflowchart LR\n\nE[\"&lt;div style='padding:20px;width:300px;height:auto;background-color:#add8e6;border:2px solid #000;font-size:24px;'&gt;Reproducibility and verifiability of &lt;br&gt; published analyses&lt;/div&gt;\"] &lt;--&gt; F[\"&lt;div style='padding:20px;width:300px;height:auto;background-color:#90ee90;border:2px solid #000;font-size:24px;'&gt;Protect original authors against &lt;br&gt; inadequate burden and potential attacks&lt;/div&gt;\"]\n\n\n\n\n\n\n\n\nPrimary focus: openness and transparency. Correcting errors is painful, but a necessary condition for doing science\nData providers should be informed if their data are going to be reused or reanalyzed ➙ allows to prepare a reaction"
   },
   {
     "objectID": "slides/Open Data Primer/Open Data Primer.html#balancing-values-3-1",
     "href": "slides/Open Data Primer/Open Data Primer.html#balancing-values-3-1",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "title": "Research Data Management & Open Data",
     "section": "Balancing values 3",
     "text": "Balancing values 3\n\n\n\n\n\n\nflowchart LR\n\nE[\"&lt;div style='padding:20px;width:300px;height:auto;background-color:#add8e6;border:2px solid #000;font-size:24px;'&gt;Reproducibility and verifiability of &lt;br&gt; published analyses&lt;/div&gt;\"] &lt;--&gt; F[\"&lt;div style='padding:20px;width:300px;height:auto;background-color:#90ee90;border:2px solid #000;font-size:24px;'&gt;Protect original authors against &lt;br&gt; inadequate burden and potential attacks&lt;/div&gt;\"]\n\n\n\n\n\n\n\n\nProblematic asymmetry:\n\nData provided ➙ often errors get detected\nNo data provided ➙ no errors are detected (because not possible). Default assumption: “Everything is OK. Perfect paper, because no errors are spotted!”\n\nMaking oneself vulnerable is good for science, and should also be good for reputation!\nChange default assumption? “No data ➙ Probably erroneous analysis.”"
   },
   {
     "objectID": "slides/Open Data Primer/Open Data Primer.html#success-stories",
     "href": "slides/Open Data Primer/Open Data Primer.html#success-stories",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "title": "Research Data Management & Open Data",
     "section": "Success stories",
     "text": "Success stories\n\n\n\n\n\n\nhttps://www.cell.com/action/showPdf?pii=S0969-2126%2812%2900018-4"
   },
   {
     "objectID": "slides/Open Data Primer/Open Data Primer.html#resources",
     "href": "slides/Open Data Primer/Open Data Primer.html#resources",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "title": "Research Data Management & Open Data",
     "section": "Resources",
     "text": "Resources\n\n\n\n\n\n\nhttps://www.osc.uni-muenchen.de/toolbox/index.html"
   },
   {
     "objectID": "slides/Open Data Primer/Open Data Primer.html#contact",
     "href": "slides/Open Data Primer/Open Data Primer.html#contact",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "title": "Research Data Management & Open Data",
     "section": "Contact",
     "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread"
   },
   {
     "objectID": "slides/Open Data Primer/Open Data Primer.slide.html#open-science-in-the-research-process",
     "href": "slides/Open Data Primer/Open Data Primer.slide.html#open-science-in-the-research-process",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "title": "Research Data Management & Open Data",
     "section": "Open Science in the research process",
     "text": "Open Science in the research process\n\n\n\n\n\n\nget all material here: https://osf.io/zjrhu/"
   },
   {
     "objectID": "slides/Open Data Primer/Open Data Primer.slide.html#why-open-data-1",
     "href": "slides/Open Data Primer/Open Data Primer.slide.html#why-open-data-1",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "title": "Research Data Management & Open Data",
     "section": "Why open data?",
     "text": "Why open data?\n1. Nullius in verba\n\n\n\ntake nobody’s word for it\nMotto of the oldest scientific society (Royal Society, founded 1660)\nScience is not built upon blind trust, but on verifiability.\n“Organized skepticism” (Merton, 1947)\n\n\n\n\n\n\n\n\n\n\n\n\nImportant\n\n\nOnly when raw data (and other research material) are shared organized skepticism can be enacted, and science can really be self-correcting. Open data is one part of good scientific practice."
   },
   {
     "objectID": "slides/Open Data Primer/Open Data Primer.slide.html#why-open-data-2",
     "href": "slides/Open Data Primer/Open Data Primer.slide.html#why-open-data-2",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "title": "Research Data Management & Open Data",
     "section": "Why open data?",
     "text": "Why open data?\n2. Efficiency and Inclusiveness\n\nSpeedy responses in outbreaks; share rare and hard-to-collect data\n\n\n\n\n\n\n\n\n\n\n\nImportant\n\n\nThe covid-19 pandemic has shown how fast scientific progress can be when we share our data and knowledge freely, and that free knowledge is a moral imperative."
   },
   {
     "objectID": "slides/Open Data Primer/Open Data Primer.slide.html#why-open-data-3",
     "href": "slides/Open Data Primer/Open Data Primer.slide.html#why-open-data-3",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "title": "Research Data Management & Open Data",
     "section": "Why open data?",
     "text": "Why open data?\n3. Public money = public good\n\n\n\n\nhttps://publiccode.eu/en/\n\n\n\n\n\n\n\n\nImportant\n\n\nPublicly funded research data does not belong to the researcher who collected it. S/he has the right of primary usage, but after that the data should be considered a public good (of course respecting privacy rights and applicable copyrights)."
   },
   {
     "objectID": "slides/Open Data Primer/Open Data Primer.slide.html#why-open-data-4",
     "href": "slides/Open Data Primer/Open Data Primer.slide.html#why-open-data-4",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "title": "Research Data Management & Open Data",
     "section": "Why open data?",
     "text": "Why open data?\n4. Data persistence\n\n\n\nnever lose data due to a crashed hard disk drive\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nImportant\n\n\nA publicly funded repository is the right place for long term storage of research data – not your private USB stick, your personal university website (that vanishes after you change affiliation), or the journal’s online supplemental material that hides the data behind a paywall."
   },
   {
     "objectID": "slides/Open Data Primer/Open Data Primer.slide.html#why-open-data-5",
     "href": "slides/Open Data Primer/Open Data Primer.slide.html#why-open-data-5",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "title": "Research Data Management & Open Data",
     "section": "Why open data?",
     "text": "Why open data?\n5. More and more funders and journals demand it."
   },
   {
     "objectID": "slides/Open Data Primer/Open Data Primer.slide.html#what-is-data",
     "href": "slides/Open Data Primer/Open Data Primer.slide.html#what-is-data",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "title": "Research Data Management & Open Data",
     "section": "What is Data?",
     "text": "What is Data?\n\n  \n\n“The recorded factual material commonly retained by and accepted in the scientific community as necessary to validate research findings.” (EPSRC, 2018)\n\n\n\n\n\nIcon from flaticon.com by freepic"
   },
   {
     "objectID": "slides/Open Data Primer/Open Data Primer.slide.html#what-is-data-1",
     "href": "slides/Open Data Primer/Open Data Primer.slide.html#what-is-data-1",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "title": "Research Data Management & Open Data",
     "section": "What is Data?",
     "text": "What is Data?\n\n\n\n\n\n\n\n➙ we need field-specific definitions: What constitutes \"research data\"?\n\n\n\n\nPictures from en.wikipedia.org/w/index.php?curid=36808161; pixabay.com; pxhere.com/en/photo/1192476; pxhere.com/en/photo/914805; pxhere.com/en/photo/595225; commons.wikimedia.org/wiki/File:Gdp_real_growth_rate_2007_CIA_Factbook.PNG"
   },
   {
     "objectID": "slides/Open Data Primer/Open Data Primer.slide.html#example-psychology",
     "href": "slides/Open Data Primer/Open Data Primer.slide.html#example-psychology",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "title": "Research Data Management & Open Data",
     "section": "Example: Psychology",
     "text": "Example: Psychology\n\n\n\n\n\n\n\nRecommendations of the German Psychological Association, https://psyarxiv.com/24ncs/\n\n\n\nhttps://osf.io/preprints/psyarxiv/vhx89"
   },
   {
     "objectID": "slides/Open Data Primer/Open Data Primer.slide.html#not-only-open-but-fair",
     "href": "slides/Open Data Primer/Open Data Primer.slide.html#not-only-open-but-fair",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "title": "Research Data Management & Open Data",
     "section": "Not only open, but FAIR",
     "text": "Not only open, but FAIR\n\n\n\n\n\n\nIcon from flaticon.com by freepic, mynamepong, monkik  FORCE11(2011)"
   },
   {
     "objectID": "slides/Open Data Primer/Open Data Primer.slide.html#balancing-values",
     "href": "slides/Open Data Primer/Open Data Primer.slide.html#balancing-values",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "title": "Research Data Management & Open Data",
     "section": "Balancing values",
     "text": "Balancing values\n\n  \n\n\n\n\n\n\nflowchart LR\n    A[\"&lt;div style='padding:20px;width:300px;height:auto;background-color:#add8e6;border:2px solid #000;font-size:32px;'&gt;Open Data, public interest &lt;br&gt; entitlement to publicly funded data&lt;/div&gt;\"] &lt;--&gt; B[\"&lt;div style='padding:20px;width:300px;height:auto;background-color:#90ee90;border:2px solid #000;font-size:32px;'&gt;Privacy rights of &lt;br&gt; research subjects&lt;/div&gt;\"]\n    C[\"&lt;div style='padding:20px;width:300px;height:auto;background-color:#add8e6;border:2px solid #000;font-size:32px;'&gt;Right of first usage, &lt;br&gt; incentives to collect data in the first place&lt;/div&gt;\"] &lt;--&gt; D[\"&lt;div style='padding:20px;width:300px;height:auto;background-color:#90ee90;border:2px solid #000;font-size:32px;'&gt;Optimal and efficient gain of &lt;br&gt; knowledge by data reuse&lt;/div&gt;\"]\n    E[\"&lt;div style='padding:20px;width:300px;height:auto;background-color:#add8e6;border:2px solid #000;font-size:32px;'&gt;Reproducibility and verifiability of &lt;br&gt; published analyses&lt;/div&gt;\"] &lt;--&gt; F[\"&lt;div style='padding:20px;width:300px;height:auto;background-color:#90ee90;border:2px solid #000;font-size:32px;'&gt;Protect original authors against &lt;br&gt; inadequate burden and potential attacks&lt;/div&gt;\"]"
   },
   {
     "objectID": "slides/Open Data Primer/Open Data Primer.slide.html#balancing-values-1",
     "href": "slides/Open Data Primer/Open Data Primer.slide.html#balancing-values-1",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "title": "Research Data Management & Open Data",
     "section": "Balancing values 1",
     "text": "Balancing values 1\n\n\n\n\n\n\nflowchart LR\n\n    A[\"&lt;div style='padding:20px;width:300px;height:auto;background-color:#add8e6;border:2px solid #000;font-size:24px;'&gt;Open Data, public interest &lt;br&gt; entitlement to publicly funded data&lt;/div&gt;\"] &lt;--&gt; B[\"&lt;div style='padding:20px;width:300px;height:auto;background-color:#90ee90;border:2px solid #000;font-size:24px;'&gt;Privacy rights of &lt;br&gt; research subjects&lt;/div&gt;\"]\n    \n\n\n\n\n\n\n\n\nPrivacy rights &gt; openness; but also: “legitimate interest” of research\nAsk participants for a broad consent of open reuse\nRestrict access with “scientific use files”; publish aggregated data (e.g., ratings of videos) without the primary data (videos)\nSharing something &gt; sharing nothing\nAs open as possible, as restricted as necessary"
   },
   {
     "objectID": "slides/Open Data Primer/Open Data Primer.slide.html#balancing-values-2",
     "href": "slides/Open Data Primer/Open Data Primer.slide.html#balancing-values-2",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "title": "Research Data Management & Open Data",
     "section": "Balancing values 2",
     "text": "Balancing values 2\n\n\n\n\n\n\nflowchart LR\n\nC[\"&lt;div style='padding:20px;width:300px;height:auto;background-color:#add8e6;border:2px solid #000;font-size:24px;'&gt;Right of first usage, &lt;br&gt; incentives to collect data in the first place&lt;/div&gt;\"] &lt;--&gt; D[\"&lt;div style='padding:20px;width:300px;height:auto;background-color:#90ee90;border:2px solid #000;font-size:24px;'&gt;Optimal and efficient gain of &lt;br&gt; knowledge by data reuse&lt;/div&gt;\"]\n\n\n\n\n\n\n\n\nRight of first usage, possibility of embargo\nAt the end of the day (resp., the embargo), all data are as open as possible\nIncentivize data sharing"
   },
   {
     "objectID": "slides/Open Data Primer/Open Data Primer.slide.html#balancing-values-3",
     "href": "slides/Open Data Primer/Open Data Primer.slide.html#balancing-values-3",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "title": "Research Data Management & Open Data",
     "section": "Balancing values 3",
     "text": "Balancing values 3\n\n\n\n\n\n\nflowchart LR\n\nE[\"&lt;div style='padding:20px;width:300px;height:auto;background-color:#add8e6;border:2px solid #000;font-size:24px;'&gt;Reproducibility and verifiability of &lt;br&gt; published analyses&lt;/div&gt;\"] &lt;--&gt; F[\"&lt;div style='padding:20px;width:300px;height:auto;background-color:#90ee90;border:2px solid #000;font-size:24px;'&gt;Protect original authors against &lt;br&gt; inadequate burden and potential attacks&lt;/div&gt;\"]\n\n\n\n\n\n\n\n\nPrimary focus: openness and transparency. Correcting errors is painful, but a necessary condition for doing science\nData providers should be informed if their data are going to be reused or reanalyzed ➙ allows to prepare a reaction"
   },
   {
     "objectID": "slides/Open Data Primer/Open Data Primer.slide.html#balancing-values-3-1",
     "href": "slides/Open Data Primer/Open Data Primer.slide.html#balancing-values-3-1",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "title": "Research Data Management & Open Data",
     "section": "Balancing values 3",
     "text": "Balancing values 3\n\n\n\n\n\n\nflowchart LR\n\nE[\"&lt;div style='padding:20px;width:300px;height:auto;background-color:#add8e6;border:2px solid #000;font-size:24px;'&gt;Reproducibility and verifiability of &lt;br&gt; published analyses&lt;/div&gt;\"] &lt;--&gt; F[\"&lt;div style='padding:20px;width:300px;height:auto;background-color:#90ee90;border:2px solid #000;font-size:24px;'&gt;Protect original authors against &lt;br&gt; inadequate burden and potential attacks&lt;/div&gt;\"]\n\n\n\n\n\n\n\n\nProblematic asymmetry:\n\nData provided ➙ often errors get detected\nNo data provided ➙ no errors are detected (because not possible). Default assumption: “Everything is OK. Perfect paper, because no errors are spotted!”\n\nMaking oneself vulnerable is good for science, and should also be good for reputation!\nChange default assumption? “No data ➙ Probably erroneous analysis.”"
   },
   {
     "objectID": "slides/Open Data Primer/Open Data Primer.slide.html#success-stories",
     "href": "slides/Open Data Primer/Open Data Primer.slide.html#success-stories",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "title": "Research Data Management & Open Data",
     "section": "Success stories",
     "text": "Success stories\n\n\n\n\n\n\nhttps://www.cell.com/action/showPdf?pii=S0969-2126%2812%2900018-4"
   },
   {
     "objectID": "slides/Open Data Primer/Open Data Primer.slide.html#resources",
     "href": "slides/Open Data Primer/Open Data Primer.slide.html#resources",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "title": "Research Data Management & Open Data",
     "section": "Resources",
     "text": "Resources\n\n\n\n\n\n\nhttps://www.osc.uni-muenchen.de/toolbox/index.html"
   },
   {
     "objectID": "slides/Open Data Primer/Open Data Primer.slide.html#contact",
     "href": "slides/Open Data Primer/Open Data Primer.slide.html#contact",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "title": "Research Data Management & Open Data",
     "section": "Contact",
     "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n \n\n\n\n\nForschungsorientierte Praktikum I – Empirisches Praktikum, Ludwig-Maximilians-Universität München"
   },
