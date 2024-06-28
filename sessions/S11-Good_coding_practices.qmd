@@ -6,12 +6,14 @@ description: Good coding practices - Quarto introduction
 
 # Overview
 
-| Topic                                                    | Duration | Notes      |
-| :------------------------------------------------------- | :------: | ---------- |
-| Wrap up homework 1: Codebook                             |    15    |            |
-| Good coding practices                                    |    45    | [Slides]() |
-| Preparation: Install software infrastructure (see below) |    30    |            |
-| Homework: Quarto tutorial                                |    5     |            |
+| Topic                                                    | Duration | Notes                                                               |
+| :------------------------------------------------------- | :------: | ------------------------------------------------------------------- |
+| Wrap up homework 1: Codebook                             |    20    |                                                                     |
+| Collect Feedback for App                                 |    20    |                                                                     |
+| Introduction to Rmarkdown/Quarto                         |    20    | Slides (TODO)                                                       |
+| Preparation: Install software infrastructure (see below) |    30    |                                                                     |
+| Good coding practices                                    |    45    | [Slides](../slides/Good_coding_practices/Good_coding_practices.qmd) |
+| Homework: Quarto tutorial                                |    5     |                                                                     |
 
 : {.striped}
 
@@ -24,7 +26,7 @@ In short, you need to install the following software:
 
 1. Install (or update) R: [https://cran.r-project.org/](https://cran.r-project.org/)
 2. Install (or update) RStudio: [https://www.rstudio.com/products/rstudio/download/](https://www.rstudio.com/products/rstudio/download/)
-3. An installation of [Quarto](https://quarto.org/) is usually not necessary, as it automatically comes with RStudio.
+3. An installation of [Quarto](https://quarto.org/) is usually not necessary, as it automatically comes with RStudio. If a warning says that Quarto is not installed, install it with the link above. 
 4. Install [tinytex](https://quarto.org/docs/output-formats/pdf-engine.html#installing-tex), a small version of TeX that can be used to build PDF documents with Quarto:
     - In RStudio, open a Terminal window: *Tools* **>** *Terminal* **>** *New Terminal*
     - Run the following code in the Terminal:
@@ -34,8 +36,16 @@ In short, you need to install the following software:
 
 As a final step of the preparation, let's try to render (a) an HTML document and (b) a PDF document with Quarto. For that, download [hello.qmd](https://quarto.org/docs/get-started/hello/rstudio/_hello.qmd) and open it in RStudio. Then, click on the "Render" button to render the document (or File -> Render Document).
 
-Now, in the YAML header of the file, change `format: html` to `format: pdf`, and render the document again. After some time, this should open an extra window with the PDF.
-If you encounter any issues, please let me know.
+Now, in the YAML header of the file (which is on the top of each `.qmd` file), change `format: html` to `format: pdf`, and render the document again. After some time, this should open an extra window with the PDF. You can also render to Word file with `format: docx`. All rendered files are saved in the same folder as the source `.qmd` file.
+
 
 
 ## Homework 1 (individually): Do the full Quarto tutorial
+
+Got to our [Quarto workshop](https://lmu-osc.github.io/introduction-to-Quarto/) and do the chapters 1, 2, and 3 including all exercises. 
+
+In addition, do section "[Exercise: APA 7 Manuscripts](https://lmu-osc.github.io/introduction-to-Quarto/apa7_manuscript.html)" from chapter 4. The document that you create here can be the starting point of your final report!
+The text says "Pick a preprint of your own". You probably have none, and I would suggest that you simply create the structure of APA headings (Method, Results, Discussion, etc.) and fill it with some dummy text - or you already start writing some useful paragraphs or bullet points for our study.
+
+You can leave out the section on bibliography for now. We will cover this together in a later session.
+

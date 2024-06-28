@@ -289,7 +289,8 @@ x
 ::: {.column width="40%"}
 
 ::: {.smaller}
-<br><br><br>
+<br>
+
 - At the start of each script file: Author,
   license, purpose of the file.
 - Load add-on packages all at once at the
@@ -318,7 +319,8 @@ x
 ::: {.column width="40%"}
 
 ::: {.smaller}
-<br><br><br>
+<br>
+
 - Link code comments to paper structure
   - „Table 3: Descriptives of...“
   - „Hypothesis 2: Does metafilin increase [...]?“
