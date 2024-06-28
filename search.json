@@ -7,233 +7,345 @@
     "text": "Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nIntroduction to motives, intimacy, etc\n150\nSlides\n\n\nHausaufgabe: Develop interventions\n10\n\n\n\n\n\n\nHomework 1 (in groups)\nYou have been assigned group IDs from A to F. Create a group name that consists of an adjective and an animal name both starting with your ID. (Only a leading “der, die, das” is allowed, such as “Die zickigen Zebras”).\n\n\nHomework 2 (in groups)\n\nTask: Create possible interventions (at least 3 to 5) that manipulate participants’ motivation. Your group assignment defines whether you aim to increase or to lower the motivation. This is a brainstroming phase: You can be creative and think divergently. It can be crazy; the reality check will be done later.\n\nUse the mechanisms discussed today as a guide. The groups on film/series excerpts should present material as concretely as possible (at least in writing which film/series incl. time or already direct video excerpts). The audio group and the creative group should develop ideas and write them down so that the intervention is comprehensible and it is clear how a concrete implementation can take place.\nAlso think about a control condition for each intervention. We will cover details about “how to create a good control condition” next week. Preliminarily, you can think abot it as a “Placebo”: Everything is kept constant (compared to the experimental condition), except the causal ingredient.\nThe only constraints are:\n\nThe intervention should be deliverable via smartphones\nThe instruction/intervention should not take longer than 10 min.\n\nDeliverable: One person of each group uploads the text with the interventions into the textfield in the Moodle task. In the heading, please indicate your group name, and which intervention type you worked on."
   },
   {
-    "objectID": "sessions/S8_9-Finalize_study.html",
-    "href": "sessions/S8_9-Finalize_study.html",
-    "title": "Session 08 + 09 - Finalize Study",
+    "objectID": "sessions/S11-Good_coding_practices.html",
+    "href": "sessions/S11-Good_coding_practices.html",
+    "title": "Session 11 - Good coding practices",
     "section": "",
-    "text": "Topic\nDuration\nNotes\n\n\n\n\nWork on finalizing the study\n180\n\n\n\nHomework: Test the study on your smartphone\n5\n\n\n\n\n\n\n\n\nWir haben 6-7 Kategorien von Interventionen. Jede Person macht 3 Kategorien (3 Kategorien * 3 Ausprägungen = 9 Interventionen = 9 Tage). Alles auf deutsch.\n\nEigene Fotos (Elisa, Anne, Leonie)\n\nInstruktion fehlt noch (3 Varianten)\nNegativ-Variante fehlt noch\n\nAudioimagination (Antonia, Maria, Elina, Elena, Theresa, Ann-Sophie, Paula)\n\nAudio fehlt noch (3 Varianten)\nInstruktion fehlt noch\nParallisierung: ähnlicher Stil, Instruktion, Länge, Aufbau\n\nPodcasts (Clara, Laura)\n\nAudio fehlt noch (3 Varianten)\nevtl. neue Neutralbedingung\nInstruktion fehlt noch\nNach Möglichkeit fragen, das in einem Forschungsprojekt zu benutzen\n\nGemeinsamen Events (Oceane, Samuel, Estelle)\n\nInstruktion fehlt noch (3 Varianten)\nEvents fehlen noch\n\nFilmausschnitte (Emma, Madeleine, Lily)\n\nVideo Kontrollgruppe fehlt noch: Natur\nAlle drei Gruppen sollten möglichst gleich in Valenz und Arousal sein. (Ist bei den Filmausschnitten nicht der Fall. –&gt; idealerweise selber Film, selbe Valenz, aber unterschiedliche motivationale Ausrichtung). Bei Up wird das nicht klappen.\nInstruktion von Nensy\nScreencapture: Google Chrome + Einstellungen ändern. Alles auf deutsch. Ohne Untertitel.\n\n\nIn Kombi:\n\nSuchsel (Mashek Replikation: Xinyi, Evelyn)\n\nmotivationsanhebende Wörter fehlen noch (neutral und negativ wird von Mashek übernommen)\n3 Gitter erstellen (12x12 Buchstaben), wo die Wörter horizontal und vertikal versteckt sind (Onlinetools)\n“csomfjfreundvf/fobkolnqltdujw/wzobeziehungur/miqwvnydzjudfm/uahtflpartnerr/nlikcvkrbpfueh/ryapyejwollqil/kunterstützung/lhcnwpcmfsrxha/tzzusammenhmbp/eexhenicrikuse/aqyfcwhemqwkrq/mcgesellschaft/tdfjklrcdmnjqs”\nInstruktion fehlt noch\n\nWortketten (gleiche Wörter wie Mashek) –&gt; Als Backup\n\nKontrollgruppe: Natur?\nGenerell darauf achten: - [ ] Gogle drive umstrukturieren: Ein Unterordner für jede Intervention; Dateinamen einheitlich: - “INTERVENTIONSNAME_Instruktion.pdf” - “INTERVENTIONSNAME_Material.pdf” –&gt; sinnvollen Namen finden - [ ] Man kann die Intervention auch später machen\n\n\n\n\n\n\nWie Bildschirmaufnahmen machen für die Videoausschnitte?\n\n\n\nDas sind die Schritte, die auf dem Windows Laptop funktioniert haben. Hier eine Anleitung zum Deaktivieren der Hardwarebeschleunigung:\n\nSchritt 1. Suchen Sie das Dreipunktsymbol oben rechts auf Ihrem Google Chrome-Bildschirm. Klicken Sie mit der rechten Maustaste darauf und wählen Sie Einstellungen.\nSchritt 2. Gehen Sie anschließend zum Systemabschnitt.\nSchritt 3: Deaktivieren Sie die Option „ Hardwarebeschleunigung verwenden, wenn verfügbar“ auf der rechten Seite.\nSchritt 4. Klicken Sie nun auf „Neu starten“, um Ihren Chrome-Browser neu zu starten.\nSchritt 5. Öffnen Sie nun Ihr Netflix und machen Sie einen Screenshot. Wenn der schwarze Bildschirm nicht angezeigt wird, ist Ihre Arbeit erledigt.\n\n\n\n\n\n\n9 Interventionstage: Pro sample drei Konditionen in 3 Ausprägungen = 9 Interventionen + prä/post Befragung\n\nWelche 3 Kategorien bekommt jede Person? Randomisiert oder feste Bundles?\nWie werden die 9 Interventionen auf die 9 Tage verteilt? Randomisiert oder feste Reihenfolge?\nQualitative Fragen.\n\n\n\n\nHow to JSON\n\nDu / Sie anpassen: Parallele Elemente beachten!\nECR in PreQ (ansonsten ist alles da)\nMorgenbefragung\nInterventionsanzeige + Prä/Post Befragung\nAbendbefragung\nPostQ: Qualitative Fragen, globale RS, trait Motive\n\n\n\n\n\nGruppe 1: Webseite überarbeiten\n\nPeer Review\n\nGruppe 2: Flyer/Aushänge, Werbetexte für Social Media\nGruppe 3: Werbekanäle überlegen\nGruppe 4: Vergütung\n\nGeplanter Studienstart: 17.06.2024\n\n\n\n\n\nTest the study yourself (when the app is ready; we send an email)\nTurn your instructions and follow-up questions into JSON snippets (see examples here) and upload your snippets in Moodle –&gt; Until Tuesday evening\nBitte lesen Sie die DGPs-Empfehlungen “Management und Bereitstellung von Forschungsdaten in der Psychologie” (Gollwitzer et al., 2020) und beantworten Sie die folgenden Leitfragen kurz und präzise in Moodle.\n\n\nEin Autor veröffentlicht vollständig Mittelwerte und SDs aller Variablen in einer Tabelle im Ergebnisteil. Sind damit die Primärdaten publiziert und der Dokumentationspflicht entsprochen worden? Wenn nein, warum nicht?\nNennen Sie drei Beispiele für Metadaten eines Datensatzes.\nWas sind “personenbezogene Daten”? Ist das Geschlecht und Alter einer Person ein personenbezogenes Datum?\nWelche dieser Orte sind geeignet als Repositorium für die langfristige Archivierung und Bereitstellung von Daten? Wenn “Nein”, warum nicht?. (a) Die persönliche Webseite der Forscherin an ihrer Universität; (b) das “Online Supplemental Material (OSM)” einer wissenschaftlichen Zeitschrift des Elsevier Verlags; (c) in einem öffentlichen Projekt des Open Science Frameworks (https://osf.io); (d) bei Figshare (https://figshare.com); (e) bei Zenodo (https://zenodo.org)\nBeschreiben Sie in jeweils einem Satz die “Datenbereitstellung Typ 1” und die “Datenbereitstellung Typ 2”.\nWas bedeutet ein “Nutzungsembargo”? Wie lange sollte es maximal sein?\nWelche Zugriffsklassen gelten als “open data”?"
+    "text": "Topic\nDuration\nNotes\n\n\n\n\nWrap up homework 1: Codebook\n15\n\n\n\nGood coding practices\n45\nSlides\n\n\nPreparation: Install software infrastructure (see below)\n30\n\n\n\nHomework: Quarto tutorial\n5\n\n\n\n\n\n\nFollow the instructions on this website to install the necessary software infrastructure for the course.\nIn short, you need to install the following software:\n\nInstall (or update) R: https://cran.r-project.org/\nInstall (or update) RStudio: https://www.rstudio.com/products/rstudio/download/\nAn installation of Quarto is usually not necessary, as it automatically comes with RStudio.\nInstall tinytex, a small version of TeX that can be used to build PDF documents with Quarto:\n\nIn RStudio, open a Terminal window: Tools &gt; Terminal &gt; New Terminal\nRun the following code in the Terminal:\n\n\n\nTerminal\n\nquarto install tinytex\n\n\nAs a final step of the preparation, let’s try to render (a) an HTML document and (b) a PDF document with Quarto. For that, download hello.qmd and open it in RStudio. Then, click on the “Render” button to render the document (or File -&gt; Render Document).\nNow, in the YAML header of the file, change format: html to format: pdf, and render the document again. After some time, this should open an extra window with the PDF. If you encounter any issues, please let me know.\n\n\n\nGot to our Quarto workshop and do the chapters 1, 2, and 3 including all exercises.\nIn addition, do section “Exercise: APA 7 Manuscripts” from chapter 4. The document that you create here can be the starting point of your final report! The text says “Pick a preprint of your own”. You probably have non, and I would suggest that you simply create the structure of APA headings (Method, Results, Discussion, etc.) and fill it with some dummy text - or you already start writing some useful paragraphs or bullet points for our study."
   },
   {
-    "objectID": "sessions/S8_9-Finalize_study.html#finalize-study",
-    "href": "sessions/S8_9-Finalize_study.html#finalize-study",
-    "title": "Session 08 + 09 - Finalize Study",
+    "objectID": "sessions/S11-Good_coding_practices.html#install-software-infrastructure",
+    "href": "sessions/S11-Good_coding_practices.html#install-software-infrastructure",
+    "title": "Session 11 - Good coding practices",
     "section": "",
-    "text": "Wir haben 6-7 Kategorien von Interventionen. Jede Person macht 3 Kategorien (3 Kategorien * 3 Ausprägungen = 9 Interventionen = 9 Tage). Alles auf deutsch.\n\nEigene Fotos (Elisa, Anne, Leonie)\n\nInstruktion fehlt noch (3 Varianten)\nNegativ-Variante fehlt noch\n\nAudioimagination (Antonia, Maria, Elina, Elena, Theresa, Ann-Sophie, Paula)\n\nAudio fehlt noch (3 Varianten)\nInstruktion fehlt noch\nParallisierung: ähnlicher Stil, Instruktion, Länge, Aufbau\n\nPodcasts (Clara, Laura)\n\nAudio fehlt noch (3 Varianten)\nevtl. neue Neutralbedingung\nInstruktion fehlt noch\nNach Möglichkeit fragen, das in einem Forschungsprojekt zu benutzen\n\nGemeinsamen Events (Oceane, Samuel, Estelle)\n\nInstruktion fehlt noch (3 Varianten)\nEvents fehlen noch\n\nFilmausschnitte (Emma, Madeleine, Lily)\n\nVideo Kontrollgruppe fehlt noch: Natur\nAlle drei Gruppen sollten möglichst gleich in Valenz und Arousal sein. (Ist bei den Filmausschnitten nicht der Fall. –&gt; idealerweise selber Film, selbe Valenz, aber unterschiedliche motivationale Ausrichtung). Bei Up wird das nicht klappen.\nInstruktion von Nensy\nScreencapture: Google Chrome + Einstellungen ändern. Alles auf deutsch. Ohne Untertitel.\n\n\nIn Kombi:\n\nSuchsel (Mashek Replikation: Xinyi, Evelyn)\n\nmotivationsanhebende Wörter fehlen noch (neutral und negativ wird von Mashek übernommen)\n3 Gitter erstellen (12x12 Buchstaben), wo die Wörter horizontal und vertikal versteckt sind (Onlinetools)\n“csomfjfreundvf/fobkolnqltdujw/wzobeziehungur/miqwvnydzjudfm/uahtflpartnerr/nlikcvkrbpfueh/ryapyejwollqil/kunterstützung/lhcnwpcmfsrxha/tzzusammenhmbp/eexhenicrikuse/aqyfcwhemqwkrq/mcgesellschaft/tdfjklrcdmnjqs”\nInstruktion fehlt noch\n\nWortketten (gleiche Wörter wie Mashek) –&gt; Als Backup\n\nKontrollgruppe: Natur?\nGenerell darauf achten: - [ ] Gogle drive umstrukturieren: Ein Unterordner für jede Intervention; Dateinamen einheitlich: - “INTERVENTIONSNAME_Instruktion.pdf” - “INTERVENTIONSNAME_Material.pdf” –&gt; sinnvollen Namen finden - [ ] Man kann die Intervention auch später machen\n\n\n\n\n\n\nWie Bildschirmaufnahmen machen für die Videoausschnitte?\n\n\n\nDas sind die Schritte, die auf dem Windows Laptop funktioniert haben. Hier eine Anleitung zum Deaktivieren der Hardwarebeschleunigung:\n\nSchritt 1. Suchen Sie das Dreipunktsymbol oben rechts auf Ihrem Google Chrome-Bildschirm. Klicken Sie mit der rechten Maustaste darauf und wählen Sie Einstellungen.\nSchritt 2. Gehen Sie anschließend zum Systemabschnitt.\nSchritt 3: Deaktivieren Sie die Option „ Hardwarebeschleunigung verwenden, wenn verfügbar“ auf der rechten Seite.\nSchritt 4. Klicken Sie nun auf „Neu starten“, um Ihren Chrome-Browser neu zu starten.\nSchritt 5. Öffnen Sie nun Ihr Netflix und machen Sie einen Screenshot. Wenn der schwarze Bildschirm nicht angezeigt wird, ist Ihre Arbeit erledigt.\n\n\n\n\n\n\n9 Interventionstage: Pro sample drei Konditionen in 3 Ausprägungen = 9 Interventionen + prä/post Befragung\n\nWelche 3 Kategorien bekommt jede Person? Randomisiert oder feste Bundles?\nWie werden die 9 Interventionen auf die 9 Tage verteilt? Randomisiert oder feste Reihenfolge?\nQualitative Fragen.\n\n\n\n\nHow to JSON\n\nDu / Sie anpassen: Parallele Elemente beachten!\nECR in PreQ (ansonsten ist alles da)\nMorgenbefragung\nInterventionsanzeige + Prä/Post Befragung\nAbendbefragung\nPostQ: Qualitative Fragen, globale RS, trait Motive\n\n\n\n\n\nGruppe 1: Webseite überarbeiten\n\nPeer Review\n\nGruppe 2: Flyer/Aushänge, Werbetexte für Social Media\nGruppe 3: Werbekanäle überlegen\nGruppe 4: Vergütung\n\nGeplanter Studienstart: 17.06.2024"
+    "text": "Follow the instructions on this website to install the necessary software infrastructure for the course.\nIn short, you need to install the following software:\n\nInstall (or update) R: https://cran.r-project.org/\nInstall (or update) RStudio: https://www.rstudio.com/products/rstudio/download/\nAn installation of Quarto is usually not necessary, as it automatically comes with RStudio.\nInstall tinytex, a small version of TeX that can be used to build PDF documents with Quarto:\n\nIn RStudio, open a Terminal window: Tools &gt; Terminal &gt; New Terminal\nRun the following code in the Terminal:\n\n\n\nTerminal\n\nquarto install tinytex\n\n\nAs a final step of the preparation, let’s try to render (a) an HTML document and (b) a PDF document with Quarto. For that, download hello.qmd and open it in RStudio. Then, click on the “Render” button to render the document (or File -&gt; Render Document).\nNow, in the YAML header of the file, change format: html to format: pdf, and render the document again. After some time, this should open an extra window with the PDF. If you encounter any issues, please let me know."
   },
   {
-    "objectID": "sessions/S8_9-Finalize_study.html#homework-individually",
-    "href": "sessions/S8_9-Finalize_study.html#homework-individually",
-    "title": "Session 08 + 09 - Finalize Study",
+    "objectID": "sessions/S11-Good_coding_practices.html#homework-1-individually-do-the-full-quarto-tutorial",
+    "href": "sessions/S11-Good_coding_practices.html#homework-1-individually-do-the-full-quarto-tutorial",
+    "title": "Session 11 - Good coding practices",
     "section": "",
-    "text": "Test the study yourself (when the app is ready; we send an email)\nTurn your instructions and follow-up questions into JSON snippets (see examples here) and upload your snippets in Moodle –&gt; Until Tuesday evening\nBitte lesen Sie die DGPs-Empfehlungen “Management und Bereitstellung von Forschungsdaten in der Psychologie” (Gollwitzer et al., 2020) und beantworten Sie die folgenden Leitfragen kurz und präzise in Moodle.\n\n\nEin Autor veröffentlicht vollständig Mittelwerte und SDs aller Variablen in einer Tabelle im Ergebnisteil. Sind damit die Primärdaten publiziert und der Dokumentationspflicht entsprochen worden? Wenn nein, warum nicht?\nNennen Sie drei Beispiele für Metadaten eines Datensatzes.\nWas sind “personenbezogene Daten”? Ist das Geschlecht und Alter einer Person ein personenbezogenes Datum?\nWelche dieser Orte sind geeignet als Repositorium für die langfristige Archivierung und Bereitstellung von Daten? Wenn “Nein”, warum nicht?. (a) Die persönliche Webseite der Forscherin an ihrer Universität; (b) das “Online Supplemental Material (OSM)” einer wissenschaftlichen Zeitschrift des Elsevier Verlags; (c) in einem öffentlichen Projekt des Open Science Frameworks (https://osf.io); (d) bei Figshare (https://figshare.com); (e) bei Zenodo (https://zenodo.org)\nBeschreiben Sie in jeweils einem Satz die “Datenbereitstellung Typ 1” und die “Datenbereitstellung Typ 2”.\nWas bedeutet ein “Nutzungsembargo”? Wie lange sollte es maximal sein?\nWelche Zugriffsklassen gelten als “open data”?"
+    "text": "Got to our Quarto workshop and do the chapters 1, 2, and 3 including all exercises.\nIn addition, do section “Exercise: APA 7 Manuscripts” from chapter 4. The document that you create here can be the starting point of your final report! The text says “Pick a preprint of your own”. You probably have non, and I would suggest that you simply create the structure of APA headings (Method, Results, Discussion, etc.) and fill it with some dummy text - or you already start writing some useful paragraphs or bullet points for our study."
   },
   {
-    "objectID": "sessions/S4-DesignPlanning.html",
-    "href": "sessions/S4-DesignPlanning.html",
-    "title": "Session 04 - Planning the experimental design",
+    "objectID": "sessions/S10-Open_Data.html",
+    "href": "sessions/S10-Open_Data.html",
+    "title": "Session 10 - Open Data",
     "section": "",
-    "text": "Topic\nDuration\nNotes\n\n\n\n\nWrap-up Homework 1\n30\nCh. Experimentology\n\n\nPlanning the design\n120\nwith 25 min group task\n\n\nWrap-up Homework 2\n45\nIntervention\n\n\nHomework: Read Zygar et al (2022)\n5\n\n\n\n\n\n\nSee Google sheet for an updated version.\n\nShow the different questions and decisions that need to be taken (50 min)\nFour groups work on a subset of questions (25 min)\nThe group present their results to the plenum (30 min)\n\n\n\n\nThree experimental conditions: increase motivation, decrease motivation, neutral control\n\nOne generic control condition, or tailored control conditions for each intervention?\n\nHow many days does the study go? (e.g., 7-8 days)\nHow to spread conditions across days?\n\nRepeat exactly the same intervention?\nRepeat the same condition, but different interventions? (i.e., participants are always pushed up or pushed down and have a control group)\nUse the same type of intervention with different conditions (keep videos as category, but do one increase, one decrease, one neutral)\n\nHow to balance/randomize the conditions across the EMI days? Start with a baseline measurement?\n\nAlways flip pos/neg/neutral? Or can we have 2 pos days in sequence?\nPCNCPCN (7 days)\n\nHow many conditions can be tested? We expect ~100 participants (who completed the study to the end).\n\n100 participants x 2xpos, 2xneg\n50 participants x 4xpos, 4xneg –&gt; less statistical power, more qualitative data\n\n\n\n\n\n\nWhen do we measure the DV?\n\nDirectly after intervention? Demand effects?\nWait some minutes? At least close to the intervention\nIn Zygar et al 2022, no effect was present any more in the evening report.\n\nEither the intervention is only short lived, or participants lived out and saturated their motivation in the afternoon, so that no extra motivation is left in the evening.\nAt least we don’t have to worry about carry-over effects to the next day.\n\n\nWhen to ask the qualitative questions about the interventions?\nHow to deal with the weekend? (Participants spend more time with partner, are more happy, and probably more motivated)\n\nCounter-balance conditions across weekend days\nAll participants start on same day, say, Monday?\nIf the conditions systematically flip (P-C-N-C-P-C-N), then automaticall two different conditions are realized at the weekend.\n\n\n\n\n\n\nWhat to put into the preliminary questionnaire?\nWhat are inclusion criteria for the sample?\n\nInterventions are done individually (not dyadic)\nMust be in stable relationship (how long? Only hetero or everything?)\n\nControl variables?\n\ndaily level / state: Daily fluctuations of …?\nperson level / trait: Personality etc.\n\n\n\n\n\n\nIn this study we did a comparable EMI design:\n\nZygar-Hoffmann, C., Cristoforo, L., Wolf, L., & Schönbrodt, F. D. (2022). Eliciting short-term closeness in couple relationships with Ecological Momentary Interventions. Collabra: Psychology, 8(1), 38599. https://doi.org/10.1525/collabra.38599\n\nYou can answer the following questions in English or in German. Please write the answers directly into the answer field in Moodle. (You can of course write the answers beforehand in Word or something, and then copy the answers in here). You do not need to read any of the cited references additionally, just refer to the paper.\n\nQ1: What are Ecological Momentary Interventions (EMIs)?\nQ2: Give a one-sentence description of each of the four closeness interventions.\nQ3: What were the main findings regarding the effectiveness of the closeness interventions compared to neutral control conditions?\nQ4: How long did the intervention last? Did they find effects that lasted until the evening?\nQ5a: How did they measure “State Relationship Closeness”?\nQ5b: Would this be a suitable measure for the dependent variable in our own study (i.e., intimacy motivation)?"
+    "text": "Topic\nDuration\nNotes\n\n\n\n\nIntroduction Open Data\n30\nSlides\n\n\nWrap up homework 1: Recommendations RDM / How to codebook\n60\nSlides\n\n\nDiscuss app feedback\n30\n\n\n\nGroup exercise: Plan participant acquisition\n45\n\n\n\nHomework: Create Codebook for pre-questionnaire\n5\n\n\n\n\n\n\nCreate the codebook for the pre-questionnaire (either in German or in English). The data file will be provided in Moodle, please document all variables. The necessary information (e.g., on the exact wording of the items) can be found in the file variant_AA.json. Please create a human-readable version (e.g., xlsx) as well as a machine-readable version (csv or json).\nIf you want to create a JSON file, you can also use DataWiz2 for this (see the instructions in the video “- PTOS 9: Introduction to Research Data Management with D-Psy_FAIR”, starting at minute 29:27). In DataWiz2, you only need the sections “2. Upload and describe datasets” and then “5. Export”. When exporting, please select “Export as JSON” and in “Include datasets” select all datasets.\nUpload all versions of the codebooks to Moodle."
   },
   {
-    "objectID": "sessions/S4-DesignPlanning.html#design-considerations",
-    "href": "sessions/S4-DesignPlanning.html#design-considerations",
-    "title": "Session 04 - Planning the experimental design",
+    "objectID": "sessions/S10-Open_Data.html#homework-1-individually-create-a-codebook-for-the-pre-questionnaire",
+    "href": "sessions/S10-Open_Data.html#homework-1-individually-create-a-codebook-for-the-pre-questionnaire",
+    "title": "Session 10 - Open Data",
     "section": "",
-    "text": "See Google sheet for an updated version.\n\nShow the different questions and decisions that need to be taken (50 min)\nFour groups work on a subset of questions (25 min)\nThe group present their results to the plenum (30 min)\n\n\n\n\nThree experimental conditions: increase motivation, decrease motivation, neutral control\n\nOne generic control condition, or tailored control conditions for each intervention?\n\nHow many days does the study go? (e.g., 7-8 days)\nHow to spread conditions across days?\n\nRepeat exactly the same intervention?\nRepeat the same condition, but different interventions? (i.e., participants are always pushed up or pushed down and have a control group)\nUse the same type of intervention with different conditions (keep videos as category, but do one increase, one decrease, one neutral)\n\nHow to balance/randomize the conditions across the EMI days? Start with a baseline measurement?\n\nAlways flip pos/neg/neutral? Or can we have 2 pos days in sequence?\nPCNCPCN (7 days)\n\nHow many conditions can be tested? We expect ~100 participants (who completed the study to the end).\n\n100 participants x 2xpos, 2xneg\n50 participants x 4xpos, 4xneg –&gt; less statistical power, more qualitative data\n\n\n\n\n\n\nWhen do we measure the DV?\n\nDirectly after intervention? Demand effects?\nWait some minutes? At least close to the intervention\nIn Zygar et al 2022, no effect was present any more in the evening report.\n\nEither the intervention is only short lived, or participants lived out and saturated their motivation in the afternoon, so that no extra motivation is left in the evening.\nAt least we don’t have to worry about carry-over effects to the next day.\n\n\nWhen to ask the qualitative questions about the interventions?\nHow to deal with the weekend? (Participants spend more time with partner, are more happy, and probably more motivated)\n\nCounter-balance conditions across weekend days\nAll participants start on same day, say, Monday?\nIf the conditions systematically flip (P-C-N-C-P-C-N), then automaticall two different conditions are realized at the weekend.\n\n\n\n\n\n\nWhat to put into the preliminary questionnaire?\nWhat are inclusion criteria for the sample?\n\nInterventions are done individually (not dyadic)\nMust be in stable relationship (how long? Only hetero or everything?)\n\nControl variables?\n\ndaily level / state: Daily fluctuations of …?\nperson level / trait: Personality etc."
+    "text": "Create the codebook for the pre-questionnaire (either in German or in English). The data file will be provided in Moodle, please document all variables. The necessary information (e.g., on the exact wording of the items) can be found in the file variant_AA.json. Please create a human-readable version (e.g., xlsx) as well as a machine-readable version (csv or json).\nIf you want to create a JSON file, you can also use DataWiz2 for this (see the instructions in the video “- PTOS 9: Introduction to Research Data Management with D-Psy_FAIR”, starting at minute 29:27). In DataWiz2, you only need the sections “2. Upload and describe datasets” and then “5. Export”. When exporting, please select “Export as JSON” and in “Include datasets” select all datasets.\nUpload all versions of the codebooks to Moodle."
   },
   {
-    "objectID": "sessions/S4-DesignPlanning.html#homework-1-read-zygar-et-al.-2022",
-    "href": "sessions/S4-DesignPlanning.html#homework-1-read-zygar-et-al.-2022",
-    "title": "Session 04 - Planning the experimental design",
+    "objectID": "sessions/sessions_overview.html",
+    "href": "sessions/sessions_overview.html",
+    "title": "Overview of sessions",
     "section": "",
-    "text": "In this study we did a comparable EMI design:\n\nZygar-Hoffmann, C., Cristoforo, L., Wolf, L., & Schönbrodt, F. D. (2022). Eliciting short-term closeness in couple relationships with Ecological Momentary Interventions. Collabra: Psychology, 8(1), 38599. https://doi.org/10.1525/collabra.38599\n\nYou can answer the following questions in English or in German. Please write the answers directly into the answer field in Moodle. (You can of course write the answers beforehand in Word or something, and then copy the answers in here). You do not need to read any of the cited references additionally, just refer to the paper.\n\nQ1: What are Ecological Momentary Interventions (EMIs)?\nQ2: Give a one-sentence description of each of the four closeness interventions.\nQ3: What were the main findings regarding the effectiveness of the closeness interventions compared to neutral control conditions?\nQ4: How long did the intervention last? Did they find effects that lasted until the evening?\nQ5a: How did they measure “State Relationship Closeness”?\nQ5b: Would this be a suitable measure for the dependent variable in our own study (i.e., intimacy motivation)?"
+    "text": "Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\nSession 01 - Introduction\n\n\nOpen Science\n\n\n\n\nSession 02 - Intimacy motive\n\n\nIntroducing motives, the intimacy motive, and the DynaMoS model (by Nensy Le)\n\n\n\n\nSession 03 - More Motives & Causality\n\n\nMore about motives and motivations; Basics about causality\n\n\n\n\nSession 04 - Planning the experimental design\n\n\nWe plan the experimental design of our study and decide upon interventions\n\n\n\n\nSession 05 - Literature Search & Poweranalysis\n\n\nWe plan the experimental design of our study and decide upon interventions\n\n\n\n\nSession 06 - Preregistration 1\n\n\nWe learn how to preregister a study\n\n\n\n\nSession 07 - Finalize Interventions\n\n\nWe decide upon the final design and interventions\n\n\n\n\nSession 08 + 09 - Finalize Study\n\n\nWe try to get the study ready to run, so that it can be tested.\n\n\n\n\nSession 10 - Open Data\n\n\nWe talk about how to publish open data and how to create a codebook.\n\n\n\n\nSession 11 - Good coding practices\n\n\nGood coding practices - Quarto introduction\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "sessions/S6-Prereg1.html",
-    "href": "sessions/S6-Prereg1.html",
-    "title": "Session 06 - Preregistration 1",
+    "objectID": "sessions/S3-Motives_Causality.html",
+    "href": "sessions/S3-Motives_Causality.html",
+    "title": "Session 03 - More Motives & Causality",
     "section": "",
-    "text": "Topic\nDuration\nNotes\n\n\n\n\nWrap up homework 1: Literature search\n30\n\n\n\nDo a power analysis in practice\n50\n\n\n\nHow (not) to report a power analysis\n15\nSlides\n\n\nWrap up homework 2: Read Prereg\n25\n\n\n\nGame: Prereg advocatus Diaboli\n20\nSlides\n\n\nHomework: Start filling in the Prereg\n5\n\n\n\n\n\n\nConvert a between-person effect size into a within-person effect size:\nSee Eq. 9 from Lakens (2013): \nM_diff = 6.02 - 5.69\nSD1 = 1.34\nSD2 = 1.23\nr = 0.5\nd_rm = M_diff / sqrt(SD1^2 + SD2^2 - 2*r*SD1*SD2) * sqrt(2*(1-r))"
+    "text": "Topic\nDuration\nNotes\n\n\n\n\nWrap-up Homework 1\n10\np-hacking\n\n\nMotives\n80\nSlides\n\n\nCausality\n60\nSlides\n\n\nHomework: Read Ch. 1 of Experimentology\n5"
   },
   {
-    "objectID": "sessions/S6-Prereg1.html#do-a-power-analysis-in-practice",
-    "href": "sessions/S6-Prereg1.html#do-a-power-analysis-in-practice",
-    "title": "Session 06 - Preregistration 1",
+    "objectID": "sessions/S3-Motives_Causality.html#homework-2-in-groups",
+    "href": "sessions/S3-Motives_Causality.html#homework-2-in-groups",
+    "title": "Session 03 - More Motives & Causality",
+    "section": "Homework 2 (in groups)",
+    "text": "Homework 2 (in groups)\nRevise interventions to target specifically intimacy motivation (not “affiliation”, not “experienced closeness”, not “behavior”). Try not to do a “fat hand” manipulation, aim for surgical precision!"
+  },
+  {
+    "objectID": "sessions/S1-Introduction.html",
+    "href": "sessions/S1-Introduction.html",
+    "title": "Session 01 - Introduction",
     "section": "",
-    "text": "Convert a between-person effect size into a within-person effect size:\nSee Eq. 9 from Lakens (2013): \nM_diff = 6.02 - 5.69\nSD1 = 1.34\nSD2 = 1.23\nr = 0.5\nd_rm = M_diff / sqrt(SD1^2 + SD2^2 - 2*r*SD1*SD2) * sqrt(2*(1-r))"
+    "text": "Topic\nDuration\nNotes\n\n\n\n\nBegrüßung\n5\nAnkündigung: Zeitslot: 10:00-13:00, aber bis 14:00 freihalten\n\n\nEmpra Formalia\n25\nFolien. Kerncurriculum: Präregistrierung, Open data + Codebook, Poweranalyse, Reproduzierbare Skripte\n\n\nVorstellungsrunde\n15\n\n\n\np-hack your way to scientific glory\n60\nFolien\n\n\nPause\n15\n\n\n\nEinführung Open Science\n60\nFolien\n\n\nHausaufgabe: p-hacking üben\n5"
   },
   {
-    "objectID": "sessions/S7-Finalize_interventions.html",
-    "href": "sessions/S7-Finalize_interventions.html",
-    "title": "Session 07 - Finalize Interventions",
+    "objectID": "sessions/S1-Introduction.html#homework-1-individual",
+    "href": "sessions/S1-Introduction.html#homework-1-individual",
+    "title": "Session 01 - Introduction",
+    "section": "3.1 Homework 1 (individual)",
+    "text": "3.1 Homework 1 (individual)\nPractice p-hacking: https://www.shinyapps.org/apps/p-hacker/\nTask: Hack at least 5 studies towards significance with \\(\\alpha = .05\\) (keep the true effect at 0). Whenever you achieved a significant result, click on “Save” in the results table to store your result in the study stack on the right side. Once you achieved 5 significant studies, copy and paste the study stack into a text document. Keep a short log of the steps that were necessary to achieve significance (e.g., “increase sample size 2 times by 10 participants, controlled for SES”).\nNext, try the same for \\(\\alpha = .005\\) (if it takes too long, there’s no need to achieve 5 significant studies).\nDeliverable: Copy both sets of significant studies (one for \\(\\alpha = .05\\), one for \\(\\alpha = .005\\)) and your log into the textfield in the Moodle task."
+  },
+  {
+    "objectID": "sessions/S1-Introduction.html#homework-2-individual",
+    "href": "sessions/S1-Introduction.html#homework-2-individual",
+    "title": "Session 01 - Introduction",
+    "section": "3.2 Homework 2 (individual)",
+    "text": "3.2 Homework 2 (individual)\n\nCreate an ORCID ID. You can use “LMU” as affiliation.\nCreate an OSF account (use your real name; link your ORCID ID)."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "Topic\nDuration\nNotes\n\n\n\n\nIntroduce the measurement instruments\n45\n\n\n\nWatch and discuss the audio/videos interventions\n45\n\n\n\nMake a final selection (or at least shortlist) of interventions\n20\n\n\n\nShow/discuss the final experimental design and procedure\n30\nSee Google sheet.\n\n\nTellmi: Show the app\n20\n\n\n\nTellmi: Show the recruitment website\n20\n\n\n\nHomework: Prepare study material\n5\n\n\n\n\n\n\n\nGroup 1 (sollte die größte sein, Aufgaben aufteilen)\n\nWebseite überarbeiten (direkt im html - wer kann das?)\n\nGroup 2\n\nFlyer/Aushänge, Werbetexte für Social Media\n\nGroup 3\n\nWerbekanäle überlegen: Social Media, Whatsapp-Gruppen, andere Empras, Freundeskreis/Familie, nicht nur Studenten, wo bekommt man Männer her?\n\nGroup 4: Vergütung? Rückmeldung Persönlichkeitsprofil (was ist die interessanteste Variable, die wir messen)? –&gt; Ideen sammeln."
+    "text": "Das ist das Kursmaterial für das “Forschungsorientierte Praktikum I – Grundlagen der Forschung” im BSc Psychologie der Ludwig-Maximilians-Universität München. Der Kurs wurde im Sommersemester 2024 von Prof. Dr. Felix Schönbrodt gegeben.\nAlles Material ist - soweit nicht anders gekennzeichnet - unter CC-BY4.0 Lizenz."
   },
   {
-    "objectID": "sessions/S7-Finalize_interventions.html#homework",
-    "href": "sessions/S7-Finalize_interventions.html#homework",
-    "title": "Session 07 - Finalize Interventions",
-    "section": "",
-    "text": "Group 1 (sollte die größte sein, Aufgaben aufteilen)\n\nWebseite überarbeiten (direkt im html - wer kann das?)\n\nGroup 2\n\nFlyer/Aushänge, Werbetexte für Social Media\n\nGroup 3\n\nWerbekanäle überlegen: Social Media, Whatsapp-Gruppen, andere Empras, Freundeskreis/Familie, nicht nur Studenten, wo bekommt man Männer her?\n\nGroup 4: Vergütung? Rückmeldung Persönlichkeitsprofil (was ist die interessanteste Variable, die wir messen)? –&gt; Ideen sammeln."
+    "objectID": "slides/Good_coding_practices/Good_coding_practices.slide.html#the-ideal-reality",
+    "href": "slides/Good_coding_practices/Good_coding_practices.slide.html#the-ideal-reality",
+    "title": "How to minimize mistakes",
+    "section": "The Ideal? Reality?",
+    "text": "The Ideal? Reality?\n\n\n\nSurrounded from a flood of fake news, science is one of (the last?) sources of credible information.\nTrust in science: Scientists are impartial, meticulous, and check their results rigorously in peer review before publication\nAlthough error-freeness cannot be guaranteed, science provides the most reliable source of information, and if errors happen, they soon get detected and corrected.\n\n\n\nReplication/credibility crisis\nNumber of retractions rises exponentially\nPressure to „publish or perish“ leads to hurried manuscript, less error checking\nReviewer overload leads to superficial reviews\nstatcheck (Nuijten et al., 2016): 50% of psychology papers contain at least one inconsistent statistic"
   },
   {
-    "objectID": "common/lastslide.html",
-    "href": "common/lastslide.html",
-    "title": "End",
-    "section": "",
-    "text": "@nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread"
+    "objectID": "slides/Good_coding_practices/Good_coding_practices.slide.html#mistakes-lurk-everywhere",
+    "href": "slides/Good_coding_practices/Good_coding_practices.slide.html#mistakes-lurk-everywhere",
+    "title": "How to minimize mistakes",
+    "section": "Mistakes lurk everywhere",
+    "text": "Mistakes lurk everywhere\n\n\nErrors in data collection software/scripts\nError in manual data transcription\nAnalyzing the wrong data set (e.g., an old version, a filter has been unknowingly applied)\nCoding errors\n\nWrong group assignment (control/ experimental group)\nNAs coded as 99?\n\nFaulty analysis software; version changes in R packages\nMistyping numbers when copying them from R to manuscript\nSend the wrong file to the journal submission system\nAsymmetry: Mistakes tend to go in the preferred direction (Gould, 1996), because we check more vigorously when results (unexpectedly) go into the wrong direction.\n\nSee also „garden of forking paths“ (Gelman & Loken, 2013): A lot of p-hacking is unintentional"
   },
   {
-    "objectID": "common/lastslide.html#contact",
-    "href": "common/lastslide.html#contact",
-    "title": "End",
-    "section": "",
-    "text": "@nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread"
+    "objectID": "slides/Good_coding_practices/Good_coding_practices.slide.html#mistakes-lurke-everywhere",
+    "href": "slides/Good_coding_practices/Good_coding_practices.slide.html#mistakes-lurke-everywhere",
+    "title": "How to minimize mistakes",
+    "section": "Mistakes lurke everywhere",
+    "text": "Mistakes lurke everywhere\n\n\n\n\nScreenshot from presentation from Katrin Auspurg & Josef Brüderl"
   },
   {
-    "objectID": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.slide.html#reproducibility-justification",
-    "href": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.slide.html#reproducibility-justification",
-    "title": "How (not) to report a power analysis",
-    "section": "Reproducibility & Justification",
-    "text": "Reproducibility & Justification\nA well reported power analysis means:\n\n\nMinimum: Anybody can reproduce the computations (without ambiguities and guessing), and get to the same result.\nOptimal: Key choices are justified. Most importantly: the assumed effect size. But also: Why α=5% Why power = 80%?\n\n\nWhat information do you need to compute a power analysis?\n\n\nType of power analysis:\n\nA priori: compute N, given alpha, power, ES\nPost-hoc: compute power, given alpha, N, ES\nCriterion: compute alpha, given power, ES, N\nSensitivity: compute ES, given alpha, power, N\nDesign: Correlations? t-test? Two-group or paired? Linear model?\n\nα = .05? .005?\nPower = 80%?\nOne-sided or two-sided test?\nExpected / Minimally interesting effect size -The metric of the effect size (d? r? \\(f^2\\)?)"
+    "objectID": "slides/Good_coding_practices/Good_coding_practices.slide.html#how-to-prevent-coding-errors",
+    "href": "slides/Good_coding_practices/Good_coding_practices.slide.html#how-to-prevent-coding-errors",
+    "title": "How to minimize mistakes",
+    "section": "How to prevent coding errors?",
+    "text": "How to prevent coding errors?\n\n\n\n\nhttps://www.osnews.com/story/19266/wtfsm/"
   },
   {
-    "objectID": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.slide.html#write-up",
-    "href": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.slide.html#write-up",
-    "title": "How (not) to report a power analysis",
-    "section": "Write-Up",
-    "text": "Write-Up\n\n\nhttps://twitter.com/GuyProchilo/status/1292780240977223681"
+    "objectID": "slides/Good_coding_practices/Good_coding_practices.slide.html#unit-tests-sanity-checks",
+    "href": "slides/Good_coding_practices/Good_coding_practices.slide.html#unit-tests-sanity-checks",
+    "title": "How to minimize mistakes",
+    "section": "Unit tests / sanity checks",
+    "text": "Unit tests / sanity checks\n\nAlways look at the descriptive statistics (min, max, NAs, mean) of every variable (also transformed/computed variables)\n\nKnow the scales of your variables: Is the mean plausible? Is the minimum and maximum value theoretically possible and plausible?\nDoes a scale value from multiple items have only discrete values?\nDo z-standardized variables really have mean=0 and SD=1?\n\nPlot all variables (scatterplot, histograms)"
   },
   {
-    "objectID": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.slide.html#lets-check-an-issue-from-a-journal",
-    "href": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.slide.html#lets-check-an-issue-from-a-journal",
-    "title": "How (not) to report a power analysis",
-    "section": "Let’s check an issue from a journal …",
-    "text": "Let’s check an issue from a journal …\nHow are power analyses reported in practice?"
+    "objectID": "slides/Good_coding_practices/Good_coding_practices.slide.html#unit-tests-sanity-checks-1",
+    "href": "slides/Good_coding_practices/Good_coding_practices.slide.html#unit-tests-sanity-checks-1",
+    "title": "How to minimize mistakes",
+    "section": "Unit tests / sanity checks",
+    "text": "Unit tests / sanity checks\nThe summarytools package makes this really easy:\nlibrary(summarytools)\nview(dfSummary(data))\n\n\n\n\n\n\n\nalternatively: codebook package by Ruben Arslan (also has an RStudio plugin). Has some nice convenience functions, e.g. when importing SPSS or other data files."
   },
   {
-    "objectID": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.slide.html#example-1",
-    "href": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.slide.html#example-1",
-    "title": "How (not) to report a power analysis",
-    "section": "Example 1",
-    "text": "Example 1\n\n\n# 10.1002/ejsp.2710: f2 = 0.07\n# u: Number of predictors in the model (without intercept). Here presumably 3.\n# n = v + u + 1; v = n- u - 1\npwr.f2.test(u = 3, v = 152-3-1, sig.level = 0.05, power = 0.8)\n# -&gt; f2 = 0.07366273"
+    "objectID": "slides/Good_coding_practices/Good_coding_practices.slide.html#technical-reproducibility",
+    "href": "slides/Good_coding_practices/Good_coding_practices.slide.html#technical-reproducibility",
+    "title": "How to minimize mistakes",
+    "section": "Technical reproducibility",
+    "text": "Technical reproducibility\n\n\n\n\nWhen you rely on random numbers (e.g., in simulation studies): Set a seed for reproducibility\n\nTake care when doing parallel computing, this sometimes requires special treatment of seeds\n\nDocument exact versions of all packages/ external programs at each completed stage of data analysis\n\ne.g., in R: Save the sessionInfo() of the analytical pipeline in an accompanying file when you submit a paper, and for every revision\n\nSave a snapshot of the current version/state of the statistical software\n\ne.g., in R: checkpoint package, packrat package, renv package\n\nThe safest way: Make a docker container which contains the full computational environment (including OS)\n\n\n\n\n\n\n\n\n\n\n\n\n\nGraphic from https://rviews.rstudio.com/2018/01/18/package-management-for-reproducible-r-code/"
   },
   {
-    "objectID": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.slide.html#example-2",
-    "href": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.slide.html#example-2",
-    "title": "How (not) to report a power analysis",
-    "section": "Example 2",
-    "text": "Example 2"
+    "objectID": "slides/Good_coding_practices/Good_coding_practices.slide.html#coding-style",
+    "href": "slides/Good_coding_practices/Good_coding_practices.slide.html#coding-style",
+    "title": "How to minimize mistakes",
+    "section": "Coding style",
+    "text": "Coding style\n\nMeaningful variable names, meaningful directory structure\nNever copy and paste code\nNever write a coding block longer than your screen\nLiterate Programming (Knuth): Computer code is for humans, not just for computers.\n\n\nhttps://x.com/mcxfrank/status/1075466294797824000"
   },
   {
-    "objectID": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.slide.html#example-3",
-    "href": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.slide.html#example-3",
-    "title": "How (not) to report a power analysis",
-    "section": "Example 3",
-    "text": "Example 3"
+    "objectID": "slides/Good_coding_practices/Good_coding_practices.slide.html#file-organization",
+    "href": "slides/Good_coding_practices/Good_coding_practices.slide.html#file-organization",
+    "title": "How to minimize mistakes",
+    "section": "File organization",
+    "text": "File organization\n\n\n(The following guidelines apply to many, but not all possible types of projects)\nAll files that are necessary for reproducing the results should be bundled in one directory\n\nIncluding: primary unprocessed data files, scripts for data preprocessing, cached intermediate data objects, scripts for hypothesis testing, generated result plots, …\nGoal: You zip the directory, send it to somebody, and the person can reproduce the full analytical pipeline.\n\nUse a consistent, self-explanatory subdirectory structure\nNumber script files in execution order (see next slide)"
   },
   {
-    "objectID": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.slide.html#example-4",
-    "href": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.slide.html#example-4",
-    "title": "How (not) to report a power analysis",
-    "section": "Example 4",
-    "text": "Example 4\n\n\n# 10.1002/ejsp.2713\n# guessing the ES and alpha\npwr.f2.test(u=3, f2=0.0435, sig.level = 0.05, power = 0.8)\n# n -&gt; 255"
+    "objectID": "slides/Good_coding_practices/Good_coding_practices.slide.html#directory-organization",
+    "href": "slides/Good_coding_practices/Good_coding_practices.slide.html#directory-organization",
+    "title": "How to minimize mistakes",
+    "section": "Directory organization",
+    "text": "Directory organization"
   },
   {
-    "objectID": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.slide.html#example-5",
-    "href": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.slide.html#example-5",
-    "title": "How (not) to report a power analysis",
-    "section": "Example 5",
-    "text": "Example 5\n\n\n# 10.1002/ejsp.2715\npwr.f2.test(u=1, f2=0.05, sig.level = 0.05, power = 0.8)\n# n = 158"
+    "objectID": "slides/Good_coding_practices/Good_coding_practices.slide.html#subdirectory-organization",
+    "href": "slides/Good_coding_practices/Good_coding_practices.slide.html#subdirectory-organization",
+    "title": "How to minimize mistakes",
+    "section": "Subdirectory organization",
+    "text": "Subdirectory organization\n\n\n(Again, this is one possible organization scheme)\n/raw_data: Contains all raw primary data files, as you received them (or exported them from the experimental software), without any manual preprocessing.  Primary data files are sacrosanct – set them to read-only, never change anything in them.  Any transformation, data exclusions, or error corrections must be done in scripts in order to be reproducible.\n/processed_data: Stores intermediate data objects. For example, after you did all your outlier exclusions, data transformations, etc., store a file „data_cleaned.csv“ in /cache. If you refer to this data file in subsequent scripts, you do not have to run the preprocessing script every time. All files in /processed_data can be safely deleted, as they can be reconstructed by running all script files in the correct order.\n/doc: Documents (such as PDFs, manuals, etc.) related to the project.\n/plots: Store result plots that you created in your scripts.\n/export: If you export (sub)data sets or summaries for dissemination, store them here.\n/archive: Old scripts and other files which are not used for your final analytical pipeline, but which you want to keep for some reasons."
   },
   {
-    "objectID": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.slide.html#example-6",
-    "href": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.slide.html#example-6",
-    "title": "How (not) to report a power analysis",
-    "section": "Example 6",
-    "text": "Example 6\n\n\nSiehe https://www.fak11.lmu.de/dep_psychologie/studium/lehrelounge/benotung-schriftl-arbeiten/index.html"
+    "objectID": "slides/Good_coding_practices/Good_coding_practices.slide.html#variable-name-conventions",
+    "href": "slides/Good_coding_practices/Good_coding_practices.slide.html#variable-name-conventions",
+    "title": "How to minimize mistakes",
+    "section": "Variable name conventions",
+    "text": "Variable name conventions\n\n\n\n\nsnake_case, camelCase, PascalCase, dot.style, sTUdLy_cAPs?\n\nDo not use dots in variables (clashes with some functions)\nSome consensus that snake_case is the best choice, but respect languagespecific coding conventions\nBe consistent!\n\nPrefer short variable names, but: understandability &gt;&gt; brevity\n\n\naverage_heart_rate\naverageHeartRate\nAverageHeartRate\naverage.heart.rate\naVErAgeHeARTraTe\n\naverage_heart_rate\navg_heart_rate\navg_HR\naHR\nvar001\nx"
   },
   {
-    "objectID": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.slide.html#contact",
-    "href": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.slide.html#contact",
-    "title": "How (not) to report a power analysis",
+    "objectID": "slides/Good_coding_practices/Good_coding_practices.slide.html#variable-name-conventions-1",
+    "href": "slides/Good_coding_practices/Good_coding_practices.slide.html#variable-name-conventions-1",
+    "title": "How to minimize mistakes",
+    "section": "Variable name conventions",
+    "text": "Variable name conventions\n\n\nBefore: Inconsistent mixture of naming styles\n\n\n\n\nAfter: Consistent naming style"
+  },
+  {
+    "objectID": "slides/Good_coding_practices/Good_coding_practices.slide.html#code-commenting-1",
+    "href": "slides/Good_coding_practices/Good_coding_practices.slide.html#code-commenting-1",
+    "title": "How to minimize mistakes",
+    "section": "Code commenting 1",
+    "text": "Code commenting 1\n\n\n\n - At the start of each script file: Author, license, purpose of the file. - Load add-on packages all at once at the beginning of the file - Rule of thumb: At least 1 comment per 3 lines of code - Separate chunks of code with comment lines - Use English variable names and comments from the beginning (you don‘t want to translate everything before dissemination)"
+  },
+  {
+    "objectID": "slides/Good_coding_practices/Good_coding_practices.slide.html#code-commenting-2",
+    "href": "slides/Good_coding_practices/Good_coding_practices.slide.html#code-commenting-2",
+    "title": "How to minimize mistakes",
+    "section": "Code commenting 2",
+    "text": "Code commenting 2\n\n\n\n - Link code comments to paper structure - „Table 3: Descriptives of…“ - „Hypothesis 2: Does metafilin increase […]?“ - Bonus: Link code comments to IDs of the preregistration - If the file gets too long (e.g., &gt; 500 lines), split into multiple files"
+  },
+  {
+    "objectID": "slides/Good_coding_practices/Good_coding_practices.slide.html#collaboration",
+    "href": "slides/Good_coding_practices/Good_coding_practices.slide.html#collaboration",
+    "title": "How to minimize mistakes",
+    "section": "Collaboration",
+    "text": "Collaboration\n\nPair Programming\n\nPair programming is an agile software development technique in which two programmers work together at one workstation. One, the driver, writes code while the other, the observer or navigator, reviews each line of code as it is typed in. The two programmers switch roles frequently. (Wikipedia)\n\nGolden route: Independent implementation"
+  },
+  {
+    "objectID": "slides/Good_coding_practices/Good_coding_practices.slide.html#references",
+    "href": "slides/Good_coding_practices/Good_coding_practices.slide.html#references",
+    "title": "How to minimize mistakes",
+    "section": "References",
+    "text": "References\n\nBishop, D. V. M. (2018). Fallibility in Science: Responding to Errors in the Work of Oneself and Others. Advances in Methods and Practices in Psychological Science, 1(3), 432–438. http://doi.org/10.1177/2515245918776632\nRouder, J., Haaf, J. M., & Snyder, H. K. (2018, March 25). Minimizing Mistakes In Psychological Science. https://doi.org/10.31234/osf.io/gxcy5\nMartin, R. (2008). Clean Code: A Handbook of Agile Software Craftsmanship (1st ed.). Upper Saddle River, NJ: Prentice Hall.\nKarthik Ram: How To Make Your Data Analysis Notebooks More Reproducible\n\nhttps://github.com/karthik/rstudio2019\nhttps://inundata.org/talks/rstd19/#/"
+  },
+  {
+    "objectID": "slides/Good_coding_practices/Good_coding_practices.slide.html#contact",
+    "href": "slides/Good_coding_practices/Good_coding_practices.slide.html#contact",
+    "title": "How to minimize mistakes",
     "section": "Contact",
     "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n \n\n\n\n\nForschungsorientierte Praktikum I – Empirisches Praktikum, Ludwig-Maximilians-Universität München"
   },
   {
-    "objectID": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.html",
-    "href": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.html",
-    "title": "How (not) to report a power analysis",
+    "objectID": "slides/Good_coding_practices/Good_coding_practices.html",
+    "href": "slides/Good_coding_practices/Good_coding_practices.html",
+    "title": "How to minimize mistakes",
     "section": "",
-    "text": "Minimum: Anybody can reproduce the computations (without ambiguities and guessing), and get to the same result.\nOptimal: Key choices are justified. Most importantly: the assumed effect size. But also: Why α=5% Why power = 80%?\n\n\n\n\n\n\n\nType of power analysis:\n\nA priori: compute N, given alpha, power, ES\nPost-hoc: compute power, given alpha, N, ES\nCriterion: compute alpha, given power, ES, N\nSensitivity: compute ES, given alpha, power, N\nDesign: Correlations? t-test? Two-group or paired? Linear model?\n\nα = .05? .005?\nPower = 80%?\nOne-sided or two-sided test?\nExpected / Minimally interesting effect size -The metric of the effect size (d? r? \\(f^2\\)?)"
+    "text": "Surrounded from a flood of fake news, science is one of (the last?) sources of credible information.\nTrust in science: Scientists are impartial, meticulous, and check their results rigorously in peer review before publication\nAlthough error-freeness cannot be guaranteed, science provides the most reliable source of information, and if errors happen, they soon get detected and corrected.\n\n\n\nReplication/credibility crisis\nNumber of retractions rises exponentially\nPressure to „publish or perish“ leads to hurried manuscript, less error checking\nReviewer overload leads to superficial reviews\nstatcheck (Nuijten et al., 2016): 50% of psychology papers contain at least one inconsistent statistic"
   },
   {
-    "objectID": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.html#reproducibility-justification",
-    "href": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.html#reproducibility-justification",
-    "title": "How (not) to report a power analysis",
+    "objectID": "slides/Good_coding_practices/Good_coding_practices.html#the-ideal-reality",
+    "href": "slides/Good_coding_practices/Good_coding_practices.html#the-ideal-reality",
+    "title": "How to minimize mistakes",
     "section": "",
-    "text": "Minimum: Anybody can reproduce the computations (without ambiguities and guessing), and get to the same result.\nOptimal: Key choices are justified. Most importantly: the assumed effect size. But also: Why α=5% Why power = 80%?\n\n\n\n\n\n\n\nType of power analysis:\n\nA priori: compute N, given alpha, power, ES\nPost-hoc: compute power, given alpha, N, ES\nCriterion: compute alpha, given power, ES, N\nSensitivity: compute ES, given alpha, power, N\nDesign: Correlations? t-test? Two-group or paired? Linear model?\n\nα = .05? .005?\nPower = 80%?\nOne-sided or two-sided test?\nExpected / Minimally interesting effect size -The metric of the effect size (d? r? \\(f^2\\)?)"
+    "text": "Surrounded from a flood of fake news, science is one of (the last?) sources of credible information.\nTrust in science: Scientists are impartial, meticulous, and check their results rigorously in peer review before publication\nAlthough error-freeness cannot be guaranteed, science provides the most reliable source of information, and if errors happen, they soon get detected and corrected.\n\n\n\nReplication/credibility crisis\nNumber of retractions rises exponentially\nPressure to „publish or perish“ leads to hurried manuscript, less error checking\nReviewer overload leads to superficial reviews\nstatcheck (Nuijten et al., 2016): 50% of psychology papers contain at least one inconsistent statistic"
   },
   {
-    "objectID": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.html#write-up",
-    "href": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.html#write-up",
-    "title": "How (not) to report a power analysis",
-    "section": "Write-Up",
-    "text": "Write-Up\n\n\nhttps://twitter.com/GuyProchilo/status/1292780240977223681"
+    "objectID": "slides/Good_coding_practices/Good_coding_practices.html#mistakes-lurk-everywhere",
+    "href": "slides/Good_coding_practices/Good_coding_practices.html#mistakes-lurk-everywhere",
+    "title": "How to minimize mistakes",
+    "section": "Mistakes lurk everywhere",
+    "text": "Mistakes lurk everywhere\n\n\nErrors in data collection software/scripts\nError in manual data transcription\nAnalyzing the wrong data set (e.g., an old version, a filter has been unknowingly applied)\nCoding errors\n\nWrong group assignment (control/ experimental group)\nNAs coded as 99?\n\nFaulty analysis software; version changes in R packages\nMistyping numbers when copying them from R to manuscript\nSend the wrong file to the journal submission system\nAsymmetry: Mistakes tend to go in the preferred direction (Gould, 1996), because we check more vigorously when results (unexpectedly) go into the wrong direction.\n\nSee also „garden of forking paths“ (Gelman & Loken, 2013): A lot of p-hacking is unintentional"
   },
   {
-    "objectID": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.html#lets-check-an-issue-from-a-journal",
-    "href": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.html#lets-check-an-issue-from-a-journal",
-    "title": "How (not) to report a power analysis",
-    "section": "Let’s check an issue from a journal …",
-    "text": "Let’s check an issue from a journal …\n\nHow are power analyses reported in practice?"
+    "objectID": "slides/Good_coding_practices/Good_coding_practices.html#mistakes-lurke-everywhere",
+    "href": "slides/Good_coding_practices/Good_coding_practices.html#mistakes-lurke-everywhere",
+    "title": "How to minimize mistakes",
+    "section": "Mistakes lurke everywhere",
+    "text": "Mistakes lurke everywhere\n\n\n\n\nScreenshot from presentation from Katrin Auspurg & Josef Brüderl"
   },
   {
-    "objectID": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.html#example-1",
-    "href": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.html#example-1",
-    "title": "How (not) to report a power analysis",
-    "section": "Example 1",
-    "text": "Example 1\n\n\n# 10.1002/ejsp.2710: f2 = 0.07\n# u: Number of predictors in the model (without intercept). Here presumably 3.\n# n = v + u + 1; v = n- u - 1\npwr.f2.test(u = 3, v = 152-3-1, sig.level = 0.05, power = 0.8)\n# -&gt; f2 = 0.07366273"
+    "objectID": "slides/Good_coding_practices/Good_coding_practices.html#how-to-prevent-coding-errors",
+    "href": "slides/Good_coding_practices/Good_coding_practices.html#how-to-prevent-coding-errors",
+    "title": "How to minimize mistakes",
+    "section": "How to prevent coding errors?",
+    "text": "How to prevent coding errors?\n\n\n\n\nhttps://www.osnews.com/story/19266/wtfsm/"
   },
   {
-    "objectID": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.html#example-2",
-    "href": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.html#example-2",
-    "title": "How (not) to report a power analysis",
-    "section": "Example 2",
-    "text": "Example 2"
+    "objectID": "slides/Good_coding_practices/Good_coding_practices.html#unit-tests-sanity-checks",
+    "href": "slides/Good_coding_practices/Good_coding_practices.html#unit-tests-sanity-checks",
+    "title": "How to minimize mistakes",
+    "section": "Unit tests / sanity checks",
+    "text": "Unit tests / sanity checks\n\nAlways look at the descriptive statistics (min, max, NAs, mean) of every variable (also transformed/computed variables)\n\nKnow the scales of your variables: Is the mean plausible? Is the minimum and maximum value theoretically possible and plausible?\nDoes a scale value from multiple items have only discrete values?\nDo z-standardized variables really have mean=0 and SD=1?\n\nPlot all variables (scatterplot, histograms)"
   },
   {
-    "objectID": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.html#example-3",
-    "href": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.html#example-3",
-    "title": "How (not) to report a power analysis",
-    "section": "Example 3",
-    "text": "Example 3"
+    "objectID": "slides/Good_coding_practices/Good_coding_practices.html#unit-tests-sanity-checks-1",
+    "href": "slides/Good_coding_practices/Good_coding_practices.html#unit-tests-sanity-checks-1",
+    "title": "How to minimize mistakes",
+    "section": "Unit tests / sanity checks",
+    "text": "Unit tests / sanity checks\nThe summarytools package makes this really easy:\nlibrary(summarytools)\nview(dfSummary(data))\n\n\n\n\n\n\n\nalternatively: codebook package by Ruben Arslan (also has an RStudio plugin). Has some nice convenience functions, e.g. when importing SPSS or other data files."
   },
   {
-    "objectID": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.html#example-4",
-    "href": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.html#example-4",
-    "title": "How (not) to report a power analysis",
-    "section": "Example 4",
-    "text": "Example 4\n\n\n# 10.1002/ejsp.2713\n# guessing the ES and alpha\npwr.f2.test(u=3, f2=0.0435, sig.level = 0.05, power = 0.8)\n# n -&gt; 255"
+    "objectID": "slides/Good_coding_practices/Good_coding_practices.html#technical-reproducibility",
+    "href": "slides/Good_coding_practices/Good_coding_practices.html#technical-reproducibility",
+    "title": "How to minimize mistakes",
+    "section": "Technical reproducibility",
+    "text": "Technical reproducibility\n\n\n\n\nWhen you rely on random numbers (e.g., in simulation studies): Set a seed for reproducibility\n\nTake care when doing parallel computing, this sometimes requires special treatment of seeds\n\nDocument exact versions of all packages/ external programs at each completed stage of data analysis\n\ne.g., in R: Save the sessionInfo() of the analytical pipeline in an accompanying file when you submit a paper, and for every revision\n\nSave a snapshot of the current version/state of the statistical software\n\ne.g., in R: checkpoint package, packrat package, renv package\n\nThe safest way: Make a docker container which contains the full computational environment (including OS)\n\n\n\n\n\n\n\n\n\n\n\n\n\nGraphic from https://rviews.rstudio.com/2018/01/18/package-management-for-reproducible-r-code/"
   },
   {
-    "objectID": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.html#example-5",
-    "href": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.html#example-5",
-    "title": "How (not) to report a power analysis",
-    "section": "Example 5",
-    "text": "Example 5\n\n\n# 10.1002/ejsp.2715\npwr.f2.test(u=1, f2=0.05, sig.level = 0.05, power = 0.8)\n# n = 158"
+    "objectID": "slides/Good_coding_practices/Good_coding_practices.html#coding-style",
+    "href": "slides/Good_coding_practices/Good_coding_practices.html#coding-style",
+    "title": "How to minimize mistakes",
+    "section": "Coding style",
+    "text": "Coding style\n\nMeaningful variable names, meaningful directory structure\nNever copy and paste code\nNever write a coding block longer than your screen\nLiterate Programming (Knuth): Computer code is for humans, not just for computers.\n\n\nhttps://x.com/mcxfrank/status/1075466294797824000"
   },
   {
-    "objectID": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.html#example-6",
-    "href": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.html#example-6",
-    "title": "How (not) to report a power analysis",
-    "section": "Example 6",
-    "text": "Example 6\n\n\nSiehe https://www.fak11.lmu.de/dep_psychologie/studium/lehrelounge/benotung-schriftl-arbeiten/index.html"
+    "objectID": "slides/Good_coding_practices/Good_coding_practices.html#file-organization",
+    "href": "slides/Good_coding_practices/Good_coding_practices.html#file-organization",
+    "title": "How to minimize mistakes",
+    "section": "File organization",
+    "text": "File organization\n\n\n(The following guidelines apply to many, but not all possible types of projects)\nAll files that are necessary for reproducing the results should be bundled in one directory\n\nIncluding: primary unprocessed data files, scripts for data preprocessing, cached intermediate data objects, scripts for hypothesis testing, generated result plots, …\nGoal: You zip the directory, send it to somebody, and the person can reproduce the full analytical pipeline.\n\nUse a consistent, self-explanatory subdirectory structure\nNumber script files in execution order (see next slide)"
   },
   {
-    "objectID": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.html#contact",
-    "href": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.html#contact",
-    "title": "How (not) to report a power analysis",
+    "objectID": "slides/Good_coding_practices/Good_coding_practices.html#directory-organization",
+    "href": "slides/Good_coding_practices/Good_coding_practices.html#directory-organization",
+    "title": "How to minimize mistakes",
+    "section": "Directory organization",
+    "text": "Directory organization"
+  },
+  {
+    "objectID": "slides/Good_coding_practices/Good_coding_practices.html#subdirectory-organization",
+    "href": "slides/Good_coding_practices/Good_coding_practices.html#subdirectory-organization",
+    "title": "How to minimize mistakes",
+    "section": "Subdirectory organization",
+    "text": "Subdirectory organization\n\n\n(Again, this is one possible organization scheme)\n/raw_data: Contains all raw primary data files, as you received them (or exported them from the experimental software), without any manual preprocessing.  Primary data files are sacrosanct – set them to read-only, never change anything in them.  Any transformation, data exclusions, or error corrections must be done in scripts in order to be reproducible.\n/processed_data: Stores intermediate data objects. For example, after you did all your outlier exclusions, data transformations, etc., store a file „data_cleaned.csv“ in /cache. If you refer to this data file in subsequent scripts, you do not have to run the preprocessing script every time. All files in /processed_data can be safely deleted, as they can be reconstructed by running all script files in the correct order.\n/doc: Documents (such as PDFs, manuals, etc.) related to the project.\n/plots: Store result plots that you created in your scripts.\n/export: If you export (sub)data sets or summaries for dissemination, store them here.\n/archive: Old scripts and other files which are not used for your final analytical pipeline, but which you want to keep for some reasons."
+  },
+  {
+    "objectID": "slides/Good_coding_practices/Good_coding_practices.html#variable-name-conventions",
+    "href": "slides/Good_coding_practices/Good_coding_practices.html#variable-name-conventions",
+    "title": "How to minimize mistakes",
+    "section": "Variable name conventions",
+    "text": "Variable name conventions\n\n\n\n\nsnake_case, camelCase, PascalCase, dot.style, sTUdLy_cAPs?\n\nDo not use dots in variables (clashes with some functions)\nSome consensus that snake_case is the best choice, but respect languagespecific coding conventions\nBe consistent!\n\nPrefer short variable names, but: understandability &gt;&gt; brevity\n\n\naverage_heart_rate\naverageHeartRate\nAverageHeartRate\naverage.heart.rate\naVErAgeHeARTraTe\n\naverage_heart_rate\navg_heart_rate\navg_HR\naHR\nvar001\nx"
+  },
+  {
+    "objectID": "slides/Good_coding_practices/Good_coding_practices.html#variable-name-conventions-1",
+    "href": "slides/Good_coding_practices/Good_coding_practices.html#variable-name-conventions-1",
+    "title": "How to minimize mistakes",
+    "section": "Variable name conventions",
+    "text": "Variable name conventions\n\n\nBefore: Inconsistent mixture of naming styles\n\n\n\n\nAfter: Consistent naming style"
+  },
+  {
+    "objectID": "slides/Good_coding_practices/Good_coding_practices.html#code-commenting-1",
+    "href": "slides/Good_coding_practices/Good_coding_practices.html#code-commenting-1",
+    "title": "How to minimize mistakes",
+    "section": "Code commenting 1",
+    "text": "Code commenting 1\n\n\n\n - At the start of each script file: Author, license, purpose of the file. - Load add-on packages all at once at the beginning of the file - Rule of thumb: At least 1 comment per 3 lines of code - Separate chunks of code with comment lines - Use English variable names and comments from the beginning (you don‘t want to translate everything before dissemination)"
+  },
+  {
+    "objectID": "slides/Good_coding_practices/Good_coding_practices.html#code-commenting-2",
+    "href": "slides/Good_coding_practices/Good_coding_practices.html#code-commenting-2",
+    "title": "How to minimize mistakes",
+    "section": "Code commenting 2",
+    "text": "Code commenting 2\n\n\n\n - Link code comments to paper structure - „Table 3: Descriptives of…“ - „Hypothesis 2: Does metafilin increase […]?“ - Bonus: Link code comments to IDs of the preregistration - If the file gets too long (e.g., &gt; 500 lines), split into multiple files"
+  },
+  {
+    "objectID": "slides/Good_coding_practices/Good_coding_practices.html#collaboration",
+    "href": "slides/Good_coding_practices/Good_coding_practices.html#collaboration",
+    "title": "How to minimize mistakes",
+    "section": "Collaboration",
+    "text": "Collaboration\n\nPair Programming\n\nPair programming is an agile software development technique in which two programmers work together at one workstation. One, the driver, writes code while the other, the observer or navigator, reviews each line of code as it is typed in. The two programmers switch roles frequently. (Wikipedia)\n\nGolden route: Independent implementation"
+  },
+  {
+    "objectID": "slides/Good_coding_practices/Good_coding_practices.html#references",
+    "href": "slides/Good_coding_practices/Good_coding_practices.html#references",
+    "title": "How to minimize mistakes",
+    "section": "References",
+    "text": "References\n\nBishop, D. V. M. (2018). Fallibility in Science: Responding to Errors in the Work of Oneself and Others. Advances in Methods and Practices in Psychological Science, 1(3), 432–438. http://doi.org/10.1177/2515245918776632\nRouder, J., Haaf, J. M., & Snyder, H. K. (2018, March 25). Minimizing Mistakes In Psychological Science. https://doi.org/10.31234/osf.io/gxcy5\nMartin, R. (2008). Clean Code: A Handbook of Agile Software Craftsmanship (1st ed.). Upper Saddle River, NJ: Prentice Hall.\nKarthik Ram: How To Make Your Data Analysis Notebooks More Reproducible\n\nhttps://github.com/karthik/rstudio2019\nhttps://inundata.org/talks/rstd19/#/"
+  },
+  {
+    "objectID": "slides/Good_coding_practices/Good_coding_practices.html#contact",
+    "href": "slides/Good_coding_practices/Good_coding_practices.html#contact",
+    "title": "How to minimize mistakes",
     "section": "Contact",
     "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread"
   },
@@ -1246,293 +1358,6 @@
     "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread"
   },
   {
-    "objectID": "slides/Empra-Orga/Empra-Orga.slide.html#ziele",
-    "href": "slides/Empra-Orga/Empra-Orga.slide.html#ziele",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
-    "section": "Ziele",
-    "text": "Ziele\nWissenschaftliches Arbeiten und Denken in der Psychologie kennenlernen\n\nEine empirische Fragestellung entwickeln\nEine Studie planen und durchführen\nDie Daten auswerten\nEinen wissenschaftlichen Bericht verfassen"
-  },
-  {
-    "objectID": "slides/Empra-Orga/Empra-Orga.slide.html#ziele-1",
-    "href": "slides/Empra-Orga/Empra-Orga.slide.html#ziele-1",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
-    "section": "Ziele",
-    "text": "Ziele\nKerncurriculum “Gute wissenschaftliche Praxis”\n\nStichprobenplanung, in der Regel eine a-priori Poweranalyse\nPräregistrierung der Hypothesen, Operationalisierungen, Stichprobenplanung und der statistischen Analysemethode\nOpen Data (mit Codebuch): Offene Daten werden von immer mehr Zeitschriften verlangt und werden generell zum Standard für vertrauenswürdiges Forschen\nReproduzierbare Analyseskripte"
-  },
-  {
-    "objectID": "slides/Empra-Orga/Empra-Orga.slide.html#ziele-2",
-    "href": "slides/Empra-Orga/Empra-Orga.slide.html#ziele-2",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
-    "section": "Ziele",
-    "text": "Ziele\n(1) Eine empirische Fragestellung entwickeln\n\nDer Weg zu einer interessanten, empirisch prüfbaren Fragestellung\nForschungsthema: Durch das Empra vorgegeben\nLiteraturrecherche: Was gibt es schon? Wo sind die Forschungslücken?\nEntwicklung von prüfbaren Hypothesen"
-  },
-  {
-    "objectID": "slides/Empra-Orga/Empra-Orga.slide.html#ziele-3",
-    "href": "slides/Empra-Orga/Empra-Orga.slide.html#ziele-3",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
-    "section": "Ziele",
-    "text": "Ziele\n(2) Eine Studie planen und durchführen\n\n\nStudiendesign entwickeln:\n\nMethode vorgegeben: Experience Sampling\nOperationalisierung von Konstrukten\nStichprobe planen (Population, Stichprobengröße -&gt; Poweranalyse)\nExperimentelles Design: Wie kann man kausale Effekte messen? Evtl. Kontrolle von Störvariablen\n\nPraktische Versuchsplanung\n\nAkquise Vpn\nMaterial entwickeln\nExperimentalsoftware programmieren\n\nPräregistrierung: Hypothesen, Design, Operationalisierung, Analysen\nDurchführung: Rekrutierung, Erhebung, Betreuung"
-  },
-  {
-    "objectID": "slides/Empra-Orga/Empra-Orga.slide.html#ziele-4",
-    "href": "slides/Empra-Orga/Empra-Orga.slide.html#ziele-4",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
-    "section": "Ziele",
-    "text": "Ziele\n(3) Die Daten auswerten\n\nWir arbeiten mit R\nDatenkodierung und –aufbereitung\n\nAnalysen durch Codebuch und offene Daten nachvollziehbar und reproduzierbar machen\nAnonymität berücksichtigen\n\nStatistische Auswertung\n\nDeskriptivstatistik\nZu den Hypothesen passende Analysen rechnen\nAnalysen durch reproduzierbare Skripte nachvollziehbar machen"
-  },
-  {
-    "objectID": "slides/Empra-Orga/Empra-Orga.slide.html#ziele-5",
-    "href": "slides/Empra-Orga/Empra-Orga.slide.html#ziele-5",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
-    "section": "Ziele",
-    "text": "Ziele\n(4) Einen wissenschaftlichen Bericht verfassen\n\nKommunikation der Forschung in die Fachöffentlichkeit\nDen Prozess nachvollziehbar machen: Rmarkdown/Quarto als reproduzierbare Art, einen Bericht zu schreiben\nAufbau eines wissenschaftlichen Artikels:\n\nEinleitung\nMethode\nErgebnisse\nDiskussion\n\nBericht = Hausarbeit als Prüfungsleistung"
-  },
-  {
-    "objectID": "slides/Empra-Orga/Empra-Orga.slide.html#formalia-des-empras",
-    "href": "slides/Empra-Orga/Empra-Orga.slide.html#formalia-des-empras",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
-    "section": "Formalia des Empras",
-    "text": "Formalia des Empras\n\n\nUnterricht in Kleingruppen (UK) mit 9 ECTS-Punkten\n≙ 3 Vorlesungen mit Klausur bzw. 3 Seminare mit Referat & schriftlicher Ausarbeitung\n≙ 12h Zeitinvestition pro Woche (Präsenz + Vor- und Nachbereitung)\n(in Empra 1: Anwesenheitspflicht laut PStO 2020; max. 2 unentschuldigte Fehlstunden)\n\nSiehe hierzu § 9 Absatz (3) Sätze 4 bis einschließlich 6 Informationen zur „regelmäßigen Teilnahme“ in der Prüfungs- und Studienordnung 2020: “Eine regelmäßige Teilnahme im Sinne der Anlage 2 ist dann nicht mehr gegeben, wenn Studierende aus selbst zu vertretenden Gründen an mehr als zwei der stattfindenden Veranstaltungstermine einer Lehrveranstaltung nicht teilnehmen.”\n\nLektüre der für den jeweiligen Termin angegeben Literatur bzw. gründliche Erledigung der zugeteilten Aufgaben\nAktive Mitarbeit beim Entwickeln der formalen Modelle und der Programmierung\nAnforderungen für Hausarbeit (siehe nächste Folie)"
-  },
-  {
-    "objectID": "slides/Empra-Orga/Empra-Orga.slide.html#hausarbeit",
-    "href": "slides/Empra-Orga/Empra-Orga.slide.html#hausarbeit",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
-    "section": "Hausarbeit",
-    "text": "Hausarbeit\nFormalia\n\n\nSchriftgröße 12pt, Zeilenabstand 1.5x\n15.000 Zeichen +/- 20% (Zählung inkl. Leerzeichen; ohne Deckblatt, Referenzen und Anhänge)\nWenn Sie in papaja/Rmarkdown schreiben, dann ist das exportierte PDF von der Formatierung her gut so wie es ist (Sie brauchen nicht das Deckblatt, Zeilenabstand etc. anpassen).\nDeckblatt: Titel, Datum, Name, Matrikel-Nr., Name der Veranstaltung\nBei papaja/Rmarkdown schreiben Sie Datum, Matrikel-Nr. und Name der Veranstaltung in die Author Notes.\nKein Inhaltsverzeichnis\nMindestens 5 Publikationen zitieren\nZitate & Literaturverzeichnis nach APA-Richtlinien (6. oder 7. Version)\nDie Links zu Präregistrierung, Repositorium mit Open Data, Open Code, etc. kommen an den Anfang des Methodenteils"
-  },
-  {
-    "objectID": "slides/Empra-Orga/Empra-Orga.slide.html#hausarbeit-1",
-    "href": "slides/Empra-Orga/Empra-Orga.slide.html#hausarbeit-1",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
-    "section": "Hausarbeit",
-    "text": "Hausarbeit\nAbgabe\n\nAls PDF-Datei per Email an den Dozenten – Empfang wird bestätigt\nAbgabetermin: Wird noch bekannt gegeben; typischerweise 3 Wochen vor Beginn des nächsten Semesters (also Mitte März im WS bzw. Mitte September im SS)\n2 Versionen einreichen:\n\nVollständige Version (Dateiname: IhrNachname_Empra_Jahr.pdf) – z.B.: „Schmid_Empra_2020.pdf“\nAnonymisierte Version, bei welcher der Name auf dem Deckblatt gelöscht ist (Dateiname: Matrikelnummer_Empra_Jahr.pdf)\n\nDiese Version wird benotet.\nDateiname z.B.:„98234034_Empra_2020.pdf“\nSie können in papaja einfach eine anonyme Version erzeugen, indem Sie im YAML mask: yes angeben"
-  },
-  {
-    "objectID": "slides/Empra-Orga/Empra-Orga.slide.html#bewertungsschema-hausarbeit",
-    "href": "slides/Empra-Orga/Empra-Orga.slide.html#bewertungsschema-hausarbeit",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
-    "section": "Bewertungsschema Hausarbeit",
-    "text": "Bewertungsschema Hausarbeit\n\n\nSiehe https://www.fak11.lmu.de/dep_psychologie/studium/lehrelounge/benotung-schriftl-arbeiten/index.html"
-  },
-  {
-    "objectID": "slides/Empra-Orga/Empra-Orga.slide.html#contact",
-    "href": "slides/Empra-Orga/Empra-Orga.slide.html#contact",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
-    "section": "Contact",
-    "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0\n\n\n\n\n\n\nForschungsorientierte Praktikum I – Empirisches Praktikum, Ludwig-Maximilians-Universität München"
-  },
-  {
-    "objectID": "slides/Empra-Orga/Empra-Orga.html",
-    "href": "slides/Empra-Orga/Empra-Orga.html",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
-    "section": "",
-    "text": "Eine empirische Fragestellung entwickeln\nEine Studie planen und durchführen\nDie Daten auswerten\nEinen wissenschaftlichen Bericht verfassen"
-  },
-  {
-    "objectID": "slides/Empra-Orga/Empra-Orga.html#ziele",
-    "href": "slides/Empra-Orga/Empra-Orga.html#ziele",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
-    "section": "",
-    "text": "Eine empirische Fragestellung entwickeln\nEine Studie planen und durchführen\nDie Daten auswerten\nEinen wissenschaftlichen Bericht verfassen"
-  },
-  {
-    "objectID": "slides/Empra-Orga/Empra-Orga.html#ziele-1",
-    "href": "slides/Empra-Orga/Empra-Orga.html#ziele-1",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
-    "section": "Ziele",
-    "text": "Ziele\n\nKerncurriculum “Gute wissenschaftliche Praxis”\n\nStichprobenplanung, in der Regel eine a-priori Poweranalyse\nPräregistrierung der Hypothesen, Operationalisierungen, Stichprobenplanung und der statistischen Analysemethode\nOpen Data (mit Codebuch): Offene Daten werden von immer mehr Zeitschriften verlangt und werden generell zum Standard für vertrauenswürdiges Forschen\nReproduzierbare Analyseskripte"
-  },
-  {
-    "objectID": "slides/Empra-Orga/Empra-Orga.html#ziele-2",
-    "href": "slides/Empra-Orga/Empra-Orga.html#ziele-2",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
-    "section": "Ziele",
-    "text": "Ziele\n\n(1) Eine empirische Fragestellung entwickeln\n\nDer Weg zu einer interessanten, empirisch prüfbaren Fragestellung\nForschungsthema: Durch das Empra vorgegeben\nLiteraturrecherche: Was gibt es schon? Wo sind die Forschungslücken?\nEntwicklung von prüfbaren Hypothesen"
-  },
-  {
-    "objectID": "slides/Empra-Orga/Empra-Orga.html#ziele-3",
-    "href": "slides/Empra-Orga/Empra-Orga.html#ziele-3",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
-    "section": "Ziele",
-    "text": "Ziele\n\n(2) Eine Studie planen und durchführen\n\n\nStudiendesign entwickeln:\n\nMethode vorgegeben: Experience Sampling\nOperationalisierung von Konstrukten\nStichprobe planen (Population, Stichprobengröße -&gt; Poweranalyse)\nExperimentelles Design: Wie kann man kausale Effekte messen? Evtl. Kontrolle von Störvariablen\n\nPraktische Versuchsplanung\n\nAkquise Vpn\nMaterial entwickeln\nExperimentalsoftware programmieren\n\nPräregistrierung: Hypothesen, Design, Operationalisierung, Analysen\nDurchführung: Rekrutierung, Erhebung, Betreuung"
-  },
-  {
-    "objectID": "slides/Empra-Orga/Empra-Orga.html#ziele-4",
-    "href": "slides/Empra-Orga/Empra-Orga.html#ziele-4",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
-    "section": "Ziele",
-    "text": "Ziele\n\n(3) Die Daten auswerten\n\nWir arbeiten mit R\nDatenkodierung und –aufbereitung\n\nAnalysen durch Codebuch und offene Daten nachvollziehbar und reproduzierbar machen\nAnonymität berücksichtigen\n\nStatistische Auswertung\n\nDeskriptivstatistik\nZu den Hypothesen passende Analysen rechnen\nAnalysen durch reproduzierbare Skripte nachvollziehbar machen"
-  },
-  {
-    "objectID": "slides/Empra-Orga/Empra-Orga.html#ziele-5",
-    "href": "slides/Empra-Orga/Empra-Orga.html#ziele-5",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
-    "section": "Ziele",
-    "text": "Ziele\n\n(4) Einen wissenschaftlichen Bericht verfassen\n\nKommunikation der Forschung in die Fachöffentlichkeit\nDen Prozess nachvollziehbar machen: Rmarkdown/Quarto als reproduzierbare Art, einen Bericht zu schreiben\nAufbau eines wissenschaftlichen Artikels:\n\nEinleitung\nMethode\nErgebnisse\nDiskussion\n\nBericht = Hausarbeit als Prüfungsleistung"
-  },
-  {
-    "objectID": "slides/Empra-Orga/Empra-Orga.html#formalia-des-empras",
-    "href": "slides/Empra-Orga/Empra-Orga.html#formalia-des-empras",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
-    "section": "Formalia des Empras",
-    "text": "Formalia des Empras\n\n\nUnterricht in Kleingruppen (UK) mit 9 ECTS-Punkten\n≙ 3 Vorlesungen mit Klausur bzw. 3 Seminare mit Referat & schriftlicher Ausarbeitung\n≙ 12h Zeitinvestition pro Woche (Präsenz + Vor- und Nachbereitung)\n(in Empra 1: Anwesenheitspflicht laut PStO 2020; max. 2 unentschuldigte Fehlstunden)\n\nSiehe hierzu § 9 Absatz (3) Sätze 4 bis einschließlich 6 Informationen zur „regelmäßigen Teilnahme“ in der Prüfungs- und Studienordnung 2020: “Eine regelmäßige Teilnahme im Sinne der Anlage 2 ist dann nicht mehr gegeben, wenn Studierende aus selbst zu vertretenden Gründen an mehr als zwei der stattfindenden Veranstaltungstermine einer Lehrveranstaltung nicht teilnehmen.”\n\nLektüre der für den jeweiligen Termin angegeben Literatur bzw. gründliche Erledigung der zugeteilten Aufgaben\nAktive Mitarbeit beim Entwickeln der formalen Modelle und der Programmierung\nAnforderungen für Hausarbeit (siehe nächste Folie)"
-  },
-  {
-    "objectID": "slides/Empra-Orga/Empra-Orga.html#hausarbeit",
-    "href": "slides/Empra-Orga/Empra-Orga.html#hausarbeit",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
-    "section": "Hausarbeit",
-    "text": "Hausarbeit\n\nFormalia\n\n\nSchriftgröße 12pt, Zeilenabstand 1.5x\n15.000 Zeichen +/- 20% (Zählung inkl. Leerzeichen; ohne Deckblatt, Referenzen und Anhänge)\nWenn Sie in papaja/Rmarkdown schreiben, dann ist das exportierte PDF von der Formatierung her gut so wie es ist (Sie brauchen nicht das Deckblatt, Zeilenabstand etc. anpassen).\nDeckblatt: Titel, Datum, Name, Matrikel-Nr., Name der Veranstaltung\nBei papaja/Rmarkdown schreiben Sie Datum, Matrikel-Nr. und Name der Veranstaltung in die Author Notes.\nKein Inhaltsverzeichnis\nMindestens 5 Publikationen zitieren\nZitate & Literaturverzeichnis nach APA-Richtlinien (6. oder 7. Version)\nDie Links zu Präregistrierung, Repositorium mit Open Data, Open Code, etc. kommen an den Anfang des Methodenteils"
-  },
-  {
-    "objectID": "slides/Empra-Orga/Empra-Orga.html#hausarbeit-1",
-    "href": "slides/Empra-Orga/Empra-Orga.html#hausarbeit-1",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
-    "section": "Hausarbeit",
-    "text": "Hausarbeit\n\nAbgabe\n\nAls PDF-Datei per Email an den Dozenten – Empfang wird bestätigt\nAbgabetermin: Wird noch bekannt gegeben; typischerweise 3 Wochen vor Beginn des nächsten Semesters (also Mitte März im WS bzw. Mitte September im SS)\n2 Versionen einreichen:\n\nVollständige Version (Dateiname: IhrNachname_Empra_Jahr.pdf) – z.B.: „Schmid_Empra_2020.pdf“\nAnonymisierte Version, bei welcher der Name auf dem Deckblatt gelöscht ist (Dateiname: Matrikelnummer_Empra_Jahr.pdf)\n\nDiese Version wird benotet.\nDateiname z.B.:„98234034_Empra_2020.pdf“\nSie können in papaja einfach eine anonyme Version erzeugen, indem Sie im YAML mask: yes angeben"
-  },
-  {
-    "objectID": "slides/Empra-Orga/Empra-Orga.html#bewertungsschema-hausarbeit",
-    "href": "slides/Empra-Orga/Empra-Orga.html#bewertungsschema-hausarbeit",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
-    "section": "Bewertungsschema Hausarbeit",
-    "text": "Bewertungsschema Hausarbeit\n\n\nSiehe https://www.fak11.lmu.de/dep_psychologie/studium/lehrelounge/benotung-schriftl-arbeiten/index.html"
-  },
-  {
-    "objectID": "slides/Empra-Orga/Empra-Orga.html#contact",
-    "href": "slides/Empra-Orga/Empra-Orga.html#contact",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
-    "section": "Contact",
-    "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
-    "section": "",
-    "text": "Note: This entire project is a mixture of English and German text. Sorry for that. Your mileage may vary.\n\nSessions Overview\n\n\n\n#\nDate\nTopic\nNotes\nHomework\n\n\n\n\n1\n2024-04-19\nS1 - Formalitäten, Open Science, p-hack\n\ncreate OSF account; practice p-hacking\n\n\n2\n2024-04-26\nS2 - Einführung Intimitätsmotiv\n\nDevelop interventions\n\n\n3\n2024-05-03\nS3 - Motive 2; Kausalität\n\nRead Ch. 1 of Experimentology\n\n\n4\n2024-05-10\nS4 - Studie planen\nFragebögen überarbeiten; Ziel: Hypothesen aufstellen\nHA: Vp-Akquise in Gruppen planen (Material, Kanäle, etc.);\n\n\n5\n2024-05-17\nS5 - Poweranalyse; Literaturrecherche\n\nLiteraturrecherche in Gruppe machen; Read Preregistration Challenge\n\n\n6\n2024-05-24\nS6 - Prereg intro\n\n\n\n\n7\n2024-05-31\nBrückentag - online / Nensy: S7 - Finalize design\n\nStudie testen\n\n\n8\n2024-06-07\nS8 Letzter Feinschliff Studie\n\nOpen data lesen; Studienstart ganz fertig machen\n\n\n9\n2024-06-14\nLetzter Feinschliff Studie - continued\nStudienstart!\nCodebuch erstellen\n\n\n10\n2024-06-21\nS10 Open Data\n\nVP-Akquise; Quarto / Rmarkdown self-paced tutorial\n\n\n11\n2024-06-28\ngood coding practices; Quarto 1\n\n\n\n\n12\n2024-07-05\nReproducible Manuscripts\nStudienende\n\n\n\n13\n2024-07-12\nDatenanalyse\n\n\n\n\n14\n2024-07-19\nPräregistrierung fertig machen - How-to Hausarbeit"
-  },
-  {
-    "objectID": "slides/Causality/Causality.html#from-correlation-to-causality",
-    "href": "slides/Causality/Causality.html#from-correlation-to-causality",
-    "title": "Causality",
-    "section": "From correlation to causality",
-    "text": "From correlation to causality\n\n\nObservation:\n\nOn days where participants go running, they report a better well-being in the evening.\n\nInterpretation:\n\nRunning is good for your well-being!\n\nBut: Correlation does not imply causation!\n\n\n\n\n\n\n\n\ngraph LR\n    A[\"&lt;div style='padding:20px;width:200px;height:auto;background-color:#add8e6;border:2px solid #000;font-size:24px;color:#000;'&gt;Running&lt;/div&gt;\"] \n    &lt;--&gt; \n    B[\"&lt;div style='padding:20px;width:200px;height:auto;background-color:#add8e6;border:2px solid #000;font-size:24px;color:#000;'&gt;Wellbeing&lt;/div&gt;\"]\n\n    linkStyle 0 stroke-width:2px,stroke:#000,color:#000"
-  },
-  {
-    "objectID": "slides/Causality/Causality.html#underlying-causal-structure",
-    "href": "slides/Causality/Causality.html#underlying-causal-structure",
-    "title": "Causality",
-    "section": "Underlying causal structure",
-    "text": "Underlying causal structure\n\nDirected acyclic graphs (DAGs) to represent causal structures"
-  },
-  {
-    "objectID": "slides/Causality/Causality.html#temporal-order-to-the-rescue",
-    "href": "slides/Causality/Causality.html#temporal-order-to-the-rescue",
-    "title": "Causality",
-    "section": "Temporal order to the rescue?",
-    "text": "Temporal order to the rescue?"
-  },
-  {
-    "objectID": "slides/Causality/Causality.html#seeing-vs.-doing-observational-and-interventional-inferences",
-    "href": "slides/Causality/Causality.html#seeing-vs.-doing-observational-and-interventional-inferences",
-    "title": "Causality",
-    "section": "Seeing vs. doing: Observational and interventional inferences",
-    "text": "Seeing vs. doing: Observational and interventional inferences\n\n\ninferences based on passively observed states of a variable (“seeing”)\ninferences based on the very same state resulting from an external intervention (“doing”)\n\n\n\n\n\n\nSlide from https://homepages.uni-regensburg.de/~pfn23853/rffcw/mhw.pdf"
-  },
-  {
-    "objectID": "slides/Causality/Causality.html#seeing-vs.-doing-observational-and-interventional-inferences-1",
-    "href": "slides/Causality/Causality.html#seeing-vs.-doing-observational-and-interventional-inferences-1",
-    "title": "Causality",
-    "section": "Seeing vs. doing: Observational and interventional inferences",
-    "text": "Seeing vs. doing: Observational and interventional inferences\n\n\nReasoning about interventions formalized by Pearl’s (2000) „do-operator“ (cf. Spirtes, Glymour & Scheines, 1993; Dawid, 2002)\n\nObservational inference: IF B is observed, THEN …\nInterventional inference: IF B is actively generated, THEN …\n\n\n\n\n\n\n\nSlide from https://homepages.uni-regensburg.de/~pfn23853/rffcw/mhw.pdf"
-  },
-  {
-    "objectID": "slides/Causality/Causality.html#how-to-rule-out-alternative-causal-models",
-    "href": "slides/Causality/Causality.html#how-to-rule-out-alternative-causal-models",
-    "title": "Causality",
-    "section": "How to rule out alternative causal models?",
-    "text": "How to rule out alternative causal models?"
-  },
-  {
-    "objectID": "slides/Causality/Causality.html#between-person-design",
-    "href": "slides/Causality/Causality.html#between-person-design",
-    "title": "Causality",
-    "section": "Between-person design",
-    "text": "Between-person design\n\n\n\n\n\naverage treatment effect (ATE), or average causal effect (ACE)\naverage across persons: some persons might have stronger effects, others have weaker effects (some might even have no, or a reversed effect). But we cannot estimate this inter-individual variability from this design.\nStatistical test: Simply a t-test, or a regression.\n\nNote: Often we use the same statistical method for observational and for experimental-data."
-  },
-  {
-    "objectID": "slides/Causality/Causality.html#within-person-design",
-    "href": "slides/Causality/Causality.html#within-person-design",
-    "title": "Causality",
-    "section": "Within-person design",
-    "text": "Within-person design\n\n\n\n\n\nAdditional assumptions for within-person designs:\n\nTemporal stability: The outcome does not depend on the time the treatment is delivered (e.g., maturation effects: first apply control condition, 1 year later the experimental condition ➙ maturation effect can be misinterpreted as treatment effect)\nCausal transience: The treatment effect does not persist beyond the time of outcome measurement (at least, it does not spill over to the next treatment).\n\nHmmm. How long does our treatment last?\n\n\nStatistical test: Simply a paired t-test, or a regression.\n\n\n\nWest, S., Biesanz, J., Kwok, O.-M., Sansone, C., Morf, C., & Panter, A. (2004). Within-subject and longitudinal experiments: Design and analysis issues (S. 287–312)."
-  },
-  {
-    "objectID": "slides/Causality/Causality.html#section",
-    "href": "slides/Causality/Causality.html#section",
-    "title": "Causality",
-    "section": "",
-    "text": "Assumptions and some pitfalls"
-  },
-  {
-    "objectID": "slides/Causality/Causality.html#problems-of-average",
-    "href": "slides/Causality/Causality.html#problems-of-average",
-    "title": "Causality",
-    "section": "Problems of “average”",
-    "text": "Problems of “average”"
-  },
-  {
-    "objectID": "slides/Causality/Causality.html#do-fat-hand-vs.-surgeon-precision",
-    "href": "slides/Causality/Causality.html#do-fat-hand-vs.-surgeon-precision",
-    "title": "Causality",
-    "section": "do(): Fat hand vs. surgeon precision",
-    "text": "do(): Fat hand vs. surgeon precision\n\n\nInterventions are assumed to be local, i.e., they only affect one single node.\nIn practice, we often affect multiple variables at once with an intervention.\nYou always get the causal effect for the „full package“ (i.e., all known and unknown differences between control and experimental group). You never know, which component of the package is the actual driver of the effect."
-  },
-  {
-    "objectID": "slides/Causality/Causality.html#what-makes-a-good-control-group",
-    "href": "slides/Causality/Causality.html#what-makes-a-good-control-group",
-    "title": "Causality",
-    "section": "What makes a good control group?",
-    "text": "What makes a good control group?\n\n\nRQ: Does physical exercise increase wellbeing?\nTreatment: „Doing physical exercises (30 min.) for 7 days“, administered in group training with a certified trainer.\nOutcome: Compare pre vs. post well-being\n\n\n\n\n\n\n\nhttps://doi.org/10.1177/1745691613491271  Why Active Control Groups Are Not Sufficient to Rule Out Placebo Effects.Perspectives on Psychological Science, 8(4), 445–454.  Boot, W. R., Simons, D. J., Stothart, C., & Stutts, C. (2013). The Pervasive Problem With Placebos in Psychology:"
-  },
-  {
-    "objectID": "slides/Causality/Causality.html#section-1",
-    "href": "slides/Causality/Causality.html#section-1",
-    "title": "Causality",
-    "section": "",
-    "text": "https://doi.org/10.1177/1745691613491271  Why Active Control Groups Are Not Sufficient to Rule Out Placebo Effects.Perspectives on Psychological Science, 8(4), 445–454.  Boot, W. R., Simons, D. J., Stothart, C., & Stutts, C. (2013). The Pervasive Problem With Placebos in Psychology:"
-  },
-  {
-    "objectID": "slides/Causality/Causality.html#section-2",
-    "href": "slides/Causality/Causality.html#section-2",
-    "title": "Causality",
-    "section": "",
-    "text": "Inference of causality is a feature of the experimental design, not of the data analysis."
-  },
-  {
-    "objectID": "slides/Causality/Causality.html#apply-to-our-own-study",
-    "href": "slides/Causality/Causality.html#apply-to-our-own-study",
-    "title": "Causality",
-    "section": "Apply to our own study!",
-    "text": "Apply to our own study!\n\n\nShould we maximize or minimize reactivity effects? (See Q3 of homework)\nWhat would be a good control group?\nHow to design the ESM protocol, the pre- and posttest?"
-  },
-  {
-    "objectID": "slides/Causality/Causality.html#references",
-    "href": "slides/Causality/Causality.html#references",
-    "title": "Causality",
-    "section": "References",
-    "text": "References\n\n\nMaydeu-Olivares, A., Shi, D., & Fairchild, A. J. (2020). Estimating causal effects in linear regression models with observational data: The instrumental variables regression model. Psychological Methods, 25, 243–258. https://doi.org/10.1037/met0000226\nNahum-Shani, I., Almirall, D., Yap, J. R. T., McKay, J. R., Lynch, K. G., Freiheit, E. A., & Dziak, J. J. (2020). SMART longitudinal analysis: A tutorial for using repeated outcome measures from SMART studies to compare adaptive interventions. Psychological Methods, 25, 1–29. https://doi.org/10.1037/met0000219\nRosenbaum, P. R. (2017). Observation and Experiment: An Introduction to Causal Inference (Illustrated Edition). Harvard University Press.\nSchmiedek, F., & Neubauer, A. B. (2019). Experiments in the Wild: Introducing the Within-Person Encouragement Design. Multivariate Behavioral Research, 0(0), 1–21. https://doi.org/10.1080/00273171.2019.1627660\nMatthay, E. C., & Glymour, M. M. (2020). A Graphical Catalog of Threats to Validity. Epidemiology (Cambridge, Mass.), 31(3), 376–384. https://doi.org/10.1097/EDE.0000000000001161\nhttps://egap.org/resource/10-things-to-know-about-the-local-average-treatment-effect/\nhttps://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/"
-  },
-  {
-    "objectID": "slides/Causality/Causality.html#contact",
-    "href": "slides/Causality/Causality.html#contact",
-    "title": "Causality",
-    "section": "Contact",
-    "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread"
-  },
-  {
     "objectID": "slides/Causality/Causality.slide.html#causality",
     "href": "slides/Causality/Causality.slide.html#causality",
     "title": "Causality",
@@ -1659,263 +1484,291 @@
     "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n \n\n\n\n\nForschungsorientierte Praktikum I – Empirisches Praktikum, Ludwig-Maximilians-Universität München"
   },
   {
-    "objectID": "slides/Good coding practices/Good coding practices.html",
-    "href": "slides/Good coding practices/Good coding practices.html",
-    "title": "How to minimize mistakes",
+    "objectID": "slides/Causality/Causality.html#from-correlation-to-causality",
+    "href": "slides/Causality/Causality.html#from-correlation-to-causality",
+    "title": "Causality",
+    "section": "From correlation to causality",
+    "text": "From correlation to causality\n\n\nObservation:\n\nOn days where participants go running, they report a better well-being in the evening.\n\nInterpretation:\n\nRunning is good for your well-being!\n\nBut: Correlation does not imply causation!\n\n\n\n\n\n\n\n\ngraph LR\n    A[\"&lt;div style='padding:20px;width:200px;height:auto;background-color:#add8e6;border:2px solid #000;font-size:24px;color:#000;'&gt;Running&lt;/div&gt;\"] \n    &lt;--&gt; \n    B[\"&lt;div style='padding:20px;width:200px;height:auto;background-color:#add8e6;border:2px solid #000;font-size:24px;color:#000;'&gt;Wellbeing&lt;/div&gt;\"]\n\n    linkStyle 0 stroke-width:2px,stroke:#000,color:#000"
+  },
+  {
+    "objectID": "slides/Causality/Causality.html#underlying-causal-structure",
+    "href": "slides/Causality/Causality.html#underlying-causal-structure",
+    "title": "Causality",
+    "section": "Underlying causal structure",
+    "text": "Underlying causal structure\n\nDirected acyclic graphs (DAGs) to represent causal structures"
+  },
+  {
+    "objectID": "slides/Causality/Causality.html#temporal-order-to-the-rescue",
+    "href": "slides/Causality/Causality.html#temporal-order-to-the-rescue",
+    "title": "Causality",
+    "section": "Temporal order to the rescue?",
+    "text": "Temporal order to the rescue?"
+  },
+  {
+    "objectID": "slides/Causality/Causality.html#seeing-vs.-doing-observational-and-interventional-inferences",
+    "href": "slides/Causality/Causality.html#seeing-vs.-doing-observational-and-interventional-inferences",
+    "title": "Causality",
+    "section": "Seeing vs. doing: Observational and interventional inferences",
+    "text": "Seeing vs. doing: Observational and interventional inferences\n\n\ninferences based on passively observed states of a variable (“seeing”)\ninferences based on the very same state resulting from an external intervention (“doing”)\n\n\n\n\n\n\nSlide from https://homepages.uni-regensburg.de/~pfn23853/rffcw/mhw.pdf"
+  },
+  {
+    "objectID": "slides/Causality/Causality.html#seeing-vs.-doing-observational-and-interventional-inferences-1",
+    "href": "slides/Causality/Causality.html#seeing-vs.-doing-observational-and-interventional-inferences-1",
+    "title": "Causality",
+    "section": "Seeing vs. doing: Observational and interventional inferences",
+    "text": "Seeing vs. doing: Observational and interventional inferences\n\n\nReasoning about interventions formalized by Pearl’s (2000) „do-operator“ (cf. Spirtes, Glymour & Scheines, 1993; Dawid, 2002)\n\nObservational inference: IF B is observed, THEN …\nInterventional inference: IF B is actively generated, THEN …\n\n\n\n\n\n\n\nSlide from https://homepages.uni-regensburg.de/~pfn23853/rffcw/mhw.pdf"
+  },
+  {
+    "objectID": "slides/Causality/Causality.html#how-to-rule-out-alternative-causal-models",
+    "href": "slides/Causality/Causality.html#how-to-rule-out-alternative-causal-models",
+    "title": "Causality",
+    "section": "How to rule out alternative causal models?",
+    "text": "How to rule out alternative causal models?"
+  },
+  {
+    "objectID": "slides/Causality/Causality.html#between-person-design",
+    "href": "slides/Causality/Causality.html#between-person-design",
+    "title": "Causality",
+    "section": "Between-person design",
+    "text": "Between-person design\n\n\n\n\n\naverage treatment effect (ATE), or average causal effect (ACE)\naverage across persons: some persons might have stronger effects, others have weaker effects (some might even have no, or a reversed effect). But we cannot estimate this inter-individual variability from this design.\nStatistical test: Simply a t-test, or a regression.\n\nNote: Often we use the same statistical method for observational and for experimental-data."
+  },
+  {
+    "objectID": "slides/Causality/Causality.html#within-person-design",
+    "href": "slides/Causality/Causality.html#within-person-design",
+    "title": "Causality",
+    "section": "Within-person design",
+    "text": "Within-person design\n\n\n\n\n\nAdditional assumptions for within-person designs:\n\nTemporal stability: The outcome does not depend on the time the treatment is delivered (e.g., maturation effects: first apply control condition, 1 year later the experimental condition ➙ maturation effect can be misinterpreted as treatment effect)\nCausal transience: The treatment effect does not persist beyond the time of outcome measurement (at least, it does not spill over to the next treatment).\n\nHmmm. How long does our treatment last?\n\n\nStatistical test: Simply a paired t-test, or a regression.\n\n\n\nWest, S., Biesanz, J., Kwok, O.-M., Sansone, C., Morf, C., & Panter, A. (2004). Within-subject and longitudinal experiments: Design and analysis issues (S. 287–312)."
+  },
+  {
+    "objectID": "slides/Causality/Causality.html#section",
+    "href": "slides/Causality/Causality.html#section",
+    "title": "Causality",
     "section": "",
-    "text": "How to minimize mistakes\n\n\n Good coding practices\n\n\n\n \n\n\n\n\n\nFelix Schönbrodt & Caroline Zygar-Hoffmann  Ludwig-Maximilians-Universität  München\n\n\n\n\nThis presentation is licensed under a CC-BY 4.0 license.  You may copy, distribute, and use the slides in your own work,  as long as you give attribution to the original author at each slide that you use.\n\n\n\n\n\n\n\n\nTwitter accounts: @psycaroly, @nicebread303"
+    "text": "Assumptions and some pitfalls"
   },
   {
-    "objectID": "slides/Good coding practices/Good coding practices.html#section",
-    "href": "slides/Good coding practices/Good coding practices.html#section",
-    "title": "How to minimize mistakes",
+    "objectID": "slides/Causality/Causality.html#problems-of-average",
+    "href": "slides/Causality/Causality.html#problems-of-average",
+    "title": "Causality",
+    "section": "Problems of “average”",
+    "text": "Problems of “average”"
+  },
+  {
+    "objectID": "slides/Causality/Causality.html#do-fat-hand-vs.-surgeon-precision",
+    "href": "slides/Causality/Causality.html#do-fat-hand-vs.-surgeon-precision",
+    "title": "Causality",
+    "section": "do(): Fat hand vs. surgeon precision",
+    "text": "do(): Fat hand vs. surgeon precision\n\n\nInterventions are assumed to be local, i.e., they only affect one single node.\nIn practice, we often affect multiple variables at once with an intervention.\nYou always get the causal effect for the „full package“ (i.e., all known and unknown differences between control and experimental group). You never know, which component of the package is the actual driver of the effect."
+  },
+  {
+    "objectID": "slides/Causality/Causality.html#what-makes-a-good-control-group",
+    "href": "slides/Causality/Causality.html#what-makes-a-good-control-group",
+    "title": "Causality",
+    "section": "What makes a good control group?",
+    "text": "What makes a good control group?\n\n\nRQ: Does physical exercise increase wellbeing?\nTreatment: „Doing physical exercises (30 min.) for 7 days“, administered in group training with a certified trainer.\nOutcome: Compare pre vs. post well-being\n\n\n\n\n\n\n\nhttps://doi.org/10.1177/1745691613491271  Why Active Control Groups Are Not Sufficient to Rule Out Placebo Effects.Perspectives on Psychological Science, 8(4), 445–454.  Boot, W. R., Simons, D. J., Stothart, C., & Stutts, C. (2013). The Pervasive Problem With Placebos in Psychology:"
+  },
+  {
+    "objectID": "slides/Causality/Causality.html#section-1",
+    "href": "slides/Causality/Causality.html#section-1",
+    "title": "Causality",
     "section": "",
-    "text": "How to minimize mistakes\n\n\n Good coding practices\n\n\n\n \n\n\n\n\n\nFelix Schönbrodt & Caroline Zygar-Hoffmann  Ludwig-Maximilians-Universität  München\n\n\n\n\nThis presentation is licensed under a CC-BY 4.0 license.  You may copy, distribute, and use the slides in your own work,  as long as you give attribution to the original author at each slide that you use.\n\n\n\n\n\n\n\n\nTwitter accounts: @psycaroly, @nicebread303"
+    "text": "https://doi.org/10.1177/1745691613491271  Why Active Control Groups Are Not Sufficient to Rule Out Placebo Effects.Perspectives on Psychological Science, 8(4), 445–454.  Boot, W. R., Simons, D. J., Stothart, C., & Stutts, C. (2013). The Pervasive Problem With Placebos in Psychology:"
   },
   {
-    "objectID": "slides/Good coding practices/Good coding practices.html#the-ideal-reality",
-    "href": "slides/Good coding practices/Good coding practices.html#the-ideal-reality",
-    "title": "How to minimize mistakes",
-    "section": "The Ideal? Reality?",
-    "text": "The Ideal? Reality?\n\n\n\nSurrounded from a flood of fake news, science is one of (the last?) sources of credible information.\nTrust in science: Scientists are impartial, meticulous, and check their results rigorously in peer review before publication\nAlthough error-freeness cannot be guaranteed, science provides the most reliable source of information, and if errors happen, they soon get detected and corrected.\n\n\n\nReplication/credibility crisis\nNumber of retractions rises exponentially\nPressure to „publish or perish“ leads to hurried manuscript, less error checking\nReviewer overload leads to superficial reviews\nstatcheck(Nuijten et al., 2016): 50% of psychology papers contain at least one inconsistent statistic"
+    "objectID": "slides/Causality/Causality.html#section-2",
+    "href": "slides/Causality/Causality.html#section-2",
+    "title": "Causality",
+    "section": "",
+    "text": "Inference of causality is a feature of the experimental design, not of the data analysis."
   },
   {
-    "objectID": "slides/Good coding practices/Good coding practices.html#mistakes-lurke-everywhere",
-    "href": "slides/Good coding practices/Good coding practices.html#mistakes-lurke-everywhere",
-    "title": "How to minimize mistakes",
-    "section": "Mistakes lurke everywhere",
-    "text": "Mistakes lurke everywhere\n\n\nErrors in data collection software/scripts\nError in manual data transcription\nAnalyzing the wrong data set (e.g., an old version, a filter has been unknowingly applied)\nCoding errors\n\nWrong group assignment (control/ experimental group)\nNAs coded as 99?\n\nFaulty analysis software; version changes in R packages\nMistyping numbers when copying them from R to manuscript\nSend the wrong file to the journal submission system\nAsymmetry: Mistakes tend to go in the preferred direction (Gould, 1996), because we check more vigorously when results (unexpectedly) go into the wrong direction.\n\nSee also „garden of forking paths“ (Gelman & Loken, 2013): A lot of p-hacking is unintentional"
+    "objectID": "slides/Causality/Causality.html#apply-to-our-own-study",
+    "href": "slides/Causality/Causality.html#apply-to-our-own-study",
+    "title": "Causality",
+    "section": "Apply to our own study!",
+    "text": "Apply to our own study!\n\n\nShould we maximize or minimize reactivity effects? (See Q3 of homework)\nWhat would be a good control group?\nHow to design the ESM protocol, the pre- and posttest?"
   },
   {
-    "objectID": "slides/Good coding practices/Good coding practices.html#mistakes-lurke-everywhere-1",
-    "href": "slides/Good coding practices/Good coding practices.html#mistakes-lurke-everywhere-1",
-    "title": "How to minimize mistakes",
-    "section": "Mistakes lurke everywhere",
-    "text": "Mistakes lurke everywhere\n\n\n\n\nScreenshot from presentation from Katrin Auspurg & Josef Brüderl"
-  },
-  {
-    "objectID": "slides/Good coding practices/Good coding practices.html#how-to-prevent-coding-errors",
-    "href": "slides/Good coding practices/Good coding practices.html#how-to-prevent-coding-errors",
-    "title": "How to minimize mistakes",
-    "section": "How to prevent coding errors?",
-    "text": "How to prevent coding errors?\n\n\n\n\nhttps://www.osnews.com/story/19266/wtfsm/"
-  },
-  {
-    "objectID": "slides/Good coding practices/Good coding practices.html#unit-tests-sanity-checks",
-    "href": "slides/Good coding practices/Good coding practices.html#unit-tests-sanity-checks",
-    "title": "How to minimize mistakes",
-    "section": "Unit tests / sanity checks",
-    "text": "Unit tests / sanity checks\n\nAlways look at the descriptive statistics (min, max, NAs, mean) of every variable (also transformed/computed variables)\n\nKnow the scales of your variables: Is the mean plausible? Is the minimum and maximum value theoretically possible and plausible?\nDoes a scale value from multiple items have only discrete values?\nDo z-standardized variables really have mean=0 and SD=1?\n\nPlot all variables (scatterplot, histograms)"
-  },
-  {
-    "objectID": "slides/Good coding practices/Good coding practices.html#unit-tests-sanity-checks-1",
-    "href": "slides/Good coding practices/Good coding practices.html#unit-tests-sanity-checks-1",
-    "title": "How to minimize mistakes",
-    "section": "Unit tests / sanity checks",
-    "text": "Unit tests / sanity checks\n\nThe summarytools package makes this really easy:\n\n\n\n\n\n\n\n\n\n\n\nalternatively: codebook package by Ruben Arslan (also has RStudio plugin). Has some nice convenience functions, e.g. when importing SPSS or other data files."
-  },
-  {
-    "objectID": "slides/Good coding practices/Good coding practices.html#technical-reproducibility",
-    "href": "slides/Good coding practices/Good coding practices.html#technical-reproducibility",
-    "title": "How to minimize mistakes",
-    "section": "Technical reproducibility",
-    "text": "Technical reproducibility\n\n\n\n\nWhen you rely on random numbers (e.g., in simulation studies): Set a seed for reproducibility\n\nTake care when doing parallel computing, this sometimes requires special treatment of seeds\n\nDocument exact versions of all packages/ external programs at each completed stage of data analysis\n\ne.g., in R: Save the sessionInfo() of the analytical pipeline in an accompanying file when you submit a paper, and for every revision\n\nSave a snapshot of the current version/state of the statistical software\n\ne.g., in R: checkpoint package, packrat package, renv package\n\nThe safest way: Make a docker container which contains the full computational environment (including OS)\n\n\n\n\n\n\n\n\n\n\n\n\nGraphic from https://rviews.rstudio.com/2018/01/18/package-management-for-reproducible-r-code/"
-  },
-  {
-    "objectID": "slides/Good coding practices/Good coding practices.html#coding-style",
-    "href": "slides/Good coding practices/Good coding practices.html#coding-style",
-    "title": "How to minimize mistakes",
-    "section": "Coding style",
-    "text": "Coding style\n\nMeaningful variable names, meaningful directory structure\nNever copy and paste code\nNever write a coding block longer than your screen\nLiterate Programming (Knuth): Computer code is for humans, not just for computers.\n\n\nhttps://x.com/mcxfrank/status/1075466294797824000"
-  },
-  {
-    "objectID": "slides/Good coding practices/Good coding practices.html#file-organization",
-    "href": "slides/Good coding practices/Good coding practices.html#file-organization",
-    "title": "How to minimize mistakes",
-    "section": "File organization",
-    "text": "File organization\n\n\n(The following guidelines apply to many, but not all possible types of projects)\nAll files that are necessary for reproducing the results should be bundled in one directory\n\nIncluding: primary unprocessed data files, scripts for data preprocessing, cached intermediate data objects, scripts for hypothesis testing, generated result plots, …\nGoal: You zip the directory, send it to somebody, and the person can reproduce the full analytical pipeline.\n\nUse a consistent, self-explanatory subdirectory structure\nNumber script files in execution order (see next slide)"
-  },
-  {
-    "objectID": "slides/Good coding practices/Good coding practices.html#directory-organization",
-    "href": "slides/Good coding practices/Good coding practices.html#directory-organization",
-    "title": "How to minimize mistakes",
-    "section": "Directory organization",
-    "text": "Directory organization"
-  },
-  {
-    "objectID": "slides/Good coding practices/Good coding practices.html#subdirectory-organization",
-    "href": "slides/Good coding practices/Good coding practices.html#subdirectory-organization",
-    "title": "How to minimize mistakes",
-    "section": "Subdirectory organization",
-    "text": "Subdirectory organization\n\n\n\n(Again, this is one possible organization scheme)\n/raw_data: Contains all raw primary data files, as you received them (or exported them from the experimental software), without any manual preprocessing.  Primary data files are sacrosanct – set them to read-only, never change anything in them.  Any transformation, data exclusions, or error corrections must be done in scripts in order to be reproducible.\n/processed_data: Stores intermediate data objects. For example, after you did all your outlier exclusions, data transformations, etc., store a file „data_cleaned.csv“ in /cache. If you refer to this data file in subsequent scripts, you do not have to run the preprocessing script every time. All files in /processed_data can be safely deleted, as they can be reconstructed by running all script files in the correct order.\n/doc: Documents (such as PDFs, manuals, etc.) related to the project.\n/plots: Store result plots that you created in your scripts.\n/export: If you export (sub)data sets or summaries for dissemination, store them here.\n/archive: Old scripts and other files which are not used for your final analytical pipeline, but which you want to keep for some reasons."
-  },
-  {
-    "objectID": "slides/Good coding practices/Good coding practices.html#variable-name-conventions",
-    "href": "slides/Good coding practices/Good coding practices.html#variable-name-conventions",
-    "title": "How to minimize mistakes",
-    "section": "Variable name conventions",
-    "text": "Variable name conventions\n\n\n\n\nsnake_case, camelCase, dot.style, sTUdLy cAPs?\n\nDo not use dots in variables (clashes with some functions)\nSome consensus that snake_case is the best choice, but respect languagespecific coding conventions\nBe consistent!\n\nPrefer short variable names, but: understandability &gt;&gt; brevity"
-  },
-  {
-    "objectID": "slides/Good coding practices/Good coding practices.html#variable-name-conventions-1",
-    "href": "slides/Good coding practices/Good coding practices.html#variable-name-conventions-1",
-    "title": "How to minimize mistakes",
-    "section": "Variable name conventions",
-    "text": "Variable name conventions\n\n\nBefore: Inconsistent mixture of naming styles\n\n\n\n\n\nAfter: Consistent naming style"
-  },
-  {
-    "objectID": "slides/Good coding practices/Good coding practices.html#code-commenting",
-    "href": "slides/Good coding practices/Good coding practices.html#code-commenting",
-    "title": "How to minimize mistakes",
-    "section": "Code commenting",
-    "text": "Code commenting\n\n\n\n\n\nAt the start of each script file: Author, license, purpose of the file.\nLoad add-on packages all at once at the beginning of the file\nRule of thumb: At least 1 comment per 3 lines of code\nLink code comments to paper structure\n\n„Table 3: Descriptives of…“\n„Hypothesis 2: Does metafilin increase […]?“\n\nBonus: Link code comments to IDs of the preregistration\nSeparate chunks of code with comment lines\nIf the file gets too long (e.g., &gt; 500 lines), split into multiple files\nUse English variable names and comments from the beginning (you don‘t want to translate everything before dissemination)"
-  },
-  {
-    "objectID": "slides/Good coding practices/Good coding practices.html#collaboration",
-    "href": "slides/Good coding practices/Good coding practices.html#collaboration",
-    "title": "How to minimize mistakes",
-    "section": "Collaboration",
-    "text": "Collaboration\n\nPair Programming\n\nPair programming is an agile software development technique in which two programmers work together at one workstation. One, the driver, writes code while the other, the observer or navigator, reviews each line of code as it is typed in. The two programmers switch roles frequently. (Wikipedia)\n\nGolden route: Independent implementation"
-  },
-  {
-    "objectID": "slides/Good coding practices/Good coding practices.html#references",
-    "href": "slides/Good coding practices/Good coding practices.html#references",
-    "title": "How to minimize mistakes",
+    "objectID": "slides/Causality/Causality.html#references",
+    "href": "slides/Causality/Causality.html#references",
+    "title": "Causality",
     "section": "References",
-    "text": "References\n\nBishop, D. V. M. (2018). Fallibility in Science: Responding to Errors in the Work of Oneself and Others. Advances in Methods and Practices in Psychological Science, 1(3), 432–438. http://doi.org/10.1177/2515245918776632\nRouder, J., Haaf, J. M., & Snyder, H. K. (2018, March 25). Minimizing Mistakes In Psychological Science. https://doi.org/10.31234/osf.io/gxcy5\nMartin, R. (2008). Clean Code: A Handbook of Agile Software Craftsmanship (1st ed.). Upper Saddle River, NJ: Prentice Hall.\nKarthik Ram: How To Make Your Data Analysis Notebooks More Reproducible\n\nhttps://github.com/karthik/rstudio2019\nhttps://inundata.org/talks/rstd19/#/"
+    "text": "References\n\n\nMaydeu-Olivares, A., Shi, D., & Fairchild, A. J. (2020). Estimating causal effects in linear regression models with observational data: The instrumental variables regression model. Psychological Methods, 25, 243–258. https://doi.org/10.1037/met0000226\nNahum-Shani, I., Almirall, D., Yap, J. R. T., McKay, J. R., Lynch, K. G., Freiheit, E. A., & Dziak, J. J. (2020). SMART longitudinal analysis: A tutorial for using repeated outcome measures from SMART studies to compare adaptive interventions. Psychological Methods, 25, 1–29. https://doi.org/10.1037/met0000219\nRosenbaum, P. R. (2017). Observation and Experiment: An Introduction to Causal Inference (Illustrated Edition). Harvard University Press.\nSchmiedek, F., & Neubauer, A. B. (2019). Experiments in the Wild: Introducing the Within-Person Encouragement Design. Multivariate Behavioral Research, 0(0), 1–21. https://doi.org/10.1080/00273171.2019.1627660\nMatthay, E. C., & Glymour, M. M. (2020). A Graphical Catalog of Threats to Validity. Epidemiology (Cambridge, Mass.), 31(3), 376–384. https://doi.org/10.1097/EDE.0000000000001161\nhttps://egap.org/resource/10-things-to-know-about-the-local-average-treatment-effect/\nhttps://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/"
   },
   {
-    "objectID": "slides/Good coding practices/Good coding practices.html#contact",
-    "href": "slides/Good coding practices/Good coding practices.html#contact",
-    "title": "How to minimize mistakes",
+    "objectID": "slides/Causality/Causality.html#contact",
+    "href": "slides/Causality/Causality.html#contact",
+    "title": "Causality",
     "section": "Contact",
     "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread"
   },
   {
-    "objectID": "slides/Good coding practices/Good coding practices.slide.html#section",
-    "href": "slides/Good coding practices/Good coding practices.slide.html#section",
-    "title": "How to minimize mistakes",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
     "section": "",
-    "text": "How to minimize mistakes\n\n\n Good coding practices\n\n\n\n \n\n\n\n\n\nFelix Schönbrodt & Caroline Zygar-Hoffmann  Ludwig-Maximilians-Universität  München\n\n\n\n\nThis presentation is licensed under a CC-BY 4.0 license.  You may copy, distribute, and use the slides in your own work,  as long as you give attribution to the original author at each slide that you use.\n\n\n\n\n\n\n\n\nTwitter accounts: @psycaroly, @nicebread303"
+    "text": "Note: This entire project is a mixture of English and German text. Sorry for that. Your mileage may vary.\n\nSessions Overview\n\n\n\n#\nDate\nTopic\nNotes\nHomework\n\n\n\n\n1\n2024-04-19\nS1 - Formalitäten, Open Science, p-hack\n\ncreate OSF account; practice p-hacking\n\n\n2\n2024-04-26\nS2 - Einführung Intimitätsmotiv\n\nDevelop interventions\n\n\n3\n2024-05-03\nS3 - Motive 2; Kausalität\n\nRead Ch. 1 of Experimentology\n\n\n4\n2024-05-10\nS4 - Studie planen\nFragebögen überarbeiten; Ziel: Hypothesen aufstellen\nHA: Vp-Akquise in Gruppen planen (Material, Kanäle, etc.);\n\n\n5\n2024-05-17\nS5 - Poweranalyse; Literaturrecherche\n\nLiteraturrecherche in Gruppe machen; Read Preregistration Challenge\n\n\n6\n2024-05-24\nS6 - Prereg intro\n\n\n\n\n7\n2024-05-31\nBrückentag - online / Nensy: S7 - Finalize design\n\nStudie testen\n\n\n8\n2024-06-07\nS8 Letzter Feinschliff Studie\n\nOpen data lesen; Studienstart ganz fertig machen\n\n\n9\n2024-06-14\nLetzter Feinschliff Studie - continued\nStudienstart!\nCodebuch erstellen\n\n\n10\n2024-06-21\nS10 Open Data\n\nVP-Akquise; Quarto / Rmarkdown self-paced tutorial\n\n\n11\n2024-06-28\nS11 Good coding practices; Quarto 1\n\n\n\n\n12\n2024-07-05\nReproducible Manuscripts\nStudienende\n\n\n\n13\n2024-07-12\nDatenanalyse\n\n\n\n\n14\n2024-07-19\nPräregistrierung fertig machen - How-to Hausarbeit"
   },
   {
-    "objectID": "slides/Good coding practices/Good coding practices.slide.html#the-ideal-reality",
-    "href": "slides/Good coding practices/Good coding practices.slide.html#the-ideal-reality",
-    "title": "How to minimize mistakes",
-    "section": "The Ideal? Reality?",
-    "text": "The Ideal? Reality?\n\n\n\nSurrounded from a flood of fake news, science is one of (the last?) sources of credible information.\nTrust in science: Scientists are impartial, meticulous, and check their results rigorously in peer review before publication\nAlthough error-freeness cannot be guaranteed, science provides the most reliable source of information, and if errors happen, they soon get detected and corrected.\n\n\n\nReplication/credibility crisis\nNumber of retractions rises exponentially\nPressure to „publish or perish“ leads to hurried manuscript, less error checking\nReviewer overload leads to superficial reviews\nstatcheck(Nuijten et al., 2016): 50% of psychology papers contain at least one inconsistent statistic"
+    "objectID": "slides/Empra-Orga/Empra-Orga.html",
+    "href": "slides/Empra-Orga/Empra-Orga.html",
+    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "section": "",
+    "text": "Eine empirische Fragestellung entwickeln\nEine Studie planen und durchführen\nDie Daten auswerten\nEinen wissenschaftlichen Bericht verfassen"
   },
   {
-    "objectID": "slides/Good coding practices/Good coding practices.slide.html#mistakes-lurke-everywhere",
-    "href": "slides/Good coding practices/Good coding practices.slide.html#mistakes-lurke-everywhere",
-    "title": "How to minimize mistakes",
-    "section": "Mistakes lurke everywhere",
-    "text": "Mistakes lurke everywhere\n\n\nErrors in data collection software/scripts\nError in manual data transcription\nAnalyzing the wrong data set (e.g., an old version, a filter has been unknowingly applied)\nCoding errors\n\nWrong group assignment (control/ experimental group)\nNAs coded as 99?\n\nFaulty analysis software; version changes in R packages\nMistyping numbers when copying them from R to manuscript\nSend the wrong file to the journal submission system\nAsymmetry: Mistakes tend to go in the preferred direction (Gould, 1996), because we check more vigorously when results (unexpectedly) go into the wrong direction.\n\nSee also „garden of forking paths“ (Gelman & Loken, 2013): A lot of p-hacking is unintentional"
+    "objectID": "slides/Empra-Orga/Empra-Orga.html#ziele",
+    "href": "slides/Empra-Orga/Empra-Orga.html#ziele",
+    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "section": "",
+    "text": "Eine empirische Fragestellung entwickeln\nEine Studie planen und durchführen\nDie Daten auswerten\nEinen wissenschaftlichen Bericht verfassen"
   },
   {
-    "objectID": "slides/Good coding practices/Good coding practices.slide.html#mistakes-lurke-everywhere-1",
-    "href": "slides/Good coding practices/Good coding practices.slide.html#mistakes-lurke-everywhere-1",
-    "title": "How to minimize mistakes",
-    "section": "Mistakes lurke everywhere",
-    "text": "Mistakes lurke everywhere\n\n\n\n\nScreenshot from presentation from Katrin Auspurg & Josef Brüderl"
+    "objectID": "slides/Empra-Orga/Empra-Orga.html#ziele-1",
+    "href": "slides/Empra-Orga/Empra-Orga.html#ziele-1",
+    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "section": "Ziele",
+    "text": "Ziele\n\nKerncurriculum “Gute wissenschaftliche Praxis”\n\nStichprobenplanung, in der Regel eine a-priori Poweranalyse\nPräregistrierung der Hypothesen, Operationalisierungen, Stichprobenplanung und der statistischen Analysemethode\nOpen Data (mit Codebuch): Offene Daten werden von immer mehr Zeitschriften verlangt und werden generell zum Standard für vertrauenswürdiges Forschen\nReproduzierbare Analyseskripte"
   },
   {
-    "objectID": "slides/Good coding practices/Good coding practices.slide.html#how-to-prevent-coding-errors",
-    "href": "slides/Good coding practices/Good coding practices.slide.html#how-to-prevent-coding-errors",
-    "title": "How to minimize mistakes",
-    "section": "How to prevent coding errors?",
-    "text": "How to prevent coding errors?\n\n\n\n\nhttps://www.osnews.com/story/19266/wtfsm/"
+    "objectID": "slides/Empra-Orga/Empra-Orga.html#ziele-2",
+    "href": "slides/Empra-Orga/Empra-Orga.html#ziele-2",
+    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "section": "Ziele",
+    "text": "Ziele\n\n(1) Eine empirische Fragestellung entwickeln\n\nDer Weg zu einer interessanten, empirisch prüfbaren Fragestellung\nForschungsthema: Durch das Empra vorgegeben\nLiteraturrecherche: Was gibt es schon? Wo sind die Forschungslücken?\nEntwicklung von prüfbaren Hypothesen"
   },
   {
-    "objectID": "slides/Good coding practices/Good coding practices.slide.html#unit-tests-sanity-checks",
-    "href": "slides/Good coding practices/Good coding practices.slide.html#unit-tests-sanity-checks",
-    "title": "How to minimize mistakes",
-    "section": "Unit tests / sanity checks",
-    "text": "Unit tests / sanity checks\n\nAlways look at the descriptive statistics (min, max, NAs, mean) of every variable (also transformed/computed variables)\n\nKnow the scales of your variables: Is the mean plausible? Is the minimum and maximum value theoretically possible and plausible?\nDoes a scale value from multiple items have only discrete values?\nDo z-standardized variables really have mean=0 and SD=1?\n\nPlot all variables (scatterplot, histograms)"
+    "objectID": "slides/Empra-Orga/Empra-Orga.html#ziele-3",
+    "href": "slides/Empra-Orga/Empra-Orga.html#ziele-3",
+    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "section": "Ziele",
+    "text": "Ziele\n\n(2) Eine Studie planen und durchführen\n\n\nStudiendesign entwickeln:\n\nMethode vorgegeben: Experience Sampling\nOperationalisierung von Konstrukten\nStichprobe planen (Population, Stichprobengröße -&gt; Poweranalyse)\nExperimentelles Design: Wie kann man kausale Effekte messen? Evtl. Kontrolle von Störvariablen\n\nPraktische Versuchsplanung\n\nAkquise Vpn\nMaterial entwickeln\nExperimentalsoftware programmieren\n\nPräregistrierung: Hypothesen, Design, Operationalisierung, Analysen\nDurchführung: Rekrutierung, Erhebung, Betreuung"
   },
   {
-    "objectID": "slides/Good coding practices/Good coding practices.slide.html#unit-tests-sanity-checks-1",
-    "href": "slides/Good coding practices/Good coding practices.slide.html#unit-tests-sanity-checks-1",
-    "title": "How to minimize mistakes",
-    "section": "Unit tests / sanity checks",
-    "text": "Unit tests / sanity checks\n\nThe summarytools package makes this really easy:\n\n\n\n\n\n\n\n\n\n\n\nalternatively: codebook package by Ruben Arslan (also has RStudio plugin). Has some nice convenience functions, e.g. when importing SPSS or other data files."
+    "objectID": "slides/Empra-Orga/Empra-Orga.html#ziele-4",
+    "href": "slides/Empra-Orga/Empra-Orga.html#ziele-4",
+    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "section": "Ziele",
+    "text": "Ziele\n\n(3) Die Daten auswerten\n\nWir arbeiten mit R\nDatenkodierung und –aufbereitung\n\nAnalysen durch Codebuch und offene Daten nachvollziehbar und reproduzierbar machen\nAnonymität berücksichtigen\n\nStatistische Auswertung\n\nDeskriptivstatistik\nZu den Hypothesen passende Analysen rechnen\nAnalysen durch reproduzierbare Skripte nachvollziehbar machen"
   },
   {
-    "objectID": "slides/Good coding practices/Good coding practices.slide.html#technical-reproducibility",
-    "href": "slides/Good coding practices/Good coding practices.slide.html#technical-reproducibility",
-    "title": "How to minimize mistakes",
-    "section": "Technical reproducibility",
-    "text": "Technical reproducibility\n\n\n\n\nWhen you rely on random numbers (e.g., in simulation studies): Set a seed for reproducibility\n\nTake care when doing parallel computing, this sometimes requires special treatment of seeds\n\nDocument exact versions of all packages/ external programs at each completed stage of data analysis\n\ne.g., in R: Save the sessionInfo() of the analytical pipeline in an accompanying file when you submit a paper, and for every revision\n\nSave a snapshot of the current version/state of the statistical software\n\ne.g., in R: checkpoint package, packrat package, renv package\n\nThe safest way: Make a docker container which contains the full computational environment (including OS)\n\n\n\n\n\n\n\n\n\n\n\n\nGraphic from https://rviews.rstudio.com/2018/01/18/package-management-for-reproducible-r-code/"
+    "objectID": "slides/Empra-Orga/Empra-Orga.html#ziele-5",
+    "href": "slides/Empra-Orga/Empra-Orga.html#ziele-5",
+    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "section": "Ziele",
+    "text": "Ziele\n\n(4) Einen wissenschaftlichen Bericht verfassen\n\nKommunikation der Forschung in die Fachöffentlichkeit\nDen Prozess nachvollziehbar machen: Rmarkdown/Quarto als reproduzierbare Art, einen Bericht zu schreiben\nAufbau eines wissenschaftlichen Artikels:\n\nEinleitung\nMethode\nErgebnisse\nDiskussion\n\nBericht = Hausarbeit als Prüfungsleistung"
   },
   {
-    "objectID": "slides/Good coding practices/Good coding practices.slide.html#coding-style",
-    "href": "slides/Good coding practices/Good coding practices.slide.html#coding-style",
-    "title": "How to minimize mistakes",
-    "section": "Coding style",
-    "text": "Coding style\n\nMeaningful variable names, meaningful directory structure\nNever copy and paste code\nNever write a coding block longer than your screen\nLiterate Programming (Knuth): Computer code is for humans, not just for computers.\n\n\nhttps://x.com/mcxfrank/status/1075466294797824000"
+    "objectID": "slides/Empra-Orga/Empra-Orga.html#formalia-des-empras",
+    "href": "slides/Empra-Orga/Empra-Orga.html#formalia-des-empras",
+    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "section": "Formalia des Empras",
+    "text": "Formalia des Empras\n\n\nUnterricht in Kleingruppen (UK) mit 9 ECTS-Punkten\n≙ 3 Vorlesungen mit Klausur bzw. 3 Seminare mit Referat & schriftlicher Ausarbeitung\n≙ 12h Zeitinvestition pro Woche (Präsenz + Vor- und Nachbereitung)\n(in Empra 1: Anwesenheitspflicht laut PStO 2020; max. 2 unentschuldigte Fehlstunden)\n\nSiehe hierzu § 9 Absatz (3) Sätze 4 bis einschließlich 6 Informationen zur „regelmäßigen Teilnahme“ in der Prüfungs- und Studienordnung 2020: “Eine regelmäßige Teilnahme im Sinne der Anlage 2 ist dann nicht mehr gegeben, wenn Studierende aus selbst zu vertretenden Gründen an mehr als zwei der stattfindenden Veranstaltungstermine einer Lehrveranstaltung nicht teilnehmen.”\n\nLektüre der für den jeweiligen Termin angegeben Literatur bzw. gründliche Erledigung der zugeteilten Aufgaben\nAktive Mitarbeit beim Entwickeln der formalen Modelle und der Programmierung\nAnforderungen für Hausarbeit (siehe nächste Folie)"
   },
   {
-    "objectID": "slides/Good coding practices/Good coding practices.slide.html#file-organization",
-    "href": "slides/Good coding practices/Good coding practices.slide.html#file-organization",
-    "title": "How to minimize mistakes",
-    "section": "File organization",
-    "text": "File organization\n\n\n(The following guidelines apply to many, but not all possible types of projects)\nAll files that are necessary for reproducing the results should be bundled in one directory\n\nIncluding: primary unprocessed data files, scripts for data preprocessing, cached intermediate data objects, scripts for hypothesis testing, generated result plots, …\nGoal: You zip the directory, send it to somebody, and the person can reproduce the full analytical pipeline.\n\nUse a consistent, self-explanatory subdirectory structure\nNumber script files in execution order (see next slide)"
+    "objectID": "slides/Empra-Orga/Empra-Orga.html#hausarbeit",
+    "href": "slides/Empra-Orga/Empra-Orga.html#hausarbeit",
+    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "section": "Hausarbeit",
+    "text": "Hausarbeit\n\nFormalia\n\n\nSchriftgröße 12pt, Zeilenabstand 1.5x\n15.000 Zeichen +/- 20% (Zählung inkl. Leerzeichen; ohne Deckblatt, Referenzen und Anhänge)\nWenn Sie in papaja/Rmarkdown schreiben, dann ist das exportierte PDF von der Formatierung her gut so wie es ist (Sie brauchen nicht das Deckblatt, Zeilenabstand etc. anpassen).\nDeckblatt: Titel, Datum, Name, Matrikel-Nr., Name der Veranstaltung\nBei papaja/Rmarkdown schreiben Sie Datum, Matrikel-Nr. und Name der Veranstaltung in die Author Notes.\nKein Inhaltsverzeichnis\nMindestens 5 Publikationen zitieren\nZitate & Literaturverzeichnis nach APA-Richtlinien (6. oder 7. Version)\nDie Links zu Präregistrierung, Repositorium mit Open Data, Open Code, etc. kommen an den Anfang des Methodenteils"
   },
   {
-    "objectID": "slides/Good coding practices/Good coding practices.slide.html#directory-organization",
-    "href": "slides/Good coding practices/Good coding practices.slide.html#directory-organization",
-    "title": "How to minimize mistakes",
-    "section": "Directory organization",
-    "text": "Directory organization"
+    "objectID": "slides/Empra-Orga/Empra-Orga.html#hausarbeit-1",
+    "href": "slides/Empra-Orga/Empra-Orga.html#hausarbeit-1",
+    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "section": "Hausarbeit",
+    "text": "Hausarbeit\n\nAbgabe\n\nAls PDF-Datei per Email an den Dozenten – Empfang wird bestätigt\nAbgabetermin: Wird noch bekannt gegeben; typischerweise 3 Wochen vor Beginn des nächsten Semesters (also Mitte März im WS bzw. Mitte September im SS)\n2 Versionen einreichen:\n\nVollständige Version (Dateiname: IhrNachname_Empra_Jahr.pdf) – z.B.: „Schmid_Empra_2020.pdf“\nAnonymisierte Version, bei welcher der Name auf dem Deckblatt gelöscht ist (Dateiname: Matrikelnummer_Empra_Jahr.pdf)\n\nDiese Version wird benotet.\nDateiname z.B.:„98234034_Empra_2020.pdf“\nSie können in papaja einfach eine anonyme Version erzeugen, indem Sie im YAML mask: yes angeben"
   },
   {
-    "objectID": "slides/Good coding practices/Good coding practices.slide.html#subdirectory-organization",
-    "href": "slides/Good coding practices/Good coding practices.slide.html#subdirectory-organization",
-    "title": "How to minimize mistakes",
-    "section": "Subdirectory organization",
-    "text": "Subdirectory organization\n\n\n\n(Again, this is one possible organization scheme)\n/raw_data: Contains all raw primary data files, as you received them (or exported them from the experimental software), without any manual preprocessing.  Primary data files are sacrosanct – set them to read-only, never change anything in them.  Any transformation, data exclusions, or error corrections must be done in scripts in order to be reproducible.\n/processed_data: Stores intermediate data objects. For example, after you did all your outlier exclusions, data transformations, etc., store a file „data_cleaned.csv“ in /cache. If you refer to this data file in subsequent scripts, you do not have to run the preprocessing script every time. All files in /processed_data can be safely deleted, as they can be reconstructed by running all script files in the correct order.\n/doc: Documents (such as PDFs, manuals, etc.) related to the project.\n/plots: Store result plots that you created in your scripts.\n/export: If you export (sub)data sets or summaries for dissemination, store them here.\n/archive: Old scripts and other files which are not used for your final analytical pipeline, but which you want to keep for some reasons."
+    "objectID": "slides/Empra-Orga/Empra-Orga.html#bewertungsschema-hausarbeit",
+    "href": "slides/Empra-Orga/Empra-Orga.html#bewertungsschema-hausarbeit",
+    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "section": "Bewertungsschema Hausarbeit",
+    "text": "Bewertungsschema Hausarbeit\n\n\nSiehe https://www.fak11.lmu.de/dep_psychologie/studium/lehrelounge/benotung-schriftl-arbeiten/index.html"
   },
   {
-    "objectID": "slides/Good coding practices/Good coding practices.slide.html#variable-name-conventions",
-    "href": "slides/Good coding practices/Good coding practices.slide.html#variable-name-conventions",
-    "title": "How to minimize mistakes",
-    "section": "Variable name conventions",
-    "text": "Variable name conventions\n\n\n\n\nsnake_case, camelCase, dot.style, sTUdLy cAPs?\n\nDo not use dots in variables (clashes with some functions)\nSome consensus that snake_case is the best choice, but respect languagespecific coding conventions\nBe consistent!\n\nPrefer short variable names, but: understandability &gt;&gt; brevity"
-  },
-  {
-    "objectID": "slides/Good coding practices/Good coding practices.slide.html#variable-name-conventions-1",
-    "href": "slides/Good coding practices/Good coding practices.slide.html#variable-name-conventions-1",
-    "title": "How to minimize mistakes",
-    "section": "Variable name conventions",
-    "text": "Variable name conventions\n\n\nBefore: Inconsistent mixture of naming styles\n\n\n\n\n\nAfter: Consistent naming style"
-  },
-  {
-    "objectID": "slides/Good coding practices/Good coding practices.slide.html#code-commenting",
-    "href": "slides/Good coding practices/Good coding practices.slide.html#code-commenting",
-    "title": "How to minimize mistakes",
-    "section": "Code commenting",
-    "text": "Code commenting\n\n\n\n\n\nAt the start of each script file: Author, license, purpose of the file.\nLoad add-on packages all at once at the beginning of the file\nRule of thumb: At least 1 comment per 3 lines of code\nLink code comments to paper structure\n\n„Table 3: Descriptives of…“\n„Hypothesis 2: Does metafilin increase […]?“\n\nBonus: Link code comments to IDs of the preregistration\nSeparate chunks of code with comment lines\nIf the file gets too long (e.g., &gt; 500 lines), split into multiple files\nUse English variable names and comments from the beginning (you don‘t want to translate everything before dissemination)"
-  },
-  {
-    "objectID": "slides/Good coding practices/Good coding practices.slide.html#collaboration",
-    "href": "slides/Good coding practices/Good coding practices.slide.html#collaboration",
-    "title": "How to minimize mistakes",
-    "section": "Collaboration",
-    "text": "Collaboration\n\nPair Programming\n\nPair programming is an agile software development technique in which two programmers work together at one workstation. One, the driver, writes code while the other, the observer or navigator, reviews each line of code as it is typed in. The two programmers switch roles frequently. (Wikipedia)\n\nGolden route: Independent implementation"
-  },
-  {
-    "objectID": "slides/Good coding practices/Good coding practices.slide.html#references",
-    "href": "slides/Good coding practices/Good coding practices.slide.html#references",
-    "title": "How to minimize mistakes",
-    "section": "References",
-    "text": "References\n\nBishop, D. V. M. (2018). Fallibility in Science: Responding to Errors in the Work of Oneself and Others. Advances in Methods and Practices in Psychological Science, 1(3), 432–438. http://doi.org/10.1177/2515245918776632\nRouder, J., Haaf, J. M., & Snyder, H. K. (2018, March 25). Minimizing Mistakes In Psychological Science. https://doi.org/10.31234/osf.io/gxcy5\nMartin, R. (2008). Clean Code: A Handbook of Agile Software Craftsmanship (1st ed.). Upper Saddle River, NJ: Prentice Hall.\nKarthik Ram: How To Make Your Data Analysis Notebooks More Reproducible\n\nhttps://github.com/karthik/rstudio2019\nhttps://inundata.org/talks/rstd19/#/"
-  },
-  {
-    "objectID": "slides/Good coding practices/Good coding practices.slide.html#contact",
-    "href": "slides/Good coding practices/Good coding practices.slide.html#contact",
-    "title": "How to minimize mistakes",
+    "objectID": "slides/Empra-Orga/Empra-Orga.html#contact",
+    "href": "slides/Empra-Orga/Empra-Orga.html#contact",
+    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
     "section": "Contact",
-    "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n \n\n\n\n\nForschungsorientierte Praktikum I – Empirisches Praktikum, Ludwig-Maximilians-Universität München"
+    "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0"
+  },
+  {
+    "objectID": "slides/Empra-Orga/Empra-Orga.slide.html#ziele",
+    "href": "slides/Empra-Orga/Empra-Orga.slide.html#ziele",
+    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "section": "Ziele",
+    "text": "Ziele\nWissenschaftliches Arbeiten und Denken in der Psychologie kennenlernen\n\nEine empirische Fragestellung entwickeln\nEine Studie planen und durchführen\nDie Daten auswerten\nEinen wissenschaftlichen Bericht verfassen"
+  },
+  {
+    "objectID": "slides/Empra-Orga/Empra-Orga.slide.html#ziele-1",
+    "href": "slides/Empra-Orga/Empra-Orga.slide.html#ziele-1",
+    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "section": "Ziele",
+    "text": "Ziele\nKerncurriculum “Gute wissenschaftliche Praxis”\n\nStichprobenplanung, in der Regel eine a-priori Poweranalyse\nPräregistrierung der Hypothesen, Operationalisierungen, Stichprobenplanung und der statistischen Analysemethode\nOpen Data (mit Codebuch): Offene Daten werden von immer mehr Zeitschriften verlangt und werden generell zum Standard für vertrauenswürdiges Forschen\nReproduzierbare Analyseskripte"
+  },
+  {
+    "objectID": "slides/Empra-Orga/Empra-Orga.slide.html#ziele-2",
+    "href": "slides/Empra-Orga/Empra-Orga.slide.html#ziele-2",
+    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "section": "Ziele",
+    "text": "Ziele\n(1) Eine empirische Fragestellung entwickeln\n\nDer Weg zu einer interessanten, empirisch prüfbaren Fragestellung\nForschungsthema: Durch das Empra vorgegeben\nLiteraturrecherche: Was gibt es schon? Wo sind die Forschungslücken?\nEntwicklung von prüfbaren Hypothesen"
+  },
+  {
+    "objectID": "slides/Empra-Orga/Empra-Orga.slide.html#ziele-3",
+    "href": "slides/Empra-Orga/Empra-Orga.slide.html#ziele-3",
+    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "section": "Ziele",
+    "text": "Ziele\n(2) Eine Studie planen und durchführen\n\n\nStudiendesign entwickeln:\n\nMethode vorgegeben: Experience Sampling\nOperationalisierung von Konstrukten\nStichprobe planen (Population, Stichprobengröße -&gt; Poweranalyse)\nExperimentelles Design: Wie kann man kausale Effekte messen? Evtl. Kontrolle von Störvariablen\n\nPraktische Versuchsplanung\n\nAkquise Vpn\nMaterial entwickeln\nExperimentalsoftware programmieren\n\nPräregistrierung: Hypothesen, Design, Operationalisierung, Analysen\nDurchführung: Rekrutierung, Erhebung, Betreuung"
+  },
+  {
+    "objectID": "slides/Empra-Orga/Empra-Orga.slide.html#ziele-4",
+    "href": "slides/Empra-Orga/Empra-Orga.slide.html#ziele-4",
+    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "section": "Ziele",
+    "text": "Ziele\n(3) Die Daten auswerten\n\nWir arbeiten mit R\nDatenkodierung und –aufbereitung\n\nAnalysen durch Codebuch und offene Daten nachvollziehbar und reproduzierbar machen\nAnonymität berücksichtigen\n\nStatistische Auswertung\n\nDeskriptivstatistik\nZu den Hypothesen passende Analysen rechnen\nAnalysen durch reproduzierbare Skripte nachvollziehbar machen"
+  },
+  {
+    "objectID": "slides/Empra-Orga/Empra-Orga.slide.html#ziele-5",
+    "href": "slides/Empra-Orga/Empra-Orga.slide.html#ziele-5",
+    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "section": "Ziele",
+    "text": "Ziele\n(4) Einen wissenschaftlichen Bericht verfassen\n\nKommunikation der Forschung in die Fachöffentlichkeit\nDen Prozess nachvollziehbar machen: Rmarkdown/Quarto als reproduzierbare Art, einen Bericht zu schreiben\nAufbau eines wissenschaftlichen Artikels:\n\nEinleitung\nMethode\nErgebnisse\nDiskussion\n\nBericht = Hausarbeit als Prüfungsleistung"
+  },
+  {
+    "objectID": "slides/Empra-Orga/Empra-Orga.slide.html#formalia-des-empras",
+    "href": "slides/Empra-Orga/Empra-Orga.slide.html#formalia-des-empras",
+    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "section": "Formalia des Empras",
+    "text": "Formalia des Empras\n\n\nUnterricht in Kleingruppen (UK) mit 9 ECTS-Punkten\n≙ 3 Vorlesungen mit Klausur bzw. 3 Seminare mit Referat & schriftlicher Ausarbeitung\n≙ 12h Zeitinvestition pro Woche (Präsenz + Vor- und Nachbereitung)\n(in Empra 1: Anwesenheitspflicht laut PStO 2020; max. 2 unentschuldigte Fehlstunden)\n\nSiehe hierzu § 9 Absatz (3) Sätze 4 bis einschließlich 6 Informationen zur „regelmäßigen Teilnahme“ in der Prüfungs- und Studienordnung 2020: “Eine regelmäßige Teilnahme im Sinne der Anlage 2 ist dann nicht mehr gegeben, wenn Studierende aus selbst zu vertretenden Gründen an mehr als zwei der stattfindenden Veranstaltungstermine einer Lehrveranstaltung nicht teilnehmen.”\n\nLektüre der für den jeweiligen Termin angegeben Literatur bzw. gründliche Erledigung der zugeteilten Aufgaben\nAktive Mitarbeit beim Entwickeln der formalen Modelle und der Programmierung\nAnforderungen für Hausarbeit (siehe nächste Folie)"
+  },
+  {
+    "objectID": "slides/Empra-Orga/Empra-Orga.slide.html#hausarbeit",
+    "href": "slides/Empra-Orga/Empra-Orga.slide.html#hausarbeit",
+    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "section": "Hausarbeit",
+    "text": "Hausarbeit\nFormalia\n\n\nSchriftgröße 12pt, Zeilenabstand 1.5x\n15.000 Zeichen +/- 20% (Zählung inkl. Leerzeichen; ohne Deckblatt, Referenzen und Anhänge)\nWenn Sie in papaja/Rmarkdown schreiben, dann ist das exportierte PDF von der Formatierung her gut so wie es ist (Sie brauchen nicht das Deckblatt, Zeilenabstand etc. anpassen).\nDeckblatt: Titel, Datum, Name, Matrikel-Nr., Name der Veranstaltung\nBei papaja/Rmarkdown schreiben Sie Datum, Matrikel-Nr. und Name der Veranstaltung in die Author Notes.\nKein Inhaltsverzeichnis\nMindestens 5 Publikationen zitieren\nZitate & Literaturverzeichnis nach APA-Richtlinien (6. oder 7. Version)\nDie Links zu Präregistrierung, Repositorium mit Open Data, Open Code, etc. kommen an den Anfang des Methodenteils"
+  },
+  {
+    "objectID": "slides/Empra-Orga/Empra-Orga.slide.html#hausarbeit-1",
+    "href": "slides/Empra-Orga/Empra-Orga.slide.html#hausarbeit-1",
+    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "section": "Hausarbeit",
+    "text": "Hausarbeit\nAbgabe\n\nAls PDF-Datei per Email an den Dozenten – Empfang wird bestätigt\nAbgabetermin: Wird noch bekannt gegeben; typischerweise 3 Wochen vor Beginn des nächsten Semesters (also Mitte März im WS bzw. Mitte September im SS)\n2 Versionen einreichen:\n\nVollständige Version (Dateiname: IhrNachname_Empra_Jahr.pdf) – z.B.: „Schmid_Empra_2020.pdf“\nAnonymisierte Version, bei welcher der Name auf dem Deckblatt gelöscht ist (Dateiname: Matrikelnummer_Empra_Jahr.pdf)\n\nDiese Version wird benotet.\nDateiname z.B.:„98234034_Empra_2020.pdf“\nSie können in papaja einfach eine anonyme Version erzeugen, indem Sie im YAML mask: yes angeben"
+  },
+  {
+    "objectID": "slides/Empra-Orga/Empra-Orga.slide.html#bewertungsschema-hausarbeit",
+    "href": "slides/Empra-Orga/Empra-Orga.slide.html#bewertungsschema-hausarbeit",
+    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "section": "Bewertungsschema Hausarbeit",
+    "text": "Bewertungsschema Hausarbeit\n\n\nSiehe https://www.fak11.lmu.de/dep_psychologie/studium/lehrelounge/benotung-schriftl-arbeiten/index.html"
+  },
+  {
+    "objectID": "slides/Empra-Orga/Empra-Orga.slide.html#contact",
+    "href": "slides/Empra-Orga/Empra-Orga.slide.html#contact",
+    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "section": "Contact",
+    "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0\n\n\n\n\n\n\nForschungsorientierte Praktikum I – Empirisches Praktikum, Ludwig-Maximilians-Universität München"
   },
   {
     "objectID": "slides/Open_Data_Primer/Open_Data_Primer.html",
@@ -2184,67 +2037,235 @@
     "text": "Date\nTopic\nSlides (as a single website)\nSlides (presentation mode)\n\n\n\n\n2024-04-27\nCausality\nlink\nlink\n\n\n2024-04-27\nHow to minimize mistakes\nlink\nlink\n\n\n2024-04-27\nResearch Data Management & Open Data\nlink\nlink\n\n\n2024-04-27\nPreregistration\nlink\nlink\n\n\n2024-04-19\nForschungsorientierte Praktikum I – Grundlagen der Forschung\nlink\nlink\n\n\n2024-04-19\nPower Analysis: Introduction\nlink\nlink\n\n\n2024-04-19\nHow (not) to report a power analysis\nlink\nlink"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.html",
+    "href": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.html",
+    "title": "How (not) to report a power analysis",
     "section": "",
-    "text": "Das ist das Kursmaterial für das “Forschungsorientierte Praktikum I – Grundlagen der Forschung” im BSc Psychologie der Ludwig-Maximilians-Universität München. Der Kurs wurde im Sommersemester 2024 von Prof. Dr. Felix Schönbrodt gegeben.\nAlles Material ist - soweit nicht anders gekennzeichnet - unter CC-BY4.0 Lizenz."
+    "text": "Minimum: Anybody can reproduce the computations (without ambiguities and guessing), and get to the same result.\nOptimal: Key choices are justified. Most importantly: the assumed effect size. But also: Why α=5% Why power = 80%?\n\n\n\n\n\n\n\nType of power analysis:\n\nA priori: compute N, given alpha, power, ES\nPost-hoc: compute power, given alpha, N, ES\nCriterion: compute alpha, given power, ES, N\nSensitivity: compute ES, given alpha, power, N\nDesign: Correlations? t-test? Two-group or paired? Linear model?\n\nα = .05? .005?\nPower = 80%?\nOne-sided or two-sided test?\nExpected / Minimally interesting effect size -The metric of the effect size (d? r? \\(f^2\\)?)"
   },
   {
-    "objectID": "sessions/S1-Introduction.html",
-    "href": "sessions/S1-Introduction.html",
-    "title": "Session 01 - Introduction",
+    "objectID": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.html#reproducibility-justification",
+    "href": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.html#reproducibility-justification",
+    "title": "How (not) to report a power analysis",
     "section": "",
-    "text": "Topic\nDuration\nNotes\n\n\n\n\nBegrüßung\n5\nAnkündigung: Zeitslot: 10:00-13:00, aber bis 14:00 freihalten\n\n\nEmpra Formalia\n25\nFolien. Kerncurriculum: Präregistrierung, Open data + Codebook, Poweranalyse, Reproduzierbare Skripte\n\n\nVorstellungsrunde\n15\n\n\n\np-hack your way to scientific glory\n60\nFolien\n\n\nPause\n15\n\n\n\nEinführung Open Science\n60\nFolien\n\n\nHausaufgabe: p-hacking üben\n5"
+    "text": "Minimum: Anybody can reproduce the computations (without ambiguities and guessing), and get to the same result.\nOptimal: Key choices are justified. Most importantly: the assumed effect size. But also: Why α=5% Why power = 80%?\n\n\n\n\n\n\n\nType of power analysis:\n\nA priori: compute N, given alpha, power, ES\nPost-hoc: compute power, given alpha, N, ES\nCriterion: compute alpha, given power, ES, N\nSensitivity: compute ES, given alpha, power, N\nDesign: Correlations? t-test? Two-group or paired? Linear model?\n\nα = .05? .005?\nPower = 80%?\nOne-sided or two-sided test?\nExpected / Minimally interesting effect size -The metric of the effect size (d? r? \\(f^2\\)?)"
   },
   {
-    "objectID": "sessions/S1-Introduction.html#homework-1-individual",
-    "href": "sessions/S1-Introduction.html#homework-1-individual",
-    "title": "Session 01 - Introduction",
-    "section": "3.1 Homework 1 (individual)",
-    "text": "3.1 Homework 1 (individual)\nPractice p-hacking: https://www.shinyapps.org/apps/p-hacker/\nTask: Hack at least 5 studies towards significance with \\(\\alpha = .05\\) (keep the true effect at 0). Whenever you achieved a significant result, click on “Save” in the results table to store your result in the study stack on the right side. Once you achieved 5 significant studies, copy and paste the study stack into a text document. Keep a short log of the steps that were necessary to achieve significance (e.g., “increase sample size 2 times by 10 participants, controlled for SES”).\nNext, try the same for \\(\\alpha = .005\\) (if it takes too long, there’s no need to achieve 5 significant studies).\nDeliverable: Copy both sets of significant studies (one for \\(\\alpha = .05\\), one for \\(\\alpha = .005\\)) and your log into the textfield in the Moodle task."
+    "objectID": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.html#write-up",
+    "href": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.html#write-up",
+    "title": "How (not) to report a power analysis",
+    "section": "Write-Up",
+    "text": "Write-Up\n\n\nhttps://twitter.com/GuyProchilo/status/1292780240977223681"
   },
   {
-    "objectID": "sessions/S1-Introduction.html#homework-2-individual",
-    "href": "sessions/S1-Introduction.html#homework-2-individual",
-    "title": "Session 01 - Introduction",
-    "section": "3.2 Homework 2 (individual)",
-    "text": "3.2 Homework 2 (individual)\n\nCreate an ORCID ID. You can use “LMU” as affiliation.\nCreate an OSF account (use your real name; link your ORCID ID)."
+    "objectID": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.html#lets-check-an-issue-from-a-journal",
+    "href": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.html#lets-check-an-issue-from-a-journal",
+    "title": "How (not) to report a power analysis",
+    "section": "Let’s check an issue from a journal …",
+    "text": "Let’s check an issue from a journal …\n\nHow are power analyses reported in practice?"
   },
   {
-    "objectID": "sessions/S3-Motives_Causality.html",
-    "href": "sessions/S3-Motives_Causality.html",
-    "title": "Session 03 - More Motives & Causality",
+    "objectID": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.html#example-1",
+    "href": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.html#example-1",
+    "title": "How (not) to report a power analysis",
+    "section": "Example 1",
+    "text": "Example 1\n\n\n# 10.1002/ejsp.2710: f2 = 0.07\n# u: Number of predictors in the model (without intercept). Here presumably 3.\n# n = v + u + 1; v = n- u - 1\npwr.f2.test(u = 3, v = 152-3-1, sig.level = 0.05, power = 0.8)\n# -&gt; f2 = 0.07366273"
+  },
+  {
+    "objectID": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.html#example-2",
+    "href": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.html#example-2",
+    "title": "How (not) to report a power analysis",
+    "section": "Example 2",
+    "text": "Example 2"
+  },
+  {
+    "objectID": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.html#example-3",
+    "href": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.html#example-3",
+    "title": "How (not) to report a power analysis",
+    "section": "Example 3",
+    "text": "Example 3"
+  },
+  {
+    "objectID": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.html#example-4",
+    "href": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.html#example-4",
+    "title": "How (not) to report a power analysis",
+    "section": "Example 4",
+    "text": "Example 4\n\n\n# 10.1002/ejsp.2713\n# guessing the ES and alpha\npwr.f2.test(u=3, f2=0.0435, sig.level = 0.05, power = 0.8)\n# n -&gt; 255"
+  },
+  {
+    "objectID": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.html#example-5",
+    "href": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.html#example-5",
+    "title": "How (not) to report a power analysis",
+    "section": "Example 5",
+    "text": "Example 5\n\n\n# 10.1002/ejsp.2715\npwr.f2.test(u=1, f2=0.05, sig.level = 0.05, power = 0.8)\n# n = 158"
+  },
+  {
+    "objectID": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.html#example-6",
+    "href": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.html#example-6",
+    "title": "How (not) to report a power analysis",
+    "section": "Example 6",
+    "text": "Example 6\n\n\nSiehe https://www.fak11.lmu.de/dep_psychologie/studium/lehrelounge/benotung-schriftl-arbeiten/index.html"
+  },
+  {
+    "objectID": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.html#contact",
+    "href": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.html#contact",
+    "title": "How (not) to report a power analysis",
+    "section": "Contact",
+    "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread"
+  },
+  {
+    "objectID": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.slide.html#reproducibility-justification",
+    "href": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.slide.html#reproducibility-justification",
+    "title": "How (not) to report a power analysis",
+    "section": "Reproducibility & Justification",
+    "text": "Reproducibility & Justification\nA well reported power analysis means:\n\n\nMinimum: Anybody can reproduce the computations (without ambiguities and guessing), and get to the same result.\nOptimal: Key choices are justified. Most importantly: the assumed effect size. But also: Why α=5% Why power = 80%?\n\n\nWhat information do you need to compute a power analysis?\n\n\nType of power analysis:\n\nA priori: compute N, given alpha, power, ES\nPost-hoc: compute power, given alpha, N, ES\nCriterion: compute alpha, given power, ES, N\nSensitivity: compute ES, given alpha, power, N\nDesign: Correlations? t-test? Two-group or paired? Linear model?\n\nα = .05? .005?\nPower = 80%?\nOne-sided or two-sided test?\nExpected / Minimally interesting effect size -The metric of the effect size (d? r? \\(f^2\\)?)"
+  },
+  {
+    "objectID": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.slide.html#write-up",
+    "href": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.slide.html#write-up",
+    "title": "How (not) to report a power analysis",
+    "section": "Write-Up",
+    "text": "Write-Up\n\n\nhttps://twitter.com/GuyProchilo/status/1292780240977223681"
+  },
+  {
+    "objectID": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.slide.html#lets-check-an-issue-from-a-journal",
+    "href": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.slide.html#lets-check-an-issue-from-a-journal",
+    "title": "How (not) to report a power analysis",
+    "section": "Let’s check an issue from a journal …",
+    "text": "Let’s check an issue from a journal …\nHow are power analyses reported in practice?"
+  },
+  {
+    "objectID": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.slide.html#example-1",
+    "href": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.slide.html#example-1",
+    "title": "How (not) to report a power analysis",
+    "section": "Example 1",
+    "text": "Example 1\n\n\n# 10.1002/ejsp.2710: f2 = 0.07\n# u: Number of predictors in the model (without intercept). Here presumably 3.\n# n = v + u + 1; v = n- u - 1\npwr.f2.test(u = 3, v = 152-3-1, sig.level = 0.05, power = 0.8)\n# -&gt; f2 = 0.07366273"
+  },
+  {
+    "objectID": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.slide.html#example-2",
+    "href": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.slide.html#example-2",
+    "title": "How (not) to report a power analysis",
+    "section": "Example 2",
+    "text": "Example 2"
+  },
+  {
+    "objectID": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.slide.html#example-3",
+    "href": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.slide.html#example-3",
+    "title": "How (not) to report a power analysis",
+    "section": "Example 3",
+    "text": "Example 3"
+  },
+  {
+    "objectID": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.slide.html#example-4",
+    "href": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.slide.html#example-4",
+    "title": "How (not) to report a power analysis",
+    "section": "Example 4",
+    "text": "Example 4\n\n\n# 10.1002/ejsp.2713\n# guessing the ES and alpha\npwr.f2.test(u=3, f2=0.0435, sig.level = 0.05, power = 0.8)\n# n -&gt; 255"
+  },
+  {
+    "objectID": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.slide.html#example-5",
+    "href": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.slide.html#example-5",
+    "title": "How (not) to report a power analysis",
+    "section": "Example 5",
+    "text": "Example 5\n\n\n# 10.1002/ejsp.2715\npwr.f2.test(u=1, f2=0.05, sig.level = 0.05, power = 0.8)\n# n = 158"
+  },
+  {
+    "objectID": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.slide.html#example-6",
+    "href": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.slide.html#example-6",
+    "title": "How (not) to report a power analysis",
+    "section": "Example 6",
+    "text": "Example 6\n\n\nSiehe https://www.fak11.lmu.de/dep_psychologie/studium/lehrelounge/benotung-schriftl-arbeiten/index.html"
+  },
+  {
+    "objectID": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.slide.html#contact",
+    "href": "slides/Power-Analysis Reporting/How-to-report-a-power-analysis.slide.html#contact",
+    "title": "How (not) to report a power analysis",
+    "section": "Contact",
+    "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n \n\n\n\n\nForschungsorientierte Praktikum I – Empirisches Praktikum, Ludwig-Maximilians-Universität München"
+  },
+  {
+    "objectID": "common/lastslide.html",
+    "href": "common/lastslide.html",
+    "title": "End",
     "section": "",
-    "text": "Topic\nDuration\nNotes\n\n\n\n\nWrap-up Homework 1\n10\np-hacking\n\n\nMotives\n80\nSlides\n\n\nCausality\n60\nSlides\n\n\nHomework: Read Ch. 1 of Experimentology\n5"
+    "text": "@nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread"
   },
   {
-    "objectID": "sessions/S3-Motives_Causality.html#homework-2-in-groups",
-    "href": "sessions/S3-Motives_Causality.html#homework-2-in-groups",
-    "title": "Session 03 - More Motives & Causality",
-    "section": "Homework 2 (in groups)",
-    "text": "Homework 2 (in groups)\nRevise interventions to target specifically intimacy motivation (not “affiliation”, not “experienced closeness”, not “behavior”). Try not to do a “fat hand” manipulation, aim for surgical precision!"
-  },
-  {
-    "objectID": "sessions/sessions_overview.html",
-    "href": "sessions/sessions_overview.html",
-    "title": "Overview of sessions",
+    "objectID": "common/lastslide.html#contact",
+    "href": "common/lastslide.html#contact",
+    "title": "End",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\nSession 01 - Introduction\n\n\nOpen Science\n\n\n\n\nSession 02 - Intimacy motive\n\n\nIntroducing motives, the intimacy motive, and the DynaMoS model (by Nensy Le)\n\n\n\n\nSession 03 - More Motives & Causality\n\n\nMore about motives and motivations; Basics about causality\n\n\n\n\nSession 04 - Planning the experimental design\n\n\nWe plan the experimental design of our study and decide upon interventions\n\n\n\n\nSession 05 - Literature Search & Poweranalysis\n\n\nWe plan the experimental design of our study and decide upon interventions\n\n\n\n\nSession 06 - Preregistration 1\n\n\nWe learn how to preregister a study\n\n\n\n\nSession 07 - Finalize Interventions\n\n\nWe decide upon the final design and interventions\n\n\n\n\nSession 08 + 09 - Finalize Study\n\n\nWe try to get the study ready to run, so that it can be tested.\n\n\n\n\nSession 10 - Open Data\n\n\nWe talk about how to publish open data and how to create a codebook.\n\n\n\n\n\nNo matching items"
+    "text": "@nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread"
   },
   {
-    "objectID": "sessions/S10-Open_Data.html",
-    "href": "sessions/S10-Open_Data.html",
-    "title": "Session 10 - Open Data",
+    "objectID": "sessions/S7-Finalize_interventions.html",
+    "href": "sessions/S7-Finalize_interventions.html",
+    "title": "Session 07 - Finalize Interventions",
     "section": "",
-    "text": "Topic\nDuration\nNotes\n\n\n\n\nIntroduction Open Data\n30\nSlides\n\n\nWrap up homework 1: Recommendations RDM / How to codebook\n60\nSlides\n\n\nDiscuss app feedback\n30\n\n\n\nGroup exercise: Plan participant acquisition\n45\n\n\n\nHomework: Create Codebook for pre-questionnaire\n5\n\n\n\n\n\n\nCreate the codebook for the pre-questionnaire (either in German or in English). The data file will be provided in Moodle, please document all variables. The necessary information (e.g., on the exact wording of the items) can be found in the file variant_AA.json. Please create a human-readable version (e.g., xlsx) as well as a machine-readable version (csv or json).\nIf you want to create a JSON file, you can also use DataWiz2 for this (see the instructions in the video “- PTOS 9: Introduction to Research Data Management with D-Psy_FAIR”, starting at minute 29:27). In DataWiz2, you only need the sections “2. Upload and describe datasets” and then “5. Export”. When exporting, please select “Export as JSON” and in “Include datasets” select all datasets.\nUpload all versions of the codebooks to Moodle."
+    "text": "Topic\nDuration\nNotes\n\n\n\n\nIntroduce the measurement instruments\n45\n\n\n\nWatch and discuss the audio/videos interventions\n45\n\n\n\nMake a final selection (or at least shortlist) of interventions\n20\n\n\n\nShow/discuss the final experimental design and procedure\n30\nSee Google sheet.\n\n\nTellmi: Show the app\n20\n\n\n\nTellmi: Show the recruitment website\n20\n\n\n\nHomework: Prepare study material\n5\n\n\n\n\n\n\n\nGroup 1 (sollte die größte sein, Aufgaben aufteilen)\n\nWebseite überarbeiten (direkt im html - wer kann das?)\n\nGroup 2\n\nFlyer/Aushänge, Werbetexte für Social Media\n\nGroup 3\n\nWerbekanäle überlegen: Social Media, Whatsapp-Gruppen, andere Empras, Freundeskreis/Familie, nicht nur Studenten, wo bekommt man Männer her?\n\nGroup 4: Vergütung? Rückmeldung Persönlichkeitsprofil (was ist die interessanteste Variable, die wir messen)? –&gt; Ideen sammeln."
   },
   {
-    "objectID": "sessions/S10-Open_Data.html#homework-1-individually-create-a-codebook-for-the-pre-questionnaire",
-    "href": "sessions/S10-Open_Data.html#homework-1-individually-create-a-codebook-for-the-pre-questionnaire",
-    "title": "Session 10 - Open Data",
+    "objectID": "sessions/S7-Finalize_interventions.html#homework",
+    "href": "sessions/S7-Finalize_interventions.html#homework",
+    "title": "Session 07 - Finalize Interventions",
     "section": "",
-    "text": "Create the codebook for the pre-questionnaire (either in German or in English). The data file will be provided in Moodle, please document all variables. The necessary information (e.g., on the exact wording of the items) can be found in the file variant_AA.json. Please create a human-readable version (e.g., xlsx) as well as a machine-readable version (csv or json).\nIf you want to create a JSON file, you can also use DataWiz2 for this (see the instructions in the video “- PTOS 9: Introduction to Research Data Management with D-Psy_FAIR”, starting at minute 29:27). In DataWiz2, you only need the sections “2. Upload and describe datasets” and then “5. Export”. When exporting, please select “Export as JSON” and in “Include datasets” select all datasets.\nUpload all versions of the codebooks to Moodle."
+    "text": "Group 1 (sollte die größte sein, Aufgaben aufteilen)\n\nWebseite überarbeiten (direkt im html - wer kann das?)\n\nGroup 2\n\nFlyer/Aushänge, Werbetexte für Social Media\n\nGroup 3\n\nWerbekanäle überlegen: Social Media, Whatsapp-Gruppen, andere Empras, Freundeskreis/Familie, nicht nur Studenten, wo bekommt man Männer her?\n\nGroup 4: Vergütung? Rückmeldung Persönlichkeitsprofil (was ist die interessanteste Variable, die wir messen)? –&gt; Ideen sammeln."
+  },
+  {
+    "objectID": "sessions/S6-Prereg1.html",
+    "href": "sessions/S6-Prereg1.html",
+    "title": "Session 06 - Preregistration 1",
+    "section": "",
+    "text": "Topic\nDuration\nNotes\n\n\n\n\nWrap up homework 1: Literature search\n30\n\n\n\nDo a power analysis in practice\n50\n\n\n\nHow (not) to report a power analysis\n15\nSlides\n\n\nWrap up homework 2: Read Prereg\n25\n\n\n\nGame: Prereg advocatus Diaboli\n20\nSlides\n\n\nHomework: Start filling in the Prereg\n5\n\n\n\n\n\n\nConvert a between-person effect size into a within-person effect size:\nSee Eq. 9 from Lakens (2013): \nM_diff = 6.02 - 5.69\nSD1 = 1.34\nSD2 = 1.23\nr = 0.5\nd_rm = M_diff / sqrt(SD1^2 + SD2^2 - 2*r*SD1*SD2) * sqrt(2*(1-r))"
+  },
+  {
+    "objectID": "sessions/S6-Prereg1.html#do-a-power-analysis-in-practice",
+    "href": "sessions/S6-Prereg1.html#do-a-power-analysis-in-practice",
+    "title": "Session 06 - Preregistration 1",
+    "section": "",
+    "text": "Convert a between-person effect size into a within-person effect size:\nSee Eq. 9 from Lakens (2013): \nM_diff = 6.02 - 5.69\nSD1 = 1.34\nSD2 = 1.23\nr = 0.5\nd_rm = M_diff / sqrt(SD1^2 + SD2^2 - 2*r*SD1*SD2) * sqrt(2*(1-r))"
+  },
+  {
+    "objectID": "sessions/S4-DesignPlanning.html",
+    "href": "sessions/S4-DesignPlanning.html",
+    "title": "Session 04 - Planning the experimental design",
+    "section": "",
+    "text": "Topic\nDuration\nNotes\n\n\n\n\nWrap-up Homework 1\n30\nCh. Experimentology\n\n\nPlanning the design\n120\nwith 25 min group task\n\n\nWrap-up Homework 2\n45\nIntervention\n\n\nHomework: Read Zygar et al (2022)\n5\n\n\n\n\n\n\nSee Google sheet for an updated version.\n\nShow the different questions and decisions that need to be taken (50 min)\nFour groups work on a subset of questions (25 min)\nThe group present their results to the plenum (30 min)\n\n\n\n\nThree experimental conditions: increase motivation, decrease motivation, neutral control\n\nOne generic control condition, or tailored control conditions for each intervention?\n\nHow many days does the study go? (e.g., 7-8 days)\nHow to spread conditions across days?\n\nRepeat exactly the same intervention?\nRepeat the same condition, but different interventions? (i.e., participants are always pushed up or pushed down and have a control group)\nUse the same type of intervention with different conditions (keep videos as category, but do one increase, one decrease, one neutral)\n\nHow to balance/randomize the conditions across the EMI days? Start with a baseline measurement?\n\nAlways flip pos/neg/neutral? Or can we have 2 pos days in sequence?\nPCNCPCN (7 days)\n\nHow many conditions can be tested? We expect ~100 participants (who completed the study to the end).\n\n100 participants x 2xpos, 2xneg\n50 participants x 4xpos, 4xneg –&gt; less statistical power, more qualitative data\n\n\n\n\n\n\nWhen do we measure the DV?\n\nDirectly after intervention? Demand effects?\nWait some minutes? At least close to the intervention\nIn Zygar et al 2022, no effect was present any more in the evening report.\n\nEither the intervention is only short lived, or participants lived out and saturated their motivation in the afternoon, so that no extra motivation is left in the evening.\nAt least we don’t have to worry about carry-over effects to the next day.\n\n\nWhen to ask the qualitative questions about the interventions?\nHow to deal with the weekend? (Participants spend more time with partner, are more happy, and probably more motivated)\n\nCounter-balance conditions across weekend days\nAll participants start on same day, say, Monday?\nIf the conditions systematically flip (P-C-N-C-P-C-N), then automaticall two different conditions are realized at the weekend.\n\n\n\n\n\n\nWhat to put into the preliminary questionnaire?\nWhat are inclusion criteria for the sample?\n\nInterventions are done individually (not dyadic)\nMust be in stable relationship (how long? Only hetero or everything?)\n\nControl variables?\n\ndaily level / state: Daily fluctuations of …?\nperson level / trait: Personality etc.\n\n\n\n\n\n\nIn this study we did a comparable EMI design:\n\nZygar-Hoffmann, C., Cristoforo, L., Wolf, L., & Schönbrodt, F. D. (2022). Eliciting short-term closeness in couple relationships with Ecological Momentary Interventions. Collabra: Psychology, 8(1), 38599. https://doi.org/10.1525/collabra.38599\n\nYou can answer the following questions in English or in German. Please write the answers directly into the answer field in Moodle. (You can of course write the answers beforehand in Word or something, and then copy the answers in here). You do not need to read any of the cited references additionally, just refer to the paper.\n\nQ1: What are Ecological Momentary Interventions (EMIs)?\nQ2: Give a one-sentence description of each of the four closeness interventions.\nQ3: What were the main findings regarding the effectiveness of the closeness interventions compared to neutral control conditions?\nQ4: How long did the intervention last? Did they find effects that lasted until the evening?\nQ5a: How did they measure “State Relationship Closeness”?\nQ5b: Would this be a suitable measure for the dependent variable in our own study (i.e., intimacy motivation)?"
+  },
+  {
+    "objectID": "sessions/S4-DesignPlanning.html#design-considerations",
+    "href": "sessions/S4-DesignPlanning.html#design-considerations",
+    "title": "Session 04 - Planning the experimental design",
+    "section": "",
+    "text": "See Google sheet for an updated version.\n\nShow the different questions and decisions that need to be taken (50 min)\nFour groups work on a subset of questions (25 min)\nThe group present their results to the plenum (30 min)\n\n\n\n\nThree experimental conditions: increase motivation, decrease motivation, neutral control\n\nOne generic control condition, or tailored control conditions for each intervention?\n\nHow many days does the study go? (e.g., 7-8 days)\nHow to spread conditions across days?\n\nRepeat exactly the same intervention?\nRepeat the same condition, but different interventions? (i.e., participants are always pushed up or pushed down and have a control group)\nUse the same type of intervention with different conditions (keep videos as category, but do one increase, one decrease, one neutral)\n\nHow to balance/randomize the conditions across the EMI days? Start with a baseline measurement?\n\nAlways flip pos/neg/neutral? Or can we have 2 pos days in sequence?\nPCNCPCN (7 days)\n\nHow many conditions can be tested? We expect ~100 participants (who completed the study to the end).\n\n100 participants x 2xpos, 2xneg\n50 participants x 4xpos, 4xneg –&gt; less statistical power, more qualitative data\n\n\n\n\n\n\nWhen do we measure the DV?\n\nDirectly after intervention? Demand effects?\nWait some minutes? At least close to the intervention\nIn Zygar et al 2022, no effect was present any more in the evening report.\n\nEither the intervention is only short lived, or participants lived out and saturated their motivation in the afternoon, so that no extra motivation is left in the evening.\nAt least we don’t have to worry about carry-over effects to the next day.\n\n\nWhen to ask the qualitative questions about the interventions?\nHow to deal with the weekend? (Participants spend more time with partner, are more happy, and probably more motivated)\n\nCounter-balance conditions across weekend days\nAll participants start on same day, say, Monday?\nIf the conditions systematically flip (P-C-N-C-P-C-N), then automaticall two different conditions are realized at the weekend.\n\n\n\n\n\n\nWhat to put into the preliminary questionnaire?\nWhat are inclusion criteria for the sample?\n\nInterventions are done individually (not dyadic)\nMust be in stable relationship (how long? Only hetero or everything?)\n\nControl variables?\n\ndaily level / state: Daily fluctuations of …?\nperson level / trait: Personality etc."
+  },
+  {
+    "objectID": "sessions/S4-DesignPlanning.html#homework-1-read-zygar-et-al.-2022",
+    "href": "sessions/S4-DesignPlanning.html#homework-1-read-zygar-et-al.-2022",
+    "title": "Session 04 - Planning the experimental design",
+    "section": "",
+    "text": "In this study we did a comparable EMI design:\n\nZygar-Hoffmann, C., Cristoforo, L., Wolf, L., & Schönbrodt, F. D. (2022). Eliciting short-term closeness in couple relationships with Ecological Momentary Interventions. Collabra: Psychology, 8(1), 38599. https://doi.org/10.1525/collabra.38599\n\nYou can answer the following questions in English or in German. Please write the answers directly into the answer field in Moodle. (You can of course write the answers beforehand in Word or something, and then copy the answers in here). You do not need to read any of the cited references additionally, just refer to the paper.\n\nQ1: What are Ecological Momentary Interventions (EMIs)?\nQ2: Give a one-sentence description of each of the four closeness interventions.\nQ3: What were the main findings regarding the effectiveness of the closeness interventions compared to neutral control conditions?\nQ4: How long did the intervention last? Did they find effects that lasted until the evening?\nQ5a: How did they measure “State Relationship Closeness”?\nQ5b: Would this be a suitable measure for the dependent variable in our own study (i.e., intimacy motivation)?"
+  },
+  {
+    "objectID": "sessions/S8_9-Finalize_study.html",
+    "href": "sessions/S8_9-Finalize_study.html",
+    "title": "Session 08 + 09 - Finalize Study",
+    "section": "",
+    "text": "Topic\nDuration\nNotes\n\n\n\n\nWork on finalizing the study\n180\n\n\n\nHomework: Test the study on your smartphone\n5\n\n\n\n\n\n\n\n\nWir haben 6-7 Kategorien von Interventionen. Jede Person macht 3 Kategorien (3 Kategorien * 3 Ausprägungen = 9 Interventionen = 9 Tage). Alles auf deutsch.\n\nEigene Fotos (Elisa, Anne, Leonie)\n\nInstruktion fehlt noch (3 Varianten)\nNegativ-Variante fehlt noch\n\nAudioimagination (Antonia, Maria, Elina, Elena, Theresa, Ann-Sophie, Paula)\n\nAudio fehlt noch (3 Varianten)\nInstruktion fehlt noch\nParallisierung: ähnlicher Stil, Instruktion, Länge, Aufbau\n\nPodcasts (Clara, Laura)\n\nAudio fehlt noch (3 Varianten)\nevtl. neue Neutralbedingung\nInstruktion fehlt noch\nNach Möglichkeit fragen, das in einem Forschungsprojekt zu benutzen\n\nGemeinsamen Events (Oceane, Samuel, Estelle)\n\nInstruktion fehlt noch (3 Varianten)\nEvents fehlen noch\n\nFilmausschnitte (Emma, Madeleine, Lily)\n\nVideo Kontrollgruppe fehlt noch: Natur\nAlle drei Gruppen sollten möglichst gleich in Valenz und Arousal sein. (Ist bei den Filmausschnitten nicht der Fall. –&gt; idealerweise selber Film, selbe Valenz, aber unterschiedliche motivationale Ausrichtung). Bei Up wird das nicht klappen.\nInstruktion von Nensy\nScreencapture: Google Chrome + Einstellungen ändern. Alles auf deutsch. Ohne Untertitel.\n\n\nIn Kombi:\n\nSuchsel (Mashek Replikation: Xinyi, Evelyn)\n\nmotivationsanhebende Wörter fehlen noch (neutral und negativ wird von Mashek übernommen)\n3 Gitter erstellen (12x12 Buchstaben), wo die Wörter horizontal und vertikal versteckt sind (Onlinetools)\n“csomfjfreundvf/fobkolnqltdujw/wzobeziehungur/miqwvnydzjudfm/uahtflpartnerr/nlikcvkrbpfueh/ryapyejwollqil/kunterstützung/lhcnwpcmfsrxha/tzzusammenhmbp/eexhenicrikuse/aqyfcwhemqwkrq/mcgesellschaft/tdfjklrcdmnjqs”\nInstruktion fehlt noch\n\nWortketten (gleiche Wörter wie Mashek) –&gt; Als Backup\n\nKontrollgruppe: Natur?\nGenerell darauf achten: - [ ] Gogle drive umstrukturieren: Ein Unterordner für jede Intervention; Dateinamen einheitlich: - “INTERVENTIONSNAME_Instruktion.pdf” - “INTERVENTIONSNAME_Material.pdf” –&gt; sinnvollen Namen finden - [ ] Man kann die Intervention auch später machen\n\n\n\n\n\n\nWie Bildschirmaufnahmen machen für die Videoausschnitte?\n\n\n\nDas sind die Schritte, die auf dem Windows Laptop funktioniert haben. Hier eine Anleitung zum Deaktivieren der Hardwarebeschleunigung:\n\nSchritt 1. Suchen Sie das Dreipunktsymbol oben rechts auf Ihrem Google Chrome-Bildschirm. Klicken Sie mit der rechten Maustaste darauf und wählen Sie Einstellungen.\nSchritt 2. Gehen Sie anschließend zum Systemabschnitt.\nSchritt 3: Deaktivieren Sie die Option „ Hardwarebeschleunigung verwenden, wenn verfügbar“ auf der rechten Seite.\nSchritt 4. Klicken Sie nun auf „Neu starten“, um Ihren Chrome-Browser neu zu starten.\nSchritt 5. Öffnen Sie nun Ihr Netflix und machen Sie einen Screenshot. Wenn der schwarze Bildschirm nicht angezeigt wird, ist Ihre Arbeit erledigt.\n\n\n\n\n\n\n9 Interventionstage: Pro sample drei Konditionen in 3 Ausprägungen = 9 Interventionen + prä/post Befragung\n\nWelche 3 Kategorien bekommt jede Person? Randomisiert oder feste Bundles?\nWie werden die 9 Interventionen auf die 9 Tage verteilt? Randomisiert oder feste Reihenfolge?\nQualitative Fragen.\n\n\n\n\nHow to JSON\n\nDu / Sie anpassen: Parallele Elemente beachten!\nECR in PreQ (ansonsten ist alles da)\nMorgenbefragung\nInterventionsanzeige + Prä/Post Befragung\nAbendbefragung\nPostQ: Qualitative Fragen, globale RS, trait Motive\n\n\n\n\n\nGruppe 1: Webseite überarbeiten\n\nPeer Review\n\nGruppe 2: Flyer/Aushänge, Werbetexte für Social Media\nGruppe 3: Werbekanäle überlegen\nGruppe 4: Vergütung\n\nGeplanter Studienstart: 17.06.2024\n\n\n\n\n\nTest the study yourself (when the app is ready; we send an email)\nTurn your instructions and follow-up questions into JSON snippets (see examples here) and upload your snippets in Moodle –&gt; Until Tuesday evening\nBitte lesen Sie die DGPs-Empfehlungen “Management und Bereitstellung von Forschungsdaten in der Psychologie” (Gollwitzer et al., 2020) und beantworten Sie die folgenden Leitfragen kurz und präzise in Moodle.\n\n\nEin Autor veröffentlicht vollständig Mittelwerte und SDs aller Variablen in einer Tabelle im Ergebnisteil. Sind damit die Primärdaten publiziert und der Dokumentationspflicht entsprochen worden? Wenn nein, warum nicht?\nNennen Sie drei Beispiele für Metadaten eines Datensatzes.\nWas sind “personenbezogene Daten”? Ist das Geschlecht und Alter einer Person ein personenbezogenes Datum?\nWelche dieser Orte sind geeignet als Repositorium für die langfristige Archivierung und Bereitstellung von Daten? Wenn “Nein”, warum nicht?. (a) Die persönliche Webseite der Forscherin an ihrer Universität; (b) das “Online Supplemental Material (OSM)” einer wissenschaftlichen Zeitschrift des Elsevier Verlags; (c) in einem öffentlichen Projekt des Open Science Frameworks (https://osf.io); (d) bei Figshare (https://figshare.com); (e) bei Zenodo (https://zenodo.org)\nBeschreiben Sie in jeweils einem Satz die “Datenbereitstellung Typ 1” und die “Datenbereitstellung Typ 2”.\nWas bedeutet ein “Nutzungsembargo”? Wie lange sollte es maximal sein?\nWelche Zugriffsklassen gelten als “open data”?"
+  },
+  {
+    "objectID": "sessions/S8_9-Finalize_study.html#finalize-study",
+    "href": "sessions/S8_9-Finalize_study.html#finalize-study",
+    "title": "Session 08 + 09 - Finalize Study",
+    "section": "",
+    "text": "Wir haben 6-7 Kategorien von Interventionen. Jede Person macht 3 Kategorien (3 Kategorien * 3 Ausprägungen = 9 Interventionen = 9 Tage). Alles auf deutsch.\n\nEigene Fotos (Elisa, Anne, Leonie)\n\nInstruktion fehlt noch (3 Varianten)\nNegativ-Variante fehlt noch\n\nAudioimagination (Antonia, Maria, Elina, Elena, Theresa, Ann-Sophie, Paula)\n\nAudio fehlt noch (3 Varianten)\nInstruktion fehlt noch\nParallisierung: ähnlicher Stil, Instruktion, Länge, Aufbau\n\nPodcasts (Clara, Laura)\n\nAudio fehlt noch (3 Varianten)\nevtl. neue Neutralbedingung\nInstruktion fehlt noch\nNach Möglichkeit fragen, das in einem Forschungsprojekt zu benutzen\n\nGemeinsamen Events (Oceane, Samuel, Estelle)\n\nInstruktion fehlt noch (3 Varianten)\nEvents fehlen noch\n\nFilmausschnitte (Emma, Madeleine, Lily)\n\nVideo Kontrollgruppe fehlt noch: Natur\nAlle drei Gruppen sollten möglichst gleich in Valenz und Arousal sein. (Ist bei den Filmausschnitten nicht der Fall. –&gt; idealerweise selber Film, selbe Valenz, aber unterschiedliche motivationale Ausrichtung). Bei Up wird das nicht klappen.\nInstruktion von Nensy\nScreencapture: Google Chrome + Einstellungen ändern. Alles auf deutsch. Ohne Untertitel.\n\n\nIn Kombi:\n\nSuchsel (Mashek Replikation: Xinyi, Evelyn)\n\nmotivationsanhebende Wörter fehlen noch (neutral und negativ wird von Mashek übernommen)\n3 Gitter erstellen (12x12 Buchstaben), wo die Wörter horizontal und vertikal versteckt sind (Onlinetools)\n“csomfjfreundvf/fobkolnqltdujw/wzobeziehungur/miqwvnydzjudfm/uahtflpartnerr/nlikcvkrbpfueh/ryapyejwollqil/kunterstützung/lhcnwpcmfsrxha/tzzusammenhmbp/eexhenicrikuse/aqyfcwhemqwkrq/mcgesellschaft/tdfjklrcdmnjqs”\nInstruktion fehlt noch\n\nWortketten (gleiche Wörter wie Mashek) –&gt; Als Backup\n\nKontrollgruppe: Natur?\nGenerell darauf achten: - [ ] Gogle drive umstrukturieren: Ein Unterordner für jede Intervention; Dateinamen einheitlich: - “INTERVENTIONSNAME_Instruktion.pdf” - “INTERVENTIONSNAME_Material.pdf” –&gt; sinnvollen Namen finden - [ ] Man kann die Intervention auch später machen\n\n\n\n\n\n\nWie Bildschirmaufnahmen machen für die Videoausschnitte?\n\n\n\nDas sind die Schritte, die auf dem Windows Laptop funktioniert haben. Hier eine Anleitung zum Deaktivieren der Hardwarebeschleunigung:\n\nSchritt 1. Suchen Sie das Dreipunktsymbol oben rechts auf Ihrem Google Chrome-Bildschirm. Klicken Sie mit der rechten Maustaste darauf und wählen Sie Einstellungen.\nSchritt 2. Gehen Sie anschließend zum Systemabschnitt.\nSchritt 3: Deaktivieren Sie die Option „ Hardwarebeschleunigung verwenden, wenn verfügbar“ auf der rechten Seite.\nSchritt 4. Klicken Sie nun auf „Neu starten“, um Ihren Chrome-Browser neu zu starten.\nSchritt 5. Öffnen Sie nun Ihr Netflix und machen Sie einen Screenshot. Wenn der schwarze Bildschirm nicht angezeigt wird, ist Ihre Arbeit erledigt.\n\n\n\n\n\n\n9 Interventionstage: Pro sample drei Konditionen in 3 Ausprägungen = 9 Interventionen + prä/post Befragung\n\nWelche 3 Kategorien bekommt jede Person? Randomisiert oder feste Bundles?\nWie werden die 9 Interventionen auf die 9 Tage verteilt? Randomisiert oder feste Reihenfolge?\nQualitative Fragen.\n\n\n\n\nHow to JSON\n\nDu / Sie anpassen: Parallele Elemente beachten!\nECR in PreQ (ansonsten ist alles da)\nMorgenbefragung\nInterventionsanzeige + Prä/Post Befragung\nAbendbefragung\nPostQ: Qualitative Fragen, globale RS, trait Motive\n\n\n\n\n\nGruppe 1: Webseite überarbeiten\n\nPeer Review\n\nGruppe 2: Flyer/Aushänge, Werbetexte für Social Media\nGruppe 3: Werbekanäle überlegen\nGruppe 4: Vergütung\n\nGeplanter Studienstart: 17.06.2024"
+  },
+  {
+    "objectID": "sessions/S8_9-Finalize_study.html#homework-individually",
+    "href": "sessions/S8_9-Finalize_study.html#homework-individually",
+    "title": "Session 08 + 09 - Finalize Study",
+    "section": "",
+    "text": "Test the study yourself (when the app is ready; we send an email)\nTurn your instructions and follow-up questions into JSON snippets (see examples here) and upload your snippets in Moodle –&gt; Until Tuesday evening\nBitte lesen Sie die DGPs-Empfehlungen “Management und Bereitstellung von Forschungsdaten in der Psychologie” (Gollwitzer et al., 2020) und beantworten Sie die folgenden Leitfragen kurz und präzise in Moodle.\n\n\nEin Autor veröffentlicht vollständig Mittelwerte und SDs aller Variablen in einer Tabelle im Ergebnisteil. Sind damit die Primärdaten publiziert und der Dokumentationspflicht entsprochen worden? Wenn nein, warum nicht?\nNennen Sie drei Beispiele für Metadaten eines Datensatzes.\nWas sind “personenbezogene Daten”? Ist das Geschlecht und Alter einer Person ein personenbezogenes Datum?\nWelche dieser Orte sind geeignet als Repositorium für die langfristige Archivierung und Bereitstellung von Daten? Wenn “Nein”, warum nicht?. (a) Die persönliche Webseite der Forscherin an ihrer Universität; (b) das “Online Supplemental Material (OSM)” einer wissenschaftlichen Zeitschrift des Elsevier Verlags; (c) in einem öffentlichen Projekt des Open Science Frameworks (https://osf.io); (d) bei Figshare (https://figshare.com); (e) bei Zenodo (https://zenodo.org)\nBeschreiben Sie in jeweils einem Satz die “Datenbereitstellung Typ 1” und die “Datenbereitstellung Typ 2”.\nWas bedeutet ein “Nutzungsembargo”? Wie lange sollte es maximal sein?\nWelche Zugriffsklassen gelten als “open data”?"
   },
   {
     "objectID": "sessions/S5-LitSearch_Power.html",
