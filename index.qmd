@@ -18,11 +18,11 @@ subtitle: "BSc Psychologie, LMU"
 | 7   | 2024-05-31 | **Brückentag - online / Nensy**: [S7 - Finalize design](sessions/S7-Finalize_interventions.qmd) |                                                      | Studie testen                                                       |
 | 8   | 2024-06-07 | [S8 Letzter Feinschliff Studie](sessions/S8_9-Finalize_study.qmd)                               |                                                      | Open data lesen; Studienstart ganz fertig machen                    |
 | 9   | 2024-06-14 | Letzter Feinschliff Studie - continued                                                          | Studienstart!                                        | Codebuch erstellen                                                  |
-| 10  | 2024-06-21 | [S10 Open Data](sessions/S10-Open_Data.qmd)                                                                      |                                                      | VP-Akquise; Quarto / Rmarkdown self-paced tutorial                  |
-| 11  | 2024-06-28 | good coding practices; Quarto 1                                                                 |                                                      |                                                                     |
+| 10  | 2024-06-21 | [S10 Open Data](sessions/S10-Open_Data.qmd)                                                     |                                                      | VP-Akquise; Quarto / Rmarkdown self-paced tutorial                  |
+| 11  | 2024-06-28 | [S11 Good coding practices; Quarto 1](sessions/S11-Good_coding_practices.qmd)                   |                                                      |                                                                     |
 | 12  | 2024-07-05 | Reproducible Manuscripts                                                                        | Studienende                                          |                                                                     |
-| 13  | 2024-07-12 | Datenanalyse                                                                                  |                                                      |                                                                     |
-| 14  | 2024-07-19 | Präregistrierung fertig machen - How-to Hausarbeit                                                                               |                                                      |                                                                     |
+| 13  | 2024-07-12 | Datenanalyse                                                                                    |                                                      |                                                                     |
+| 14  | 2024-07-19 | Präregistrierung fertig machen - How-to Hausarbeit                                              |                                                      |                                                                     |
 
 <!-- 
 

@@ -1,35 +1,30 @@
 ---
 title: Session 10 - Open Data
 number-sections: false
-description: We talk about how to publish open data and to secure anonymity.
+description: We talk about how to publish open data and how to create a codebook.
 ---
 
 # Overview
 
-| Topic                                        | Duration | Notes |
-| :------------------------------------------- | :------: | ----- |
-| Wrap up homework 1: Recommendations RDM      |    30    |       |
-| Introduction Open Data                       |    55    |       |
-| Group exercise: Plan participant acquisition |    45    |       |
-| Homework: Create Codebook for Prereg         |    5     |       |
+| Topic                                                     | Duration | Notes                                                            |
+| :-------------------------------------------------------- | :------: | ---------------------------------------------------------------- |
+| Introduction Open Data                                    |    30    | [Slides](../slides/Open_Data_Primer/Open_Data_Primer.qmd)        |
+| Wrap up homework 1: Recommendations RDM / How to codebook |    60    | [Slides](../slides/pdfs/Schoenbrodt_2024_Open_Data_Codebook.pdf) |
+| Discuss app feedback                                      |    30    |                                                                  |
+| Group exercise: Plan participant acquisition              |    45    |                                                                  |
+| Homework: Create Codebook for pre-questionnaire           |    5     |                                                                  |
 
 : {.striped}
 
 
-## Do a power analysis in practice
+## Homework 1 (individually): Create a codebook for the pre-questionnaire
 
-Convert a between-person effect size into a within-person effect size:
+Create the codebook for the pre-questionnaire (either in German or in English). The data file will be provided in Moodle, please document all variables. The necessary information (e.g., on the exact wording of the items) can be found in the file `variant_AA.json`. Please create a human-readable version (e.g., `xlsx`) as well as a machine-readable version (`csv` or `json`).
 
-See Eq. 9 from [Lakens (2013)](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2013.00863/full):
-![](img/d_rm_formula.png)
+If you want to create a JSON file, you can also use [DataWiz2](https://datawiz2.dev.zpid.de) for this (see the instructions in the video "- [PTOS 9: Introduction to Research Data Management with D-Psy_FAIR](https://zpid.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=a8a6b29f-959e-44b2-b829-af5500be5bc7)", starting at minute 29:27).
+In DataWiz2, you only need the sections "2. Upload and describe datasets" and then "5. Export".
+When exporting, please select "Export as JSON" and in "Include datasets" select all datasets.
 
-```r
-M_diff = 6.02 - 5.69
-SD1 = 1.34
-SD2 = 1.23
-r = 0.5
-d_rm = M_diff / sqrt(SD1^2 + SD2^2 - 2*r*SD1*SD2) * sqrt(2*(1-r))
-```
+Upload all versions of the codebooks to Moodle.
 
-## Homework 1
-
+## Homework 2 (individually): Test the interventions in the app.

@@ -1,6 +1,5 @@
 ---
-title: "Forschungsorientierte Praktikum I – Grundlagen der Forschung"
-subtitle: "Research Data Management & Open Data"
+title: "Research Data Management & Open Data"
 author:
   - name: Felix Schönbrodt
     orcid: 0000-0002-8282-3910

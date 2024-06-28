@@ -1,6 +1,6 @@
 ---
-title: "Forschungsorientierte Praktikum I – Grundlagen der Forschung"
-subtitle: "Preregistration - Advocatus Diaboli Game"
+title: "Preregistration"
+subtitle: "The Advocatus Diaboli Game"
 author:
   - name: Felix Schönbrodt
     orcid: 0000-0002-8282-3910
