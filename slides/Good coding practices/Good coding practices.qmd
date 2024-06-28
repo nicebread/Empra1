@@ -6,6 +6,10 @@ author:
     orcid: 0000-0002-8282-3910
     email: felix.schoenbrodt@psy.lmu.de
     affiliations: Ludwig-Maximilians-Universität München
+  - name: Caroline Zygar-Hoffmann
+    orcid: 0000-0002-8677-2276
+    email: caroline.zygar@psy.lmu.de
+    affiliations: Ludwig-Maximilians-Universität München    
 date: 2024-04-27
 footer: "Forschungsorientierte Praktikum I – Empirisches Praktikum, Ludwig-Maximilians-Universität München"
 format: 
@@ -18,60 +22,6 @@ revealjs-plugins:
 ---
 
 <!-- Dauer: 25 min. -->
-
-## 
-
-<div style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100vh; font-family: 'Segoe', sans-serif;">
-  <div style="font-size: 48px; font-weight: bold;">  <!-- This matches a bold title -->
-    How to minimize mistakes
-  </div>
-  <div style="font-size: 32px; color: gray; margin-top: 20px;">  <!-- Smaller, lighter for subtitle -->
-    Good coding practices
-  </div>
-</div>
-
-
-<div style="position: absolute; top: 0; right: 0; z-index: 10;">
-    
-![](img/Research_Transparency.jpg){width=130px}
-![](img/OSC_LMU_Open_Science_Center.jpg){width=250px}
-    
-</div>
-
-<div style="position: absolute; top: 0; left: 0; z-index: 10;">
-    
-![](img/LMU.jpg){width=250px}
-    
-</div>
-
-<div style="position: absolute; bottom: 0; right: 0; z-index: 10;font-size: 20px;">
-**Felix Schönbrodt & Caroline Zygar-Hoffmann** <br>
-Ludwig-Maximilians-Universität <br>
-München
-</div>
-
-
-<div style="position: absolute; bottom: 0; left: 0; z-index: 10;font-size: 14px">
-
-::: columns
-::: {.column width="70%"}
-
-This presentation is licensed under a [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) license. <br> You may copy, distribute, and use the slides in your own work, <br> 
-as long as you give attribution to the original author at each slide that you use.
-
-:::
-::: {.column width="30%"}
-
-<div>
-![](img/Licence.jpg){width=70px}
-</div>
-:::
-:::
-</div>
-
-::: footer
-Twitter accounts: [@psycaroly](https://twitter.com/psycaroly), [@nicebread303](https://twitter.com/nicebread303)
-:::
 
 
 ## The Ideal? <span style="padding-left: 300px;">Reality?</span>
@@ -96,36 +46,27 @@ Twitter accounts: [@psycaroly](https://twitter.com/psycaroly), [@nicebread303](h
 :::
 ::: {.column width="50%"}
 
-- <span style="border-bottom: 2px solid #89CFF0; display: inline;">Replication/credibility crisis</span>
-- <span style="border-bottom: 2px solid #89CFF0; display: inline;">Number of retractions rises
-  exponentially</span>
-- <span style="border-bottom: 2px solid #89CFF0; display: inline;">Pressure to „publish or perish“
-  leads to hurried manuscript, less
-  error checking</span>
-- Reviewer overload leads to
-  superficial reviews
-- <span style="border-bottom: 2px solid #89CFF0; display: inline;">***statcheck***(Nuijten et al., 2016):
-  50% of psychology papers contain</span>
-  at least one inconsistent statistic
+- Replication/credibility crisis
+- Number of retractions rises exponentially
+- Pressure to „publish or perish“ leads to hurried manuscript, less error checking
+- Reviewer overload leads to superficial reviews
+- **statcheck** (Nuijten et al., 2016): 50% of psychology papers contain at least one inconsistent statistic
 :::
 :::
 
-## Mistakes lurke everywhere
+## Mistakes lurk everywhere
 
 ::: {.smaller}
 - Errors in data collection software/scripts
 - Error in manual data transcription
-- Analyzing the wrong data set (e.g., an old version, a filter has been
-  unknowingly applied)
+- Analyzing the wrong data set (e.g., an old version, a filter has been unknowingly applied)
 - Coding errors
   - Wrong group assignment (control/ experimental group)
   - NAs coded as 99?
 - Faulty analysis software; version changes in R packages
 - Mistyping numbers when copying them from R to manuscript
 - Send the wrong file to the journal submission system
-- Asymmetry: Mistakes tend to go in the preferred direction (Gould, 1996),
-  because we check more vigorously when results (unexpectedly) go into the
-  wrong direction.
+- Asymmetry: Mistakes tend to go in the preferred direction (Gould, 1996), because we check more vigorously when results (unexpectedly) go into the wrong direction.
   - See also „garden of forking paths“ (Gelman & Loken, 2013): A lot of **p**-hacking is unintentional
 :::
 
@@ -150,8 +91,8 @@ Screenshot from presentation from Katrin Auspurg & Josef Brüderl
 
 ## Unit tests / sanity checks
 
-- <span style="border-bottom: 2px solid #89CFF0; display: inline;">***Always***</span> look at the descriptive statistics (min, max,
-  NAs, mean) of <span style="border-bottom: 2px solid #89CFF0; display: inline;">***every***</span> variable (also
+- **Always** look at the descriptive statistics (min, max,
+  NAs, mean) of **every** variable (also
   transformed/computed variables)
   - Know the scales of your variables: Is the mean plausible? Is the
     minimum and maximum value theoretically possible and plausible?
@@ -161,12 +102,12 @@ Screenshot from presentation from Katrin Auspurg & Josef Brüderl
 
 ## Unit tests / sanity checks
 
-- The ***summarytools*** package
-  makes this really easy:
+The ***summarytools*** package makes this really easy:
 
-<div style="position: absolute; top: 10px; right: 10px;">
-  ![](img/Unit_Tests_1.jpg){width=300px}
-</div>
+```r
+library(summarytools)
+view(dfSummary(data))
+```
 
 
 ::: columns
@@ -180,14 +121,8 @@ Screenshot from presentation from Katrin Auspurg & Josef Brüderl
 ::: {.column width="30%"}
 
 ::: {.smaller}
-alternatively:
-***codebook*** package
-by Ruben Arslan
-(also has RStudio plugin).
-Has some nice
-convenience functions, e.g.
-when importing SPSS or
-other data files.
+alternatively: `codebook` package by Ruben Arslan (also has an RStudio plugin).
+Has some nice convenience functions, e.g. when importing SPSS or other data files.
 :::
 :::
 :::
@@ -205,14 +140,11 @@ other data files.
 requires special treatment of seeds
 2. Document exact versions of all packages/ external
    programs at each completed stage of data analysis
-   - e.g., in R: Save the sessionInfo() of the analytical pipeline in an
+   - e.g., in R: Save the `sessionInfo()` of the analytical pipeline in an
      accompanying file when you submit a paper, and for every revision
-3. Save a snapshot of the current version/state of the
-   statistical software
-   - e.g., in R: checkpoint package, packrat package, renv package
-4. The safest way: Make a docker container which
-   contains the full computational environment
-   (including OS)
+3. Save a snapshot of the current version/state of the statistical software
+   - e.g., in `R`: `checkpoint` package, `packrat` package, `renv` package
+1. The safest way: Make a docker container which contains the full computational environment (including OS)
 :::
 
 ::: {.column width="40%"}
@@ -229,7 +161,9 @@ requires special treatment of seeds
 </div>
 
 ::: footer
+::: {.smallest}
 Graphic from [https://rviews.rstudio.com/2018/01/18/package-management-for-reproducible-r-code/](https://rviews.rstudio.com/2018/01/18/package-management-for-reproducible-r-code/)
+:::
 :::
 
 ## Coding style
@@ -238,8 +172,7 @@ Graphic from [https://rviews.rstudio.com/2018/01/18/package-management-for-repro
   structure
 - Never copy and paste code
 - Never write a coding block longer than your screen
-- Literate Programming (Knuth): Computer code is for
-  humans, not just for computers.
+- Literate Programming (Knuth): Computer code is for humans, not just for computers.
   
 ::: footer
 [https://x.com/mcxfrank/status/1075466294797824000](https://x.com/mcxfrank/status/1075466294797824000)
@@ -252,7 +185,7 @@ Graphic from [https://rviews.rstudio.com/2018/01/18/package-management-for-repro
 - (The following guidelines apply to many, but not all
   possible types of projects)
 - All files that are necessary for reproducing the results
-  should be bundled in <span style="border-bottom: 2px solid #89CFF0; display: inline;">one</span> directory
+  should be bundled in [one]{.hl} directory
   - Including: primary unprocessed data files, scripts for data
     preprocessing, cached intermediate data objects, scripts for
     hypothesis testing, generated result plots, ...
@@ -261,33 +194,20 @@ Graphic from [https://rviews.rstudio.com/2018/01/18/package-management-for-repro
 - Use a consistent, self-explanatory subdirectory structure
 - Number script files in execution order (see next slide)
 
-<div style="position: absolute; top: 0; right: 0; z-index: 10;">
-    
-![](img/OSC_LMU_Open_Science_Center.jpg){width=250px}
-    
-</div>
+
 
 ## Directory organization
 
-<br>
-
 <div style="text-align: center;">
-![](img/Directory_Organization.jpg){ width=700px}
+![](img/Directory_Organization.jpg){width=1000px}
 </div>
 
-<div style="position: absolute; top: 0; right: 0; z-index: 10;">
-    
-![](img/OSC_LMU_Open_Science_Center.jpg){width=250px}
-    
-</div>
 
 ## Subdirectory organization
 
-<div style="text-align: center; margin-top: +30px;">
 ::: {.smaller}
-- (Again, this is one possible organization scheme)
-- **/raw_data**: Contains all raw primary data files, as you received them (or exported them
-  from the experimental software), without any manual preprocessing. <br>
+- (Again, this is *one* possible organization scheme)
+- **/raw_data**: Contains all raw primary data files, as you received them (or exported them from the experimental software), without any manual preprocessing. <br>
   Primary data files are sacrosanct – set them to read-only, never change anything in them. <br>
   Any transformation, data exclusions, or error corrections must be done in scripts in order to
   be reproducible.
@@ -303,22 +223,17 @@ Graphic from [https://rviews.rstudio.com/2018/01/18/package-management-for-repro
 - **/archive**: Old scripts and other files which are not used for your final analytical pipeline, but
   which you want to keep for some reasons.
 :::
-</div>
 
-<div style="position: absolute; top: 0; right: 0; z-index: 10;">
-    
-![](img/OSC_LMU_Open_Science_Center.jpg){width=250px}
-    
-</div>
+
 
 ## Variable name conventions
 <br>
 
 ::: columns
-::: {.column width="70%"}
+::: {.column width="60%"}
 
-- snake_case, camelCase, dot.style,
-  sTUdLy cAPs?
+- `snake_case`, `camelCase`, `PascalCase`, `dot.style`,
+  `sTUdLy_cAPs`?
   - Do not use dots in variables (clashes
     with some functions)
   - Some consensus that snake_case is
@@ -328,100 +243,102 @@ Graphic from [https://rviews.rstudio.com/2018/01/18/package-management-for-repro
   understandability >> brevity
 :::
 
-::: {.column width="30%"}
+::: {.column width="40%"}
 
-<div>
-![](img/Variable_Name_Convention_1.jpg){width=350px}
-</div>
+```r
+average_heart_rate
+averageHeartRate
+AverageHeartRate
+average.heart.rate
+aVErAgeHeARTraTe
+```
+<br><br>
 
-<div>
-![](img/Variable_Name_Convention_2.jpg){width=350px}
-</div>
+```r
+average_heart_rate
+avg_heart_rate
+avg_HR
+aHR
+var001
+x
+```
 :::
 :::
 
-<div style="position: absolute; top: 0; right: 0; z-index: 10;">
-    
-![](img/OSC_LMU_Open_Science_Center.jpg){width=250px}
-    
-</div>
 
 ## Variable name conventions
 
 ::: {.smaller}
 - Before: Inconsistent mixture of naming styles
 
-<div style="margin-top: -60px;">
-![](img/Table_1.jpg){width=750px}
-</div>
+![](img/Table_1.jpg){width=750px style="margin-top: -40px;"}
 
-
+::: {.fragment}
 - After: Consistent naming style
 
-<div style="margin-top: -60px;">
-![](img/Table_2.jpg){width=750px}
-</div>
+![](img/Table_2.jpg){width=750px style="margin-top: -40px;"}
+:::
 
 :::
 
-<div style="position: absolute; top: 0; right: 0; z-index: 10;">
-    
-![](img/OSC_LMU_Open_Science_Center.jpg){width=250px}
-    
-</div>
 
-## Code commenting
 
-<div style="margin-top: +50px;">
-::: {.smallest}
-::: columns
-::: {.column width="50%"}
+## Code commenting 1
 
+:::: columns
+::: {.column width="40%"}
+
+::: {.smaller}
+<br><br><br>
 - At the start of each script file: Author,
   license, purpose of the file.
 - Load add-on packages all at once at the
   beginning of the file
 - Rule of thumb: At least
   1 comment per 3 lines of code
-- Link code comments to paper structure
-  - „Table 3: Descriptives of...“
-  - „Hypothesis 2: Does metafilin increase
-    [...]?“
-- Bonus: Link code comments to IDs of
-  the preregistration
 - Separate chunks of code with comment
   lines
-- If the file gets too long (e.g., > 500
-  lines), split into multiple files
 - Use English variable names and
   comments from the beginning
   (you don‘t want to translate everything
   before dissemination)
 :::
+:::
 
-::: {.column width="50%"}
+::: {.column width="60%"}
+![](img/Code_Commenting.jpg)
+:::
+::::
 
-<div>
-![](img/Code_Commenting.jpg){width=450px}
-</div>
 
+
+## Code commenting 2
+
+:::: columns
+::: {.column width="40%"}
+
+::: {.smaller}
+<br><br><br>
+- Link code comments to paper structure
+  - „Table 3: Descriptives of...“
+  - „Hypothesis 2: Does metafilin increase [...]?“
+- Bonus: Link code comments to IDs of the preregistration
+- If the file gets too long (e.g., > 500 lines), split into multiple files
 :::
 :::
-:::
-</div>
 
-<div style="position: absolute; top: 0; right: 0; z-index: 10;">
-    
-![](img/OSC_LMU_Open_Science_Center.jpg){width=250px}
-    
-</div>
+::: {.column width="60%"}
+![](img/Code_Commenting.jpg)
+:::
+::::
+
 
 ## Collaboration
 
 - Pair Programming
   - Pair programming is an agile software development technique in
     which two programmers work together at one workstation. One,
-    the ***driver***, writes code while the other, the ***observer*** or ***navigator***,
+    the **driver**, writes code while the other, the **observer** or **navigator**,
     reviews each line of code as it is typed in. The two programmers
     switch roles frequently. ([Wikipedia](https://en.wikipedia.org/wiki/Pair_programming))
 - Golden route: Independent implementation
