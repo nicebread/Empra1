@@ -206,18 +206,28 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <tbody>
 <tr class="odd">
 <td style="text-align: left;">Wrap up homework 1: Codebook</td>
-<td style="text-align: center;">15</td>
+<td style="text-align: center;">20</td>
 <td></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">Good coding practices</td>
-<td style="text-align: center;">45</td>
-<td><a href="../slides/Good_coding_practices/Good_coding_practices.html">Slides</a></td>
+<td style="text-align: left;">Collect Feedback for App</td>
+<td style="text-align: center;">20</td>
+<td></td>
 </tr>
 <tr class="odd">
+<td style="text-align: left;">Introduction to Rmarkdown/Quarto</td>
+<td style="text-align: center;">20</td>
+<td>Slides (TODO)</td>
+</tr>
+<tr class="even">
 <td style="text-align: left;">Preparation: Install software infrastructure (see below)</td>
 <td style="text-align: center;">30</td>
 <td></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Good coding practices</td>
+<td style="text-align: center;">45</td>
+<td><a href="../slides/Good_coding_practices/Good_coding_practices.html">Slides</a></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Homework: Quarto tutorial</td>
@@ -233,7 +243,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <ol type="1">
 <li>Install (or update) R: <a href="https://cran.r-project.org/">https://cran.r-project.org/</a></li>
 <li>Install (or update) RStudio: <a href="https://www.rstudio.com/products/rstudio/download/">https://www.rstudio.com/products/rstudio/download/</a></li>
-<li>An installation of <a href="https://quarto.org/">Quarto</a> is usually not necessary, as it automatically comes with RStudio.</li>
+<li>An installation of <a href="https://quarto.org/">Quarto</a> is usually not necessary, as it automatically comes with RStudio. If a warning says that Quarto is not installed, install it with the link above.</li>
 <li>Install <a href="https://quarto.org/docs/output-formats/pdf-engine.html#installing-tex">tinytex</a>, a small version of TeX that can be used to build PDF documents with Quarto:
 <ul>
 <li>In RStudio, open a Terminal window: <em>Tools</em> <strong>&gt;</strong> <em>Terminal</em> <strong>&gt;</strong> <em>New Terminal</em></li>
@@ -247,12 +257,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div></li>
 </ol>
 <p>As a final step of the preparation, let’s try to render (a) an HTML document and (b) a PDF document with Quarto. For that, download <a href="https://quarto.org/docs/get-started/hello/rstudio/_hello.qmd">hello.qmd</a> and open it in RStudio. Then, click on the “Render” button to render the document (or File -&gt; Render Document).</p>
-<p>Now, in the YAML header of the file, change <code>format: html</code> to <code>format: pdf</code>, and render the document again. After some time, this should open an extra window with the PDF. If you encounter any issues, please let me know.</p>
+<p>Now, in the YAML header of the file (which is on the top of each <code>.qmd</code> file), change <code>format: html</code> to <code>format: pdf</code>, and render the document again. After some time, this should open an extra window with the PDF. You can also render to Word file with <code>format: docx</code>. All rendered files are saved in the same folder as the source <code>.qmd</code> file.</p>
 </section>
 <section id="homework-1-individually-do-the-full-quarto-tutorial" class="level2">
 <h2 class="anchored" data-anchor-id="homework-1-individually-do-the-full-quarto-tutorial">Homework 1 (individually): Do the full Quarto tutorial</h2>
-<p>Got to our <a href="https://florianpargent.github.io/Quarto_LMU_OSC/">Quarto workshop</a> and do the chapters 1, 2, and 3 including all exercises.</p>
-<p>In addition, do section “<a href="https://florianpargent.github.io/Quarto_LMU_OSC/apa7_manuscript.html">Exercise: APA 7 Manuscripts</a>” from chapter 4. The document that you create here can be the starting point of your final report! The text says “Pick a preprint of your own”. You probably have non, and I would suggest that you simply create the structure of APA headings (Method, Results, Discussion, etc.) and fill it with some dummy text - or you already start writing some useful paragraphs or bullet points for our study.</p>
+<p>Got to our <a href="https://lmu-osc.github.io/introduction-to-Quarto/">Quarto workshop</a> and do the chapters 1, 2, and 3 including all exercises.</p>
+<p>In addition, do section “<a href="https://lmu-osc.github.io/introduction-to-Quarto/apa7_manuscript.html">Exercise: APA 7 Manuscripts</a>” from chapter 4. The document that you create here can be the starting point of your final report! The text says “Pick a preprint of your own”. You probably have none, and I would suggest that you simply create the structure of APA headings (Method, Results, Discussion, etc.) and fill it with some dummy text - or you already start writing some useful paragraphs or bullet points for our study.</p>
+<p>You can leave out the section on bibliography for now. We will cover this together in a later session.</p>
 
 
 </section>
