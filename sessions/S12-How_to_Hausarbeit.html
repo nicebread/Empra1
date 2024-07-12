@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Good coding practices - Quarto introduction">
+<meta name="description" content="The structure of the final report; apaquarto">
 
-<title>Forschungsorientiertes Praktikum I – Grundlagen der Forschung - Session 11 - Good coding practices</title>
+<title>Forschungsorientiertes Praktikum I – Grundlagen der Forschung - Session 12 - How to Hausarbeit</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -170,12 +170,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Session 11 - Good coding practices</h1>
+<h1 class="title">Session 12 - How to Hausarbeit</h1>
 </div>
 
 <div>
   <div class="description">
-    Good coding practices - Quarto introduction
+    The structure of the final report; apaquarto
   </div>
 </div>
 
@@ -219,7 +219,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <td>Keep the time!</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">Plan participant</td>
+<td style="text-align: left;">Plan participant acquisition</td>
 <td style="text-align: center;">10</td>
 <td></td>
 </tr>
@@ -233,6 +233,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="homework-1-individually-write-reproducible-manuscript-in-apa-7-format---descriptive-statistics" class="level2">
 <h2 class="anchored" data-anchor-id="homework-1-individually-write-reproducible-manuscript-in-apa-7-format---descriptive-statistics">Homework 1 (individually): Write reproducible manuscript in APA 7 format - Descriptive statistics</h2>
 <p>The goal of this homework is to get you started with writing your final report. Please consult the <a href="https://wjschne.github.io/apaquarto/writing.html">apaquarto documentation</a>.</p>
+<p>Add all section headings. “Methods”, “Results”, “Discussion” should be Level 1 (with <code>#</code>), and so on.</p>
 <p>Write the following sections as a computable manuscript (i.e., all numbers should be computed dynamically in <code>R</code> chunks, no hard-coded numbers):</p>
 <ul>
 <li>Methods -&gt; Participants</li>
@@ -246,16 +247,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="in">dat &lt;- read.csv("data.csv")</span></span>
 <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="in"># do some data preprocessing ...</span></span>
 <span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>Use inline <code>R</code> chunks to weave single numbers into continous text:</p>
+<p>Use inline <code>R</code> chunks to weave single numbers into continuous text:</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>The mean age of the participants was `r round(mean(dat$age), 1)`.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>Look at some of the APA’S <a href="https://apastyle.apa.org/style-grammar-guidelines/paper-format/sample-papers">sample papers</a>, and read the respective sections in a couple of papers from our <a href="https://docs.google.com/spreadsheets/d/1N-o_dUfMaQvMIIctJi4H7RM3TfF5OQZQN7IMEBA9w2o/edit?gid=0#gid=0">literature list</a>.</p>
+<p>Look at some of the APA’s <a href="https://apastyle.apa.org/style-grammar-guidelines/paper-format/sample-papers">sample papers</a>, and read the respective sections in a couple of papers from our <a href="https://docs.google.com/spreadsheets/d/1N-o_dUfMaQvMIIctJi4H7RM3TfF5OQZQN7IMEBA9w2o/edit?gid=0#gid=0">literature list</a>.</p>
 <p><strong>Some notes:</strong></p>
 <ul>
 <li>The questionnaire scales were computed as the mean of all items.</li>
 <li>You do not have to report reliability statistics (you did not learn this yet).</li>
 </ul>
-<p>These are the references</p>
-<p>Deliverable: Upload the PDF of your manuscript in Moodle. If this is not possible due to technical errors, upload your <code>.qmd</code> file.</p>
 
 
 </section>

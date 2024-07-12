@@ -1,0 +1,1406 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.553">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Felix Schönbrodt">
+<meta name="dcterms.date" content="2024-04-19">
+
+<title>Forschungsorientiertes Praktikum I – Grundlagen der Forschung - Power Analysis: Introduction</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<meta name="mermaid-theme" content="neutral">
+<script src="../../site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="../../site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="../../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Forschungsorientiertes Praktikum I – Grundlagen der Forschung</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../sessions/sessions_overview.html"> 
+<span class="menu-text">Sessions</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../slides/slides_overview.html"> 
+<span class="menu-text">Slides</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/nicebread/Empra1"> <i class="bi bi-github" role="img" aria-label="GitHub">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#part-i-general-concepts-of-power-analysis" id="toc-part-i-general-concepts-of-power-analysis" class="nav-link active" data-scroll-target="#part-i-general-concepts-of-power-analysis">Part I: General concepts of power analysis</a></li>
+  <li><a href="#what-is-statistical-power" id="toc-what-is-statistical-power" class="nav-link" data-scroll-target="#what-is-statistical-power">What is statistical power?</a>
+  <ul class="collapse">
+  <li><a href="#a-2x2-classification-matrix" id="toc-a-2x2-classification-matrix" class="nav-link" data-scroll-target="#a-2x2-classification-matrix">A 2x2 classification matrix</a></li>
+  <li><a href="#a-2x2-classification-matrix-1" id="toc-a-2x2-classification-matrix-1" class="nav-link" data-scroll-target="#a-2x2-classification-matrix-1">A 2x2 classification matrix</a></li>
+  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"></a></li>
+  <li><a href="#section-1" id="toc-section-1" class="nav-link" data-scroll-target="#section-1"></a></li>
+  <li><a href="#section-2" id="toc-section-2" class="nav-link" data-scroll-target="#section-2"></a></li>
+  <li><a href="#how-to-do-a-power-analysis" id="toc-how-to-do-a-power-analysis" class="nav-link" data-scroll-target="#how-to-do-a-power-analysis">How to do a power analysis</a></li>
+  <li><a href="#power-is-a-frequentist-property---beware-of-fallacies" id="toc-power-is-a-frequentist-property---beware-of-fallacies" class="nav-link" data-scroll-target="#power-is-a-frequentist-property---beware-of-fallacies">Power is a frequentist property - beware of fallacies!</a>
+  <ul class="collapse">
+  <li><a href="#power-is-a-pre-data-measure-i.e.-before-data-are-collected-that-averages-over-infinite-hypothetical-experiments" id="toc-power-is-a-pre-data-measure-i.e.-before-data-are-collected-that-averages-over-infinite-hypothetical-experiments" class="nav-link" data-scroll-target="#power-is-a-pre-data-measure-i.e.-before-data-are-collected-that-averages-over-infinite-hypothetical-experiments">Power is a pre-data measure (i.e., before data are collected) that averages over infinite hypothetical experiments</a></li>
+  <li><a href="#power-is-conditional-on-a-hypothetical-effect-size-not-conditional-on-the-actual-data-obtained" id="toc-power-is-conditional-on-a-hypothetical-effect-size-not-conditional-on-the-actual-data-obtained" class="nav-link" data-scroll-target="#power-is-conditional-on-a-hypothetical-effect-size-not-conditional-on-the-actual-data-obtained">Power is conditional on a hypothetical effect size – not conditional on the actual data obtained</a></li>
+  </ul></li>
+  <li><a href="#post-hoc-power-considerations" id="toc-post-hoc-power-considerations" class="nav-link" data-scroll-target="#post-hoc-power-considerations">Post hoc power considerations</a></li>
+  </ul></li>
+  <li><a href="#why-power-is-important" id="toc-why-power-is-important" class="nav-link" data-scroll-target="#why-power-is-important">Why power is important</a>
+  <ul class="collapse">
+  <li><a href="#exercise-given-that-p-.05-what-is-the-probability-that-a-real-effect-exists-in-the-population-probh₁d" id="toc-exercise-given-that-p-.05-what-is-the-probability-that-a-real-effect-exists-in-the-population-probh₁d" class="nav-link" data-scroll-target="#exercise-given-that-p-.05-what-is-the-probability-that-a-real-effect-exists-in-the-population-probh₁d">Exercise: <br> Given that p &lt; .05: <br> What is the probability that a real effect exists in the population ➙ prob(H₁|D)</a></li>
+  <li><a href="#section-3" id="toc-section-3" class="nav-link" data-scroll-target="#section-3"></a></li>
+  <li><a href="#section-4" id="toc-section-4" class="nav-link" data-scroll-target="#section-4"></a></li>
+  <li><a href="#section-5" id="toc-section-5" class="nav-link" data-scroll-target="#section-5"></a></li>
+  <li><a href="#section-6" id="toc-section-6" class="nav-link" data-scroll-target="#section-6"></a></li>
+  <li><a href="#section-7" id="toc-section-7" class="nav-link" data-scroll-target="#section-7"></a></li>
+  <li><a href="#section-8" id="toc-section-8" class="nav-link" data-scroll-target="#section-8"></a></li>
+  <li><a href="#section-9" id="toc-section-9" class="nav-link" data-scroll-target="#section-9"></a></li>
+  <li><a href="#a-power-analysis-helps-you-to-find-a-balance-between" id="toc-a-power-analysis-helps-you-to-find-a-balance-between" class="nav-link" data-scroll-target="#a-power-analysis-helps-you-to-find-a-balance-between">A power analysis helps you to find a balance between…</a></li>
+  </ul></li>
+  <li><a href="#researchers-intuitions-about-power" id="toc-researchers-intuitions-about-power" class="nav-link" data-scroll-target="#researchers-intuitions-about-power">Researcher‘s intuitions about power</a>
+  <ul class="collapse">
+  <li><a href="#researchers-intuitions-about-power-1" id="toc-researchers-intuitions-about-power-1" class="nav-link" data-scroll-target="#researchers-intuitions-about-power-1">Researcher’s intuitions about power</a></li>
+  <li><a href="#calibrate-your-power-feeling" id="toc-calibrate-your-power-feeling" class="nav-link" data-scroll-target="#calibrate-your-power-feeling">Calibrate your power feeling</a></li>
+  <li><a href="#calibrate-your-power-feeling-1" id="toc-calibrate-your-power-feeling-1" class="nav-link" data-scroll-target="#calibrate-your-power-feeling-1">Calibrate your power feeling</a></li>
+  </ul></li>
+  <li><a href="#clever-designs-go-a-long-way" id="toc-clever-designs-go-a-long-way" class="nav-link" data-scroll-target="#clever-designs-go-a-long-way">Clever designs go a long way</a>
+  <ul class="collapse">
+  <li><a href="#the-power-of-within-ss-designs" id="toc-the-power-of-within-ss-designs" class="nav-link" data-scroll-target="#the-power-of-within-ss-designs">The power of within-SS designs</a></li>
+  <li><a href="#increase-power-with-reliable-measures" id="toc-increase-power-with-reliable-measures" class="nav-link" data-scroll-target="#increase-power-with-reliable-measures">Increase power with reliable measures</a></li>
+  <li><a href="#specific-predictions-use-one-tailed-tests" id="toc-specific-predictions-use-one-tailed-tests" class="nav-link" data-scroll-target="#specific-predictions-use-one-tailed-tests">Specific predictions? <br> Use one-tailed tests!</a></li>
+  </ul></li>
+  <li><a href="#any-questions-so-far" id="toc-any-questions-so-far" class="nav-link" data-scroll-target="#any-questions-so-far">Any questions so far?</a></li>
+  <li><a href="#part-ii-effect-sizes-smallest-effects-of-interests" id="toc-part-ii-effect-sizes-smallest-effects-of-interests" class="nav-link" data-scroll-target="#part-ii-effect-sizes-smallest-effects-of-interests">Part II: <br> Effect sizes / smallest effects of interests</a></li>
+  <li><a href="#common-effect-size-metrics" id="toc-common-effect-size-metrics" class="nav-link" data-scroll-target="#common-effect-size-metrics">Common effect size metrics</a>
+  <ul class="collapse">
+  <li><a href="#common-effect-sizes" id="toc-common-effect-sizes" class="nav-link" data-scroll-target="#common-effect-sizes">Common effect sizes</a></li>
+  <li><a href="#effect-size-transformations" id="toc-effect-size-transformations" class="nav-link" data-scroll-target="#effect-size-transformations">Effect size transformations</a></li>
+  <li><a href="#effect-size-transformations-1" id="toc-effect-size-transformations-1" class="nav-link" data-scroll-target="#effect-size-transformations-1">Effect size transformations</a></li>
+  <li><a href="#converting-among-effect-sizes" id="toc-converting-among-effect-sizes" class="nav-link" data-scroll-target="#converting-among-effect-sizes">Converting among effect sizes</a></li>
+  <li><a href="#converting-among-effect-sizes-1" id="toc-converting-among-effect-sizes-1" class="nav-link" data-scroll-target="#converting-among-effect-sizes-1">Converting among effect sizes</a></li>
+  <li><a href="#converting-among-effect-sizes-2" id="toc-converting-among-effect-sizes-2" class="nav-link" data-scroll-target="#converting-among-effect-sizes-2">Converting among effect sizes</a></li>
+  <li><a href="#converting-among-effect-sizes-3" id="toc-converting-among-effect-sizes-3" class="nav-link" data-scroll-target="#converting-among-effect-sizes-3">Converting among effect sizes</a></li>
+  </ul></li>
+  <li><a href="#getting-a-feeling-about-effect-sizes" id="toc-getting-a-feeling-about-effect-sizes" class="nav-link" data-scroll-target="#getting-a-feeling-about-effect-sizes">Getting a feeling about effect sizes</a>
+  <ul class="collapse">
+  <li><a href="#how-do-these-effect-sizes-look-like" id="toc-how-do-these-effect-sizes-look-like" class="nav-link" data-scroll-target="#how-do-these-effect-sizes-look-like">How do these effect sizes look like?</a></li>
+  <li><a href="#how-do-these-effect-sizes-look-like-1" id="toc-how-do-these-effect-sizes-look-like-1" class="nav-link" data-scroll-target="#how-do-these-effect-sizes-look-like-1">How do these effect sizes look like?</a></li>
+  <li><a href="#how-do-these-effect-sizes-look-like-2" id="toc-how-do-these-effect-sizes-look-like-2" class="nav-link" data-scroll-target="#how-do-these-effect-sizes-look-like-2">How do these effect sizes look like?</a></li>
+  <li><a href="#guess-the-correlation" id="toc-guess-the-correlation" class="nav-link" data-scroll-target="#guess-the-correlation">Guess the correlation</a></li>
+  <li><a href="#guess-the-correlation-1" id="toc-guess-the-correlation-1" class="nav-link" data-scroll-target="#guess-the-correlation-1">Guess the correlation</a></li>
+  <li><a href="#understanding-effect-sizes" id="toc-understanding-effect-sizes" class="nav-link" data-scroll-target="#understanding-effect-sizes">Understanding effect sizes</a></li>
+  <li><a href="#understanding-effect-sizes-1" id="toc-understanding-effect-sizes-1" class="nav-link" data-scroll-target="#understanding-effect-sizes-1">Understanding effect sizes</a></li>
+  </ul></li>
+  <li><a href="#typical-effect-sizes" id="toc-typical-effect-sizes" class="nav-link" data-scroll-target="#typical-effect-sizes">Typical effect sizes</a>
+  <ul class="collapse">
+  <li><a href="#cohens-conventions" id="toc-cohens-conventions" class="nav-link" data-scroll-target="#cohens-conventions">Cohen‘s conventions</a></li>
+  <li><a href="#typical-reported-effect-sizes-i" id="toc-typical-reported-effect-sizes-i" class="nav-link" data-scroll-target="#typical-reported-effect-sizes-i">Typical reported effect sizes I</a>
+  <ul class="collapse">
+  <li><a href="#richard-bond-stokes-zoota-2003" id="toc-richard-bond-stokes-zoota-2003" class="nav-link" data-scroll-target="#richard-bond-stokes-zoota-2003">Richard, Bond, &amp; Stokes-Zoota (2003):</a></li>
+  </ul></li>
+  <li><a href="#typical-reported-effect-sizes-i-1" id="toc-typical-reported-effect-sizes-i-1" class="nav-link" data-scroll-target="#typical-reported-effect-sizes-i-1">Typical reported effect sizes I</a>
+  <ul class="collapse">
+  <li><a href="#richard-bond-stokes-zoota-2003-1" id="toc-richard-bond-stokes-zoota-2003-1" class="nav-link" data-scroll-target="#richard-bond-stokes-zoota-2003-1">Richard, Bond, &amp; Stokes-Zoota (2003):</a></li>
+  </ul></li>
+  <li><a href="#typical-reported-effect-sizes-ii" id="toc-typical-reported-effect-sizes-ii" class="nav-link" data-scroll-target="#typical-reported-effect-sizes-ii">Typical reported effect sizes II</a>
+  <ul class="collapse">
+  <li><a href="#bosco-et-al.-2015" id="toc-bosco-et-al.-2015" class="nav-link" data-scroll-target="#bosco-et-al.-2015">Bosco et al.&nbsp;(2015):</a></li>
+  </ul></li>
+  <li><a href="#typical-reported-effect-sizes-iii" id="toc-typical-reported-effect-sizes-iii" class="nav-link" data-scroll-target="#typical-reported-effect-sizes-iii">Typical reported effect sizes III</a>
+  <ul class="collapse">
+  <li><a href="#hill-et-al.-2008" id="toc-hill-et-al.-2008" class="nav-link" data-scroll-target="#hill-et-al.-2008">Hill et al.&nbsp;(2008):</a></li>
+  </ul></li>
+  <li><a href="#typical-reported-effect-sizes-iv" id="toc-typical-reported-effect-sizes-iv" class="nav-link" data-scroll-target="#typical-reported-effect-sizes-iv">Typical reported effect sizes IV</a>
+  <ul class="collapse">
+  <li><a href="#funder-ozer-2019" id="toc-funder-ozer-2019" class="nav-link" data-scroll-target="#funder-ozer-2019">Funder &amp; Ozer (2019):</a></li>
+  </ul></li>
+  <li><a href="#typical-reported-effect-sizes-v" id="toc-typical-reported-effect-sizes-v" class="nav-link" data-scroll-target="#typical-reported-effect-sizes-v">Typical reported effect sizes V</a>
+  <ul class="collapse">
+  <li><a href="#aguinis-beaty-boik-pierce-2005" id="toc-aguinis-beaty-boik-pierce-2005" class="nav-link" data-scroll-target="#aguinis-beaty-boik-pierce-2005">Aguinis, Beaty, Boik, &amp; Pierce (2005):</a></li>
+  </ul></li>
+  <li><a href="#other-benchmarks-i" id="toc-other-benchmarks-i" class="nav-link" data-scroll-target="#other-benchmarks-i">Other benchmarks I</a></li>
+  <li><a href="#other-benchmarks-ii-es-d" id="toc-other-benchmarks-ii-es-d" class="nav-link" data-scroll-target="#other-benchmarks-ii-es-d">Other benchmarks II (ES: <em>d</em>)</a></li>
+  </ul></li>
+  <li><a href="#the-trustworthiness-of-effect-sizes-in-the-literature" id="toc-the-trustworthiness-of-effect-sizes-in-the-literature" class="nav-link" data-scroll-target="#the-trustworthiness-of-effect-sizes-in-the-literature">The trustworthiness of effect sizes in the literature</a>
+  <ul class="collapse">
+  <li><a href="#section-10" id="toc-section-10" class="nav-link" data-scroll-target="#section-10"></a></li>
+  <li><a href="#section-11" id="toc-section-11" class="nav-link" data-scroll-target="#section-11"></a></li>
+  <li><a href="#can-we-base-our-power-analyses-on-published-effect-sizes" id="toc-can-we-base-our-power-analyses-on-published-effect-sizes" class="nav-link" data-scroll-target="#can-we-base-our-power-analyses-on-published-effect-sizes">Can we base our power analyses on published effect sizes?</a></li>
+  <li><a href="#can-we-base-our-power-analyses-on-published-effect-sizes-1" id="toc-can-we-base-our-power-analyses-on-published-effect-sizes-1" class="nav-link" data-scroll-target="#can-we-base-our-power-analyses-on-published-effect-sizes-1">Can we base our power analyses on published effect sizes?</a></li>
+  <li><a href="#can-we-base-our-power-analyses-on-published-effect-sizes-2" id="toc-can-we-base-our-power-analyses-on-published-effect-sizes-2" class="nav-link" data-scroll-target="#can-we-base-our-power-analyses-on-published-effect-sizes-2">Can we base our power analyses on published effect sizes?</a></li>
+  <li><a href="#safeguard-power" id="toc-safeguard-power" class="nav-link" data-scroll-target="#safeguard-power">Safeguard power</a></li>
+  <li><a href="#write-up" id="toc-write-up" class="nav-link" data-scroll-target="#write-up">Write-Up</a></li>
+  <li><a href="#write-up-1" id="toc-write-up-1" class="nav-link" data-scroll-target="#write-up-1">Write-Up</a></li>
+  </ul></li>
+  <li><a href="#end" id="toc-end" class="nav-link" data-scroll-target="#end">End</a>
+  <ul class="collapse">
+  <li><a href="#contact" id="toc-contact" class="nav-link" data-scroll-target="#contact">Contact</a></li>
+  </ul></li>
+  </ul>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="Power-Analysis-general-intro.slide.html"><i class="bi bi-file-slides"></i>RevealJS (nicetheme)</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Power Analysis: Introduction</h1>
+<p class="subtitle lead">Slides: https://osf.io/t5rjf/</p>
+</div>
+
+
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Author</div>
+  <div class="quarto-title-meta-heading">Affiliation</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author">Felix Schönbrodt <a href="mailto:felix.schoenbrodt@psy.lmu.de" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0000-0002-8282-3910" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            Ludwig-Maximilians-Universität München
+          </p>
+      </div>
+  </div>
+
+<div class="quarto-title-meta">
+
+      
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">April 19, 2024</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="part-i-general-concepts-of-power-analysis" class="level1">
+<h1>Part I: General concepts of power analysis</h1>
+</section>
+<section id="what-is-statistical-power" class="level1">
+<h1>What is statistical power?</h1>
+<section id="a-2x2-classification-matrix" class="level2" data-visibility="hidden">
+<h2 data-visibility="hidden" class="anchored" data-anchor-id="a-2x2-classification-matrix">A 2x2 classification matrix</h2>
+<table class="table">
+<colgroup>
+<col style="width: 39%">
+<col style="width: 27%">
+<col style="width: 32%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: left;">Reality: Effect present</th>
+<th style="text-align: left;">Reality: No effect present</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Test indicates: Effect present</strong></td>
+<td style="text-align: left;">True Positive</td>
+<td style="text-align: left;">False Positive</td>
+</tr>
+<tr class="even">
+<td><strong>Test indicates: No effect present</strong></td>
+<td style="text-align: left;">False Negative</td>
+<td style="text-align: left;">True Negative</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="a-2x2-classification-matrix-1" class="level2">
+<h2 class="anchored" data-anchor-id="a-2x2-classification-matrix-1">A 2x2 classification matrix</h2>
+<p><img src="img/matrix1.png" class="img-fluid"></p>
+</section>
+<section id="section" class="level2">
+<h2 class="anchored" data-anchor-id="section"></h2>
+<p><img src="img/meme1.png" class="img-fluid"></p>
+<div class="footer">
+<p><a href="https://effectsizefaq.files.wordpress.com/2010/05/type-i-and-type-ii-errors.jpg">https://effectsizefaq.files.wordpress.com/2010/05/type-i-and-type-ii-errors.jpg</a></p>
+</div>
+</section>
+<section id="section-1" class="level2">
+<h2 class="anchored" data-anchor-id="section-1"></h2>
+<p><img src="img/meme2.png" class="img-fluid"></p>
+<div class="footer">
+<p><a href="https://effectsizefaq.files.wordpress.com/2010/05/type-i-and-type-ii-errors.jpg">https://effectsizefaq.files.wordpress.com/2010/05/type-i-and-type-ii-errors.jpg</a></p>
+</div>
+</section>
+<section id="section-2" class="level2">
+<h2 class="anchored" data-anchor-id="section-2"></h2>
+<p><img src="img/matrix2.png" class="img-fluid"></p>
+</section>
+<section id="how-to-do-a-power-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-do-a-power-analysis">How to do a power analysis</h2>
+<div class="r-stretch">
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart LR
+    E[" Effect Size 
+    (see Part II of the workshop)"]
+    D[" Desired Power
+     usually 80%, 90% recommended for critical
+studies (Bondavera, 2013)"]
+    L[" Significance Level
+    0.05? 0.005 (Benjamin et al., 2018)? justify
+your alpha (Lakens et al., 2018)? "]
+    S[Sample Size]
+    L --&gt; S
+    D --&gt; S
+    E --&gt; S
+
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+</div>
+<div class="footer">
+<div class="smaller">
+<p>Benjamin et al.&nbsp;(2018). Redefine statistical significance. doi:<a href="[10.1038/s41562-017-0189-z]()">10.1038/s41562-017-0189-z</a>; Lakens et al.&nbsp;(2018). Justify your alpha. doi:<a href="https://pure.tue.nl/ws/portalfiles/portal/119109470/Lakens_et_al._2018_Justify_your_alpha.pdf">10.1038/s41562-018-0311-x</a></p>
+</div>
+</div>
+</section>
+<section id="power-is-a-frequentist-property---beware-of-fallacies" class="level2">
+<h2 class="anchored" data-anchor-id="power-is-a-frequentist-property---beware-of-fallacies">Power is a frequentist property - beware of fallacies!</h2>
+<section id="power-is-a-pre-data-measure-i.e.-before-data-are-collected-that-averages-over-infinite-hypothetical-experiments" class="level3">
+<h3 class="anchored" data-anchor-id="power-is-a-pre-data-measure-i.e.-before-data-are-collected-that-averages-over-infinite-hypothetical-experiments">Power is a pre-data measure (i.e., before data are collected) that averages over infinite hypothetical experiments</h3>
+<ul>
+<li>Only one of these hypothetical experiments will actually be observed</li>
+<li><strong>Power is a property of the test procedure/ the design – not of a single study’s outcome!</strong></li>
+</ul>
+</section>
+<section id="power-is-conditional-on-a-hypothetical-effect-size-not-conditional-on-the-actual-data-obtained" class="level3">
+<h3 class="anchored" data-anchor-id="power-is-conditional-on-a-hypothetical-effect-size-not-conditional-on-the-actual-data-obtained">Power is conditional on a hypothetical effect size – not conditional on the actual data obtained</h3>
+<ul>
+<li>“Once the actual data are available, a power calculation is no longer conditioned on what is known, no longer corresponds to a valid inference, and may now be misleading.” ➙ for inference better use likelihood ratios or Bayes factors. Then pre-data power considerations are irrelevant.</li>
+</ul>
+<div class="footer">
+<p>Wagenmakers, E.-J., Verhagen, J., Ly, A., Bakker, M., Lee, M. D., Matzke, D., Rouder, J. N., et al.&nbsp;(2014). A power fallacy.Behavior Research Methods, 47, 913–917. doi:10.3758/s13428-014-0517-4</p>
+</div>
+</section>
+</section>
+<section id="post-hoc-power-considerations" class="level2">
+<h2 class="anchored" data-anchor-id="post-hoc-power-considerations">Post hoc power considerations</h2>
+<ul>
+<li>Using the observed effect size to calculate „post hoc power“ is meaningless (it‘s just a transformation of the p- value)</li>
+<li>It is however meaningful to estimate the power you have achieved with your collected sample size and the a priori assumed effect size („sensitivity power analysis“)</li>
+</ul>
+<div class="footer">
+<p><a href="https://daniellakens.blogspot.com/2014/12/observed-power-and-what-to-do-if-your.html">https://daniellakens.blogspot.com/2014/12/observed-power-and-what-to-do-if-your.html</a> Gelman, A. (2019). Don’t calculate post-hoc power using observed estimate of effect size. Ann. Surg, 269, e9-e10</p>
+</div>
+</section>
+</section>
+<section id="why-power-is-important" class="level1">
+<h1>Why power is important</h1>
+<section id="exercise-given-that-p-.05-what-is-the-probability-that-a-real-effect-exists-in-the-population-probh₁d" class="level2">
+<h2 class="anchored" data-anchor-id="exercise-given-that-p-.05-what-is-the-probability-that-a-real-effect-exists-in-the-population-probh₁d">Exercise: <br> Given that p &lt; .05: <br> What is the probability that a real effect exists in the population ➙ prob(H₁|D)</h2>
+</section>
+<section id="section-3" class="level2" data-visibility="hidden">
+<h2 data-visibility="hidden" class="anchored" data-anchor-id="section-3"></h2>
+<p>this part is not finished as I was unable to find a way to include the text outside the box while not putting another box around it -&gt; see code below</p>
+<div class="r-stretch">
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart TB
+    c1--&gt;a2
+    subgraph one
+    a2
+    end
+    subgraph two
+    b1--&gt;b2
+    end
+    subgraph three
+    c1--&gt;c2
+    end
+
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="section-4" class="level2">
+<h2 class="anchored" data-anchor-id="section-4"></h2>
+<p><img src="img/graph1.png" class="img-fluid"></p>
+<div class="footer">
+<p>Nuzzo, R. (2014). Statistical errors. Nature. Colquhoun, D. (2014). An investigation of the false discovery rate and the misinterpretation of p-values. Royal Society Open Science, 1(3), 140216–140216. <a href="http://doi.org/10.1073/pnas.1313476110">http://doi.org/10.1073/pnas.1313476110</a></p>
+</div>
+</section>
+<section id="section-5" class="level2">
+<h2 class="anchored" data-anchor-id="section-5"></h2>
+<p><img src="img/graph2.png" class="img-fluid"></p>
+<div class="footer">
+<p>Nuzzo, R. (2014). Statistical errors. Nature. Colquhoun, D. (2014). An investigation of the false discovery rate and the misinterpretation of p-values. Royal Society Open Science, 1(3), 140216–140216. <a href="http://doi.org/10.1073/pnas.1313476110">http://doi.org/10.1073/pnas.1313476110</a></p>
+</div>
+</section>
+<section id="section-6" class="level2">
+<h2 class="anchored" data-anchor-id="section-6"></h2>
+<p><img src="img/graph3.png" class="img-fluid"></p>
+<div class="footer">
+<p>Nuzzo, R. (2014). Statistical errors. Nature. Colquhoun, D. (2014). An investigation of the false discovery rate and the misinterpretation of p-values. Royal Society Open Science, 1(3), 140216–140216. <a href="http://doi.org/10.1073/pnas.1313476110">http://doi.org/10.1073/pnas.1313476110</a></p>
+</div>
+</section>
+<section id="section-7" class="level2">
+<h2 class="anchored" data-anchor-id="section-7"></h2>
+<p><img src="img/article1.png" class="img-fluid"></p>
+<p>Assumed that our tested hypothesis are true in 30% of all cases (which is a not too risky research scenario):</p>
+<ul>
+<li><p><strong>A typical neuroscience study must “fail” (p &gt; α) in 90% of all cases</strong></p></li>
+<li><p><strong>In the most likely outcome of p &gt; .05, we have no idea whether a) the effect does not exist, or b) we simply missed the effect. Virtually no knowledge has been gained.</strong></p></li>
+</ul>
+<div class="footer">
+<p>Button, K. S., Ioannidis, J. P. A., Mokrysz, C., Nosek, B. A., Flint, J., Robinson, E. S. J., &amp; Munafò, M. R. (2013). Power failure: why small sample size undermines the reliability of neuroscience. Nat Rev Neurosci, 14(5), 365–376. doi:10.1038/nrn3475</p>
+</div>
+</section>
+<section id="section-8" class="level2" data-visibility="hidden">
+<h2 data-visibility="hidden" class="anchored" data-anchor-id="section-8"></h2>
+<p><img src="img/graph4.jpg" class="img-fluid"></p>
+<div class="footer">
+<p>Smaldino, P. E., &amp; McElreath, R. (2016). The natural selection of bad science. arXiv:1605.09511 [physics, stat]. Retrieved from <a href="http://arxiv.org/abs/1605.09511">http://arxiv.org/abs/1605.09511</a></p>
+</div>
+</section>
+<section id="section-9" class="level2">
+<h2 class="anchored" data-anchor-id="section-9"></h2>
+<blockquote class="blockquote">
+<p>When a study is underpowered it most likely provides only weak inference. Even before a single participant is assessed, it is highly unlikely that an underpowered study provides an informative result.</p>
+<p>Consequently, research unlikely to produce diagnostic outcomes is inefficient and can even be considered unethical. Why sacrifice people’s time, animals’ lives, and societies’ resources on an experiment that is highly unlikely to be informative?</p>
+</blockquote>
+<div class="footer">
+<p>Schönbrodt, F. D. &amp; Wagenmakers, E.-J. (2018). <a href="https://osf.io/d4dcu/">Bayes Factor Design Analysis: Planning for compelling evidence</a>. Psychonomic Bulletin &amp; Review, 25, 128-142. doi:10.3758/s13423-017-1230-y</p>
+</div>
+</section>
+<section id="a-power-analysis-helps-you-to-find-a-balance-between" class="level2">
+<h2 class="anchored" data-anchor-id="a-power-analysis-helps-you-to-find-a-balance-between">A power analysis helps you to find a balance between…</h2>
+<p><img src="img/balance.png" class="img-fluid"></p>
+<div class="footer">
+<p>Pictures from <a href="nature.com/articles/srep43627">nature.com/articles/srep43627</a>, <a href="pngimg.com/download/23544">pngimg.com/download/23544</a>, <a href="whyopenresearch.org/funding">whyopenresearch.org/funding</a></p>
+</div>
+</section>
+</section>
+<section id="researchers-intuitions-about-power" class="level1">
+<h1>Researcher‘s intuitions about power</h1>
+<section id="researchers-intuitions-about-power-1" class="level2">
+<h2 class="anchored" data-anchor-id="researchers-intuitions-about-power-1">Researcher’s intuitions about power</h2>
+<p><img src="img/intuition.png" class="img-fluid"></p>
+<div class="footer">
+<p>Bakker, M., Hartgerink, C. H. J., Wicherts, J. M., &amp; van der Maas, H. L. J. (2016). Researchers’ Intuitions About Power in Psychological Research. Psychological Science, 27(8), 1069–1077. <a href="http://doi.org/10.1177/0956797616647519">http://doi.org/10.1177/0956797616647519</a></p>
+</div>
+</section>
+<section id="calibrate-your-power-feeling" class="level2">
+<h2 class="anchored" data-anchor-id="calibrate-your-power-feeling">Calibrate your power feeling</h2>
+<p><img src="img/table1.png" class="img-fluid"></p>
+</section>
+<section id="calibrate-your-power-feeling-1" class="level2">
+<h2 class="anchored" data-anchor-id="calibrate-your-power-feeling-1">Calibrate your power feeling</h2>
+<p><img src="img/table2.png" class="img-fluid"></p>
+</section>
+</section>
+<section id="clever-designs-go-a-long-way" class="level1">
+<h1>Clever designs go a long way</h1>
+<section id="the-power-of-within-ss-designs" class="level2">
+<h2 class="anchored" data-anchor-id="the-power-of-within-ss-designs">The power of within-SS designs</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="img/graph5.jpg" class="img-fluid quarto-figure quarto-figure-left figure-img"></p>
+</figure>
+</div>
+</div><div class="column" style="width:60%;">
+<ul>
+<li><p>Why? Each person is his/her own control group</p></li>
+<li><p>For example, for the paired t-test:</p>
+<ul>
+<li>By computing the within-person difference scores, all between-person variance (which contributes to error variance), gets removed</li>
+<li>Less error variance → less noise → (relatively) more signal → larger effect size</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</section>
+<section id="increase-power-with-reliable-measures" class="level2">
+<h2 class="anchored" data-anchor-id="increase-power-with-reliable-measures">Increase power with reliable measures</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<p><img src="img/table3.png" class="img-fluid"></p>
+</div><div class="column" style="width:40%;">
+<ul>
+<li>Cohen’s d = 0.4</li>
+<li>N = 30</li>
+<li>pre-post-test</li>
+</ul>
+</div>
+</div>
+<div class="footer">
+<p>Heo, M., Kim, N., &amp; Faith, M. S. (2015). Statistical power as a function of Cronbach alpha of instrument questionnaire items. BMC Medical Research Methodology, 15. doi:10.1186/s12874-015-0070-6</p>
+</div>
+</section>
+<section id="specific-predictions-use-one-tailed-tests" class="level2">
+<h2 class="anchored" data-anchor-id="specific-predictions-use-one-tailed-tests">Specific predictions? <br> Use one-tailed tests!</h2>
+<ul>
+<li>One-tailed tests have a higher power than two-tailed tests</li>
+<li>Particularly recommended in combination with a preregistration</li>
+<li>Most power analysis approaches (G*Power, R packages) allow you to chose between one- and two-tailed tests</li>
+</ul>
+</section>
+</section>
+<section id="any-questions-so-far" class="level1">
+<h1>Any questions so far?</h1>
+</section>
+<section id="part-ii-effect-sizes-smallest-effects-of-interests" class="level1">
+<h1>Part II: <br> Effect sizes / smallest effects of interests</h1>
+</section>
+<section id="common-effect-size-metrics" class="level1">
+<h1>Common effect size metrics</h1>
+<section id="common-effect-sizes" class="level2">
+<h2 class="anchored" data-anchor-id="common-effect-sizes">Common effect sizes</h2>
+<p><img src="img/table4.png" class="img-fluid"></p>
+</section>
+<section id="effect-size-transformations" class="level2">
+<h2 class="anchored" data-anchor-id="effect-size-transformations">Effect size transformations</h2>
+<p><img src="img/table5.png" class="img-fluid"></p>
+</section>
+<section id="effect-size-transformations-1" class="level2">
+<h2 class="anchored" data-anchor-id="effect-size-transformations-1">Effect size transformations</h2>
+<p><img src="img/table6.png" class="img-fluid"></p>
+<div class="attribution">
+<p>Borenstein, M., Hedges, L. V., Higgins, J. P. T., &amp; Rothstein, H. R. (2009). Effect sizes based on correlations. In Introduction to Meta-Analysis, p.&nbsp;45-49. Brysbaert, M. (2019) How Many Participants Do We Have to Include in Properly Powered Experiments? A Tutorial of Power Analysis with Reference Tables. Journal of Cognition, 2(1): 16, pp.&nbsp;1–38. DOI: <a href="https://doi.org/10.5334/joc.72">https://doi.org/10.5334/joc.72</a> Lakens, D. (2013). Calculating and reporting effect sizes to facilitate cumulative science: A practical primer for t-tests and ANOVAs. Frontiers in Psychology, 4. <a href="https://doi.org/10.3389/fpsyg.2013.00863">https://doi.org/10.3389/fpsyg.2013.00863</a></p>
+</div>
+</section>
+<section id="converting-among-effect-sizes" class="level2">
+<h2 class="anchored" data-anchor-id="converting-among-effect-sizes">Converting among effect sizes</h2>
+<p><img src="img/conversion1.png" class="img-fluid"></p>
+<div class="footer">
+<p>Borenstein, M., Hedges, L. V., Higgins, J. P. T., &amp; Rothstein, H. R. (2009). Converting among effect sizes. In Introduction to Meta-Analysis, p.&nbsp;45-49. Lakens, D. (2013). Calculating and reporting effect sizes to facilitate cumulative science: A practical primer for t-tests and ANOVAs. Frontiers in Psychology, 4. <a href="https://doi.org/10.3389/fpsyg.2013.00863">https://doi.org/10.3389/fpsyg.2013.00863</a></p>
+</div>
+</section>
+<section id="converting-among-effect-sizes-1" class="level2">
+<h2 class="anchored" data-anchor-id="converting-among-effect-sizes-1">Converting among effect sizes</h2>
+<p><img src="img/conversion2.png" class="img-fluid"></p>
+<div class="footer">
+<p><a href="https://www.ibm.com/support/pages/effect-size-relationship-between-partial-eta-squared-cohens-f-and-cohens-d">https://www.ibm.com/support/pages/effect-size-relationship-between-partial-eta-squared-cohens-f-and-cohens-d</a> Brysbaert, M. (2019) How Many Participants Do We Have to Include in Properly Powered Experiments? A Tutorial of Power Analysis with Reference Tables. Journal of Cognition, 2(1): 16, pp.&nbsp;1–38. DOI: <a href="https://doi.org/10.5334/joc.72">https://doi.org/10.5334/joc.72</a></p>
+</div>
+</section>
+<section id="converting-among-effect-sizes-2" class="level2">
+<h2 class="anchored" data-anchor-id="converting-among-effect-sizes-2">Converting among effect sizes</h2>
+<p><img src="img/conversion3.png" class="img-fluid"></p>
+<div class="footer">
+<p>Brysbaert, M. (2019) How Many Participants Do We Have to Include in Properly Powered Experiments? A Tutorial of Power Analysis with Reference Tables. Journal of Cognition, 2(1): 16, pp.&nbsp;1–38. DOI: <a href="https://doi.org/10.5334/joc.72">https://doi.org/10.5334/joc.72</a></p>
+</div>
+</section>
+<section id="converting-among-effect-sizes-3" class="level2">
+<h2 class="anchored" data-anchor-id="converting-among-effect-sizes-3">Converting among effect sizes</h2>
+<p><img src="img/conversion4.png" class="img-fluid"></p>
+</section>
+</section>
+<section id="getting-a-feeling-about-effect-sizes" class="level1">
+<h1>Getting a feeling about effect sizes</h1>
+<section id="how-do-these-effect-sizes-look-like" class="level2">
+<h2 class="anchored" data-anchor-id="how-do-these-effect-sizes-look-like">How do these effect sizes look like?</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/graph6.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<div class="footer">
+<p><a href="https://rpsychologist.com/d3/cohend/">https://rpsychologist.com/d3/cohend/</a></p>
+</div>
+</section>
+<section id="how-do-these-effect-sizes-look-like-1" class="level2">
+<h2 class="anchored" data-anchor-id="how-do-these-effect-sizes-look-like-1">How do these effect sizes look like?</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/graph7.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<div class="footer">
+<p><a href="https://rpsychologist.com/d3/cohend/">https://rpsychologist.com/d3/cohend/</a></p>
+</div>
+</section>
+<section id="how-do-these-effect-sizes-look-like-2" class="level2">
+<h2 class="anchored" data-anchor-id="how-do-these-effect-sizes-look-like-2">How do these effect sizes look like?</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/graph8.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<div class="footer">
+<p><a href="https://rpsychologist.com/d3/cohend/">https://rpsychologist.com/d3/cohend/</a></p>
+</div>
+</section>
+<section id="guess-the-correlation" class="level2">
+<h2 class="anchored" data-anchor-id="guess-the-correlation">Guess the correlation</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/corrguess1.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<div class="footer">
+<p><a href="http://guessthecorrelation.com/">http://guessthecorrelation.com/</a></p>
+</div>
+</section>
+<section id="guess-the-correlation-1" class="level2">
+<h2 class="anchored" data-anchor-id="guess-the-correlation-1">Guess the correlation</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/corrguess2.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<div class="footer">
+<p><a href="http://guessthecorrelation.com/">http://guessthecorrelation.com/</a></p>
+</div>
+</section>
+<section id="understanding-effect-sizes" class="level2">
+<h2 class="anchored" data-anchor-id="understanding-effect-sizes">Understanding effect sizes</h2>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="img/effectsize.png" class="img-fluid quarto-figure quarto-figure-left figure-img"></p>
+</figure>
+</div>
+<p>More understandable metrics: „Common Language Effect Size“, CLES:</p>
+<ul>
+<li>…the probability that a randomly sampled person from one group will have a higher observed measurement than a randomly sampled person from the other group (for between designs)</li>
+<li>…or (for within-designs) the probability that an individual has a higher value on one measurement than the other.</li>
+</ul>
+<div class="footer">
+<p>McGraw, K. O., &amp; Wong, S. P. (1992). A common language effect size statistic. Psychological Bulletin, 111(2), 361–365. <a href="https://doi.org/10.1037/0033-2909.111.2.361">https://doi.org/10.1037/0033-2909.111.2.361</a> Lakens, D. (2013). Calculating and reporting effect sizes to facilitate cumulative science: A practical primer for t-tests and ANOVAs. Frontiers in Psychology, 4. <a href="https://doi.org/10.3389/fpsyg.2013.00863">https://doi.org/10.3389/fpsyg.2013.00863</a></p>
+</div>
+</section>
+<section id="understanding-effect-sizes-1" class="level2">
+<h2 class="anchored" data-anchor-id="understanding-effect-sizes-1">Understanding effect sizes</h2>
+<p>Example: <em>d</em> = 0.4, <em>n</em> = 55 in each group</p>
+<ul>
+<li>Repeated-measures factor: 61% of the participants change into the expected direction</li>
+<li>Between-groups factor: 61% chance of finding the expected ordering if you test a random participant from each sample</li>
+</ul>
+</section>
+</section>
+<section id="typical-effect-sizes" class="level1">
+<h1>Typical effect sizes</h1>
+<section id="cohens-conventions" class="level2">
+<h2 class="anchored" data-anchor-id="cohens-conventions">Cohen‘s conventions</h2>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="img/cohen.png" class="img-fluid quarto-figure quarto-figure-left figure-img"></p>
+</figure>
+</div>
+<p>Is this reasonable?</p>
+</section>
+<section id="typical-reported-effect-sizes-i" class="level2">
+<h2 class="anchored" data-anchor-id="typical-reported-effect-sizes-i">Typical reported effect sizes I</h2>
+<section id="richard-bond-stokes-zoota-2003" class="level3">
+<h3 class="anchored" data-anchor-id="richard-bond-stokes-zoota-2003">Richard, Bond, &amp; Stokes-Zoota (2003):</h3>
+<ul>
+<li>Meta-meta-analysis; &gt; 25.000 studies, &gt; 8.000.000 participants</li>
+<li>mean effect <em>r</em> = .21 (across literature <em>SD</em> = .15); median = .18</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/reportedeffectsize.png" class="quarto-figure quarto-figure-center figure-img" height="420"></p>
+</figure>
+</div>
+<div class="footer">
+<p>Richard, F. D., Bond, C. F. J., &amp; Stokes-Zoota, J. J. (2003). One Hundred Years of Social Psychology Quantitatively Described. Review of General Psychology, 7(4), 331–363. doi:10.1037/1089-2680.7.4.331</p>
+</div>
+</section>
+</section>
+<section id="typical-reported-effect-sizes-i-1" class="level2">
+<h2 class="anchored" data-anchor-id="typical-reported-effect-sizes-i-1">Typical reported effect sizes I</h2>
+<section id="richard-bond-stokes-zoota-2003-1" class="level3">
+<h3 class="anchored" data-anchor-id="richard-bond-stokes-zoota-2003-1">Richard, Bond, &amp; Stokes-Zoota (2003):</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/table7.png" class="quarto-figure quarto-figure-center figure-img" height="450"></p>
+</figure>
+</div>
+</section>
+</section>
+<section id="typical-reported-effect-sizes-ii" class="level2">
+<h2 class="anchored" data-anchor-id="typical-reported-effect-sizes-ii">Typical reported effect sizes II</h2>
+<section id="bosco-et-al.-2015" class="level3">
+<h3 class="anchored" data-anchor-id="bosco-et-al.-2015">Bosco et al.&nbsp;(2015):</h3>
+<ul>
+<li>147,328 correlations from Journal of Applied Psychology and Personnel Psychology</li>
+<li>median effect: <em>r</em> = .16, mean effect <em>r</em> = .22 (SD = .20)</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/graph9.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<div class="footer">
+<p>Bosco, F. A., Aguinis, H., Singh, K., Field, J. G., &amp; Pierce, C. A. (2015). Correlational effect size benchmarks. Journal of Applied Psychology, 100(2), 431–449. <a href="http://doi.org/10.1037/a0038047">http://doi.org/10.1037/a0038047</a></p>
+</div>
+</section>
+</section>
+<section id="typical-reported-effect-sizes-iii" class="level2">
+<h2 class="anchored" data-anchor-id="typical-reported-effect-sizes-iii">Typical reported effect sizes III</h2>
+<section id="hill-et-al.-2008" class="level3">
+<h3 class="anchored" data-anchor-id="hill-et-al.-2008">Hill et al.&nbsp;(2008):</h3>
+<ul>
+<li>How does the effect of an intervention compare to a typical year of growth in school?</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/hedgesg.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<div class="footer">
+<p>Hill, C. J., Bloom, H. S., Black, A. R., &amp; Lipsey, M. W. (2008). Empirical Benchmarks for Interpreting Effect Sizes in Research. Child Development Perspectives, 2, 172–177. doi:10.1111/j.1750-8606.2008.00061.x</p>
+</div>
+</section>
+</section>
+<section id="typical-reported-effect-sizes-iv" class="level2">
+<h2 class="anchored" data-anchor-id="typical-reported-effect-sizes-iv">Typical reported effect sizes IV</h2>
+<section id="funder-ozer-2019" class="level3">
+<h3 class="anchored" data-anchor-id="funder-ozer-2019">Funder &amp; Ozer (2019):</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/graph10.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<div class="footer">
+<p>Funder, D. C., &amp; Ozer, D. J. (2019). Evaluating Effect Size in Psychological Research: Sense and Nonsense. Advances in Methods and Practices in Psychological Science, 2, 156–168. doi:10.1177/2515245919847202</p>
+</div>
+</section>
+</section>
+<section id="typical-reported-effect-sizes-v" class="level2">
+<h2 class="anchored" data-anchor-id="typical-reported-effect-sizes-v">Typical reported effect sizes V</h2>
+<section id="aguinis-beaty-boik-pierce-2005" class="level3">
+<h3 class="anchored" data-anchor-id="aguinis-beaty-boik-pierce-2005">Aguinis, Beaty, Boik, &amp; Pierce (2005):</h3>
+<ul>
+<li>Effect size of interaction from dichotomous moderator and continuous predictor <img src="img/table8.png" class="img-fluid quarto-figure quarto-figure-center"></li>
+</ul>
+<div class="footer">
+<p>Aguinis, H., Beaty, J. C., Boik, R. J., &amp; Pierce, C. A. (2005). Effect size and power in assessing moderating effects of categorical variables using multiple regression: a 30-year review. Journal of applied psychology, 90(1), 94.</p>
+</div>
+</section>
+</section>
+<section id="other-benchmarks-i" class="level2">
+<h2 class="anchored" data-anchor-id="other-benchmarks-i">Other benchmarks I</h2>
+<div class="callout callout-style-default callout-caution callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Average placebo effect?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><em>d</em> = 0.24 [0.17; 0.31]!</p>
+</div>
+</div>
+</div>
+<div class="footer">
+<p>Hróbjartsson, A., &amp; Gøtzsche, P. C. (2004). Is the placebo powerless? Update of a systematic review with 52 new randomized trials comparing placebo with no treatment. Journal of internal medicine, 256(2), 91-100.</p>
+</div>
+</section>
+<section id="other-benchmarks-ii-es-d" class="level2">
+<h2 class="anchored" data-anchor-id="other-benchmarks-ii-es-d">Other benchmarks II (ES: <em>d</em>)</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/graph11.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<div class="footer">
+<p>Luhmann, M., Hofmann, W., Eid, M., &amp; Lucas, R. E. (2012). Subjective well-being and adaptation to life events: a meta-analysis. Journal of Personality and Social Psychology, 102(3), 592–615. <a href="http://doi.org/10.1037/a0025948">http://doi.org/10.1037/a0025948</a></p>
+</div>
+</section>
+</section>
+<section id="the-trustworthiness-of-effect-sizes-in-the-literature" class="level1">
+<h1>The trustworthiness of effect sizes in the literature</h1>
+<section id="section-10" class="level2">
+<h2 class="anchored" data-anchor-id="section-10"></h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/sampletopower.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<div class="footer">
+<p>Bakker, M., van Dijk, A., &amp; Wicherts, J. M. (2012). The Rules of the Game Called Psychological Science. Perspectives on Psychological Science, 7(6), 543–554.</p>
+</div>
+</section>
+<section id="section-11" class="level2">
+<h2 class="anchored" data-anchor-id="section-11"></h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/graph12.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<div class="footer">
+<p>Fanelli, D. (2011). Negative results are disappearing from most disciplines and countries. Scientometrics, 90(3), 891–904. doi:10.1007/s11192-011-0494-7</p>
+</div>
+</section>
+<section id="can-we-base-our-power-analyses-on-published-effect-sizes" class="level2">
+<h2 class="anchored" data-anchor-id="can-we-base-our-power-analyses-on-published-effect-sizes">Can we base our power analyses on published effect sizes?</h2>
+<p><strong>No.</strong></p>
+<ul>
+<li>See RP:P: 83% of all effect sizes are smaller than the original: <br> Mean original: r = .40 ➙ Mean replication: r = .20</li>
+<li>See also Franco et al.&nbsp;(2015): <br> Reported ES 2x larger than unreported ES</li>
+</ul>
+</section>
+<section id="can-we-base-our-power-analyses-on-published-effect-sizes-1" class="level2">
+<h2 class="anchored" data-anchor-id="can-we-base-our-power-analyses-on-published-effect-sizes-1">Can we base our power analyses on published effect sizes?</h2>
+<p>• See Schäfer &amp; Schwarz (2019), ES: r:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/powerfromeffectsize.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<div class="footer">
+<p>Schäfer, T., &amp; Schwarz, M. A. (2019). The meaningfulness of effect sizes in psychological research: Differences between sub-disciplines and the impact of potential biases.Frontiers in Psychology,10, 813.</p>
+</div>
+</section>
+<section id="can-we-base-our-power-analyses-on-published-effect-sizes-2" class="level2">
+<h2 class="anchored" data-anchor-id="can-we-base-our-power-analyses-on-published-effect-sizes-2">Can we base our power analyses on published effect sizes?</h2>
+<ul>
+<li>Suggestion 1: Divide reported effect by 2, compute power analysis.</li>
+<li>Suggestion 2: Safeguard power (Perugini, 2014): Incorporate uncertainty in original study’s ES estimate. Aim lower end of 60%-CI.</li>
+</ul>
+</section>
+<section id="safeguard-power" class="level2">
+<h2 class="anchored" data-anchor-id="safeguard-power">Safeguard power</h2>
+<p>(Perugini et al., 2014)</p>
+<ul>
+<li>Incorporate uncertainty in original study’s ES estimate</li>
+<li>Aim for lower end of 60%-CI</li>
+<li>Example:
+<ul>
+<li>Original study finds d = 0.5 (n = 30 in each group)</li>
+<li>60% CI = [0.28; 0.72]</li>
+<li>Naive 80% power analysis: n = 64</li>
+<li>Safeguard 80% power analysis: n = 202</li>
+</ul></li>
+<li>Rewards precise estimates in original study</li>
+</ul>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(MBESS)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ci.smd</span>(<span class="at">smd=</span><span class="fl">0.5</span>, <span class="at">n.1=</span><span class="dv">30</span>, <span class="at">n.2=</span><span class="dv">30</span>, <span class="at">conf.level=</span><span class="fl">0.60</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="write-up" class="level2">
+<h2 class="anchored" data-anchor-id="write-up">Write-Up</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/writeup1.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<div class="footer">
+<p><a href="https://twitter.com/GuyProchilo/status/1292780240977223681">https://twitter.com/GuyProchilo/status/1292780240977223681</a></p>
+</div>
+</section>
+<section id="write-up-1" class="level2">
+<h2 class="anchored" data-anchor-id="write-up-1">Write-Up</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/writeup2.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<div class="footer">
+<p>Lakens (2021). Sample Size Justification. <a href="https://psyarxiv.com/9d3yf/">https://psyarxiv.com/9d3yf/</a></p>
+</div>
+<div class="footer">
+<p>Perugini, M., Gallucci, M., &amp; Costantini, G. (2014). Safeguard Power as a Protection Against Imprecise Power Estimates. Perspectives on Psychological Science, 9(3), 319–332. <a href="http://doi.org/10.1177/1745691614528519">http://doi.org/10.1177/1745691614528519</a></p>
+</div>
+<div class="footer">
+<p>Siehe <a href="https://www.fak11.lmu.de/dep_psychologie/studium/lehrelounge/benotung-schriftl-arbeiten/index.html">https://www.fak11.lmu.de/dep_psychologie/studium/lehrelounge/benotung-schriftl-arbeiten/index.html</a></p>
+</div>
+<!--Footer insert below -->
+</section>
+</section>
+<section id="end" class="level1">
+<h1>End</h1>
+<section id="contact" class="level2">
+<h2 class="anchored" data-anchor-id="contact">Contact</h2>
+<script src="https://kit.fontawesome.com/9fb269b0d2.js" crossorigin="anonymous"></script>
+<ul class="fa-ul" style="color:black; list-style:none;">
+<li>
+<i class="fa-brands fa-li fa-mastodon"></i> <a href="https://scicomm.xyz/@nicebread" target="_blank" style="color:black; border-bottom:none;"><span class="citation" data-cites="nicebread">@nicebread</span><span class="citation" data-cites="scicomm.xyz">@scicomm.xyz</span></a>
+</li>
+<li>
+<i class="fa-li fa fa-envelope-o"></i> <a style="unicode-bidi:bidi-override; direction: rtl; color:black" href="javascript:window.location.href = 'mailto:' + ['felix.schoenbrodt','psy.lmu.de'].join('@')">ed.uml.ysp@tdorbneohcs.xilef</a>
+</li>
+<li>
+<i class="fa-li fa-solid fa-globe"></i> <a href="https://www.nicebread.de" target="_blank" style="color:black; border-bottom:none;">https://www.nicebread.de</a>
+</li>
+<li>
+<i class="fa-li fa fa-github" aria-hidden="true"></i> <a href="https://github.com/nicebread" target="_blank" style="color:black; border-bottom:none;">https://github.com/nicebread</a>
+</li>
+</ul>
+<p><small style="text-align:left;"> <a href="http://creativecommons.org/licenses/by-sa/4.0/"><img src="https://licensebuttons.net/l/by-sa/4.0/88x31.png" class="img-fluid" alt="CC-BY-SA 4.0"></a></small></p><small style="text-align:left;">
+</small><p><small style="text-align:left;"></small></p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/nicebread\.github\.io\/Empra1\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
