@@ -27,7 +27,7 @@ revealjs-plugins:
 ## The Ideal? <span style="padding-left: 300px;">Reality?</span>
 
 
-::: columns
+:::: columns
 ::: {.column width="50%"}
 
 - Surrounded from a flood of fake news,
@@ -52,7 +52,7 @@ revealjs-plugins:
 - Reviewer overload leads to superficial reviews
 - **statcheck** (Nuijten et al., 2016): 50% of psychology papers contain at least one inconsistent statistic
 :::
-:::
+::::
 
 ## Mistakes lurk everywhere
 
@@ -70,7 +70,7 @@ revealjs-plugins:
   - See also „garden of forking paths“ (Gelman & Loken, 2013): A lot of **p**-hacking is unintentional
 :::
 
-## Mistakes lurke everywhere
+## Mistakes lurk everywhere
 <div style="text-align: center;">
 ![](img/Example.jpg){ width=750px}
 </div>
@@ -91,9 +91,7 @@ Screenshot from presentation from Katrin Auspurg & Josef Brüderl
 
 ## Unit tests / sanity checks
 
-- **Always** look at the descriptive statistics (min, max,
-  NAs, mean) of **every** variable (also
-  transformed/computed variables)
+- **Always** look at the descriptive statistics (min, max, NAs, mean) of **every** variable (also transformed/computed variables)
   - Know the scales of your variables: Is the mean plausible? Is the
     minimum and maximum value theoretically possible and plausible?
   - Does a scale value from multiple items have only discrete values?
@@ -226,21 +224,16 @@ Graphic from [https://rviews.rstudio.com/2018/01/18/package-management-for-repro
 
 
 
-## Variable name conventions
-<br>
+## Variable name conventions 1
 
-::: columns
+:::: columns
 ::: {.column width="60%"}
 
-- `snake_case`, `camelCase`, `PascalCase`, `dot.style`,
-  `sTUdLy_cAPs`?
-  - Do not use dots in variables (clashes
-    with some functions)
-  - Some consensus that snake_case is
-    the best choice, but respect languagespecific coding conventions
+- `snake_case`, `camelCase`, `PascalCase`, `dot.style`, `sTUdLy_cAPs`?
+  - Do not use dots in variables (clashes with some functions)
+  - Some consensus that snake_case is the best choice, but respect languagespecific coding conventions
   - Be consistent!
-- Prefer short variable names, but:<br>
-  understandability >> brevity
+- Prefer short variable names, but:<br>understandability >> brevity
 :::
 
 ::: {.column width="40%"}
@@ -263,10 +256,10 @@ var001
 x
 ```
 :::
-:::
+::::
 
 
-## Variable name conventions
+## Variable name conventions 2
 
 ::: {.smaller}
 - Before: Inconsistent mixture of naming styles
@@ -278,7 +271,6 @@ x
 
 ![](img/Table_2.jpg){width=750px style="margin-top: -40px;"}
 :::
-
 :::
 
 

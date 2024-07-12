@@ -1,0 +1,55 @@
+---
+title: Session 12 - How to Hausarbeit
+number-sections: false
+description: The structure of the final report; apaquarto
+---
+
+# Overview
+
+| Topic                                                                         | Duration | Notes                                                          |
+| :---------------------------------------------------------------------------- | :------: | -------------------------------------------------------------- |
+| How to Hausarbeit                                                             |    40    | [Slides](../slides/pdfs/Artikel_schreiben_und_formatieren.pdf) |
+| Wrap up homework: Quarto Tutorial/Start writing Hausarbeit                    |    30    |                                                                |
+| Test intervention at 11:00                                                    |    15    | Keep the time!                                                 |
+| Plan participant acquisition                                                  |    10    |                                                                |
+| Homework: Get participants; write section on Descriptive statistics in Quarto |    5     |                                                                |
+
+: {.striped}
+
+
+## Homework 1 (individually): Write reproducible manuscript in APA 7 format - Descriptive statistics
+
+The goal of this homework is to get you started with writing your final report.
+Please consult the [apaquarto documentation](https://wjschne.github.io/apaquarto/writing.html).
+
+Add all section headings. "Methods", "Results", "Discussion" should be Level 1 (with `#`), and so on.
+
+Write the following sections as a computable manuscript (i.e., all numbers should be computed dynamically in `R` chunks, no hard-coded numbers):
+
+- Methods -> Participants
+- Results -> Descriptive Statistics -> A descriptive table for the Pre-Questionnaire in APA format. Show the mean, standard deviation, min, max and sample size for each scale.
+
+Use longer `R` chunks for multiline computations:
+
+```{{r}}
+# This is a longer R chunk
+# The apaquarto extension automatically sets `#| echo: false` so that the code is not shown in the output
+
+dat <- read.csv("data.csv")
+# do some data preprocessing ...
+```
+
+
+Use inline `R` chunks to weave single numbers into continuous text:
+
+```default
+The mean age of the participants was `r round(mean(dat$age), 1)`.
+```
+
+Look at some of the APA's [sample papers](https://apastyle.apa.org/style-grammar-guidelines/paper-format/sample-papers), and read the respective sections in a couple of papers from our [literature list](https://docs.google.com/spreadsheets/d/1N-o_dUfMaQvMIIctJi4H7RM3TfF5OQZQN7IMEBA9w2o/edit?gid=0#gid=0).
+
+**Some notes:**
+
+- The questionnaire scales were computed as the mean of all items.
+- You do not have to report reliability statistics (you did not learn this yet).
+

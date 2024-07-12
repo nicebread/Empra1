@@ -1,0 +1,112 @@
+---
+title: Session 13 - Data Analysis
+number-sections: false
+description: We do a first round of data analysis
+---
+
+# Overview
+
+| Topic                                   | Duration | Notes |
+| :-------------------------------------- | :------: | ----- |
+| Preparation of data analysis            |    45    |       |
+| Power analysis (finalized)              |    30    |       |
+| Doing the confimatory analysis together |    60    |       |
+| Amending the preregistration            |    40    |       |
+
+: {.striped}
+
+
+## Preparation
+
+1. Create a new folder called "Empra-Studie" and add all default subfolders as explained in the "[Good Coding Practices](../slides/Good_coding_practices/Good_coding_practices.qmd#subdirectory-organization)" slides.
+2. Create an empty *apaquarto* document in the top level folder. Please consult the [apaquarto documentation](https://wjschne.github.io/apaquarto/writing.html), or our [tutorial](https://lmu-osc.github.io/introduction-to-Quarto/apa7_manuscript.html).
+3. Add your meta-data to the YAML header; most importantly your author information (because without at least one author, the PDF will not be compiled). Add your ORCID id that you created in the first homework.
+4. Add all default section headings of an APA paper. "Methods", "Results", "Discussion" should be Level 1 (with `#`), and so on.
+5. Download the data files from Moodle (one for the pre-questionnaire, one for the ESM data). Copy them into the `raw_data` subfolder. Note: For the practice session, the columns `Age`, `Gender`, `RelationshipDuration`, `COR` and `AvgWeeklyPartnerMeetings` have been replaced by random values to ensure anonymity. The original data (which I will have properly anonymized) will be used for the final report.
+6. Create a new R script and name it `01_Preprocessing.R`. Add your meta-information on top of the script (see screen shot in [Good Coding Practices](../slides/Good_coding_practices/Good_coding_practices.qmd#code-commenting-1) as an example). Load both data files and inspect them with the `summarytools` package:
+
+```r
+# `dat` should be the name of your data frame
+library(summarytools)
+view(dfSummary(dat))
+```
+
+
+
+## The statistical model
+
+In an experimental treatment-control-group design, we compare the means of two groups (control vs. treatment) and at the same time control for the baseline values before the treatment. For a proper analysis, we need mixed effects models (either a repeated measures ANOVA with one within- and one between-factor, or a linear mixed model). You learn the latter in the MSc. We implement a simpler model here that you can master with your current knowledge. Importantly, that simpler model is *statistically valid* (albeit, not optimal). In an excursus, I will show you the improved (but more complicated) version of the analysis.
+
+### The basic model
+
+The basic analysis only focuses on the randomized group membership (control vs. treatment), and ignores the pre-treatment scores. This is a valid analysis, but has a smaller statistical power than the improved model. The basic model can be done with a simple linear regression model, where the group membership is the predictor and the dependent variable is the outcome. The group membership is dummy coded (control = 0, treatment = 1). In our case, we had a within-person design. This means, that each participant received all experimental conditions. The outcome variable is the *post*-treatment intimacy motivation:
+
+```r
+lm(intimacy_post ~ condition)
+```
+
+This model answers the question: Is the intimacy motivation after our treatment higher, compared to the control group? And if the group membership was randomly allocated, it can be rephrased as: Does the treatment causally affect the intimacy motivation?
+
+This model (comparing the post-treatment outcome values) is an unbiased and therefore valid estimate of the causal effect of the treatment. "Unbiased" means: Across many (hypothetical) experiments with this design, the mean of all estimated treatment effects is not systematically biased in either direction. Put in other words: The estimate of each single experiment can be off, but on average, they are correct. As all participants went through both conditions, we already control for all pre-existing differences between persons. This already gives us a much higher power than a between-person design.
+
+### Dealing with three groups (up, down, neutral)
+
+
+
+### Multiple Testing
+
+
+
+
+### Excursus: Improving the model with pre-treatment scores
+
+Everybody has a bad day occassionally. If we measure the outcome on a bad day, the treatment might look less effective than it actually is, and the measured effect might even reverse, even if the treatment actually works.
+
+Imagine if you do the neutral conditions on a great day. You start with an outcome value of 8 (out of 10), and in the neutral condition it simply stays at 8. If you do the treatment condition on a bad day, you start with an outcome value of 4, and the treatment brings you up to 8. The treatment is actually highly effective, but only comparing the post-treatment values yields a measured effect of 0. We would have missed the effect. Of course, with proper randomization the situation will be reversed for other participants (or pther days) and both bad-day effects cancel out in the long run.
+
+::: {.callout-note}
+The focal comparison still is between the experimental groups. The pre-treatment scores are only used to control for pre-existing differences between the groups, and thereby reduce error variance.
+:::
+
+In a final step, we improve the **interpretability** of the model by mean-centering the pre-treatment scores. The intercept of the model is the predicted value for the control group (=0) when the pre-treatment score is zero. Whether that is an interpretable numnber depends on whether 0 is a meaningful number on the original scale of the pre-treatment scores. If not, we can mean-center the pre-treatment scores. Then the intercept is the predicted value for the control group for a person with average pre-treatment scores. 
+
+
+## Power Analysis (finalized)
+
+```r
+## install/load necessary libraries
+library(pwr) # for power analyses
+
+# reported values from Mashek et al. (2011)
+M_diff <- 6.02 - 5.69
+SD1 <- 1.34
+SD2 <- 1.23
+# n_overall = 91; assuming equal sample sizes (not reported in paper)
+n1 <- 45
+n2 <- 46
+SD_pooled <- sqrt(((n1-1)*SD1^2 + (n2-1)*SD2^2) / (n1+n2-2))
+
+d_between <- M_diff / SD_pooled
+d_between
+
+# We can convert the between-person effect size to a within-person effect size by dividing it by the square root of 2*(1-r), where r is the correlation between the control and the treatment values. From pilot data, we assume this correlation to be r = .8.
+r <- 0.8
+
+# formula: see, for example, Lakens (2013)
+d_within <- d_between / sqrt(2*(1-r))
+d_within
+
+# If we do a pure post-treatment comparison, we would need:
+# (one-sided testing, "loose" alpha level of .05)
+pwr.t.test(d=d_within, power = .80, sig.level = .05, alternative="greater", type="paired")
+```
+
+Here's a possible description of hte power analysis for the preregistration and the methods section:
+
+> We computed a basic post-treatment comparison of two groups, which is equivalent to a paired t-test. We use the effect size reported in Mashek et al. (2011) as expected effect size, because this is the study closest to our own design. We use the descriptive values reported in Table 5 ("Postmanipulation variables: Desired closeness") to compute Cohen's *d* for a between-person comparison (*d* = 0.26). We then convert this between-person effect size to a within-person effect size, as we have a within-person design. Based on some pilot data, we assume a correlation of .8 between the control and the treatment values. As we test multiple interventions in a "screening" scenario, we use a "loose" alpha level of .05 and a desired power of 80%. The required sample size for a paired t-test with an alpha level of .05, a power of .80, and an expected effect size of d_within = 0.40 is n = 40 for each intervention.
+
+**Group Task 1**: Compare this draft for the preregistration / method section with the best practices you learned in the lecture on [Reporting of Power Analyses](../slides/Power-Analysis Reporting/How-to-report-a-power-analysis.qmd). At least one piece of information are missing here! Can you find it?
+
+<!-- It was not  -->
+
+**Group Task 2**: How many participants do we then need, as we have six types of interventions, where each

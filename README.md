@@ -15,7 +15,7 @@ You need:
 - quarto > 1.3.45
 - [Font Awesome Extension for Quarto](https://github.com/quarto-ext/fontawesome)
 - [Attribution Extension](https://github.com/quarto-ext/attribution)
-- The [FOMO theme](https://github.com/nicebread/quarto-FS), which is based on the [Quarto clean theme](https://github.com/grantmcdermott/quarto-revealjs-clean/tree/main)
+- The [nicebread theme](https://github.com/nicebread/quarto-FS), which is based on the [Quarto clean theme](https://github.com/grantmcdermott/quarto-revealjs-clean/tree/main)
 
 Run the following commands in the project's root directory to install some add-ons and the theme:
 

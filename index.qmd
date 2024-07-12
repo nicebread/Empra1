@@ -3,24 +3,24 @@ title: "Forschungsorientierte Praktikum I – Grundlagen der Forschung"
 subtitle: "BSc Psychologie, LMU"
 ---
 
-*Note: This entire project is a mixture of English and German text. Sorry for that. Your mileage may vary.*
+*Note: This entire project is a mixture of English and German text. Sorry for that.*
 
 # Sessions Overview
 
-| #   | Date       | Topic                                                                                           | Notes                                                | Homework                                                            |
-| --- | ---------- | ----------------------------------------------------------------------------------------------- | ---------------------------------------------------- | ------------------------------------------------------------------- |
-| 1   | 2024-04-19 | [S1 - Formalitäten, Open Science, p-hack](sessions/S1-Introduction.qmd)                         |                                                      | create OSF account; practice p-hacking                              |
-| 2   | 2024-04-26 | [S2 - Einführung Intimitätsmotiv](sessions/S2-Intimacy.qmd)                                     |                                                      | Develop interventions                                               |
-| 3   | 2024-05-03 | [S3 - Motive 2; Kausalität](sessions/S3-Motives_Causality.qmd)                                  |                                                      | Read Ch. 1 of Experimentology                                       |
-| 4   | 2024-05-10 | [S4 - Studie planen](sessions/S4-DesignPlanning.qmd)                                            | Fragebögen überarbeiten; Ziel: Hypothesen aufstellen | HA: Vp-Akquise in Gruppen planen (Material, Kanäle, etc.);          |
-| 5   | 2024-05-17 | [S5 - Poweranalyse; Literaturrecherche](sessions/S5-LitSearch_Power.qmd)                        |                                                      | Literaturrecherche in Gruppe machen; Read Preregistration Challenge |
-| 6   | 2024-05-24 | [S6 - Prereg intro](sessions/S6-Prereg1.qmd)                                                    |                                                      |                                                                     |
-| 7   | 2024-05-31 | **Brückentag - online / Nensy**: [S7 - Finalize design](sessions/S7-Finalize_interventions.qmd) |                                                      | Studie testen                                                       |
-| 8   | 2024-06-07 | [S8 Letzter Feinschliff Studie](sessions/S8_9-Finalize_study.qmd)                               |                                                      | Open data lesen; Studienstart ganz fertig machen                    |
-| 9   | 2024-06-14 | Letzter Feinschliff Studie - continued                                                          | Studienstart!                                        | Codebuch erstellen                                                  |
-| 10  | 2024-06-21 | [S10 Open Data](sessions/S10-Open_Data.qmd)                                                     |                                                      | VP-Akquise; Quarto / Rmarkdown self-paced tutorial                  |
-| 11  | 2024-06-28 | [S11 Good coding practices; Quarto 1](sessions/S11-Good_coding_practices.qmd)                   |                                                      |                                                                     |
-| 12  | 2024-07-05 | Reproducible Manuscripts                                                                        | Studienende                                          |                                                                     |
-| 13  | 2024-07-12 | Datenanalyse                                                                                    |                                                      |                                                                     |
-| 14  | 2024-07-19 | Präregistrierung fertig machen - How-to Hausarbeit                                              |                                                      |                                                                     |
+| #   | Date       | Topic                                                                         | Notes                                                | Homework                                                            |
+| --- | ---------- | ----------------------------------------------------------------------------- | ---------------------------------------------------- | ------------------------------------------------------------------- |
+| 1   | 2024-04-19 | [S1 - Formalitäten, Open Science, p-hack](sessions/S1-Introduction.qmd)       |                                                      | create OSF account; practice p-hacking                              |
+| 2   | 2024-04-26 | [S2 - Einführung Intimitätsmotiv](sessions/S2-Intimacy.qmd)                   |                                                      | Develop interventions                                               |
+| 3   | 2024-05-03 | [S3 - Motive 2; Kausalität](sessions/S3-Motives_Causality.qmd)                |                                                      | Read Ch. 1 of Experimentology                                       |
+| 4   | 2024-05-10 | [S4 - Studie planen](sessions/S4-DesignPlanning.qmd)                          | Fragebögen überarbeiten; Ziel: Hypothesen aufstellen | HA: Vp-Akquise in Gruppen planen (Material, Kanäle, etc.);          |
+| 5   | 2024-05-17 | [S5 - Poweranalyse; Literaturrecherche](sessions/S5-LitSearch_Power.qmd)      |                                                      | Literaturrecherche in Gruppe machen; Read Preregistration Challenge |
+| 6   | 2024-05-24 | [S6 - Prereg intro](sessions/S6-Prereg1.qmd)                                  |                                                      |                                                                     |
+| 7   | 2024-05-31 | [S7 - Finalize design](sessions/S7-Finalize_interventions.qmd)                |                                                      | Studie testen                                                       |
+| 8   | 2024-06-07 | [S8 Letzter Feinschliff Studie](sessions/S8_9-Finalize_study.qmd)             |                                                      | Open data lesen; Studienstart ganz fertig machen                    |
+| 9   | 2024-06-14 | Letzter Feinschliff Studie - continued                                        |                                                      | Studie vorbereiten                                                  |
+| 10  | 2024-06-21 | [S10 Open Data](sessions/S10-Open_Data.qmd)                                   |                                                      | Codebuch erstellen                                                  |
+| 11  | 2024-06-28 | [S11 Good coding practices; Quarto 1](sessions/S11-Good_coding_practices.qmd) |                                                      | Quarto / Rmarkdown self-paced tutorial                              |
+| 12  | 2024-07-05 | [S12 How to Hausarbeit](sessions/S12-How_to_Hausarbeit.qmd)                   | Studienstart!                                        | VP-Akquise; Deskriptive Statistiken vorbereiten                     |
+| 13  | 2024-07-12 | [S13 Datenanalyse](sessions/S13-Data_Analysis.qmd)                            |                                                      |                                                                     |
+| 14  | 2024-07-19 | Prereg hochladen                                                              | Studienende                                          |                                                                     |
 
