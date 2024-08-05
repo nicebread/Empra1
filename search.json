@@ -1050,25 +1050,53 @@
     "text": "Formalia des Empras\n\n\nUnterricht in Kleingruppen (UK) mit 9 ECTS-Punkten\n≙ 3 Vorlesungen mit Klausur bzw. 3 Seminare mit Referat & schriftlicher Ausarbeitung\n≙ 12h Zeitinvestition pro Woche (Präsenz + Vor- und Nachbereitung)\n(in Empra 1: Anwesenheitspflicht laut PStO 2020; max. 2 unentschuldigte Fehlstunden)\n\nSiehe hierzu § 9 Absatz (3) Sätze 4 bis einschließlich 6 Informationen zur „regelmäßigen Teilnahme“ in der Prüfungs- und Studienordnung 2020: “Eine regelmäßige Teilnahme im Sinne der Anlage 2 ist dann nicht mehr gegeben, wenn Studierende aus selbst zu vertretenden Gründen an mehr als zwei der stattfindenden Veranstaltungstermine einer Lehrveranstaltung nicht teilnehmen.”\n\nLektüre der für den jeweiligen Termin angegeben Literatur bzw. gründliche Erledigung der zugeteilten Aufgaben\nAktive Mitarbeit beim Entwickeln der formalen Modelle und der Programmierung\nAnforderungen für Hausarbeit (siehe nächste Folie)"
   },
   {
-    "objectID": "slides/Empra-Orga/Empra-Orga.slide.html#hausarbeit",
-    "href": "slides/Empra-Orga/Empra-Orga.slide.html#hausarbeit",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
-    "section": "Hausarbeit",
-    "text": "Hausarbeit\nFormalia\n\n\nSchriftgröße 12pt, Zeilenabstand 1.5x\n15.000 Zeichen +/- 20% (Zählung inkl. Leerzeichen; ohne Deckblatt, Referenzen und Anhänge)\nWenn Sie in papaja/Rmarkdown schreiben, dann ist das exportierte PDF von der Formatierung her gut so wie es ist (Sie brauchen nicht das Deckblatt, Zeilenabstand etc. anpassen).\nDeckblatt: Titel, Datum, Name, Matrikel-Nr., Name der Veranstaltung\nBei papaja/Rmarkdown schreiben Sie Datum, Matrikel-Nr. und Name der Veranstaltung in die Author Notes.\nKein Inhaltsverzeichnis\nMindestens 5 Publikationen zitieren\nZitate & Literaturverzeichnis nach APA-Richtlinien (6. oder 7. Version)\nDie Links zu Präregistrierung, Repositorium mit Open Data, Open Code, etc. kommen an den Anfang des Methodenteils"
-  },
-  {
     "objectID": "slides/Empra-Orga/Empra-Orga.slide.html#hausarbeit-1",
     "href": "slides/Empra-Orga/Empra-Orga.slide.html#hausarbeit-1",
     "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
     "section": "Hausarbeit",
-    "text": "Hausarbeit\nAbgabe\n\nAls PDF-Datei per Email an den Dozenten – Empfang wird bestätigt\nAbgabetermin: Wird noch bekannt gegeben; typischerweise 3 Wochen vor Beginn des nächsten Semesters (also Mitte März im WS bzw. Mitte September im SS)\n2 Versionen einreichen:\n\nVollständige Version (Dateiname: IhrNachname_Empra_Jahr.pdf) – z.B.: „Schmid_Empra_2020.pdf“\nAnonymisierte Version, bei welcher der Name auf dem Deckblatt gelöscht ist (Dateiname: Matrikelnummer_Empra_Jahr.pdf)\n\nDiese Version wird benotet.\nDateiname z.B.:„98234034_Empra_2020.pdf“\nSie können in papaja einfach eine anonyme Version erzeugen, indem Sie im YAML mask: yes angeben"
+    "text": "Hausarbeit\nFormalia\n\n\nSchriftgröße 12pt, Zeilenabstand 1.5x\n15.000 Zeichen +/- 20% (Zählung inkl. Leerzeichen; ohne Deckblatt, Referenzen und Anhänge)\nDeckblatt: Titel, Datum, Name, Matrikel-Nr., Name der Veranstaltung\nWenn Sie in papaja/Rmarkdown/apaquarto schreiben, dann ist das exportierte PDF von der Formatierung her gut so wie es ist (Sie brauchen nicht das Deckblatt, Zeilenabstand etc. anpassen).\nKein Inhaltsverzeichnis\nBei papaja/Rmarkdown/apaquarto schreiben Sie Datum, Matrikel-Nr. und Name der Veranstaltung in die Author Notes.\nMindestens 5 Publikationen zitieren\nZitate & Literaturverzeichnis nach APA-Richtlinien (6. oder 7. Version)\nDie Links zu Präregistrierung, Repositorium mit Open Data, Open Code, etc. kommen an den Anfang des Methodenteils"
   },
   {
-    "objectID": "slides/Empra-Orga/Empra-Orga.slide.html#bewertungsschema-hausarbeit",
-    "href": "slides/Empra-Orga/Empra-Orga.slide.html#bewertungsschema-hausarbeit",
+    "objectID": "slides/Empra-Orga/Empra-Orga.slide.html#hausarbeit-2",
+    "href": "slides/Empra-Orga/Empra-Orga.slide.html#hausarbeit-2",
     "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
-    "section": "Bewertungsschema Hausarbeit",
-    "text": "Bewertungsschema Hausarbeit\n\n\nDas komplette Bewertungsschema findet sich hier."
+    "section": "Hausarbeit",
+    "text": "Hausarbeit\nAbgabe\n\nAls PDF-Datei per Email an den Dozenten – Empfang wird bestätigt\nAbgabetermin: Wird noch bekannt gegeben; typischerweise 3 Wochen vor Beginn des nächsten Semesters (also Mitte März im WS bzw. Mitte September im SS)\nZwei Versionen einreichen:\n\nVollständige Version (Dateiname: IhrNachname_Empra_Jahr.pdf) – z.B.: „Schmid_Empra_2024.pdf“\nAnonymisierte Version, bei welcher der Name auf dem Deckblatt gelöscht ist (Dateiname: Matrikelnummer_Empra_Jahr.pdf)\n\nDiese Version wird benotet.\nDateiname z.B.:„98234034_Empra_2024.pdf“\nSie können in papaja einfach eine anonyme Version erzeugen, indem Sie im YAML-Header mask: yes angeben (siehe Anleitung)\nSie können in apaquarto einfach eine anonyme Version erzeugen, indem Sie im YAML-Header mask: true angeben (siehe Anleitung)"
+  },
+  {
+    "objectID": "slides/Empra-Orga/Empra-Orga.slide.html#hausarbeit-3",
+    "href": "slides/Empra-Orga/Empra-Orga.slide.html#hausarbeit-3",
+    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "section": "Hausarbeit",
+    "text": "Hausarbeit\nBewertungsschema\nDie Leistung wird standardisiert nach einem Bewertungsschema bewertet."
+  },
+  {
+    "objectID": "slides/Empra-Orga/Empra-Orga.slide.html#hausarbeit-4",
+    "href": "slides/Empra-Orga/Empra-Orga.slide.html#hausarbeit-4",
+    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "section": "Hausarbeit",
+    "text": "Hausarbeit\nNutzung von KI-Tools (ChatGPT etc.)\n\nKI-Tools sind Realität und können in der wissenschaftlichen Arbeit unterstützend eingesetzt werden. Niels Van Quaquebeke hat eine schöne Übersicht.\nEs muss jedoch klar sein, was die Eigenleistung des/der Studierenden ist, und dass die Verantwortung für den Inhalt der Arbeit beim Autor bzw. der Autorin liegt.\nAm Ende der Hausarbeit müssen Sie entsprechend zwei Erklärungen anhängen:\n\n\neine Eigenständigkeitserklärung (siehe nächste Folie)\n\n\neine ergänzende Erklärung zur Nutzung von generativer KI und KI-gestützten Technologien im Schreibprozess anhängen (siehe übernächste Folie)."
+  },
+  {
+    "objectID": "slides/Empra-Orga/Empra-Orga.slide.html#hausarbeit-5",
+    "href": "slides/Empra-Orga/Empra-Orga.slide.html#hausarbeit-5",
+    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "section": "Hausarbeit",
+    "text": "Hausarbeit\nEigenständigkeitserklärung\n\nHiermit erkläre ich, dass ich die vorliegende Arbeit selbstständig und ohne fremde Hilfe verfasst habe. Ich habe keine anderen als die angegebenen Quellen und Hilfsmittel benutzt und alle wörtlich oder sinngemäß übernommenen Stellen als solche kenntlich gemacht.\nOrt, Datum, Unterschrift"
+  },
+  {
+    "objectID": "slides/Empra-Orga/Empra-Orga.slide.html#nutzung-von-ki-tools-selbsterklärung-deutsch",
+    "href": "slides/Empra-Orga/Empra-Orga.slide.html#nutzung-von-ki-tools-selbsterklärung-deutsch",
+    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "section": "Nutzung von KI-Tools: Selbsterklärung (deutsch)",
+    "text": "Nutzung von KI-Tools: Selbsterklärung (deutsch)\n\n\nErklärung zur Nutzung von generativer KI und KI-gestützten Technologien im Schreibprozess\nBei der Erstellung dieser Arbeit habe ich folgende/s Tool/s verwendet: [NAME TOOL / DIENST]. Art der Nutzung [bitte ankreuzen]:\n\nVerbesserung der sprachlichen Qualität und Lesbarkeit\nSchreibassistent z.B. zum Erstellen von Inhaltsverzeichnissen, Gliederungen, ersten Sätzen und Absätzen\nAuffinden von relevanten Zitaten, die als solche gekennzeichnet sind\nAuffinden von relevanten wissenschaftlichen Quellen, die als solche gekennzeichnet sind\nÜbersetzung von Zitaten oder Textabschnitten, die als solche gekennzeichnet sind (etwa: „Translated with DeepL“)\nZusammenfassung von Information\nTexttranskription von Audio- oder Videodateien\nErstellen von Bild- oder Videomaterial\nErstellen bzw. verbessern von Programmiercode (bspw. R- oder Python-Code)\nRecherche zu Begriffen\nErstellen von Begriffsdefinitionen\nSonstiges [bitte erläutern]:\n\nNach der Nutzung dieses Tools bzw. Dienstes habe ich den Inhalt überprüft, nach Bedarf bearbeitet und ich übernehme die volle Verantwortung für den Inhalt dieser Arbeit. Ich bestätige, dass diese Arbeit keine längeren Passagen (z.B. Zusammenfassung/Abstract der Arbeit, ganze Absätze im Text) an rein KI-generiertem Text enthält."
+  },
+  {
+    "objectID": "slides/Empra-Orga/Empra-Orga.slide.html#statement-on-the-use-of-generative-ai-and-ai-assisted-technologies-in-the-writing-process",
+    "href": "slides/Empra-Orga/Empra-Orga.slide.html#statement-on-the-use-of-generative-ai-and-ai-assisted-technologies-in-the-writing-process",
+    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "section": "Statement on the use of generative AI and AI-assisted technologies in the writing process",
+    "text": "Statement on the use of generative AI and AI-assisted technologies in the writing process\n\n\nStatement on the use of generative AI and AI-assisted technologies in the writing process\nIn writing this paper, I have used the following tool/s: [NAME TOOL / SERVICE]. I used it for the following purpose/s:\n\nimproving linguistic quality and readability\nwriting assistance e.g. for generating table of contents, outlines, first sentences and paragraphs\nfinding relevant citations (correctly marked as such)\nfinding relevant scientific sources (correctly marked as such)\ntranslation of citations or text passages (correctly marked as such, e.g. “translated with DeepL”)\nsummarizing information\ntranscribing assistance from audio or video\ngenerating or optimizing programming code (e.g. R- or Python-Code)\nresearching terms\ngenerating term definitions\nother [please specify]:\n\n\n\nAfter using this tool or service, I reviewed and edited the content as needed and I take full responsibility for the content of this paper. I certify that this paper does not contain lengthy passages (e.g. summary/abstract, or full paragraphs) of purely AI-generated text."
   },
   {
     "objectID": "slides/Empra-Orga/Empra-Orga.slide.html#contact",
@@ -1134,25 +1162,53 @@
     "text": "Formalia des Empras\n\n\nUnterricht in Kleingruppen (UK) mit 9 ECTS-Punkten\n≙ 3 Vorlesungen mit Klausur bzw. 3 Seminare mit Referat & schriftlicher Ausarbeitung\n≙ 12h Zeitinvestition pro Woche (Präsenz + Vor- und Nachbereitung)\n(in Empra 1: Anwesenheitspflicht laut PStO 2020; max. 2 unentschuldigte Fehlstunden)\n\nSiehe hierzu § 9 Absatz (3) Sätze 4 bis einschließlich 6 Informationen zur „regelmäßigen Teilnahme“ in der Prüfungs- und Studienordnung 2020: “Eine regelmäßige Teilnahme im Sinne der Anlage 2 ist dann nicht mehr gegeben, wenn Studierende aus selbst zu vertretenden Gründen an mehr als zwei der stattfindenden Veranstaltungstermine einer Lehrveranstaltung nicht teilnehmen.”\n\nLektüre der für den jeweiligen Termin angegeben Literatur bzw. gründliche Erledigung der zugeteilten Aufgaben\nAktive Mitarbeit beim Entwickeln der formalen Modelle und der Programmierung\nAnforderungen für Hausarbeit (siehe nächste Folie)"
   },
   {
-    "objectID": "slides/Empra-Orga/Empra-Orga.html#hausarbeit",
-    "href": "slides/Empra-Orga/Empra-Orga.html#hausarbeit",
-    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
-    "section": "Hausarbeit",
-    "text": "Hausarbeit\n\nFormalia\n\n\nSchriftgröße 12pt, Zeilenabstand 1.5x\n15.000 Zeichen +/- 20% (Zählung inkl. Leerzeichen; ohne Deckblatt, Referenzen und Anhänge)\nWenn Sie in papaja/Rmarkdown schreiben, dann ist das exportierte PDF von der Formatierung her gut so wie es ist (Sie brauchen nicht das Deckblatt, Zeilenabstand etc. anpassen).\nDeckblatt: Titel, Datum, Name, Matrikel-Nr., Name der Veranstaltung\nBei papaja/Rmarkdown schreiben Sie Datum, Matrikel-Nr. und Name der Veranstaltung in die Author Notes.\nKein Inhaltsverzeichnis\nMindestens 5 Publikationen zitieren\nZitate & Literaturverzeichnis nach APA-Richtlinien (6. oder 7. Version)\nDie Links zu Präregistrierung, Repositorium mit Open Data, Open Code, etc. kommen an den Anfang des Methodenteils"
-  },
-  {
     "objectID": "slides/Empra-Orga/Empra-Orga.html#hausarbeit-1",
     "href": "slides/Empra-Orga/Empra-Orga.html#hausarbeit-1",
     "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
     "section": "Hausarbeit",
-    "text": "Hausarbeit\n\nAbgabe\n\nAls PDF-Datei per Email an den Dozenten – Empfang wird bestätigt\nAbgabetermin: Wird noch bekannt gegeben; typischerweise 3 Wochen vor Beginn des nächsten Semesters (also Mitte März im WS bzw. Mitte September im SS)\n2 Versionen einreichen:\n\nVollständige Version (Dateiname: IhrNachname_Empra_Jahr.pdf) – z.B.: „Schmid_Empra_2020.pdf“\nAnonymisierte Version, bei welcher der Name auf dem Deckblatt gelöscht ist (Dateiname: Matrikelnummer_Empra_Jahr.pdf)\n\nDiese Version wird benotet.\nDateiname z.B.:„98234034_Empra_2020.pdf“\nSie können in papaja einfach eine anonyme Version erzeugen, indem Sie im YAML mask: yes angeben"
+    "text": "Hausarbeit\n\nFormalia\n\n\nSchriftgröße 12pt, Zeilenabstand 1.5x\n15.000 Zeichen +/- 20% (Zählung inkl. Leerzeichen; ohne Deckblatt, Referenzen und Anhänge)\nDeckblatt: Titel, Datum, Name, Matrikel-Nr., Name der Veranstaltung\nWenn Sie in papaja/Rmarkdown/apaquarto schreiben, dann ist das exportierte PDF von der Formatierung her gut so wie es ist (Sie brauchen nicht das Deckblatt, Zeilenabstand etc. anpassen).\nKein Inhaltsverzeichnis\nBei papaja/Rmarkdown/apaquarto schreiben Sie Datum, Matrikel-Nr. und Name der Veranstaltung in die Author Notes.\nMindestens 5 Publikationen zitieren\nZitate & Literaturverzeichnis nach APA-Richtlinien (6. oder 7. Version)\nDie Links zu Präregistrierung, Repositorium mit Open Data, Open Code, etc. kommen an den Anfang des Methodenteils"
   },
   {
-    "objectID": "slides/Empra-Orga/Empra-Orga.html#bewertungsschema-hausarbeit",
-    "href": "slides/Empra-Orga/Empra-Orga.html#bewertungsschema-hausarbeit",
+    "objectID": "slides/Empra-Orga/Empra-Orga.html#hausarbeit-2",
+    "href": "slides/Empra-Orga/Empra-Orga.html#hausarbeit-2",
     "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
-    "section": "Bewertungsschema Hausarbeit",
-    "text": "Bewertungsschema Hausarbeit\n\n\nDas komplette Bewertungsschema findet sich hier."
+    "section": "Hausarbeit",
+    "text": "Hausarbeit\n\nAbgabe\n\nAls PDF-Datei per Email an den Dozenten – Empfang wird bestätigt\nAbgabetermin: Wird noch bekannt gegeben; typischerweise 3 Wochen vor Beginn des nächsten Semesters (also Mitte März im WS bzw. Mitte September im SS)\nZwei Versionen einreichen:\n\nVollständige Version (Dateiname: IhrNachname_Empra_Jahr.pdf) – z.B.: „Schmid_Empra_2024.pdf“\nAnonymisierte Version, bei welcher der Name auf dem Deckblatt gelöscht ist (Dateiname: Matrikelnummer_Empra_Jahr.pdf)\n\nDiese Version wird benotet.\nDateiname z.B.:„98234034_Empra_2024.pdf“\nSie können in papaja einfach eine anonyme Version erzeugen, indem Sie im YAML-Header mask: yes angeben (siehe Anleitung)\nSie können in apaquarto einfach eine anonyme Version erzeugen, indem Sie im YAML-Header mask: true angeben (siehe Anleitung)"
+  },
+  {
+    "objectID": "slides/Empra-Orga/Empra-Orga.html#hausarbeit-3",
+    "href": "slides/Empra-Orga/Empra-Orga.html#hausarbeit-3",
+    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "section": "Hausarbeit",
+    "text": "Hausarbeit\n\nBewertungsschema\nDie Leistung wird standardisiert nach einem Bewertungsschema bewertet."
+  },
+  {
+    "objectID": "slides/Empra-Orga/Empra-Orga.html#hausarbeit-4",
+    "href": "slides/Empra-Orga/Empra-Orga.html#hausarbeit-4",
+    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "section": "Hausarbeit",
+    "text": "Hausarbeit\n\nNutzung von KI-Tools (ChatGPT etc.)\n\nKI-Tools sind Realität und können in der wissenschaftlichen Arbeit unterstützend eingesetzt werden. Niels Van Quaquebeke hat eine schöne Übersicht.\nEs muss jedoch klar sein, was die Eigenleistung des/der Studierenden ist, und dass die Verantwortung für den Inhalt der Arbeit beim Autor bzw. der Autorin liegt.\nAm Ende der Hausarbeit müssen Sie entsprechend zwei Erklärungen anhängen:\n\n\neine Eigenständigkeitserklärung (siehe nächste Folie)\n\n\neine ergänzende Erklärung zur Nutzung von generativer KI und KI-gestützten Technologien im Schreibprozess anhängen (siehe übernächste Folie)."
+  },
+  {
+    "objectID": "slides/Empra-Orga/Empra-Orga.html#hausarbeit-5",
+    "href": "slides/Empra-Orga/Empra-Orga.html#hausarbeit-5",
+    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "section": "Hausarbeit",
+    "text": "Hausarbeit\n\nEigenständigkeitserklärung\n\nHiermit erkläre ich, dass ich die vorliegende Arbeit selbstständig und ohne fremde Hilfe verfasst habe. Ich habe keine anderen als die angegebenen Quellen und Hilfsmittel benutzt und alle wörtlich oder sinngemäß übernommenen Stellen als solche kenntlich gemacht.\nOrt, Datum, Unterschrift"
+  },
+  {
+    "objectID": "slides/Empra-Orga/Empra-Orga.html#nutzung-von-ki-tools-selbsterklärung-deutsch",
+    "href": "slides/Empra-Orga/Empra-Orga.html#nutzung-von-ki-tools-selbsterklärung-deutsch",
+    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "section": "Nutzung von KI-Tools: Selbsterklärung (deutsch)",
+    "text": "Nutzung von KI-Tools: Selbsterklärung (deutsch)\n\n\nErklärung zur Nutzung von generativer KI und KI-gestützten Technologien im Schreibprozess\nBei der Erstellung dieser Arbeit habe ich folgende/s Tool/s verwendet: [NAME TOOL / DIENST]. Art der Nutzung [bitte ankreuzen]:\n\nVerbesserung der sprachlichen Qualität und Lesbarkeit\nSchreibassistent z.B. zum Erstellen von Inhaltsverzeichnissen, Gliederungen, ersten Sätzen und Absätzen\nAuffinden von relevanten Zitaten, die als solche gekennzeichnet sind\nAuffinden von relevanten wissenschaftlichen Quellen, die als solche gekennzeichnet sind\nÜbersetzung von Zitaten oder Textabschnitten, die als solche gekennzeichnet sind (etwa: „Translated with DeepL“)\nZusammenfassung von Information\nTexttranskription von Audio- oder Videodateien\nErstellen von Bild- oder Videomaterial\nErstellen bzw. verbessern von Programmiercode (bspw. R- oder Python-Code)\nRecherche zu Begriffen\nErstellen von Begriffsdefinitionen\nSonstiges [bitte erläutern]:\n\nNach der Nutzung dieses Tools bzw. Dienstes habe ich den Inhalt überprüft, nach Bedarf bearbeitet und ich übernehme die volle Verantwortung für den Inhalt dieser Arbeit. Ich bestätige, dass diese Arbeit keine längeren Passagen (z.B. Zusammenfassung/Abstract der Arbeit, ganze Absätze im Text) an rein KI-generiertem Text enthält."
+  },
+  {
+    "objectID": "slides/Empra-Orga/Empra-Orga.html#statement-on-the-use-of-generative-ai-and-ai-assisted-technologies-in-the-writing-process",
+    "href": "slides/Empra-Orga/Empra-Orga.html#statement-on-the-use-of-generative-ai-and-ai-assisted-technologies-in-the-writing-process",
+    "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
+    "section": "Statement on the use of generative AI and AI-assisted technologies in the writing process",
+    "text": "Statement on the use of generative AI and AI-assisted technologies in the writing process\n\n\nStatement on the use of generative AI and AI-assisted technologies in the writing process\nIn writing this paper, I have used the following tool/s: [NAME TOOL / SERVICE]. I used it for the following purpose/s:\n\nimproving linguistic quality and readability\nwriting assistance e.g. for generating table of contents, outlines, first sentences and paragraphs\nfinding relevant citations (correctly marked as such)\nfinding relevant scientific sources (correctly marked as such)\ntranslation of citations or text passages (correctly marked as such, e.g. “translated with DeepL”)\nsummarizing information\ntranscribing assistance from audio or video\ngenerating or optimizing programming code (e.g. R- or Python-Code)\nresearching terms\ngenerating term definitions\nother [please specify]:\n\n\n\nAfter using this tool or service, I reviewed and edited the content as needed and I take full responsibility for the content of this paper. I certify that this paper does not contain lengthy passages (e.g. summary/abstract, or full paragraphs) of purely AI-generated text."
   },
   {
     "objectID": "slides/Empra-Orga/Empra-Orga.html#contact",
