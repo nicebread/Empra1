@@ -162,7 +162,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <ul>
   <li><a href="#the-ideal-reality" id="toc-the-ideal-reality" class="nav-link active" data-scroll-target="#the-ideal-reality">The Ideal? <span style="padding-left: 300px;">Reality?</span></a></li>
   <li><a href="#mistakes-lurk-everywhere" id="toc-mistakes-lurk-everywhere" class="nav-link" data-scroll-target="#mistakes-lurk-everywhere">Mistakes lurk everywhere</a></li>
-  <li><a href="#mistakes-lurk-everywhere-1" id="toc-mistakes-lurk-everywhere-1" class="nav-link" data-scroll-target="#mistakes-lurk-everywhere-1">Mistakes lurk everywhere</a></li>
+  <li><a href="#mistakes-lurk-everywhere-1" id="toc-mistakes-lurk-everywhere-1" class="nav-link" data-scroll-target="#mistakes-lurk-everywhere-1">Mistakes lurk everywhere</a>
+  <ul class="collapse">
+  <li><a href="#examples-miscoding-missing-values" id="toc-examples-miscoding-missing-values" class="nav-link" data-scroll-target="#examples-miscoding-missing-values">Examples: Miscoding Missing Values</a></li>
+  </ul></li>
   <li><a href="#how-to-prevent-coding-errors" id="toc-how-to-prevent-coding-errors" class="nav-link" data-scroll-target="#how-to-prevent-coding-errors">How to prevent coding errors?</a></li>
   <li><a href="#unit-tests-sanity-checks" id="toc-unit-tests-sanity-checks" class="nav-link" data-scroll-target="#unit-tests-sanity-checks">Unit tests / sanity checks</a></li>
   <li><a href="#unit-tests-sanity-checks-1" id="toc-unit-tests-sanity-checks-1" class="nav-link" data-scroll-target="#unit-tests-sanity-checks-1">Unit tests / sanity checks</a></li>
@@ -171,6 +174,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#file-organization" id="toc-file-organization" class="nav-link" data-scroll-target="#file-organization">File organization</a></li>
   <li><a href="#directory-organization" id="toc-directory-organization" class="nav-link" data-scroll-target="#directory-organization">Directory organization</a></li>
   <li><a href="#subdirectory-organization" id="toc-subdirectory-organization" class="nav-link" data-scroll-target="#subdirectory-organization">Subdirectory organization</a></li>
+  <li><a href="#subdirectory-organization-1" id="toc-subdirectory-organization-1" class="nav-link" data-scroll-target="#subdirectory-organization-1">Subdirectory organization</a>
+  <ul class="collapse">
+  <li><a href="#the-readme-file" id="toc-the-readme-file" class="nav-link" data-scroll-target="#the-readme-file">The README file</a></li>
+  </ul></li>
   <li><a href="#variable-name-conventions-1" id="toc-variable-name-conventions-1" class="nav-link" data-scroll-target="#variable-name-conventions-1">Variable name conventions 1</a></li>
   <li><a href="#variable-name-conventions-2" id="toc-variable-name-conventions-2" class="nav-link" data-scroll-target="#variable-name-conventions-2">Variable name conventions 2</a></li>
   <li><a href="#code-commenting-1" id="toc-code-commenting-1" class="nav-link" data-scroll-target="#code-commenting-1">Code commenting 1</a></li>
@@ -272,19 +279,33 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li>Send the wrong file to the journal submission system</li>
 <li>Asymmetry: Mistakes tend to go in the preferred direction (Gould, 1996), because we check more vigorously when results (unexpectedly) go into the wrong direction.
 <ul>
-<li>See also „garden of forking paths“ (Gelman &amp; Loken, 2013): A lot of <strong>p</strong>-hacking is unintentional</li>
+<li>See also „garden of forking paths“ (Gelman &amp; Loken, 2013): A lot of <em>p</em>-hacking is unintentional</li>
 </ul></li>
 </ul>
 </div>
 </section>
 <section id="mistakes-lurk-everywhere-1" class="level2">
 <h2 class="anchored" data-anchor-id="mistakes-lurk-everywhere-1">Mistakes lurk everywhere</h2>
-<div style="text-align: center;">
-<p><img src="img/Example.jpg" class="img-fluid" width="750"></p>
-</div>
+<section id="examples-miscoding-missing-values" class="level3">
+<h3 class="anchored" data-anchor-id="examples-miscoding-missing-values">Examples: Miscoding Missing Values</h3>
+<ul>
+<li>Jasso (1985) ASR: coital frequency increases with wife’s age
+<ul>
+<li>Kahn/Udry (1986): 4 observations had value 88; Jasso treated these as valid values; treating these as missing, the effect of wife’s age becomes non-significant</li>
+</ul></li>
+<li>Herring (2009) ASR: diversity increases firm revenue
+<ul>
+<li>Stojmenovska/Bol/Leopold (2017): 206 firms had values 88,888,888,888; Herring treated these as valid values; treating these as missing, the effect of diversity becomes non-significant</li>
+</ul></li>
+<li>Munsch (2015) ASR: marital infidelity is at 10 %
+<ul>
+<li>Munsch (2018): 246 missings were miscoded as “infidelity” (Stata <code>.</code>-problem); with correct coding marital infidelity is at 6 %</li>
+</ul></li>
+</ul>
 <div class="footer">
-<p>Screenshot from presentation from Katrin Auspurg &amp; Josef Brüderl</p>
+<p>Taken from a presentation from Katrin Auspurg &amp; Josef Brüderl</p>
 </div>
+</section>
 </section>
 <section id="how-to-prevent-coding-errors" class="level2">
 <h2 class="anchored" data-anchor-id="how-to-prevent-coding-errors">How to prevent coding errors?</h2>
@@ -397,14 +418,33 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="smaller">
 <ul>
 <li>(Again, this is <em>one</em> possible organization scheme)</li>
-<li><strong>/raw_data</strong>: Contains all raw primary data files, as you received them (or exported them from the experimental software), without any manual preprocessing. <br> Primary data files are sacrosanct – set them to read-only, never change anything in them. <br> Any transformation, data exclusions, or error corrections must be done in scripts in order to be reproducible.</li>
-<li><strong>/processed_data</strong>: Stores intermediate data objects. For example, after you did all your outlier exclusions, data transformations, etc., store a file „data_cleaned.csv“ in /cache. If you refer to this data file in subsequent scripts, you do not have to run the preprocessing script every time. All files in <strong>/processed_data</strong> can be safely deleted, as they can be reconstructed by running all script files in the correct order.</li>
+<li><strong>/raw_data</strong>: Contains all raw primary data files, as you received them (or exported them from the experimental software), without any manual preprocessing. Primary data files are <span class="hl">sacrosanct</span> – set them to read-only, never change anything in them. Any transformation, data exclusions, or error corrections must be done in scripts in order to be reproducible.</li>
+<li><strong>/processed_data</strong>: Stores intermediate data objects. For example, after you did all your outlier exclusions, data transformations, etc., store a file „data_cleaned.csv“ in <code>/cache</code>. If you refer to this data file in subsequent scripts, you do not have to run the preprocessing script every time. All files in <code>/processed_data</code> can be safely deleted, as they can be reconstructed by running all script files in the correct order.</li>
 <li><strong>/doc</strong>: Documents (such as PDFs, manuals, etc.) related to the project.</li>
 <li><strong>/plots</strong>: Store result plots that you created in your scripts.</li>
 <li><strong>/export</strong>: If you export (sub)data sets or summaries for dissemination, store them here.</li>
 <li><strong>/archive</strong>: Old scripts and other files which are not used for your final analytical pipeline, but which you want to keep for some reasons.</li>
 </ul>
 </div>
+</section>
+<section id="subdirectory-organization-1" class="level2">
+<h2 class="anchored" data-anchor-id="subdirectory-organization-1">Subdirectory organization</h2>
+<section id="the-readme-file" class="level3">
+<h3 class="anchored" data-anchor-id="the-readme-file">The README file</h3>
+<ul>
+<li>Nowadays, it is typically in markdown format (i.e., <code>README.md</code>) as it is rendered in Github and other repositories</li>
+<li>Located at the top level of the project directory, it is <em>the</em> central entry point for other users: What do they need to get started? How can you make their life easier?</li>
+<li>Consider to add the following information:
+<ul>
+<li>Project title, authors, date, contact information</li>
+<li>Instructions on how to cite the project (or a link to an existing preprint or publication)</li>
+<li>A brief description of the project</li>
+<li>An overview of the directory structure</li>
+<li>Instructions on how to reproduce the results</li>
+<li>A license statement</li>
+</ul></li>
+</ul>
+</section>
 </section>
 <section id="variable-name-conventions-1" class="level2">
 <h2 class="anchored" data-anchor-id="variable-name-conventions-1">Variable name conventions 1</h2>
@@ -414,10 +454,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li><code>snake_case</code>, <code>camelCase</code>, <code>PascalCase</code>, <code>dot.style</code>, <code>sTUdLy_cAPs</code>?
 <ul>
 <li>Do not use dots in variables (clashes with some functions)</li>
-<li>Some consensus that snake_case is the best choice, but respect languagespecific coding conventions</li>
+<li>Some consensus that snake_case is the best choice, but respect language specific coding conventions</li>
 <li>Be consistent!</li>
 </ul></li>
-<li>Prefer short variable names, but:<br>understandability &gt;&gt; brevity</li>
+<li>Prefer short variable names (less typing while coding). But:<br>understandability &gt;&gt; brevity</li>
 </ul>
 </div><div class="column" style="width:40%;">
 <div class="sourceCode" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>average_heart_rate</span>
