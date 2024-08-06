@@ -1222,7 +1222,7 @@
     "href": "sessions/sessions_overview.html",
     "title": "Overview of sessions",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\nSession 01 - Introduction\n\n\nOpen Science\n\n\n\n\nSession 02 - Intimacy motive\n\n\nIntroducing motives, the intimacy motive, and the DynaMoS model (by Nensy Le)\n\n\n\n\nSession 03 - More Motives & Causality\n\n\nMore about motives and motivations; Basics about causality\n\n\n\n\nSession 04 - Planning the experimental design\n\n\nWe plan the experimental design of our study and decide upon interventions\n\n\n\n\nSession 05 - Literature Search & Poweranalysis\n\n\nWe plan the experimental design of our study and decide upon interventions\n\n\n\n\nSession 06 - Preregistration 1\n\n\nWe learn how to preregister a study\n\n\n\n\nSession 07 - Finalize Interventions\n\n\nWe decide upon the final design and interventions\n\n\n\n\nSession 08 + 09 - Finalize Study\n\n\nWe try to get the study ready to run, so that it can be tested.\n\n\n\n\nSession 10 - Open Data\n\n\nWe talk about how to publish open data and how to create a codebook.\n\n\n\n\nSession 11 - Good coding practices\n\n\nGood coding practices - Quarto introduction\n\n\n\n\nSession 12 - How to Hausarbeit\n\n\nThe structure of the final report; apaquarto\n\n\n\n\nSession 13 - Data Analysis\n\n\nWe do a first round of data analysis\n\n\n\n\nSession 13 - Data Analysis\n\n\nWe do a first round of data analysis\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\nSession 01 - Introduction\n\n\nOpen Science\n\n\n\n\nSession 02 - Intimacy motive\n\n\nIntroducing motives, the intimacy motive, and the DynaMoS model (by Nensy Le)\n\n\n\n\nSession 03 - More Motives & Causality\n\n\nMore about motives and motivations; Basics about causality\n\n\n\n\nSession 04 - Planning the experimental design\n\n\nWe plan the experimental design of our study and decide upon interventions\n\n\n\n\nSession 05 - Literature Search & Poweranalysis\n\n\nWe plan the experimental design of our study and decide upon interventions\n\n\n\n\nSession 06 - Preregistration 1\n\n\nWe learn how to preregister a study\n\n\n\n\nSession 07 - Finalize Interventions\n\n\nWe decide upon the final design and interventions\n\n\n\n\nSession 08 + 09 - Finalize Study\n\n\nWe try to get the study ready to run, so that it can be tested.\n\n\n\n\nSession 10 - Open Data\n\n\nWe talk about how to publish open data and how to create a codebook.\n\n\n\n\nSession 11 - Good coding practices\n\n\nGood coding practices - Quarto introduction\n\n\n\n\nSession 12 - How to Hausarbeit\n\n\nThe structure of the final report; apaquarto\n\n\n\n\nSession 13 - Data Analysis\n\n\nWe do a first round of data analysis\n\n\n\n\nSession 14 - Wrapping everything up\n\n\nIn this final session, we do our final data analysis, finalize our preregistration, and give feedback on the final project.\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "sessions/S7-Finalize_interventions.html",
@@ -1276,23 +1276,30 @@
   {
     "objectID": "sessions/S14-Finalization.html",
     "href": "sessions/S14-Finalization.html",
-    "title": "Session 13 - Data Analysis",
+    "title": "Session 14 - Wrapping everything up",
     "section": "",
     "text": "Topic\nDuration\nNotes\n\n\n\n\nDoing the confimatory analysis together\n120\n\n\n\nBreak\n\n\n\n\nAmend and submit the preregistration\n40\n\n\n\nFinal feedback round\n30"
   },
   {
     "objectID": "sessions/S14-Finalization.html#präregistrierung-finalisieren",
     "href": "sessions/S14-Finalization.html#präregistrierung-finalisieren",
-    "title": "Session 13 - Data Analysis",
-    "section": "Präregistrierung finalisieren:",
-    "text": "Präregistrierung finalisieren:\nBitte nehmen Sie die gemeinsame Vorlage für die Präregistrierung. Machen Sie eine lokale Kopie und ergänzen Sie folgende Informationen:\n\nHypothesis I3: Fill in all XXX, add all other interventions\nStudy Materials M13: “The video and podcast material are from: XXX” –&gt; see https://tellmi.psy.lmu.de/study_EMP/teilnehmen/#citations\n\nSpeichern Sie die Datei als PDF und legen Sie diese in den Ordner docs ihres Projektordners ab."
+    "title": "Session 14 - Wrapping everything up",
+    "section": "Präregistrierung finalisieren",
+    "text": "Präregistrierung finalisieren\nBitte nehmen Sie die gemeinsame Vorlage für die Präregistrierung. Machen Sie eine lokale Kopie und ergänzen Sie folgende Informationen:\n\nHypothesis I3: Fill in all XXX, add all other interventions\nStudy Materials M13: “The video and podcast material are from: XXX” –&gt; see https://tellmi.psy.lmu.de/study_EMP/teilnehmen/#citations\n\nSpeichern Sie die Datei als PDF und legen Sie diese in den Ordner docs ihres Projektordners ab. Wir laden sie nicht bei einer Präregistrierungsplattform hoch; bei einer echten Präregistrierung wäre dieser SChritt natürlich zwingend notwendig."
+  },
+  {
+    "objectID": "sessions/S14-Finalization.html#codebook-finalisieren",
+    "href": "sessions/S14-Finalization.html#codebook-finalisieren",
+    "title": "Session 14 - Wrapping everything up",
+    "section": "Codebook finalisieren",
+    "text": "Codebook finalisieren\nBitte ergänzen Sie das Codebuch um alle Variablen, die Sie in Ihrer Analyse verwenden. Legen Sie das Codebuch im Ordner docs ab."
   },
   {
     "objectID": "sessions/S14-Finalization.html#references-of-the-existing-questionnaires-also-for-the-codebook",
     "href": "sessions/S14-Finalization.html#references-of-the-existing-questionnaires-also-for-the-codebook",
-    "title": "Session 13 - Data Analysis",
+    "title": "Session 14 - Wrapping everything up",
     "section": "References of the existing questionnaires (also for the codebook)",
-    "text": "References of the existing questionnaires (also for the codebook)\n\nCSI: Funk, J. L., & Rogge, R. D. (2007). Testing the ruler with item response theory: Increasing precision of measurement for relationship satisfaction with the Couples Satisfaction Index. Journal of Family Psychology, 21(4), 572–583. https://doi.org/10.1037/0893-3200.21.4.572\nUMS: Schönbrodt, F. D., & Gerstenberg, F. X. R. (2012). An IRT analysis of motive questionnaires: The Unified Motive Scales. Journal of Research in Personality, 46(6), 725–742. https://doi.org/10.1016/j.jrp.2012.08.010\nIntimacy motivation state items and State Relationship Satisfaction items: Schönbrodt, F. D., Zygar-Hoffmann, C., Nestler, S., Pusch, S., & Hagemeyer, B. (2021). Measuring motivational relationship processes in experience sampling: A reliability model for moments, days, and persons nested in couples. Behavior Research Methods, 54(4), 1869–1888. https://doi.org/10.3758/s13428-021-01701-7"
+    "text": "References of the existing questionnaires (also for the codebook)\n\nCSI: Funk, J. L., & Rogge, R. D. (2007). Testing the ruler with item response theory: Increasing precision of measurement for relationship satisfaction with the Couples Satisfaction Index. Journal of Family Psychology, 21(4), 572–583. https://doi.org/10.1037/0893-3200.21.4.572\n\nWe used the 16-item version CSI-16, which has a possible range from 0 - 81.\n\nUMS: Schönbrodt, F. D., & Gerstenberg, F. X. R. (2012). An IRT analysis of motive questionnaires: The Unified Motive Scales. Journal of Research in Personality, 46(6), 725–742. https://doi.org/10.1016/j.jrp.2012.08.010\nIntimacy motivation state items and State Relationship Satisfaction items: Schönbrodt, F. D., Zygar-Hoffmann, C., Nestler, S., Pusch, S., & Hagemeyer, B. (2021). Measuring motivational relationship processes in experience sampling: A reliability model for moments, days, and persons nested in couples. Behavior Research Methods, 54(4), 1869–1888. https://doi.org/10.3758/s13428-021-01701-7"
   },
   {
     "objectID": "sessions/S12-How_to_Hausarbeit.html",
@@ -1327,7 +1334,7 @@
     "href": "index.html",
     "title": "Forschungsorientierte Praktikum I – Grundlagen der Forschung",
     "section": "",
-    "text": "Note: This entire project is a mixture of English and German text. Sorry for that.\n\nSessions Overview\n\n\n\n#\nDate\nTopic\nNotes\nHomework\n\n\n\n\n1\n2024-04-19\nS1 - Formalitäten, Open Science, p-hack\n\ncreate OSF account; practice p-hacking\n\n\n2\n2024-04-26\nS2 - Einführung Intimitätsmotiv\n\nDevelop interventions\n\n\n3\n2024-05-03\nS3 - Motive 2; Kausalität\n\nRead Ch. 1 of Experimentology\n\n\n4\n2024-05-10\nS4 - Studie planen\nFragebögen überarbeiten; Ziel: Hyp aufstellen\nHA: Vp-Akquise in Gruppen planen (Material, Kanäle, etc.);\n\n\n5\n2024-05-17\nS5 - Poweranalyse; Literaturrecherche\n\nLiteraturrecherche in Gruppe machen; Read Preregistration Challenge\n\n\n6\n2024-05-24\nS6 - Prereg intro\n\n\n\n\n7\n2024-05-31\nS7 - Finalize design\n\nStudie testen\n\n\n8\n2024-06-07\nS8 Letzter Feinschliff Studie\n\nOpen data lesen; Studienstart ganz fertig machen\n\n\n9\n2024-06-14\nS9 Letzter Feinschliff Studie - continued\n\nStudie vorbereiten\n\n\n10\n2024-06-21\nS10 - Open Data\n\nCodebuch erstellen\n\n\n11\n2024-06-28\nS11 - Good coding practices; Quarto 1\n\nQuarto / Rmarkdown self-paced tutorial\n\n\n12\n2024-07-05\nS12 - How to Hausarbeit\nStudienstart!\nVP-Akquise; Deskriptive Statistiken vorbereiten\n\n\n13\n2024-07-12\nS13 - Data Analysis\n\n\n\n\n14\n2024-07-19\nS14 - Finalization\nStudienende"
+    "text": "Note: This project is a mixture of English and German text. Sorry for that.\n\nSessions Overview\n\n\n\n#\nDate\nTopic\nNotes\nHomework\n\n\n\n\n1\n2024-04-19\nS1 - Formalitäten, Open Science, p-hack\n\ncreate OSF account; practice p-hacking\n\n\n2\n2024-04-26\nS2 - Einführung Intimitätsmotiv\n\nDevelop interventions\n\n\n3\n2024-05-03\nS3 - Motive 2; Kausalität\n\nRead Ch. 1 of Experimentology\n\n\n4\n2024-05-10\nS4 - Studie planen\nFragebögen überarbeiten; Ziel: Hyp aufstellen\nHA: Vp-Akquise in Gruppen planen (Material, Kanäle, etc.);\n\n\n5\n2024-05-17\nS5 - Poweranalyse; Literaturrecherche\n\nLiteraturrecherche in Gruppe machen; Read Preregistration Challenge\n\n\n6\n2024-05-24\nS6 - Prereg intro\n\n\n\n\n7\n2024-05-31\nS7 - Finalize design\n\nStudie testen\n\n\n8\n2024-06-07\nS8 Letzter Feinschliff Studie\n\nOpen data lesen; Studienstart ganz fertig machen\n\n\n9\n2024-06-14\nS9 Letzter Feinschliff Studie - continued\n\nStudie vorbereiten\n\n\n10\n2024-06-21\nS10 - Open Data\n\nCodebuch erstellen\n\n\n11\n2024-06-28\nS11 - Good coding practices; Quarto 1\n\nQuarto / Rmarkdown self-paced tutorial\n\n\n12\n2024-07-05\nS12 - How to Hausarbeit\nStudienstart!\nVP-Akquise; Deskriptive Statistiken vorbereiten\n\n\n13\n2024-07-12\nS13 - Data Analysis\n\n\n\n\n14\n2024-07-19\nS14 - Finalization\nStudienende"
   },
   {
     "objectID": "about.html",
