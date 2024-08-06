@@ -1,0 +1,40 @@
+---
+title: Session 14 - Wrapping everything up
+number-sections: false
+description: In this final session, we do our final data analysis, finalize our preregistration, and give feedback on the final project.
+---
+
+# Overview
+
+| Topic                                                                                                                                                                           | Duration | Notes |
+| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :------: | ----- |
+| Doing the confimatory analysis together                                                                                                                                         |   120    |       |
+| Break                                                                                                                                                                           |          |       |
+| Amend and submit the [preregistration](https://docs.google.com/spreadsheets/d/1UqEWHTTDqpHow4X07rNgVLW3Sco4vTW1/edit?usp=sharing&ouid=108982640291853577145&rtpof=true&sd=true) |    40    |       |
+| Final feedback round                                                                                                                                                            |    30    |       |
+
+: {.striped}
+
+
+# TODOs für die Hausarbeit
+
+## Präregistrierung finalisieren
+
+Bitte nehmen Sie die gemeinsame Vorlage für die [Präregistrierung](https://docs.google.com/spreadsheets/d/1UqEWHTTDqpHow4X07rNgVLW3Sco4vTW1/edit?usp=sharing&ouid=108982640291853577145&rtpof=true&sd=true). Machen Sie eine lokale Kopie und ergänzen Sie folgende Informationen:
+
+- Hypothesis I3: Fill in all XXX, add all other interventions
+- Study Materials M13: "The video and podcast material are from: XXX" --> see https://tellmi.psy.lmu.de/study_EMP/teilnehmen/#citations
+
+Speichern Sie die Datei als PDF und legen Sie diese in den Ordner `docs` ihres Projektordners ab. Wir laden sie *nicht* bei einer Präregistrierungsplattform hoch; bei einer echten Präregistrierung wäre dieser SChritt natürlich zwingend notwendig.
+
+## Codebook finalisieren
+
+Bitte ergänzen Sie das Codebuch um alle Variablen, die Sie in Ihrer Analyse verwenden. Legen Sie das Codebuch im Ordner `docs` ab.
+
+## References of the existing questionnaires (also for the codebook)
+
+- **CSI**: Funk, J. L., & Rogge, R. D. (2007). Testing the ruler with item response theory: Increasing precision of measurement for relationship satisfaction with the Couples Satisfaction Index. Journal of Family Psychology, 21(4), 572–583. https://doi.org/10.1037/0893-3200.21.4.572
+  - We used the 16-item version CSI-16, which has a possible range from 0 - 81.
+- **UMS**: Schönbrodt, F. D., & Gerstenberg, F. X. R. (2012). An IRT analysis of motive questionnaires: The Unified Motive Scales. Journal of Research in Personality, 46(6), 725–742. https://doi.org/10.1016/j.jrp.2012.08.010
+- **Intimacy motivation state items** and **State Relationship Satisfaction items**: Schönbrodt, F. D., Zygar-Hoffmann, C., Nestler, S., Pusch, S., & Hagemeyer, B. (2021). Measuring motivational relationship processes in experience sampling: A reliability model for moments, days, and persons nested in couples. Behavior Research Methods, 54(4), 1869–1888. https://doi.org/10.3758/s13428-021-01701-7
+

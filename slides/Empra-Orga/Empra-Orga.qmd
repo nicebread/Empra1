@@ -100,16 +100,18 @@ revealjs-plugins:
 :::
 
 
+# Hausarbeit
+
 ## Hausarbeit
 ### Formalia
 
 ::: {.smaller}
 - Schriftgröße 12pt, Zeilenabstand 1.5x
 - 15.000 Zeichen +/- 20% (Zählung inkl. Leerzeichen; ohne Deckblatt, Referenzen und Anhänge)
-- Wenn Sie in papaja/Rmarkdown schreiben, dann ist das exportierte PDF von der Formatierung her gut so wie es ist (Sie brauchen nicht das Deckblatt, Zeilenabstand etc. anpassen).
 - Deckblatt: Titel, Datum, Name, Matrikel-Nr., Name der Veranstaltung
-- Bei papaja/Rmarkdown schreiben Sie Datum, Matrikel-Nr. und Name der Veranstaltung in die Author Notes.
+- Wenn Sie in `papaja`/`Rmarkdown`/`apaquarto` schreiben, dann ist das exportierte PDF von der Formatierung her gut so wie es ist (Sie brauchen nicht das Deckblatt, Zeilenabstand etc. anpassen).
 - Kein Inhaltsverzeichnis
+- Bei `papaja`/`Rmarkdown`/`apaquarto` schreiben Sie Datum, Matrikel-Nr. und Name der Veranstaltung in die Author Notes.
 - Mindestens 5 Publikationen zitieren
 - Zitate & Literaturverzeichnis nach [APA-Richtlinien](http://owl.english.purdue.edu/owl/resource/664/01/) (6. oder 7. Version)
 - Die Links zu Präregistrierung, Repositorium mit Open Data, Open Code, etc. kommen an den Anfang des Methodenteils
@@ -121,20 +123,88 @@ revealjs-plugins:
 
 - Als PDF-Datei per Email an den Dozenten – Empfang wird bestätigt
 - Abgabetermin: Wird noch bekannt gegeben; typischerweise 3 Wochen vor Beginn des nächsten Semesters (also Mitte März im WS bzw. Mitte September im SS)
-- 2 Versionen einreichen:
-  - Vollständige Version (Dateiname: IhrNachname_Empra_Jahr.pdf) – z.B.: „Schmid_Empra_2020.pdf“
+- Zwei Versionen einreichen:
+  - Vollständige Version (Dateiname: IhrNachname_Empra_Jahr.pdf) – z.B.: „Schmid_Empra_2024.pdf“
   - Anonymisierte Version, bei welcher der Name auf dem Deckblatt gelöscht ist (Dateiname: Matrikelnummer_Empra_Jahr.pdf)
     - Diese Version wird benotet.
-    - Dateiname z.B.:„98234034_Empra_2020.pdf“
-    - Sie können in papaja einfach eine [anonyme Version](https://frederikaust.com/papaja_man/r-markdown-components.html) erzeugen, indem Sie im YAML  `mask: yes` angeben
+    - Dateiname z.B.:„98234034_Empra_2024.pdf“
+    - Sie können in `papaja` einfach eine anonyme Version erzeugen, indem Sie im YAML-Header  `mask: yes` angeben (siehe [Anleitung](https://frederikaust.com/papaja_man/r-markdown-components.html))
+    - Sie können in `apaquarto` einfach eine anonyme Version erzeugen, indem Sie im YAML-Header  `mask: true` angeben (siehe [Anleitung](https://wjschne.github.io/apaquarto/writing.html?q=anonym#masked-citations-for-anonymous-peer-review))
 
 
-## Bewertungsschema Hausarbeit
+## Hausarbeit
+### Bewertungsschema
+
+Die Leistung wird standardisiert nach einem [Bewertungsschema](img/Orientierungshilfe_Notenvergabe_Empra_0.3.pdf) bewertet.
 
 ![](img/Bewertungsschema.png)
 
-::: footer
-Siehe [https://www.fak11.lmu.de/dep_psychologie/studium/lehrelounge/benotung-schriftl-arbeiten/index.html](https://www.fak11.lmu.de/dep_psychologie/studium/lehrelounge/benotung-schriftl-arbeiten/index.html)
+
+
+## Hausarbeit
+### Nutzung von KI-Tools (ChatGPT etc.)
+
+- KI-Tools sind Realität und können in der wissenschaftlichen Arbeit unterstützend eingesetzt werden. Niels Van Quaquebeke hat eine schöne [Übersicht](https://docs.google.com/document/d/1mb4SWtqyi1iEGCn2uTnHkPHqW3UoQr8b0xv5_81a-4Y/edit).
+- Es muss jedoch klar sein, was die Eigenleistung des/der Studierenden ist, und dass die Verantwortung für den Inhalt der Arbeit beim Autor bzw. der Autorin liegt.
+- Am Ende der Hausarbeit müssen Sie entsprechend zwei Erklärungen anhängen:
+  - (a) eine Eigenständigkeitserklärung (siehe nächste Folie)
+  - (b) eine ergänzende Erklärung zur Nutzung von generativer KI und KI-gestützten Technologien im Schreibprozess anhängen (siehe übernächste Folie).
+
+## Hausarbeit
+### Eigenständigkeitserklärung
+
+> Hiermit erkläre ich, dass ich die vorliegende Arbeit selbstständig und ohne fremde Hilfe verfasst habe. Ich habe keine anderen als die angegebenen Quellen und Hilfsmittel benutzt und alle wörtlich oder sinngemäß übernommenen Stellen als solche kenntlich gemacht.
+> 
+> Ort, Datum, Unterschrift
+
+
+## Nutzung von KI-Tools: Selbsterklärung (deutsch)
+
+::: {style="font-size: 40%;"}
+> **Erklärung zur Nutzung von generativer KI und KI-gestützten Technologien im Schreibprozess**
+> 
+> Bei der Erstellung dieser Arbeit habe ich folgende/s Tool/s verwendet: [NAME TOOL / DIENST]. 
+> Art der Nutzung [bitte ankreuzen]:
+> 
+> - [ ]	Verbesserung der sprachlichen Qualität und Lesbarkeit
+> - [ ]	Schreibassistent z.B. zum Erstellen von Inhaltsverzeichnissen, Gliederungen, ersten Sätzen und Absätzen
+> - [ ]	Auffinden von relevanten Zitaten, die als solche gekennzeichnet sind
+> - [ ]	Auffinden von relevanten wissenschaftlichen Quellen, die als solche gekennzeichnet sind
+> - [ ]	Übersetzung von Zitaten oder Textabschnitten, die als solche gekennzeichnet sind (etwa: „Translated with DeepL“)
+> - [ ]	Zusammenfassung von Information
+> - [ ]	Texttranskription von Audio- oder Videodateien
+> - [ ]	Erstellen von Bild- oder Videomaterial
+> - [ ]	Erstellen bzw. verbessern von Programmiercode (bspw. R- oder Python-Code)
+> - [ ]	Recherche zu Begriffen
+> - [ ]	Erstellen von Begriffsdefinitionen
+> - [ ]	Sonstiges [bitte erläutern]: 
+>
+> Nach der Nutzung dieses Tools bzw. Dienstes habe ich den Inhalt überprüft, nach Bedarf bearbeitet und ich übernehme die volle Verantwortung für den Inhalt dieser Arbeit. Ich bestätige, dass diese Arbeit keine längeren Passagen (z.B. Zusammenfassung/Abstract der Arbeit, ganze Absätze im Text) an rein KI-generiertem Text enthält.
+:::
+
+
+## Statement on the use of generative AI and AI-assisted technologies in the writing process
+
+::: {style="font-size: 40%;"}
+> **Statement on the use of generative AI and AI-assisted technologies in the writing process**
+> 
+> In writing this paper, I have used the following tool/s: [NAME TOOL / SERVICE].
+> I used it for the following purpose/s:
+> 
+> - [ ] improving linguistic quality and readability
+> - [ ] writing assistance e.g. for generating table of contents, outlines, first sentences and paragraphs
+> - [ ] finding relevant citations (correctly marked as such)
+> - [ ] finding relevant scientific sources (correctly marked as such)
+> - [ ] translation of citations or text passages (correctly marked as such, e.g. “translated with DeepL”)
+> - [ ] summarizing information
+> - [ ] transcribing assistance from audio or video
+> - [ ] generating or optimizing programming code (e.g. R- or Python-Code)
+> - [ ] researching terms
+> - [ ] generating term definitions
+> - [ ] other [please specify]: 
+
+>
+> After using this tool or service, I reviewed and edited the content as needed and I take full responsibility for the content of this paper. I certify that this paper does not contain lengthy passages (e.g. summary/abstract, or full paragraphs) of purely AI-generated text.
 :::
 
 

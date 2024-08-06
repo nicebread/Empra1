@@ -67,16 +67,21 @@ revealjs-plugins:
 - Mistyping numbers when copying them from R to manuscript
 - Send the wrong file to the journal submission system
 - Asymmetry: Mistakes tend to go in the preferred direction (Gould, 1996), because we check more vigorously when results (unexpectedly) go into the wrong direction.
-  - See also „garden of forking paths“ (Gelman & Loken, 2013): A lot of **p**-hacking is unintentional
+  - See also „garden of forking paths“ (Gelman & Loken, 2013): A lot of *p*-hacking is unintentional
 :::
 
 ## Mistakes lurk everywhere
-<div style="text-align: center;">
-![](img/Example.jpg){ width=750px}
-</div>
+### Examples: Miscoding Missing Values
+
+- Jasso (1985) ASR: coital frequency increases with wife's age
+  - Kahn/Udry (1986): 4 observations had value 88; Jasso treated these as valid values; treating these as missing, the effect of wife's age becomes non-significant
+- Herring (2009) ASR: diversity increases firm revenue
+  - Stojmenovska/Bol/Leopold (2017): 206 firms had values 88,888,888,888; Herring treated these as valid values; treating these as missing, the effect of diversity becomes non-significant
+- Munsch (2015) ASR: marital infidelity is at 10 %
+  - Munsch (2018): 246 missings were miscoded as "infidelity" (Stata `.`-problem); with correct coding marital infidelity is at 6 %
 
 ::: footer
-Screenshot from presentation from Katrin Auspurg & Josef Brüderl
+Taken from a presentation from Katrin Auspurg & Josef Brüderl
 ::: 
 
 ## How to prevent coding errors?
@@ -205,23 +210,28 @@ Graphic from [https://rviews.rstudio.com/2018/01/18/package-management-for-repro
 
 ::: {.smaller}
 - (Again, this is *one* possible organization scheme)
-- **/raw_data**: Contains all raw primary data files, as you received them (or exported them from the experimental software), without any manual preprocessing. <br>
-  Primary data files are sacrosanct – set them to read-only, never change anything in them. <br>
-  Any transformation, data exclusions, or error corrections must be done in scripts in order to
-  be reproducible.
+- **/raw_data**: Contains all raw primary data files, as you received them (or exported them from the experimental software), without any manual preprocessing. Primary data files are [sacrosanct]{.hl} – set them to read-only, never change anything in them. Any transformation, data exclusions, or error corrections must be done in scripts in order to be reproducible.
 - **/processed_data**: Stores intermediate data objects. For example, after you did all your
-  outlier exclusions, data transformations, etc., store a file „data_cleaned.csv“ in /cache. If
-  you refer to this data file in subsequent scripts, you do not have to run the preprocessing
-  script every time.
-  All files in **/processed_data** can be safely deleted, as they can be reconstructed by running
-  all script files in the correct order.
+  outlier exclusions, data transformations, etc., store a file „data_cleaned.csv“ in `/cache`. If you refer to this data file in subsequent scripts, you do not have to run the preprocessing script every time. All files in `/processed_data` can be safely deleted, as they can be reconstructed by running all script files in the correct order.
 - **/doc**: Documents (such as PDFs, manuals, etc.) related to the project.
 - **/plots**: Store result plots that you created in your scripts.
 - **/export**: If you export (sub)data sets or summaries for dissemination, store them here.
-- **/archive**: Old scripts and other files which are not used for your final analytical pipeline, but
-  which you want to keep for some reasons.
+- **/archive**: Old scripts and other files which are not used for your final analytical pipeline, but which you want to keep for some reasons.
 :::
 
+## Subdirectory organization
+### The README file
+
+- Nowadays, it is typically in markdown format (i.e., `README.md`) as it is rendered in Github and other repositories
+- Located at the top level of the project directory, it is *the* central entry point for other users: What do they need to get started? How can you make their life easier?
+- Consider to add the following information:
+  - Project title, authors, date, contact information
+  - Instructions on how to cite the project (or a link to an existing preprint or publication)
+  - A brief description of the project
+  - An overview of the directory structure
+  - Instructions on how to reproduce the results
+  - A license statement
+  
 
 
 ## Variable name conventions 1
@@ -231,9 +241,9 @@ Graphic from [https://rviews.rstudio.com/2018/01/18/package-management-for-repro
 
 - `snake_case`, `camelCase`, `PascalCase`, `dot.style`, `sTUdLy_cAPs`?
   - Do not use dots in variables (clashes with some functions)
-  - Some consensus that snake_case is the best choice, but respect languagespecific coding conventions
+  - Some consensus that snake_case is the best choice, but respect language specific coding conventions
   - Be consistent!
-- Prefer short variable names, but:<br>understandability >> brevity
+- Prefer short variable names (less typing while coding). But:<br>understandability >> brevity
 :::
 
 ::: {.column width="40%"}

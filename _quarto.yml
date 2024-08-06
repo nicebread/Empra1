@@ -1,6 +1,9 @@
 project:
   type: website
   output-dir: doc
+  render:
+    - "*.{qmd,R}"
+    - "!FEEDBACK.md"
 
 website:
   title: "Forschungsorientiertes Praktikum I – Grundlagen der Forschung"

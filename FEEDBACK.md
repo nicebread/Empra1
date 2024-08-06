@@ -1,0 +1,2 @@
+- Do Quarto tutorial *early* in the semester; ensure that *everybody* has a working setup; use Hiwis to help everybody in between sessions.
+- 
