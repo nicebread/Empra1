@@ -1292,7 +1292,7 @@
     "href": "sessions/S14-Finalization.html#codebook-finalisieren",
     "title": "Session 14 - Wrapping everything up",
     "section": "Codebook finalisieren",
-    "text": "Codebook finalisieren\nBitte ergänzen Sie das Codebuch um alle Variablen, die Sie in Ihrer Analyse verwenden. Legen Sie das Codebuch im Ordner docs ab."
+    "text": "Codebook finalisieren\nBitte ergänzen Sie das Codebuch um alle Variablen, die Sie in Ihrer Analyse verwenden. Legen Sie das Codebuch im Ordner docs ab. Dabei reicht ein “human readable” Codebuch, das die Variablen und ihre Bedeutung beschreibt; als Format können Sie z.B. ein Word-Dokument, eine Excel-Datei (oder deren LibreOffice-Varianten) oder ein PDF verwenden."
   },
   {
     "objectID": "sessions/S14-Finalization.html#references-of-the-existing-questionnaires-also-for-the-codebook",
