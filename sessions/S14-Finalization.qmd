@@ -30,7 +30,7 @@ Speichern Sie die Datei als PDF und legen Sie diese in den Ordner `docs` ihres P
 ## Codebook finalisieren
 
 Bitte ergänzen Sie das Codebuch um alle Variablen, die Sie in Ihrer Analyse verwenden. Legen Sie das Codebuch im Ordner `docs` ab. 
-Dabei reicht ein "human readable" Codebuch, das die Variablen und ihre Bedeutung beschreibt; als Format können Sie z.B. ein Word-Dokument, eine Excel-Datei (oder deren LibreOffice-Variante) oder ein PDF verwenden.
+Dabei reicht ein "human readable" Codebuch, das die Variablen und ihre Bedeutung beschreibt; als Format können Sie z.B. ein Word-Dokument, eine Excel-Datei (oder deren LibreOffice-Varianten) oder ein PDF verwenden.
 
 ## References of the existing questionnaires (also for the codebook)
 
