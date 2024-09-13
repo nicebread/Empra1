@@ -17,6 +17,10 @@ description: The structure of the final report; apaquarto
 : {.striped}
 
 
+::: {.callout-important title="Reminder: Formalia of the final report"}
+For the formalia of the final report, please consult the [slides from session 1](../slides/Empra-Orga/Empra-Orga.qmd#hausarbeit)!
+:::
+
 ## Homework 1 (individually): Write reproducible manuscript in APA 7 format - Descriptive statistics
 
 The goal of this homework is to get you started with writing your final report.
